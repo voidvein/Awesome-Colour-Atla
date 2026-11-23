@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-15c4670cc385",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "完整ViT→projector→Mamba/Transformer层与TransV细节，三个取色点均对应重复使用的模块填色，无视频颜色。",
+  "reviewedImageSHA256": "1148239454db5c9a7284a9952a2654da80ba2e491fe9a2cfabab7147cbefdef6",
+  "reviewedPalette": [
+    "#DEEBF7",
+    "#FFF1CC",
+    "#E1EFD9"
+  ],
+  "paletteObservation": "浅蓝承载ViT与Transformer结构，浅黄对应视觉token丢弃机制，浅绿组织Mamba层及相关输出；仅三色也能维持清晰的层次。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

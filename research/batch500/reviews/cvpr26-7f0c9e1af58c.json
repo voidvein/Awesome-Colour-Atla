@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-7f0c9e1af58c",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "可供性/推理特征经实例匹配进入Match-to-match注意力与优化模块，结构完整。",
+  "reviewedImageSHA256": "0cb2e3b9cd5550934572dfc6795aff4d3418eddafc1e420aa853f49c160728cb",
+  "reviewedPalette": [
+    "#FFFAEF",
+    "#DAE8FC",
+    "#F8ADAC",
+    "#FFF2CC",
+    "#D5E8D4",
+    "#FAD9D5",
+    "#F0E5E4"
+  ],
+  "paletteObservation": "屏蔽室内/人物视频与最终可供性热图；保留浅蓝注意力、粉色矩阵运算、浅绿匹配及奶油模块背景。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      661,
+      507
+    ],
+    [
+      1234,
+      254,
+      1469,
+      507
+    ]
+  ]
+}

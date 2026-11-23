@@ -1,0 +1,66 @@
+{
+  "id": "cvpr26-850affbb1d68",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "b20bdc92626c4e4a6a27532a4093ce70e1ce11487a090d185e651effd0e19aa5",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。 已遮罩示例照片/图像区域重新取色，并实际再次查看图与新色卡确认。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-850affbb1d68/cvpr26-850affbb1d68.png",
+  "reviewEvidence": "contacts/audit-a/individual/14.jpg",
+  "sourceTitle": "Hybrid Agents for Image Restoration",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#DAE3F3",
+    "#E2F0D9",
+    "#FFE699",
+    "#339AF0",
+    "#FA8F52",
+    "#83CF8F",
+    "#FBE5D6"
+  ],
+  "paletteObservation": "浅蓝慢路径消息框与浅绿评估框形成分区，蓝色/橙色智能体图标区分快慢Agent，浅黄工具标签与绿色勾号突出状态。",
+  "excludeRegions": [
+    [
+      260,
+      109,
+      366,
+      219
+    ],
+    [
+      1150,
+      303,
+      1260,
+      413
+    ],
+    [
+      781,
+      90,
+      823,
+      146
+    ],
+    [
+      781,
+      183,
+      823,
+      231
+    ],
+    [
+      781,
+      300,
+      823,
+      344
+    ],
+    [
+      1304,
+      88,
+      1350,
+      136
+    ],
+    [
+      1304,
+      180,
+      1350,
+      232
+    ]
+  ],
+  "maskReviewEvidence": "contacts/audit-a/masks/14.jpg"
+}

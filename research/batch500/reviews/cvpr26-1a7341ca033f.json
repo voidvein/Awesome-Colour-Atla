@@ -1,0 +1,27 @@
+{
+  "id": "cvpr26-1a7341ca033f",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "双分支深度引导编码、depth decoder和mask/depth heads完整。",
+  "reviewedImageSHA256": "a139ef8f3bba0d7ddc8553018dc837f402620a35a387f1007378a70bb2a3060d",
+  "reviewedPalette": [
+    "#D9F1D0",
+    "#C9EDFA"
+  ],
+  "paletteObservation": "剔除输入照片与输出深度热图的紫黄红，仅保留真实浅绿编码器和浅青解码器两色。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      338,
+      352
+    ],
+    [
+      1438,
+      0,
+      1692,
+      352
+    ]
+  ]
+}

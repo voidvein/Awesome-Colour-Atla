@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-2ea546b2fc99",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "MLLM, ReAL selected-token aggregation and CGRO reasoning/localization training graph is explicit.",
+  "reviewedImageSHA256": "2bdcb628bb2dbc01538d5d0385c77a083ed5835d820de3dcbb0d37e702418fc4",
+  "reviewedPalette": [
+    "#FFFDDE",
+    "#DFEAF9",
+    "#5F95E6",
+    "#96D077"
+  ],
+  "paletteObservation": "Pale yellow training panel, blue RL/reasoning panel, blue Aggregation module and green selected-token indicators supply measured computational colours; anomaly heatmaps excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-1d98b2e85ddc",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "BRepGaussian边缘/patch双阶段2DGS和曲线/曲面拟合框架完整，CAD渲染已排除取色。",
+  "reviewedImageSHA256": "fb50c917c2ebb28305da5b91fd42d5bbbb697108586a607ac2fbfd9c5fbea3a8",
+  "reviewedPalette": [
+    "#D2E8C5",
+    "#FCD0CF",
+    "#DEEBF7"
+  ],
+  "paletteObservation": "浅绿2D前处理、粉色2DGS trainer和浅蓝line/surface fitting来自算法结构。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

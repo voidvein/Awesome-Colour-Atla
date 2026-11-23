@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-6a06c09e1795",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由OctoNav数据构建改为图4真实OctoNav-R1监督/CoT/在线RL训练结构，照片已排除取色。",
+  "reviewedImageSHA256": "30544f0a2c15ab8a07a266024e86b2fbf0e52b0e3c0f385d49b7759b39fa3e6d",
+  "reviewedPalette": [
+    "#F1DDD0",
+    "#CCD3E4",
+    "#FDE7A1",
+    "#97AFDF",
+    "#203764"
+  ],
+  "paletteObservation": "蓝色OctoNav-R1、浅黄动作反馈、桃色预测和深蓝navigation action标记对应训练网络。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

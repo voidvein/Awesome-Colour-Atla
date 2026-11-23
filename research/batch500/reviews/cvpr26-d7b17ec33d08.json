@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-d7b17ec33d08",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "BA-GS初始化、VG-BGMM和Kalman refinement计算结构完整，场景照片和渲染结果已屏蔽。",
+  "reviewedImageSHA256": "7329fa65178b4ef41d99fb241811ab8cf4240a635101b381c0bfad4aa221adff",
+  "reviewedPalette": [
+    "#FFF1CC",
+    "#94A2B8",
+    "#B0E3E6",
+    "#F59D0A",
+    "#FFFAEB"
+  ],
+  "paletteObservation": "浅黄可学习模块、蓝灰固定模块、青色Kalman变量、橙色贝叶斯标记对应方法。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

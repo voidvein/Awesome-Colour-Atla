@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-96929a085c81",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整PRBI感知消息soft sampling、攻击者评估及Bayesian更新计算结构。",
+  "reviewedImageSHA256": "784556712a48901dc329e17e8386fc0d149630e97805564f30c8db16bd2bb6b2",
+  "reviewedPalette": [
+    "#FFF9F3",
+    "#AEABAB",
+    "#A6CBDB",
+    "#E45A33",
+    "#E04A5F",
+    "#F3BF51",
+    "#FAE2E7"
+  ],
+  "paletteObservation": "浅桃采样/评估块、蓝色车辆角色、橙红恶意消息、粉红输出及灰色车辆为算法实体色。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

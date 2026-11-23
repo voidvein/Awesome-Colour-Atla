@@ -1,0 +1,47 @@
+{
+  "id": "cvpr26-8b97d819428d",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "456868f8560a97c4d456dbf9f6cee577ab7df5f73eadfb90988eb55eac58260b",
+  "reviewedPalette": [
+    "#FFF3FD",
+    "#FFF2CC",
+    "#ADB9CA",
+    "#F8CAAD",
+    "#C00000",
+    "#4874CB",
+    "#DAE3F3"
+  ],
+  "paletteObservation": "冻结Labeler为浅蓝灰，训练Labeler为淡粉，Discriminator为奶油黄；杏桃色训练连线搭配蓝色雪花与红色火焰区分冻结和训练状态。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "excludeRegions": [
+    [
+      114,
+      56,
+      349,
+      200
+    ],
+    [
+      115,
+      284,
+      351,
+      431
+    ],
+    [
+      681,
+      81,
+      923,
+      235
+    ],
+    [
+      1170,
+      77,
+      1422,
+      243
+    ]
+  ],
+  "figure": "Figure 2",
+  "sourceTitle": "Depth Any Panoramas: A Foundation Model for Panoramic Depth Estimation",
+  "reviewEvidence": "contacts/audit-e/repair/14-masked.jpg"
+}

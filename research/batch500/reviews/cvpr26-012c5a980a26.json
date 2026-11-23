@@ -1,0 +1,30 @@
+{
+  "id": "cvpr26-012c5a980a26",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "完整的3D-Fixer编码器/补全器/解码器及粗到细纹理路径，保留原版数据区但采色排除。",
+  "reviewedImageSHA256": "a55ef435b66bde864b8eaf4f313847c9d5371ba94ae49adb0806556cb548ca2d",
+  "reviewedPalette": [
+    "#E9EEF8",
+    "#6480B2",
+    "#CBBAE4",
+    "#A37AC8",
+    "#22917D"
+  ],
+  "paletteObservation": "蓝色补全模块、浅紫/紫色编解码器、浅蓝底色和绿色几何表示；排除上方示例照片、右侧数据集面板与残留背景边。",
+  "reviewedAt": "2026-11-23T16:45:36Z",
+  "excludeRegions": [
+    [
+      590,
+      156,
+      900,
+      519
+    ],
+    [
+      0,
+      0,
+      900,
+      156
+    ]
+  ]
+}

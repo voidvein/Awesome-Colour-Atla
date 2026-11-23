@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-88ba983c72d3",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。",
+  "reviewedImageSHA256": "c9541b47912b2d2a70e1e0962e500b3597b992f5a874fb082196166948a35970",
+  "reviewedPalette": [
+    "#FDE7E3",
+    "#DF612B",
+    "#A2B0B6",
+    "#AACFFF",
+    "#B5F69F",
+    "#E8BD6E",
+    "#FF423E"
+  ],
+  "paletteObservation": "CellFM的中性灰模块与HINGE桃色条件主干分开，橙色SoftAdaLN适配层与浅绿嵌入向量、浅蓝基因token对比；红色火焰标示训练状态。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "figure": "Figure 1",
+  "sourceTitle": "Adapting a Pre-trained Single-Cell Foundation Model to Spatial Gene Expression Generation from Histology Images",
+  "reviewEvidence": "contacts/audit-e/individual/07.jpg"
+}

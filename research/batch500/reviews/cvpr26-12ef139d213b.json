@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-12ef139d213b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Token-pruning computational network is intact; photo and heatmap examples excluded from palette.",
+  "reviewedImageSHA256": "7c923a13fa9da30b9b296b564aa9665dadb77a6f1dd4caa9e301d705363b728e",
+  "reviewedPalette": [
+    "#FDFBDD",
+    "#B3E9DA",
+    "#CBE6F5",
+    "#94918D",
+    "#E5BFF6"
+  ],
+  "paletteObservation": "Pale yellow pruning panels, green/blue/purple token groups and gray pruned tokens are the five measured computation colours.",
+  "reviewedAt": "2026-11-23T17:38:43Z"
+}

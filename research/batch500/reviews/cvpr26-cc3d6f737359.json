@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-cc3d6f737359",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "跨栏Fig5完整保留检测、物体生成、迭代细化，以及score/segmentation/pose输出。",
+  "reviewedImageSHA256": "0af3bbd1a19dd2106069f88de42622108b701546b541efef8a9813f9ad796036",
+  "reviewedPalette": [
+    "#ABFFE3",
+    "#F7E1ED",
+    "#76FFD2",
+    "#B4D1F4",
+    "#ADE8E8",
+    "#32A1D8",
+    "#B0DCEE"
+  ],
+  "paletteObservation": "青绿分区、藕粉功能节点、蓝色细化路径和渐变分区；每色来自实际图中模块像素。",
+  "reviewedAt": "2026-11-23T16:45:36Z"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-fa813ce84572",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Art3D的DepthNet、StereoNet/LangSAM与CameraNet完整；已屏蔽图像和视差图。",
+  "reviewedImageSHA256": "1affebb10fa8b7ef48d3152372829b0ef50be9118b069de02458979981161c25",
+  "reviewedPalette": [
+    "#A1C4BE",
+    "#E76155"
+  ],
+  "paletteObservation": "仅保留2个真实网络模块色：青绿冻结几何网络与珊瑚红CameraNet。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

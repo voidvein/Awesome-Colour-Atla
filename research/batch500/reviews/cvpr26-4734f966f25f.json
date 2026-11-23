@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-4734f966f25f",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "CogniVerse认知检索、相关性、文本/视觉graph和生成计算框架完整，照片与装饰icon已排除取色。",
+  "reviewedImageSHA256": "8ae181669fad88b62ef113dc9f04999da6f4dac1cfeeb0a9ad50743f76cc5051",
+  "reviewedPalette": [
+    "#FFF1CC",
+    "#CAFFFF"
+  ],
+  "paletteObservation": "仅2色：浅青Cognitive Retrieval模块与浅黄Hyperbolic Embedding模块。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

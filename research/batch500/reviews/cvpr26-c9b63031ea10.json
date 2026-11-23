@@ -1,0 +1,44 @@
+{
+  "id": "cvpr26-c9b63031ea10",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "34c854bd02795ac92d8af8ed602bbe91034566bb42e14e61e4df39f06f620d57",
+  "reviewedPalette": [
+    "#E5E3FD",
+    "#E7F5EA",
+    "#FFCC99",
+    "#BCBAE5",
+    "#FAD9D5",
+    "#FFF2CC",
+    "#B2DFED"
+  ],
+  "paletteObservation": "MedCLIPSeg 的文本编码器组为淡紫、图像编码器组为浅绿，PVL Adapter 为桃色，EOS token 为灰紫、MLP 为浅青，patch 嵌入为淡黄；超声图及相似度热图已排除。",
+  "reviewedAt": "2026-11-23T17:53:42Z",
+  "excludeRegions": [
+    [
+      370,
+      3207,
+      1582,
+      4442
+    ],
+    [
+      9522,
+      1615,
+      10387,
+      3085
+    ],
+    [
+      10779,
+      1637,
+      11554,
+      3074
+    ],
+    [
+      11956,
+      1738,
+      13404,
+      3197
+    ]
+  ]
+}

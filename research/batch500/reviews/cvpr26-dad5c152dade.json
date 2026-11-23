@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-dad5c152dade",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "FoleyDirector三段神经模型完整；七个标点均模块底色/特征块/控制块，未采用视频或频谱颜色。",
+  "reviewedImageSHA256": "6790f05cd98dde783b8a4a737b20c10a72e8e7f28e225129da80e8c164acd905",
+  "reviewedPalette": [
+    "#D9E8FB",
+    "#EBD1CE",
+    "#C5DFB4",
+    "#FFF1CC",
+    "#AEABAB",
+    "#8FAADC",
+    "#F8CAAC"
+  ],
+  "paletteObservation": "浅蓝组织脚本特征提取，浅桃色承载双帧合成，浅绿连接音频特征与VAE；浅黄控制模块和蓝色注意力结构让跨模态融合保持可追踪。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

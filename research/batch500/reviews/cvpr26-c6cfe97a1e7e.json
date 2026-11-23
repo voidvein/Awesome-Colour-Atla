@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-c6cfe97a1e7e",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整Causal-OT因果图、特征提取、最优传输和不确定性学习计算框架。",
+  "reviewedImageSHA256": "e4a51a927bbca79da15ff56e686dd830ae019114130082edd8943ea354f34a4f",
+  "reviewedPalette": [
+    "#FAD9D5",
+    "#B9C7D3",
+    "#D5E7D4",
+    "#6D8664",
+    "#A5D58C",
+    "#91B3E5",
+    "#FFE69B"
+  ],
+  "paletteObservation": "粉色因果对齐区、蓝灰因果图、绿色特征提取与OT、浅黄分类与损失均为计算模块。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

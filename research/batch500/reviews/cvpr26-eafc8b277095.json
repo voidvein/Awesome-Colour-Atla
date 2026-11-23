@@ -1,0 +1,37 @@
+{
+  "id": "cvpr26-eafc8b277095",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "771cedd80fd2c6ddaf69b76a6e7e0c66a4f702f5a25340ff679feca2136f30b7",
+  "reviewedPalette": [
+    "#D8D8D8",
+    "#F8CAAC",
+    "#C4DFB3",
+    "#C46F6F",
+    "#E5C26D",
+    "#BCD6ED"
+  ],
+  "paletteObservation": "SLAM 的自注意力 token 用浅绿、浅蓝、桃色区分三帧，深度头为金黄、MOS 头为暗粉；输入图、深度与运动概率热图已遮罩。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      22,
+      57,
+      175,
+      422
+    ],
+    [
+      570,
+      50,
+      732,
+      175
+    ],
+    [
+      576,
+      314,
+      727,
+      440
+    ]
+  ]
+}

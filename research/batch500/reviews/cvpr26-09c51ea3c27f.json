@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-09c51ea3c27f",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整残差学习与normality查询网络及细节，输入/结果示例已排除取色。",
+  "reviewedImageSHA256": "38712566e96087585d9cbd2c3da116eacf00132bf6ed6c96d92296d6dedd539a",
+  "reviewedPalette": [
+    "#E7EFF8",
+    "#C5DFB4",
+    "#FFF1CC",
+    "#9DC3E6",
+    "#92D050",
+    "#7D93A9"
+  ],
+  "paletteObservation": "浅蓝Cross-Attention、浅绿Self-Attention、黄色HNQ、绿色normality proxy及蓝灰feature块对应模块。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

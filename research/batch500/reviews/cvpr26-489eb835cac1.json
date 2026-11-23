@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-489eb835cac1",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Server neural-model aggregation and Bayesian-prior client adaptation graph are explicit.",
+  "reviewedImageSHA256": "0a2da1b8d0b68deeec814797065f285f4441cac6769532c28622288d1a8b88bd",
+  "reviewedPalette": [
+    "#FFF8E4",
+    "#D9E7FA",
+    "#36A8A9",
+    "#A9D18E",
+    "#A98DB7",
+    "#A0BBD6",
+    "#FFE699"
+  ],
+  "paletteObservation": "Cream initial-training panel, pale blue client panel, teal BPA blocks, green/purple/blue client-network glyphs and gold training-data symbols are measured framework colours.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

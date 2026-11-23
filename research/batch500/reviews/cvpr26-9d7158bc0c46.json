@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-9d7158bc0c46",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "TaYS并行KV cache、注意力mask与推理信息流完整，视频食物照片已屏蔽。",
+  "reviewedImageSHA256": "4c5ddc22be4c15e759a334ca58f6422244de3a0aea6170354b97b4bfb2332705",
+  "reviewedPalette": [
+    "#B6C6EA",
+    "#C7E4B3",
+    "#D3F4F1",
+    "#F8CDAC"
+  ],
+  "paletteObservation": "蓝紫reasoning cache、浅绿video token、浅青KV cache和桃色text stream有结构对应。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

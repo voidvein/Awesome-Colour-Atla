@@ -1,0 +1,40 @@
+{
+  "id": "cvpr26-6388b161ab89",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "当前 Figure 1 为脑影像任务例子、数据来源及分布统计，Figure 2 为数据收集/问题扩增/过滤流程，其余候选为分布和性能；不能以医学照片和图表配色冒充架构。",
+  "reviewedImageSHA256": "fb881910a59dc0b60bdf678aa141479e2a9c1e77cce2b658fecb416c4837fea0",
+  "reviewedPalette": [
+    "#DADAD9",
+    "#BBD6A0",
+    "#A6B9E3",
+    "#FFF1CC",
+    "#FCDF81",
+    "#D59889",
+    "#C00000"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:27:30Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1. Overview of our OmniBrainBench, the ﬁrst comprehensive multimodal benchmark speciﬁcally designed to evaluate MLLMs across the complete spectrum of brain imaging analysis, covering 15 distinct clinical scenarios, drawn from 30 rigorously validated sources, comprising 9,527 clinically veriﬁed VQA pairs and 31,706 images."
+    },
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2. Construction process of OmniBrainBench with (a) data collection, (b) question augmentation, and (c) data ﬁltering."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3. Modality Distribution."
+    },
+    {
+      "figure": "Figure 4",
+      "caption": "Figure 4. Diverse Modality Evaluation."
+    },
+    {
+      "figure": "Figure 5",
+      "caption": "Figure 5. Performance of models on different numbers of images."
+    }
+  ]
+}

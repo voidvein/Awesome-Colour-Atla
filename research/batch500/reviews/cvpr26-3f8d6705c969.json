@@ -1,0 +1,29 @@
+{
+  "id": "cvpr26-3f8d6705c969",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "Complet4R包含frame/global attention、聚合/图像token以及camera/depth/aggregation heads完整网络。",
+  "reviewedImageSHA256": "335411536c9cb3fd900880e2d6acd68f8cb3abe6197888eaf521367e890f1b0d",
+  "reviewedPalette": [
+    "#249B5D",
+    "#D07E2C",
+    "#7758BA",
+    "#E7A399"
+  ],
+  "paletteObservation": "左视频与右重建结果全部排除；只留绿/橙/紫不同时间图像token和粉agg token四种真实语义色，不使用重建场景棕色。",
+  "reviewedAt": "2026-11-23T17:50:07Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      423,
+      625
+    ],
+    [
+      1269,
+      0,
+      1692,
+      625
+    ]
+  ]
+}

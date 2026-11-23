@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-cff0f1f54833",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。",
+  "reviewedImageSHA256": "d3c87e4ff94795dfad612d30c4b1c371227381c476692df182a8d28e0e6dbdac",
+  "reviewedPalette": [
+    "#D7D7D7",
+    "#9FD0D0",
+    "#D6E2BE",
+    "#FEE599",
+    "#EDBBC2",
+    "#7D639E",
+    "#D9948F"
+  ],
+  "paletteObservation": "预训练LLM采用粉黄渐变，fMRI/文本token为蓝与青色，绿色配对描述符、紫色文本编码器描边及灰色随机token区分训练信息来源。",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "figure": "Figure 4",
+  "sourceTitle": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
+  "reviewEvidence": "contacts/audit-e/individual/25.jpg"
+}

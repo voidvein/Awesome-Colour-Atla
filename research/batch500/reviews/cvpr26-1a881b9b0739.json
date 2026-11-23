@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-1a881b9b0739",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Pixel2Phys中Plan/Variable/Equation/Experiment四类神经Agent交互与内部工具计算架构完整。",
+  "reviewedImageSHA256": "9d1186217aabe486afec499781cfefc8a11f4727ad6b3aa81ba01ceff898397e",
+  "reviewedPalette": [
+    "#FFF1CC",
+    "#DEEBF7",
+    "#A9D18E",
+    "#F8CAAC",
+    "#E1EFD9"
+  ],
+  "paletteObservation": "示例动力图和灰工具图标不入色卡；黄变量Agent、蓝实验Agent、绿方程Agent、桃规划Agent与浅绿节点背景来自结构。",
+  "reviewedAt": "2026-11-23T17:39:45Z"
+}

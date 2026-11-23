@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-b6a93f622c16",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Flickerformer中AFFN、频率PFM和方向WDAM三模块及卷积/采样路径完整。",
+  "reviewedImageSHA256": "f74d03a4c36a3989698fefed66ba7b5c0ff374d1494495505792393d78998005",
+  "reviewedPalette": [
+    "#FFF8E9",
+    "#C2D0ED",
+    "#7C9BCF",
+    "#F8CFCC",
+    "#FFE4B7",
+    "#D9D9D9",
+    "#AFDCED"
+  ],
+  "paletteObservation": "两张输入/输出照片排除；奶油PFM、蓝AFFN、粉WDAM、青PSF及灰色卷积/下采样均为结构模块。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      94,
+      335
+    ]
+  ]
+}

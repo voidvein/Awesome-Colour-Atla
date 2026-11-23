@@ -1,0 +1,40 @@
+{
+  "id": "cvpr26-9abfe5869cc9",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "MIOH Figure 1 是四类多图幻觉问答基准示例，不含模型计算模块；其他主源候选为样例、性能曲线或热图，不能用照片和任务分区颜色充网络卡。",
+  "reviewedImageSHA256": "23ebcb6e9a3b24c8f24af67b9574e9d645cffdc603367a04810d966f2e08b432",
+  "reviewedPalette": [
+    "#5D82AF",
+    "#9C80B7",
+    "#6D8764",
+    "#F0A30A",
+    "#FFF2F8",
+    "#6E5C4D",
+    "#A2A2A2"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1. Overview of our MIOH Benchmark. MIOH evaluates object hallucination in multi-image contexts across four core tasks: existence, counting, attribute, and position. Each task includes three question types (comprehensive, comparative, and selective) designed to probe different aspects of multi-image reasoning capabilities."
+    },
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2. Representative examples from MIOH. (Top) Existence-Comprehensive questions across Easy, Hard Negative, and Hard Positive scenarios. (Bottom) Counting-Selective questions with varying difﬁculty levels. Additional examples are provided in Sec. C."
+    },
+    {
+      "figure": "Figure 4",
+      "caption": "Figure 4. Accuracy on easy questions and robustness under ad- versarial conditions in VLMs. Circle size indicates model size, where Gemini and GPT size is based on estimation."
+    },
+    {
+      "figure": "Figure 5",
+      "caption": "Figure 5. Multi-image processing consistently degrades object hallucination across all models. Comparison of accuracy be- tween multi-image comprehensive (red bars) and single-image de- composed (blue bars) evaluation on Existence task."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3. Performance heatmap across multi-image reasoning patterns (Comprehensive, Comparison, Selection) and object-centric tasks (Existence, Counting, Attribute, Position)."
+    }
+  ]
+}

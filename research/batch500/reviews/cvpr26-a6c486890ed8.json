@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-a6c486890ed8",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "从动作编辑teaser换为图3真实3D track conditioner与LoRA DiT扩散结构，输入输出视频已排除取色。",
+  "reviewedImageSHA256": "b52462d53a249ca5559890eded0002d7a09ca1cd79fa2f1dba5ad2ceb6fa4fb6",
+  "reviewedPalette": [
+    "#FFF3EA",
+    "#DCEABC",
+    "#FDC28B",
+    "#FFD467",
+    "#D9ECFD"
+  ],
+  "paletteObservation": "浅桃track conditioner、浅绿LoRA、橙黄paired track token与浅蓝user edit/条件为实际模型色。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

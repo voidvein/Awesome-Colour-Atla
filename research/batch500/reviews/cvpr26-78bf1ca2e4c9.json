@@ -1,0 +1,50 @@
+{
+  "id": "cvpr26-78bf1ca2e4c9",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "7061e15e1fa977745c1c21f4f1891a6571611aff28d12d2a353a9de990ae4cdd",
+  "reviewedPalette": [
+    "#156082",
+    "#3B7D23",
+    "#58ACD8",
+    "#EC2220"
+  ],
+  "paletteObservation": "深蓝和绿色轮廓区分光学编码/重建与图像验证路径，浅蓝重建网络和文件图标、红色篡改图标形成辅助对比；不保留人脸与相机照片中的自然色。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "excludeRegions": [
+    [
+      217,
+      63,
+      465,
+      313
+    ],
+    [
+      888,
+      63,
+      1133,
+      314
+    ],
+    [
+      1252,
+      66,
+      1498,
+      317
+    ],
+    [
+      893,
+      383,
+      1135,
+      633
+    ],
+    [
+      549,
+      383,
+      789,
+      633
+    ]
+  ],
+  "figure": "Figure 1",
+  "sourceTitle": "NOWA: Null-space Optical Watermark for Invisible Capture Fingerprinting and Tamper Localization",
+  "reviewEvidence": "contacts/audit-e/repair/01-final.jpg"
+}

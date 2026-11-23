@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-1dcdd17fd0e5",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "c972238a8ea075483773fe9180df527d95361f48be60161988790d137b9f4959",
+  "reviewedPalette": [
+    "#FBF4EE",
+    "#BBC0F0",
+    "#2D3B63",
+    "#94699A",
+    "#63339C",
+    "#743E16",
+    "#8D6244"
+  ],
+  "paletteObservation": "VGGDrive 的 decoder 层为淡紫蓝，视觉 token 为紫色，几何 token 和连接箭头为棕色，交叉注意力框为浅桃；驾驶照片及输出例子已排除。",
+  "reviewedAt": "2026-11-23T17:27:31Z",
+  "excludeRegions": [
+    [
+      44,
+      80,
+      970,
+      821
+    ],
+    [
+      8,
+      1795,
+      3568,
+      2207
+    ]
+  ]
+}

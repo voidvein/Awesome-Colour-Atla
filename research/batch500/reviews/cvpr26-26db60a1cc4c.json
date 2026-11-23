@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-26db60a1cc4c",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "基因/蛋白/病理特征、图卷积、超图学习和生存预测神经结构完整。",
+  "reviewedImageSHA256": "2004be50f29b9321eacb19bebec7f0743b3c977de0c35d2cd04182480c796a25",
+  "reviewedPalette": [
+    "#EAF4F8",
+    "#82C4BC",
+    "#D6B8D4",
+    "#FFEFC3",
+    "#94C7DB",
+    "#F8DCEA",
+    "#BC98C0"
+  ],
+  "paletteObservation": "组织照片不采色；青色基因/GCN、浅蓝蛋白、紫色超图、奶油预测和粉色特征为真实模块填色。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      558,
+      328
+    ]
+  ]
+}

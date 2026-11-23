@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-232637e80ec7",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "GDFA展示明确神经模型参数、task vector、方向共识与联邦unlearning网络运算，完整无正文混入。",
+  "reviewedImageSHA256": "1b71a3024d21ad68f22fd25a34c3ff0e718c5682d5509019ebe6c16a989b72ae",
+  "reviewedPalette": [
+    "#8FAADC",
+    "#D78796",
+    "#F4B083",
+    "#A9D18E",
+    "#C00000",
+    "#333E50",
+    "#4471C4"
+  ],
+  "paletteObservation": "蓝色保留参数、粉红遗忘参数、橙色task-vector、绿色分量与深灰冲突参数均有图例。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

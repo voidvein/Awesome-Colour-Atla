@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-ebf97bd9d1e1",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "所选图1仅三张cross-view场景照片、mask和cycle-consistency箭头，未展示网络计算模块。",
+  "reviewedImageSHA256": "f226cb0a884fbc6bd6f3f6ac2cb8cf11728a558395a4e9a184fd69ed6f00bdb1",
+  "reviewedPalette": [
+    "#76CC6D",
+    "#DFADD5",
+    "#646152",
+    "#FF0000",
+    "#FFC000",
+    "#D72424",
+    "#61CBF4"
+  ],
+  "paletteObservation": "绿粉色是物体mask、灰褐是照片、红黄是示例箭头，不作架构配色。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

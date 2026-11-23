@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-7b3f387a7ee9",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "STC整体模型图保留LLM、STC-Pruner、STC-Cacher与各层token路径和视频输入。",
+  "reviewedImageSHA256": "06b5ac2f7c6646f483922b921779f35591f5d370636a9d840275e45c53ac0474",
+  "reviewedPalette": [
+    "#FDF0C7",
+    "#DFE9F4",
+    "#FFC0AC",
+    "#C7FBEC",
+    "#E5F2E0",
+    "#FAE3D7",
+    "#CAEEFF"
+  ],
+  "paletteObservation": "排除底部泳池视频照片；奶油、蓝灰、杏粉、薄荷、浅绿等来自模型模块及真实token填色。",
+  "reviewedAt": "2026-11-23T16:45:37Z",
+  "excludeRegions": [
+    [
+      0,
+      460,
+      834,
+      639
+    ]
+  ]
+}

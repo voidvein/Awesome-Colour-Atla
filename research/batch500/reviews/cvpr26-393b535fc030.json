@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-393b535fc030",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "MatAnyone图9仅是双分支标注的逐帧可视化结果，没有具体网络或神经计算模块。",
+  "reviewedImageSHA256": "0b7f7b707140340c44dd5b947761907d5caa438e7cfd13db8ab2171fad9a6835",
+  "reviewedPalette": [
+    "#78FE9B",
+    "#D5D6DB",
+    "#F7918E",
+    "#4781DF",
+    "#B5A598",
+    "#ABB3BE",
+    "#CBBDB4"
+  ],
+  "paletteObservation": "绿底抠像、人物肤色与视频照片构成现色卡，不能作网络模块配色。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

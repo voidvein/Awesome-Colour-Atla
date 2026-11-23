@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-ad9822ad74b4",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整VoxTell图像/文本编码器与3D分割头网络，CT样本和输出渲染已排除取色。",
+  "reviewedImageSHA256": "ee03ed993c9b9b10539b4f9f66d09563b3b1e8fe04d8bf807ea6d00f44ecff7a",
+  "reviewedPalette": [
+    "#FFE6CC",
+    "#B0DDF0",
+    "#E1D5E7",
+    "#FAD9D5"
+  ],
+  "paletteObservation": "4色为桃色图像编码与Prompt Decoder、青色文本编码、紫色分割头、浅粉skip连接token。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

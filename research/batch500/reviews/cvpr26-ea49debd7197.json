@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-ea49debd7197",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Replaced data-collection Figure 3 with original Figure 2 showing TSG cross-attention, autoregressive VAR and adaptive codebook.",
+  "reviewedImageSHA256": "1e2938cb9b1d8c1cdf314b2ab11c3637f9aefed73e376bdb4697e599572dbcab",
+  "reviewedPalette": [
+    "#B7BECE",
+    "#D3F4F0",
+    "#FBE3E7"
+  ],
+  "paletteObservation": "Blue-gray VAR/encoder layers, cyan Cross Attn and condition tokens, and pink CAC codebook panel are measured modules; infrared/heat/edge examples excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

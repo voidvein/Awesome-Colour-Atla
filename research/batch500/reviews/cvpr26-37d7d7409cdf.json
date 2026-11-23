@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-37d7d7409cdf",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "c0a763e4c08b5f4c89313ba03f54362214a11426cfd677192c34a867394dd3d0",
+  "reviewedPalette": [
+    "#E5F7FA",
+    "#D9EABF",
+    "#FFEAD6",
+    "#C2BCBC",
+    "#ECDE7B",
+    "#7FFDC1",
+    "#F7A59E"
+  ],
+  "paletteObservation": "CompetitorFormer 用浅青、浅桃和浅绿分区展示竞争层、相对关系和交叉注意力，Superpoint 为黄色，评分矩阵和关系值采用薄荷绿及粉红。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

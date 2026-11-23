@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-4ff37da86a0d",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "完整LLaDA-V GUI grounding网络与线性/确定性掩码流程，逐点色源为模型、token和坐标输出模块。",
+  "reviewedImageSHA256": "d615195d5d304b1f4a40276670e39e1edb28565feebc65cece198c64968be18e",
+  "reviewedPalette": [
+    "#FFF2CC",
+    "#F8CECC",
+    "#D0CEE2",
+    "#FFCC99",
+    "#CDEB8B",
+    "#D6B656",
+    "#56517E"
+  ],
+  "paletteObservation": "奶油黄色组织输入区，粉色标识动作与坐标输出，紫色对应LLaDA-V主干；浅橙和浅绿token把两类掩码阶段区分开。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

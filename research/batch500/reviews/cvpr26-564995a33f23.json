@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-564995a33f23",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "e9ca4a6dd4f047c9e55c7b313a68c58049f0a714f31df67778d5d4a0f8c4c51c",
+  "reviewedPalette": [
+    "#E2F0D9",
+    "#D6DCE5",
+    "#A9D18E",
+    "#A5A5A5",
+    "#ADB9CA",
+    "#C5E0B4"
+  ],
+  "paletteObservation": "ELF-VLA 的反馈强化学习区用浅绿，Hybrid SFT 和轨迹数据区用蓝灰，奖励反馈条目用较深绿，灰色连接和预训练区与两种训练颜色并列。",
+  "reviewedAt": "2026-11-23T17:27:32Z"
+}

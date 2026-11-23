@@ -1,0 +1,25 @@
+{
+  "id": "cvpr26-66f87fcfe783",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "EfficientVPR的prompt骨干、MsLA、OLE与SGFS多头注意力/正交融合网络结构完整。",
+  "reviewedImageSHA256": "50fffcccc67bb6ef8beb586c463f8e4ed7264c2eca89021883d85efcb5e67e9e",
+  "reviewedPalette": [
+    "#BCD0E9",
+    "#FFDF7C",
+    "#A4A4A4",
+    "#2D75B5",
+    "#759FCC",
+    "#A8D08D"
+  ],
+  "paletteObservation": "街景输入完全排除；蓝骨干/注意力、黄orthogonal fusion、灰conv/reshape与绿色LayerNorm/FC均为模块色。",
+  "reviewedAt": "2026-11-23T17:50:06Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      338,
+      510
+    ]
+  ]
+}

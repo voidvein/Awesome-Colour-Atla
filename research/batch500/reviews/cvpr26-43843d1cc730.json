@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-43843d1cc730",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "PWOOD师生backbone、方向学习、scale学习和伪标签过滤网络完整，遥感图已排除取色。",
+  "reviewedImageSHA256": "36344bae7be59c5bfbcd1bf82a87a122ae02a82fb7de6d4c7646e0338d03dd28",
+  "reviewedPalette": [
+    "#F5EEFD",
+    "#EFF9E7",
+    "#EDB9C0",
+    "#B5C6E5",
+    "#238F86"
+  ],
+  "paletteObservation": "粉色student backbone、蓝色prediction、青色teacher、浅绿方向学习和淡紫filter对应结构。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

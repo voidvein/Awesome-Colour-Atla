@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-1f575ede9aeb",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "0b256ffbf6a21de0821d3dbbb4965a066ade0c3bc6ab575523dbc55e74c59f4e",
+  "reason": "已核对缓存全文10页和全部8幅图：第4页Figure 3仅为环境/技能/域随机化/轨迹数据构建，其他图为数据统计、场景/实机图片或性能曲线；未提供可核验的策略网络/计算模块架构，拒绝用数据构建流程凑网络图。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-1f575ede9aeb/cvpr26-1f575ede9aeb.png",
+  "reviewEvidence": "contacts/audit-a/individual/19.jpg",
+  "sourceTitle": "InternData-A1: Pioneering High-Fidelity Synthetic Data for Pre-training Generalist Policy",
+  "figure": "Figure 3",
+  "reviewedAt": "2026-11-23T16:46:16.914076+00:00",
+  "additionalEvidence": [
+    "contacts/audit-a/repair/19-pages.jpg",
+    "contacts/audit-a/repair-candidates.json"
+  ]
+}

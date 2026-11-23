@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-70a7a08b1271",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由UCPE生成结果/标题页改为图3完整Spatial Attention Adapter，来源身份已保留。",
+  "reviewedImageSHA256": "a6abcf5702c92e08bd7d2fa1c16b0d864e3f972d373b07edd48ba6194085742f",
+  "reviewedPalette": [
+    "#FBE5D6",
+    "#DAE3F3",
+    "#ED7D31",
+    "#4471C4",
+    "#F8CAAD",
+    "#E2F0D9",
+    "#D0CDCD"
+  ],
+  "paletteObservation": "蓝色标准attention、桃色UCPE支路、橙色线性层、浅绿相机变换和灰色归一化来自架构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

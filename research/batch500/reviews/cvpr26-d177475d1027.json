@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-d177475d1027",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "66f56205f9c9069ecad619c042345848647c4ef738752ef092004d4de3f39103",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-d177475d1027/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/13.jpg",
+  "sourceTitle": "INSID3: Training-Free I n -Context S egmentation w i th D INOv",
+  "figure": "Figure 3",
+  "reviewedPalette": [
+    "#DFDEDE",
+    "#D96B6B",
+    "#A2D1DE",
+    "#D55E00",
+    "#E69F00",
+    "#FDE724",
+    "#414186"
+  ],
+  "paletteObservation": "灰色DINOv3模块、红色参考特征和青色目标特征区分两条路径；橙黄与深蓝来自人工着色的聚类/相似度表示。"
+}

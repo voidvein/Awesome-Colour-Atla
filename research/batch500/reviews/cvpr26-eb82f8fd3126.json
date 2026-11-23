@@ -1,0 +1,29 @@
+{
+  "id": "cvpr26-eb82f8fd3126",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "MissingPointViT含Point Encoder、Linear Projection、Transformer Encoder和MLP Head网络结构完整。",
+  "reviewedImageSHA256": "86d13a50c274f6009916518eb27a3f1dbf015a873f5f48c63aba530087c5b445",
+  "reviewedPalette": [
+    "#BED4E9",
+    "#BDD9CD",
+    "#73A69D",
+    "#8EAEBB"
+  ],
+  "paletteObservation": "滑雪照片和底部图像patch排除；蓝Transformer、浅绿MLP、青Point Encoder和蓝灰Linear Projection四种真实节点色。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      575,
+      643
+    ],
+    [
+      1100,
+      514,
+      1658,
+      643
+    ]
+  ]
+}

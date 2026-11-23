@@ -1,0 +1,29 @@
+{
+  "id": "cvpr26-88c10965b77c",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "地球系统编码器、策略/参考模型和GRPO优势计算路径完整。",
+  "reviewedImageSHA256": "3729c3feab4566997e3d644d62a72dba5dd14de06b0666d42b53b57696671057",
+  "reviewedPalette": [
+    "#F0F9ED",
+    "#356E3A",
+    "#ACD6B0",
+    "#52AC5C"
+  ],
+  "paletteObservation": "屏蔽天气地图与输出数据图，进一步剔除残余地图蓝/灰；只留绿色模型节点、优势条及浅绿分区。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      795,
+      609
+    ],
+    [
+      1100,
+      91,
+      1371,
+      365
+    ]
+  ]
+}

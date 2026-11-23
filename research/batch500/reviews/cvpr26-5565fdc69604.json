@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-5565fdc69604",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Encoder, diffusion decoder and normalized-residual computation are complete.",
+  "reviewedImageSHA256": "19d3aaaa6a0c8b2a01458472201405263ce09f930a932c2ab74a021d475a7272",
+  "reviewedPalette": [
+    "#EDF5FA",
+    "#FFF1C9",
+    "#FDE694",
+    "#989DA1"
+  ],
+  "paletteObservation": "Pale blue iterative-denoising panel, light yellow decoder layers, gold cross-attention and gray MLP blocks are measured; road images and coloured trajectory examples excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

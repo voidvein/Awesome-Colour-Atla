@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-433c6807f4ab",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "VLM推理轨迹、证据池、supervisor和visual decider的推理反馈结构完整。",
+  "reviewedImageSHA256": "86b06276d502ae64ce1e0e30876f50d7f298fa08a486fd9acb7f008c4f0647b6",
+  "reviewedPalette": [
+    "#CCE6BA",
+    "#F5BEC4",
+    "#9BB4E2",
+    "#D3DFE6",
+    "#FBB52B",
+    "#1870B7"
+  ],
+  "paletteObservation": "照片未参与；绿正确推理块、粉错误推理块、蓝框/兴趣区、灰原图节点与黄监督/步骤标志均为语义编码。",
+  "reviewedAt": "2026-11-23T17:39:45Z"
+}

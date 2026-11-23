@@ -1,0 +1,38 @@
+{
+  "id": "cvpr26-1e26c0b17a57",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "3M-TI双encoder、latent-prompt diffusion、CSM跨模态自注意力及QKV结构完整。",
+  "reviewedImageSHA256": "d85b68687efc3158d6425b44113503e5eb9eead426940c2ec04f5ea1163476a3",
+  "reviewedPalette": [
+    "#DEEBF7",
+    "#E1BBFF",
+    "#E1EFD9",
+    "#FFECB6",
+    "#BEBEBE",
+    "#F4B083",
+    "#FFDFDF"
+  ],
+  "paletteObservation": "全部RGB/thermal输入输出及增强示例屏蔽；浅蓝ZeroConv、紫CSM、绿encoder/decoder、黄LoRA、灰latent、桃token和粉augmentation阶段来自结构。",
+  "reviewedAt": "2026-11-23T17:50:06Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      171,
+      226
+    ],
+    [
+      1004,
+      0,
+      1141,
+      226
+    ],
+    [
+      536,
+      370,
+      1141,
+      686
+    ]
+  ]
+}

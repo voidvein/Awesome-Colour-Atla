@@ -1,0 +1,36 @@
+{
+  "id": "cvpr26-6a27b2c3b53a",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "c62654a248dc1850826abe6a8e6f8ae3239ec5264c46177e2dd1a04c3b2f50c4",
+  "reviewedPalette": [
+    "#EBF8F8",
+    "#75BC42",
+    "#F1B902",
+    "#FFF1C9",
+    "#D9D9D9"
+  ],
+  "paletteObservation": "CoLoR 用绿色与黄色圆点分别标记多视图、单视图像素，检索编码器以浅黄条表示，模型区铺浅青底；楼房照片、场景点云和深度图已排除。",
+  "reviewedAt": "2026-11-23T17:27:31Z",
+  "excludeRegions": [
+    [
+      128,
+      60,
+      302,
+      181
+    ],
+    [
+      1394,
+      307,
+      1533,
+      404
+    ],
+    [
+      1211,
+      42,
+      1333,
+      236
+    ]
+  ]
+}

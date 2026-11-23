@@ -1,0 +1,48 @@
+{
+  "id": "cvpr26-2cc5a60e20f2",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "Figure 1 是奖励优化偏差的生成图像对比，仅一个泛称 Reward Model 灰色块，没有网络结构；遮去人像和噪声后无两种真实模块代表色。其余候选为偏差统计、迁移热图和案例，不收录。",
+  "reviewedImageSHA256": "33307ce06e2a1e67ebd1fd558c4116941bce4ad244014d67f37ea61bc66363cb",
+  "reviewedPalette": [
+    "#D1D1D1",
+    "#5E2416",
+    "#938B7E",
+    "#8E3925",
+    "#8E96BD",
+    "#CBA79B",
+    "#E7CCAE"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1. Reward models, e.g. PickScore [33], ImageRe- ward [61], and HPS [59] are trained to estimate overall image quality. When used to optimize the initial noise vector ✏0, they can exhibit unintended effects including hypersexualization and change of large structural aspects such as perceived demographics of subjects. We study the such unintended effects of using reward models in the T2I pipeline. Blurred region: feminine-presenting image subject wearing a gray bra and underwear. *See footnote 1."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3. Mean change in NSFW rate (∆nsfw, top) and skin expo- sure (∆skin, bottom) induced by reward optimization, stratiﬁed by reward model (x-axis), gender (color: red = female, blue = male), and base model (ﬁll pattern). Positive values indicate that opti- mization increased the corresponding hypersexualization signal."
+    },
+    {
+      "figure": "Figure 4",
+      "caption": "Figure 4. Demographic transition heatmaps showing how reward model optimization shifts perceived race and gender. Each cell shows the percentage of images initially classiﬁed as a given demographic (row) that are classiﬁed as another demographic (column) after optimiza- tion, averaged across base models (SDXL-Turbo, PixArt-↵, SD-Turbo)."
+    },
+    {
+      "figure": "Figure 5",
+      "caption": "Figure 5. Example transitions across reward models. λ = +1 is reward maximization; λ = −1 is reward minimization."
+    },
+    {
+      "figure": "Figure 7",
+      "caption": "Figure 7. Average reward ranking per race group across counterfactual image sets, for each reward model."
+    },
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2. Noise optimization with PickScore [33] results in hyper- sexualization and higher rates of NSFW content, disproportion- ately affecting female subjects. See Fig. 3 for quantitative results."
+    },
+    {
+      "figure": "Figure 6",
+      "caption": "Figure 6. For each RM and dataset combination, we plot the effect size (β2 = E[s|woman]−E[s|man]) of each occupation prompt against real-world labor statistics [47]. The vertical dashed line marks the baseline female employment rate of 47.1%. Bottom-left and top-right quadrants indicate occupations where RM score differences align with real-world gender distributions."
+    }
+  ]
+}

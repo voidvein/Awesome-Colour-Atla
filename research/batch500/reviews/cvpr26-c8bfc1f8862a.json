@@ -1,0 +1,72 @@
+{
+  "id": "cvpr26-c8bfc1f8862a",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "f535180ec25e27b64992e89677595b888ecfad689f589b6b403a990fc70070fe",
+  "reviewedPalette": [
+    "#DAE8FC",
+    "#AFAFAF"
+  ],
+  "paletteObservation": "仅保留浅蓝Feature-metric alignment/3D NMS模块与灰色坐标变换块，形成双色模块配色；示例物体、查询特征图与候选框图片均排除。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "excludeRegions": [
+    [
+      0,
+      281,
+      1813,
+      1458
+    ],
+    [
+      0,
+      1537,
+      1967,
+      2068
+    ],
+    [
+      2094,
+      275,
+      2778,
+      970
+    ],
+    [
+      2121,
+      1225,
+      2800,
+      2004
+    ],
+    [
+      2943,
+      339,
+      3701,
+      1071
+    ],
+    [
+      4306,
+      344,
+      5001,
+      1055
+    ],
+    [
+      3012,
+      1336,
+      3738,
+      2004
+    ],
+    [
+      4316,
+      1320,
+      4974,
+      2020
+    ],
+    [
+      5563,
+      636,
+      6353,
+      1506
+    ]
+  ],
+  "figure": "Figure 1",
+  "sourceTitle": "AlignPose: Generalizable 6D Pose Estimation via Multi-view Feature-metric Alignment",
+  "reviewEvidence": "contacts/audit-e/repair/15-masked.jpg"
+}

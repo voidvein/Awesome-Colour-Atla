@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-a8344d4aeecc",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整DocPrune检索、BTP/QTP/CTP和LLM问答网络，文档照片与高亮图已排除取色。",
+  "reviewedImageSHA256": "6f36af9689261f7bfb8386d9190cb9d8bbdcc339997ebb3af54609c4f7e24bd5",
+  "reviewedPalette": [
+    "#0070C0",
+    "#DCEAF7",
+    "#F3CCC4",
+    "#C00100",
+    "#B2B2B2"
+  ],
+  "paletteObservation": "蓝色document token、红色question token、浅蓝BTP、粉色CTP与灰色pruned token有图例对应。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

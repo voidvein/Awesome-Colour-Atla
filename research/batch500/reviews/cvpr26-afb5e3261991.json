@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-afb5e3261991",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "1cbf9b51a3cfefec9a81a004db7e715ff2884f7425a55247b577d418ca8ef60c",
+  "reviewedPalette": [
+    "#FFF1CC",
+    "#C2C2C2",
+    "#91C278",
+    "#AEC7EC",
+    "#FF8E8E",
+    "#EDF294",
+    "#318C6E"
+  ],
+  "paletteObservation": "SpeciaRL 的 policy 与 judge 为淡黄，奖励分类 token 用绿、蓝、灰表达；底部错误类别为粉红，拒答为柠檬黄，更细分类为深绿，鸟类照片已遮罩。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      3,
+      172,
+      93,
+      244
+    ]
+  ]
+}

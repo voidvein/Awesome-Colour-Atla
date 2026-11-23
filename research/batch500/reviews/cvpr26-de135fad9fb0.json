@@ -1,0 +1,35 @@
+{
+  "id": "cvpr26-de135fad9fb0",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Refer-Agent含帧选择、意图分析、目标grounding、mask生成与双阶段反思Agent系统。",
+  "reviewedImageSHA256": "6e1b10e158a15499a9db4566a85e06ff87714c4cb7e98461555190d180835b21",
+  "reviewedPalette": [
+    "#FBE4D5",
+    "#A6D089",
+    "#8BA6D6",
+    "#FDE694"
+  ],
+  "paletteObservation": "视频截图及示例帧排除；桃色reflection、绿/蓝反思节点与黄色意图区域为实际阶段色。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      220,
+      944
+    ],
+    [
+      338,
+      283,
+      711,
+      500
+    ],
+    [
+      1083,
+      283,
+      1438,
+      500
+    ]
+  ]
+}

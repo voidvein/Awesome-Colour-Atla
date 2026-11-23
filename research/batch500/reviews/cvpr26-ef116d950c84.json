@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-ef116d950c84",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Shared affordance head, token prototypes, routed LoRA adapter bank and LLM scheduler are explicit.",
+  "reviewedImageSHA256": "b12fcf2efdd0f30473806554355f0e8aea2544258724535bbb5a81328642dd83",
+  "reviewedPalette": [
+    "#E2F1D9",
+    "#BEC7E2",
+    "#F8CDAC",
+    "#A6A6A6",
+    "#F5B7BE",
+    "#BDE99C",
+    "#578E31"
+  ],
+  "paletteObservation": "Green affordance-head panel/tokens, lavender question path, peach adapter bank, gray video encoder and pink/green loss blocks are actual module colours; video frames excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

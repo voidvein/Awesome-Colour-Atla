@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-865212112047",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整fairness DPO与RLHF持续学习计算对照，任务样例照片和描述已排除取色。",
+  "reviewedImageSHA256": "2b3f9c869434eda96c05e07dd814a26800b379173899fa2a1c27345d1b623ec1",
+  "reviewedPalette": [
+    "#FFBFC0",
+    "#D9F3D0",
+    "#CAEEFC",
+    "#B4E5A3",
+    "#FBE4D6"
+  ],
+  "paletteObservation": "粉红LLM训练步骤、浅蓝learning step、浅绿参数块、桃色reward model及绿色instruction数据对应网络训练。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

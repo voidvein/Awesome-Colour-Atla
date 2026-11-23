@@ -1,0 +1,42 @@
+{
+  "id": "cvpr26-75f992815df2",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "7f703972f96a090fe7a75b309fd285ea58908b2f3660f6e0da1de7d0f007c440",
+  "reviewedPalette": [
+    "#EBF4F9",
+    "#F9D8BF",
+    "#A5A5A5",
+    "#DB4949",
+    "#FFCCA2"
+  ],
+  "paletteObservation": "AnyMC3D 的二维基础模型为浅蓝，LoRA、分类头和三维解码插件为桃橙色，层融合块为灰色，注意力权重用红圆点表示；MRI 与解释热图均不参与取色。",
+  "reviewedAt": "2026-11-23T17:27:32Z",
+  "excludeRegions": [
+    [
+      54,
+      108,
+      213,
+      265
+    ],
+    [
+      49,
+      356,
+      216,
+      540
+    ],
+    [
+      61,
+      624,
+      206,
+      712
+    ],
+    [
+      379,
+      779,
+      746,
+      925
+    ]
+  ]
+}

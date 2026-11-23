@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-aecc73847409",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整MoE-FD上下文提取、MoE分离和迭代细化结构，输入/结果照片已排除取色。",
+  "reviewedImageSHA256": "5cbe098aab228b0881542396e8f8343897a855311cd45704702882c930b0e418",
+  "reviewedPalette": [
+    "#FBE6D4",
+    "#DAE2F5",
+    "#C7E4B3",
+    "#A6A6A6",
+    "#75BC42"
+  ],
+  "paletteObservation": "桃色knowledge embedding、淡蓝feature模块、浅绿expert/FC、灰色context提取与绿色expert标记对应结构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-79adcf1e1f51",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整AdaSFormer encoder/depth、ASF、CMLN和CRPE网络，RGB输入和场景voxel示例已屏蔽。",
+  "reviewedImageSHA256": "c721ab6afc224875fb17fdb0eb0d9cb2bceacee8e27d08fd56cfe9a651aea087",
+  "reviewedPalette": [
+    "#D5F2F0",
+    "#FFF2CC",
+    "#28A198",
+    "#A4A4A4",
+    "#DD7C7C",
+    "#4471C4"
+  ],
+  "paletteObservation": "浅青ASF、青色attention/serialization、浅黄CRPE、灰色Norm、粉红encoder和蓝色CMLN对应网络。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 R=Path(__file__).parent
+if (R/'dist/collection.json').exists():
+ raise SystemExit('Legacy 10-card builder disabled after batch publication. Use pipeline/publish_dataset.py.')
 papers=json.loads((R/'research/papers.json').read_text(encoding='utf8'))
 assets={p['id']:p for p in json.loads((R/'research/assets-a.json').read_text(encoding='utf8'))}
 # Representative flat module fills and outlines, verified against original pixels.

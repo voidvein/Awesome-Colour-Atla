@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-250927cf6443",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整STAMP MLLM对话、SEG触发与并行mask生成结构，输入图和SAm示例已屏蔽取色。",
+  "reviewedImageSHA256": "083b5447217ec4e6928d4438df71da66b7a975a3f1bec61e39d1801908631b92",
+  "reviewedPalette": [
+    "#D9E7FB",
+    "#D5E7D4",
+    "#0000FF",
+    "#FFFFCC"
+  ],
+  "paletteObservation": "浅蓝MLLM、浅绿前景classifier、蓝色mask token和淡黄patch token对应网络。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

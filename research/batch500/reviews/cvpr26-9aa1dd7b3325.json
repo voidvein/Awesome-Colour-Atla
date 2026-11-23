@@ -1,0 +1,41 @@
+{
+  "id": "cvpr26-9aa1dd7b3325",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "e137c2ca19fe1b16e3ccfa6050ec12b3c97910abeda13b91cd04f12e3b706ba8",
+  "reviewedPalette": [
+    "#ECF3FA",
+    "#2E75B6",
+    "#E3B18E",
+    "#FFD966"
+  ],
+  "paletteObservation": "Thinking-while-Generating 的理解与反思模型描蓝色边，生成模型描黄色边，思考文本框描桃色边，调度结果组为浅蓝；所有生成风景示例均已遮罩。",
+  "reviewedAt": "2026-11-23T17:53:42Z",
+  "excludeRegions": [
+    [
+      977,
+      149,
+      1439,
+      250
+    ],
+    [
+      263,
+      824,
+      467,
+      1023
+    ],
+    [
+      707,
+      823,
+      909,
+      1023
+    ],
+    [
+      1135,
+      823,
+      1360,
+      1023
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-007634981f16",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "LiteVGGT缓存token合并与注意力架构完整，输入和重建场景已屏蔽取色。",
+  "reviewedImageSHA256": "286e401bfdbd14db70b2c5256032cf7faa1c5d4d46ba64352455eb1f9936e67e",
+  "reviewedPalette": [
+    "#DDEDD4",
+    "#C0D4F5",
+    "#FF8C8C",
+    "#EBCDC4",
+    "#B0B0B0"
+  ],
+  "paletteObservation": "浅绿几何合并/attention、浅蓝token、粉红合并token、桃色预测头和灰色分组块对应网络。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

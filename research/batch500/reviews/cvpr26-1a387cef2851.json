@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-1a387cef2851",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整UNet Transformer编码/解码块及层级连接结构，无图像取色干扰。",
+  "reviewedImageSHA256": "cd14e06df5466373afc456b027137359c21870dba6029144d28c9dfcefbc02af",
+  "reviewedPalette": [
+    "#B6E1E4",
+    "#FCD865",
+    "#9DC2E6",
+    "#A8D18E"
+  ],
+  "paletteObservation": "青色编码块、黄色LayerNorm、绿色Multi-Head Attention和蓝色MLP均可定位。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

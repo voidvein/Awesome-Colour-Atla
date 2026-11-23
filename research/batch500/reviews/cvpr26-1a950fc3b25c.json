@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-1a950fc3b25c",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "5c43e5e7869a619e99d95cdc9b83d433e358a563dcd1d9e385e31244af5af3cc",
+  "reviewedPalette": [
+    "#FFF2CC",
+    "#D9F0EA",
+    "#F2CFED"
+  ],
+  "paletteObservation": "FE 模块为淡黄色，统一 Codec 为浅青绿色，首帧适配器 AD 为淡粉紫色，三色块沿串行编解码路径重复。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

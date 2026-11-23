@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-5a751c35fa6d",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "CoSMo3D双分支和LLM引导canonical embedding结构完整，点云渲染已屏蔽取色。",
+  "reviewedImageSHA256": "06db958f1166233655b06f3a72bc06d791fc6141bc2b77196f72588b97b2a1cb",
+  "reviewedPalette": [
+    "#E1E4F6",
+    "#70AAE0",
+    "#CD9A00",
+    "#4F397A"
+  ],
+  "paletteObservation": "淡紫Decoder/MLP/Cross Attention、蓝色特征块、金色canonical特征及深紫框线对应网络。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

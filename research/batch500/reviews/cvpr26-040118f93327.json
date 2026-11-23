@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-040118f93327",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "ColaVLA含Driving Scene Perceiver、Ego-Adaptive Router、Latent Rethinker、Strategy Classifier及并行Planner。",
+  "reviewedImageSHA256": "e0181c21fd04bff48ecc04c6950848f7b52708ba43da31cf7908ccf5d3f5b0eb",
+  "reviewedPalette": [
+    "#B0DDF0",
+    "#ABE6CF",
+    "#0E739D",
+    "#FAD9D5",
+    "#FAD6AB",
+    "#66B1FF",
+    "#56507D"
+  ],
+  "paletteObservation": "图无自然照片；蓝场景/query、绿认知模块、桃meta/ego query、紫time/meta bank和深青边框均来自实际神经模块/类别token。",
+  "reviewedAt": "2026-11-23T17:50:07Z"
+}

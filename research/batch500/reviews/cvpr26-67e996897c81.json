@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-67e996897c81",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整NegBio-VAE Encoder、负二项采样和Decoder，已屏蔽两端人脸照片。",
+  "reviewedImageSHA256": "e2451d66e0209c796da8190342444565e8ec2c6e128608926b88534a8feec8ab",
+  "reviewedPalette": [
+    "#E4F7FD",
+    "#E2FAD1",
+    "#9DB1C2",
+    "#C3A48F",
+    "#172B51"
+  ],
+  "paletteObservation": "蓝灰Encoder、桃色Decoder、浅绿Gumbel-Softmax、浅青连续时间采样和深蓝框线为实际架构色。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

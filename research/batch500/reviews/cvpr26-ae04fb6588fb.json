@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-ae04fb6588fb",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Replaced motivational Figure 1 with original Figure 2 showing EPA, EKI and DSR learned correspondence framework.",
+  "reviewedImageSHA256": "77355bf60848b7ab07bbd03af2b395e1ee8397b77956dae88765e77c45460de2",
+  "reviewedPalette": [
+    "#EDF0F9",
+    "#113A91",
+    "#FBE0CD",
+    "#D3CDFB",
+    "#3B6BC1"
+  ],
+  "paletteObservation": "Pale lavender and peach module panels, navy and blue neural-vector routing, and lavender knowledge embedding provide five measured framework colours; triplet photographs excluded.",
+  "reviewedAt": "2026-11-23T17:38:43Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-725a2f55ccb8",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "Pico-Banana图1为数据集构建、编辑样例及组成饼图，不是网络/Agent方法架构。",
+  "reviewedImageSHA256": "6f6bad8474f0366708434e3be38c71f68688e0ae7e4e630704b03601d130f435",
+  "reviewedPalette": [
+    "#8CD4FE",
+    "#D9ECFF",
+    "#FEFAEE",
+    "#6EB7FF",
+    "#CAD3E4",
+    "#9EDEF7"
+  ],
+  "paletteObservation": "蓝色主要是统计图和数据卡标题，不能作为网络模块色接受。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

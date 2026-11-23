@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-b8938cfa2b31",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "SimRecon主动视点优化、3D组合属性与场景图生成计算流程完整，物体/室内渲染已排除取色。",
+  "reviewedImageSHA256": "80671aa76ca2d1e9e563026839dc232f9587d40fbb0c2dbb84eec533c5616537",
+  "reviewedPalette": [
+    "#DAE2F4",
+    "#FFF7E3",
+    "#91ACDF",
+    "#4774CA"
+  ],
+  "paletteObservation": "浅蓝优化分区及蓝色轮廓、浅黄生成分区直接对应算法模块。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

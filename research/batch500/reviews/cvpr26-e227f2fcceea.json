@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-e227f2fcceea",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "所选图1仅展示ConvNet/Transformer/LazyStrike特征激活和热图对比，并非神经网络或计算架构。",
+  "reviewedImageSHA256": "74aff4594194110be8926a6a68e59ebc7ed0982767b46b1b565da85ef2687552",
+  "reviewedPalette": [
+    "#471567",
+    "#38568B",
+    "#433A83",
+    "#2A758E",
+    "#86744C",
+    "#23A982",
+    "#1F958B"
+  ],
+  "paletteObservation": "七色均来自伪彩特征图和示例图，不能作为架构配色接受。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

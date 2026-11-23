@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-e8a27f165d12",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "原Fig9明确含VFN、FEB残差、FRB池化/门控/卷积融合网络，结构完整。",
+  "reviewedImageSHA256": "5accd7e0507c29a35219d754086389d404bde89eea56bed39defb26b2cbde544",
+  "reviewedPalette": [
+    "#D2EAEA",
+    "#5F6492",
+    "#FFE4A0",
+    "#FBE5D5",
+    "#EADBF4",
+    "#007F7F",
+    "#E5EBB5"
+  ],
+  "paletteObservation": "两端照片排除；青模块、紫卷积、黄激活、桃linear、浅紫池化、深青门控和浅黄绿归一化均有原图图例对应。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      799,
+      417
+    ],
+    [
+      3195,
+      0,
+      3994,
+      513
+    ]
+  ]
+}

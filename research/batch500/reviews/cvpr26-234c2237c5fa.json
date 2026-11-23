@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-234c2237c5fa",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整GaussianDWM场景理解和多模态世界生成架构，主色均能对应模块。",
+  "reviewedImageSHA256": "f7ead6819e7d995f91c4bd1b447c8800154ec56817b19dcd528d501faa531089",
+  "reviewedPalette": [
+    "#E6B8AF",
+    "#D9D2E9",
+    "#FFF2CC",
+    "#9FC5E8",
+    "#F6B26B",
+    "#B6D7A8",
+    "#F9CB9C"
+  ],
+  "paletteObservation": "粉色AE、紫色LLM、黄色text tokenizer、蓝色编码器/扩散、绿色projector与橙色world knowledge对应结构。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

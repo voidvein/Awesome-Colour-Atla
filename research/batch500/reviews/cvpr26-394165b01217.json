@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-394165b01217",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整RAM、SegFollow和Temporal HMR网络，真实人物照片已排除取色。",
+  "reviewedImageSHA256": "f2c5ac8c89cfef51c427e87b7087f02919ceaac0f1856049f3c561d4dd1b1c1b",
+  "reviewedPalette": [
+    "#FFF7DE",
+    "#C8C8C8",
+    "#F4C5A2",
+    "#FFE699",
+    "#C5E0B4",
+    "#99ACCA"
+  ],
+  "paletteObservation": "桃色image encoder/MLP、浅绿temporal encoder、浅黄memory、蓝灰ViT和灰色motion平台对应模块。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

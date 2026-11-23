@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-049aa6754f0a",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整ZoomEarth两阶段训练和主动裁图模型示意，图注与题名一致。",
+  "reviewedImageSHA256": "b39f48d8b33d97e74de53e8c3b22702a5c1954d4debbb97ca44b9cd320195390",
+  "reviewedPalette": [
+    "#FFE6CC",
+    "#9DBEF0",
+    "#FFE699",
+    "#F4B083",
+    "#FED969",
+    "#C3C8CF",
+    "#FFC000"
+  ],
+  "paletteObservation": "蓝色VLM、黄色奖励token、桃色评估区与橙色RL阶段均为结构标签或模块。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

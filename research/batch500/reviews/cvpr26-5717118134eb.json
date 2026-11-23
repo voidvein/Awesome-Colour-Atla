@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-5717118134eb",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "查看原文所有候选：GeoCodeBench数据构建/单元测试/模型评测流程，没有所提出神经架构或明确神经计算模块。",
+  "reviewedImageSHA256": "98d15373be4f89c440ec97c386f9ed5e11bca32148d74b452a7803f2d981192e",
+  "reviewedPalette": [
+    "#E0E0E0",
+    "#1297B5",
+    "#3A4851",
+    "#002060",
+    "#9F1F63",
+    "#00B400"
+  ],
+  "paletteObservation": "候选色来自会议logo、代码示例与测试标记，不能用来凑网络架构色卡。",
+  "reviewedAt": "2026-11-23T17:11:14Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-a5b6c0df70c0",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由REALM能力teaser改选图3真实GLSpaG/LMSeg架构，明确选择实际模块填色而排除渲染。",
+  "reviewedImageSHA256": "528da18fe3a24b348bf4b172de5f694c9bb8decf3246a138ac81cee00862d7a2",
+  "reviewedPalette": [
+    "#FBE5D6",
+    "#DDEAF7",
+    "#9393CD",
+    "#FFC000"
+  ],
+  "paletteObservation": "浅蓝global grounding、桃色local grounding、紫色feature encoder、黄色selected ID为实际模块色。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

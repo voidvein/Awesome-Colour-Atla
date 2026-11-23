@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-f4432cb79a35",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "659279ed27e07e3ce625d302ec25e6f1a3e0c7b59481e6c4ba41c9f6319aacf9",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-f4432cb79a35/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/04.jpg",
+  "sourceTitle": "Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#F8CFB4",
+    "#B6DDF0",
+    "#FFE8A2",
+    "#F9DEE2",
+    "#ACACAC",
+    "#18B6F0",
+    "#ED8844"
+  ],
+  "paletteObservation": "困难度向量采用浅黄色，影响度矩阵采用浅桃色，训练/验证梯度为浅蓝与浅粉，散点采用蓝与橙色。"
+}

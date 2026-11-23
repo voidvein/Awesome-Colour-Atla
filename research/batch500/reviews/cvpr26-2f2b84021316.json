@@ -1,0 +1,11 @@
+{
+  "id": "cvpr26-2f2b84021316",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "97dcd91ec165f7f97975c7331c1e85fadc00f61f8e72dcfc4773f84b83bf3227",
+  "reason": "方法流程完整但现有七色全部采自人脸/噪声图；排除照片后主要只剩单一蓝色箭头与黑白结构，当前图不适合作为多色网络架构色卡。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-2f2b84021316/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/35.jpg",
+  "sourceTitle": "MaskDiME: Adaptive Masked Diffusion for Precise and Efficient Visual Counterfactual Explanations",
+  "figure": "Figure 2"
+}

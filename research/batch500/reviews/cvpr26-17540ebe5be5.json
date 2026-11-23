@@ -1,0 +1,30 @@
+{
+  "id": "cvpr26-17540ebe5be5",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "iSHIFT含多模态LLM慢/快路径、自适应感知DINO+cross attention以及隐状态/工具token结构。",
+  "reviewedImageSHA256": "4259a4173f46fe23f6cc1d9ef4b0e4716e86770d1f967248408af04085504147",
+  "reviewedPalette": [
+    "#7EE4E4",
+    "#B3B3B3",
+    "#F2AA45",
+    "#9999FF",
+    "#A7AAE1"
+  ],
+  "paletteObservation": "两端GUI手机截图完全排除；青感知模块、灰LLM、橙感知图像token与蓝/紫工具和latent状态均来自真实架构。",
+  "reviewedAt": "2026-11-23T17:50:07Z",
+  "excludeRegions": [
+    [
+      0,
+      219,
+      305,
+      596
+    ],
+    [
+      1438,
+      351,
+      1540,
+      564
+    ]
+  ]
+}

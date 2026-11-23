@@ -1,0 +1,28 @@
+{
+  "id": "cvpr26-e6358799eee5",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "裁取Fig3完整中间PanoEnv-RL训练面板，含两阶段模型和GRPO策略更新循环；去左右基线/结果面板。",
+  "reviewedImageSHA256": "686b7b4588cbae985ae97777281ddb56fd392c729e6ab49b0abeab474a4683bc",
+  "reviewedPalette": [
+    "#FFFAF2",
+    "#E7D8B8",
+    "#D9D9D9"
+  ],
+  "paletteObservation": "屏蔽训练回路内场景图片，排除表情图标黄；只保留训练面板底色、轨迹token分隔与阶段箭头灰。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      10,
+      440,
+      110,
+      620
+    ],
+    [
+      350,
+      400,
+      420,
+      610
+    ]
+  ]
+}

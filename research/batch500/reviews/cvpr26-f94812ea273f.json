@@ -1,0 +1,20 @@
+{
+  "id": "cvpr26-f94812ea273f",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "已核对全文图列表并实际查看完整Figure2，Video Diffusion/Skinning Network等计算块仅灰色，当前多色全部来自深度热图、网格和渲染示例；其他插图为样例或比较，没有可核验的第二个彩色计算模块，拒绝用渲染内容补色。",
+  "reviewedImageSHA256": "ed8065adc760b61d1902c4cf597a2e39bdd5209af739165508781dc9db95965e",
+  "reviewedPalette": [
+    "#D7D7D7",
+    "#E55F2A",
+    "#1A0B42",
+    "#33085D",
+    "#848990",
+    "#B63453",
+    "#CD4343"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "reviewEvidence": "contacts/audit-e/individual/12.jpg",
+  "additionalEvidence": "Cached complete PDF figure list examined"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-51f3186dfe17",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "所选图2主要是E-comIQ数据集、标注和benchmark示例，模型部分为SFT/GRPO概述，未显示具体网络计算结构。",
+  "reviewedImageSHA256": "9bf27a117a7e603d54da5e7dbf83bdc15eab52366d84efa324b222ed1efa1c52",
+  "reviewedPalette": [
+    "#DFE4F1",
+    "#ECD2C7",
+    "#EEAB30",
+    "#76C7EC"
+  ],
+  "paletteObservation": "多色来自海报照片和benchmark样例，不能作为架构色卡。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-c5b987030a57",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Backbone, fusion layer and flow head with repeated unrolled rollout are explicit.",
+  "reviewedImageSHA256": "c28c45c8e774b4ebf7d2742a1e610816317dac38e7efb11bab9b87ccaa8a8f6f",
+  "reviewedPalette": [
+    "#B9E5F5",
+    "#90E1B2",
+    "#EDD2D2"
+  ],
+  "paletteObservation": "Pale blue Main Backbone, green Flow Head and pink Fusion block are the three actual module colours; sampled video frames and density illustrations excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

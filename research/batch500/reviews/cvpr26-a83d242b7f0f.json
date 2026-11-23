@@ -1,0 +1,65 @@
+{
+  "id": "cvpr26-a83d242b7f0f",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedAt": "2026-11-23T16:46:16.902585+00:00",
+  "reviewedImageSHA256": "c6652da2d574a52dec5dba5c097188fc93a22bcf2a30ef68226b0183674dc926",
+  "reviewedImage": "research/batch500/candidates/cvpr26-a83d242b7f0f/reviewed-fixed.png",
+  "reviewedPalette": [
+    "#E1EFD9",
+    "#C8C8C8",
+    "#EC7C30",
+    "#FFC000",
+    "#6FAC46",
+    "#5B9BD4",
+    "#FFF1CC"
+  ],
+  "paletteObservation": "浅绿Context分支与灰色DiT主分支分层，蓝色Context块与绿色边框相呼应；VAE为奶油黄填色和金黄轮廓，文本编码器采用橙色轮廓。",
+  "reason": "已替换为原文Figure 3训练架构，Context Blocks、DiT主干、VAE与Text Encoder及条件数据流完整，不再使用第一页视频编辑结果拼图；示例视频/参考帧/噪声已排除取色。 已实际查看修复图与色卡及每个取色点，核对caption/sourceTitle。",
+  "figure": "Figure 3",
+  "sourceTitle": "Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset",
+  "excludeRegions": [
+    [
+      166,
+      58,
+      339,
+      150
+    ],
+    [
+      166,
+      150,
+      345,
+      239
+    ],
+    [
+      167,
+      266,
+      345,
+      381
+    ],
+    [
+      178,
+      381,
+      324,
+      445
+    ],
+    [
+      1353,
+      307,
+      1533,
+      402
+    ]
+  ],
+  "reviewEvidence": "contacts/audit-a/repair/10-masked.jpg",
+  "previousCandidateReview": {
+    "id": "cvpr26-a83d242b7f0f",
+    "verdict": "needs_recrop",
+    "reviewer": "/root/scale_ui",
+    "reviewedImageSHA256": "681b673185b84a33d6a646d243b33eb44be6a77da032328876274f9fad82f422",
+    "reason": "当前裁图仅包含视频编辑前后样例，未显示caption所称的数据生成pipeline；上下提示句也被裁断，必须回到原文另选架构图并重新裁切。",
+    "reviewedImage": "research/batch500/candidates/cvpr26-a83d242b7f0f/cvpr26-a83d242b7f0f.png",
+    "reviewEvidence": "contacts/audit-a/individual/10.jpg",
+    "sourceTitle": "Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset",
+    "figure": "Figure 1"
+  }
+}

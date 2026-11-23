@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-feb6f3f38a70",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "MixerCSeg整体网络与DEGConv细节均完整，不含正文或性能图。",
+  "reviewedImageSHA256": "97085199eab1d85a63b4a64797baf98f5b629ec24138e3a0edbd247e3c0475b6",
+  "reviewedPalette": [
+    "#EFF4FB",
+    "#B0DDF0",
+    "#FFCC99",
+    "#E3EBB6",
+    "#92B7E6",
+    "#FFE6CC",
+    "#CBDCCA"
+  ],
+  "paletteObservation": "浅蓝TransMixer、浅橙SegHead、淡黄GNorm、粉桃门控、浅绿拼接层对应网络结构。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-90394b3a2848",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "74e10d1a11417db6f32d4b7c73f33f52e1179256485b9812815f67adaedca813",
+  "reviewedPalette": [
+    "#FBE5D6",
+    "#DEEBF7",
+    "#C5E0B4",
+    "#AFB6C3",
+    "#4472C4",
+    "#CB3D50",
+    "#8FAADC"
+  ],
+  "paletteObservation": "DICArt 的腐蚀阶段标牌为浅蓝，去噪阶段为浅绿，层级运动耦合为浅桃；几何条件用蓝灰片状符号，条件注入用红色，运动推理方向用蓝箭头表示。",
+  "reviewedAt": "2026-11-23T17:53:40Z"
+}

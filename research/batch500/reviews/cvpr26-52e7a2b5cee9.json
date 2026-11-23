@@ -1,0 +1,31 @@
+{
+  "id": "cvpr26-52e7a2b5cee9",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "PCA-Seg双编码器、并行聚合、ME parser专家与decoder结构完整。",
+  "reviewedImageSHA256": "af02e94fd453001ef16fff61bef8b0628d2a4f3b7e364a0f844ade657ebaf545",
+  "reviewedPalette": [
+    "#FFF8E4",
+    "#C8D3DB",
+    "#EED2BE",
+    "#E1EFD9",
+    "#EBF4F8",
+    "#DFCEE1"
+  ],
+  "paletteObservation": "输入照片/分割预测紫绿颜色排除；奶油聚合、蓝灰encoder、绿空间/频率操作、桃/紫专家与浅蓝parser色来自模块。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      71,
+      169
+    ],
+    [
+      532,
+      17,
+      611,
+      152
+    ]
+  ]
+}

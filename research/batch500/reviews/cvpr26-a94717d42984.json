@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-a94717d42984",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "RAMEN多模态时空编码、分辨率可调投影与Transformer重建结构完整，卫星照片已排除取色。",
+  "reviewedImageSHA256": "c541762ade6ace805dacc4afc5ae166bbb022ded50c20425bb01584fd5a7a394",
+  "reviewedPalette": [
+    "#B9C7D3",
+    "#F7CDCC",
+    "#007EFF",
+    "#CC0000"
+  ],
+  "paletteObservation": "蓝灰spatial编码、粉色temporal模块、蓝色和红色channel token均对应编码结构。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

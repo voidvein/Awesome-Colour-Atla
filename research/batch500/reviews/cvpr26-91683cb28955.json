@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-91683cb28955",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "当前/参考policy、采样/奖励/advantage、KL约束和RL优化计算结构完整。",
+  "reviewedImageSHA256": "b94afe8c67b3dec295cc59ce1111814be93f4ba9df456e8c860a233ac81553cf",
+  "reviewedPalette": [
+    "#D4CBCB",
+    "#BEDAB3",
+    "#2E76B4",
+    "#F3DD9D",
+    "#7BB49F",
+    "#538235",
+    "#E5636F"
+  ],
+  "paletteObservation": "手写样例只作任务示例不采色；灰旧policy、绿候选、蓝surrogate、黄logits、青KL/ratio、粉advantage和绿正则色均可追溯。",
+  "reviewedAt": "2026-11-23T17:39:45Z"
+}

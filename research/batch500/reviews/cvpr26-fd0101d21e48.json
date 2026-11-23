@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-fd0101d21e48",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "保留Fig4三阶段SFT、Policy/Reference模型和GRPO训练结构，去掉上方误含的性能表。",
+  "reviewedImageSHA256": "76ef20e4b16fd09034f05d56df4e6077d551decf299e196d01c9ff58c28f2d80",
+  "reviewedPalette": [
+    "#D9ECFF",
+    "#FAEFE0",
+    "#FBD0A9",
+    "#F9E9FB"
+  ],
+  "paletteObservation": "取色来自任务/阶段分区：浅蓝SFT任务、奶油QA、桃色Grounding/Counting和浅粉全任务RL；火焰/雪花装饰未采。",
+  "reviewedAt": "2026-11-23T17:39:44Z"
+}

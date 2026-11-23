@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-b976c4e327fd",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整TADSR Time-Aware VAE/UNet、teacher和LoRA网络，真实图像与latent结果已屏蔽取色。",
+  "reviewedImageSHA256": "569f8c1ee6c0ad094cbb37eb1e47272a97adf870465cc5df626a18740f7ecc14",
+  "reviewedPalette": [
+    "#C5DFB4",
+    "#DBDBDB",
+    "#FFC000",
+    "#DAE8FB"
+  ],
+  "paletteObservation": "绿色可训练student/LoRA、浅蓝teacher/decoder、灰色学生分区和黄色时序虚线为真实结构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

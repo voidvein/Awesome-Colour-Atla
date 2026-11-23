@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-8aeaa7895bc0",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Replaced conceptual Figure 1 with original Figure 2 showing diffusion proxies, classifier and multi-level learned adaptation.",
+  "reviewedImageSHA256": "8e992b2391b6b84247668e689b1593edbdfeb239f36ba6742e4f360e8d97f7e0",
+  "reviewedPalette": [
+    "#E1EFD9",
+    "#DAE2F3",
+    "#FFF1CC",
+    "#DBDBDB"
+  ],
+  "paletteObservation": "Green bridging-operation panels, lavender conditional diffusion, yellow injected-statistic blocks and gray classifier/feature glyphs are retained; input/proxy photos excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

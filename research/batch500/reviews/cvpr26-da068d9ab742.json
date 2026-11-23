@@ -1,0 +1,31 @@
+{
+  "id": "cvpr26-da068d9ab742",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Holistic token embedding、自回归Transformer、交叉注意力和detokenize路径完整。",
+  "reviewedImageSHA256": "702dedd578b4b1cd6c98ad25ff967a007df2c10592238c181a886a3771f105a4",
+  "reviewedPalette": [
+    "#FFDDDD",
+    "#DFEAFC",
+    "#F8F4AC",
+    "#FFBC8D",
+    "#C1EBA3",
+    "#78C1F3"
+  ],
+  "paletteObservation": "两侧B-rep实体渲染排除，进一步去残余灰色渲染；粉蓝层、粉色范数、黄色前馈及绿/桃/蓝类型token为语义配色。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      240,
+      338,
+      479
+    ],
+    [
+      1404,
+      240,
+      1692,
+      479
+    ]
+  ]
+}

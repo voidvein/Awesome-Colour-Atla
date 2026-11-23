@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-27a48830b75e",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "从Fig4数据整理换为Fig1，其中(b)明确显示Vision Encoder→Projector→Language Model及视觉/语言token路径。",
+  "reviewedImageSHA256": "bcd5eabed17bc7f7f4ba6f703c6b2a7c9bd6cedb1db7aeccd60ee49c0eb45119",
+  "reviewedPalette": [
+    "#DEEFDF",
+    "#627B5D",
+    "#B3D8E8",
+    "#49FF2E",
+    "#FBE3D7",
+    "#4B5E48",
+    "#FBEFD5"
+  ],
+  "paletteObservation": "仅从(b)模型区采色，排除婴幼儿照片与右侧benchmark图；蓝视觉、桃投影、奶油LM、绿token与绿色背景均可追踪。",
+  "reviewedAt": "2026-11-23T17:11:15Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      1718,
+      541
+    ],
+    [
+      1151,
+      0,
+      1718,
+      1060
+    ]
+  ]
+}

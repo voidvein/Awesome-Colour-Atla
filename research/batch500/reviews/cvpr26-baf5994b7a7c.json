@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-baf5994b7a7c",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "VOLD教师/学生SFT、GRPO、on-policy distillation和图像推理模型架构完整。",
+  "reviewedImageSHA256": "0b9790c23b20577e83fc7fb811d2f023a444d3838758887f714d33a44a862600",
+  "reviewedPalette": [
+    "#FDF3E8",
+    "#C9C6DA",
+    "#D5B18E",
+    "#C9E0D5",
+    "#E5F3EA"
+  ],
+  "paletteObservation": "图中无自然图像取色；奶油推理阶段、紫GRPO/蒸馏、棕学生、绿色teacher/student与浅绿对齐阶段为真实模块填色。",
+  "reviewedAt": "2026-11-23T17:39:45Z"
+}

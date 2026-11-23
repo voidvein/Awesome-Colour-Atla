@@ -1,0 +1,38 @@
+{
+  "id": "cvpr26-1dd370640c76",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "778b3ec98fe253e26995c6a1e9b9c10df27bfd160952af736e4cd66f66643f67",
+  "reviewedPalette": [
+    "#FFF2CA",
+    "#D9D9D9",
+    "#B6C7EA",
+    "#ACD78E",
+    "#F5B7BF",
+    "#FCE6D5",
+    "#E3F2D9"
+  ],
+  "paletteObservation": "FAPE-IR 的 Qwen2.5-VL 为浅蓝，VAE 与规划区为浅桃，FLUX 为浅绿，判别器为绿色，PerceptualNet 为粉色，执行与损失区为淡黄；鹦鹉及低层特征图已排除。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      156,
+      93,
+      323,
+      261
+    ],
+    [
+      1185,
+      153,
+      1523,
+      312
+    ],
+    [
+      159,
+      286,
+      409,
+      453
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-19e23299de36",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "63d6747d33c86f3d30a76e5bb22635d3c4f276c8038adc1c64515766914b18f3",
+  "reviewedPalette": [
+    "#F2CFEE",
+    "#96DCF8",
+    "#C2F1C8",
+    "#E97132",
+    "#FA769F",
+    "#47D45A",
+    "#FFC000"
+  ],
+  "paletteObservation": "MambaLiteUNet 编解码阶段为浅绿，AMF 为粉紫、LGFM 为浅蓝、CGA 为橙色；AMF 分支图用黄色与绿色方块表示两种门控。",
+  "reviewedAt": "2026-11-23T17:53:40Z"
+}

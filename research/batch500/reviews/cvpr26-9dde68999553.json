@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-9dde68999553",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Federated model-parameter SVD, malicious-null-space projection and benign model alignment are explicit computations.",
+  "reviewedImageSHA256": "ace59ef0a25f135ed24809dfc03d5f557bb35623cd844897834904cb1a3b667d",
+  "reviewedPalette": [
+    "#99B8D6",
+    "#F4E6D1",
+    "#C0ABBE",
+    "#7B8CB3",
+    "#EFCA91",
+    "#F2E2F0",
+    "#FFD866"
+  ],
+  "paletteObservation": "Blue SVD tensors, cream null-space panel, lavender projected parameters, slate training flow, peach parameter flow, pink matrix panel and gold parameter nodes are measured; training photos excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-0c304e2d8595",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "ddfae3c18794383b2b906999a37d796a5f76f8241cac86438df5cb3bff103314",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-0c304e2d8595/cvpr26-0c304e2d8595.png",
+  "reviewEvidence": "contacts/audit-a/individual/25.jpg",
+  "sourceTitle": "EcoAlign: An Economically Rational Framework for Efficient LVLM Alignment",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#F2F9ED",
+    "#8FAADC",
+    "#A9D18E",
+    "#E57B7B",
+    "#899858",
+    "#548235",
+    "#FCF03C"
+  ],
+  "paletteObservation": "蓝色虚线区域标识初始化，绿色区域组织动态CoT扩展，红色标记被剪枝路径，黄色费用图标提供少量强调色。"
+}

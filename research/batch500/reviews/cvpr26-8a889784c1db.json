@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-8a889784c1db",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "Geoint-R1包含LLM采样分类、辅助构造SFT和verifier/GRPO强化学习的神经训练机制。",
+  "reviewedImageSHA256": "fcdda233d6f33ab91f0d5d1ac36103bb27c21a4da4cd5f88af2374a8fab958e1",
+  "reviewedPalette": [
+    "#D6E2F8",
+    "#DEF5ED",
+    "#EB7D79",
+    "#8ED973",
+    "#69A7DC"
+  ],
+  "paletteObservation": "几何问题缩略图不作配色；浅蓝SFT、浅绿RL/训练阶段与红/绿/蓝难度课程块均为结构语义色，去冗余箭头和图标黄绿。",
+  "reviewedAt": "2026-11-23T17:50:07Z"
+}

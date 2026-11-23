@@ -1,0 +1,29 @@
+{
+  "id": "cvpr26-7cb4d092f525",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "Fig5含双encoder、CVMF跨视角多特征融合及训练目标完整模型架构。",
+  "reviewedImageSHA256": "b386984516269623ec85b4c0ae35e0936e0af43807cfdcec0579023eec46115c",
+  "reviewedPalette": [
+    "#CBE4BD",
+    "#FBE5D7",
+    "#BDD7EE",
+    "#4473C5"
+  ],
+  "paletteObservation": "道路/卫星/定位照片全部排除；浅绿训练区、桃backbone、蓝CVMF和蓝one-hot encoding为实际模块/语义填色。",
+  "reviewedAt": "2026-11-23T17:50:06Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      592,
+      576
+    ],
+    [
+      541,
+      403,
+      931,
+      576
+    ]
+  ]
+}

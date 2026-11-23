@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-7b8053f6aa52",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "HairGuard Depth Fixer、Scene Painter与Color Fuser计算框架完整，鸟图和深度样例已屏蔽。",
+  "reviewedImageSHA256": "2a83965805dc6f2d1ec846701cc2bdc142167ababcca44cd58d9cc8b2cf0f4a5",
+  "reviewedPalette": [
+    "#F2CFEF",
+    "#FBE4D6",
+    "#DCEAF7"
+  ],
+  "paletteObservation": "粉色Color Fuser、桃色Scene Painter和浅蓝Depth Fixer为3个实际模块。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

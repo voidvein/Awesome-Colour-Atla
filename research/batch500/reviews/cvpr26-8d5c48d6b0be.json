@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-8d5c48d6b0be",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由teaser改选图2，完整FluxMem短中长期层级记忆、TAS和SDC及LLM结构，屏蔽视频和人物图标。",
+  "reviewedImageSHA256": "b5a2e343d045be9d18c98209e7c3eebb5b0bb805972664b3d243ff9107b1b8d5",
+  "reviewedPalette": [
+    "#EEF6FD",
+    "#A6CAEC",
+    "#AEAEAE"
+  ],
+  "paletteObservation": "蓝色视觉token与记忆bank、浅蓝记忆分区及灰色LLM块为实际网络颜色。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

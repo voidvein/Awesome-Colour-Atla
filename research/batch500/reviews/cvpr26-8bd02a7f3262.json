@@ -1,0 +1,40 @@
+{
+  "id": "cvpr26-8bd02a7f3262",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "fd68a2f3192b3fe7216a24eff95c0ed15cda08b8006a44974d78aac66603bf32",
+  "reviewedPalette": [
+    "#FAE2D5",
+    "#BFCDA8",
+    "#B4D2ED"
+  ],
+  "paletteObservation": "UniSER 的指令气泡为浅桃色，文本 token 为浅蓝色，DiT 主模块为浅绿；雾景、真值、随机掩码和高斯噪声图均不参与取色。",
+  "reviewedAt": "2026-11-23T17:27:31Z",
+  "excludeRegions": [
+    [
+      149,
+      112,
+      569,
+      329
+    ],
+    [
+      573,
+      114,
+      787,
+      329
+    ],
+    [
+      1112,
+      114,
+      1536,
+      329
+    ],
+    [
+      882,
+      246,
+      916,
+      333
+    ]
+  ]
+}

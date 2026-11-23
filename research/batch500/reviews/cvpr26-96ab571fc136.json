@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-96ab571fc136",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "5ad15b498ccc30cbbd93de4f6ab3901ac97b6f53072d9b88d3c185bd9f200920",
+  "reviewedPalette": [
+    "#EFF5FB",
+    "#F0B48F",
+    "#4471C4",
+    "#E66655",
+    "#EBB62C",
+    "#87C6FB",
+    "#8060A6"
+  ],
+  "paletteObservation": "非对称 MoE 编码器与解码器使用桃色描边，蓝、红、黄三色区分左侧相似度关系，右侧优化权重又用浅蓝和紫色标记。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

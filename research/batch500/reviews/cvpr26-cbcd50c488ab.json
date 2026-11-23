@@ -1,0 +1,36 @@
+{
+  "id": "cvpr26-cbcd50c488ab",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "301fc7f424853bb8f97169d56677643c761aca27ac3388574c1fcfc537afb00e",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。 已遮罩示例照片/图像区域重新取色，并实际再次查看图与新色卡确认。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-cbcd50c488ab/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/18.jpg",
+  "sourceTitle": "StreamingTOM: Streaming Token Compression for Efficient Video Understanding",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#D6C1C1",
+    "#F4E6CF",
+    "#B3D6E6",
+    "#82695D",
+    "#C3A882",
+    "#E8DADB",
+    "#95C6E1"
+  ],
+  "paletteObservation": "浅桃灰缓存与量化模块、米色视觉编码/投影模块、浅蓝问答框构成低饱和结构，棕色边线与金棕字样贯穿全图。",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      168,
+      651
+    ],
+    [
+      312,
+      33,
+      485,
+      281
+    ]
+  ],
+  "maskReviewEvidence": "contacts/audit-a/masks/18.jpg"
+}

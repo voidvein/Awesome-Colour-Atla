@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-cab402462c4f",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Complete LLM/VLM concept extraction and pose computation graph; object photographs and saliency maps excluded.",
+  "reviewedImageSHA256": "de630a7860eb29507d74fa9efe877e6ab5fda3d2f16684c506bdb14bc8724214",
+  "reviewedPalette": [
+    "#D4E1D3",
+    "#0B5394",
+    "#3D84C6"
+  ],
+  "paletteObservation": "Pale green LLM prompt blocks and dark/light blue learned concept-vector blocks supply three measured architecture colours.",
+  "reviewedAt": "2026-11-23T17:38:43Z"
+}

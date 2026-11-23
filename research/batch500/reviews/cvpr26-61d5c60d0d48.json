@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-61d5c60d0d48",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整SRINO两阶段扩散算子网络及TGA/KENet子模块，没有正文混入。",
+  "reviewedImageSHA256": "efad33b44989f98b8eb183d61a5a8bd15054d9398ec9d5176a8f240707664323",
+  "reviewedPalette": [
+    "#DEEBF7",
+    "#F8E4CA",
+    "#FFCC99",
+    "#B4C6E7",
+    "#BC94AB",
+    "#F04943",
+    "#817E8C"
+  ],
+  "paletteObservation": "浅蓝卷积/算子、粉紫残差、浅橙注意力模块及红色训练标记在图内可定位。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

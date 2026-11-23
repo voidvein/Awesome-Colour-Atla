@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-a0dcedeb7414",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "SNN卷积、Transformer和tracking heads及下方细化模块完整。",
+  "reviewedImageSHA256": "a224036f9620ae71bcd0497f6a31d0df701f929fec2a765edc769a69b965fde0",
+  "reviewedPalette": [
+    "#FFE699",
+    "#C5DFB4",
+    "#B4C6E7",
+    "#D0CECE",
+    "#F8CAAC",
+    "#5B9BD4",
+    "#FFC000"
+  ],
+  "paletteObservation": "输入事件/轨迹图不参与取色；黄主流程、绿卷积、蓝Transformer、桃色head及灰色组件底均为模块设计。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      592,
+      306
+    ],
+    [
+      0,
+      306,
+      271,
+      560
+    ]
+  ]
+}

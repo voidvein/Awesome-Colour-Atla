@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-7232227d566f",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整VARC ViT canvas-to-prediction网络，ARC题目与输出色块已排除取色。",
+  "reviewedImageSHA256": "e50020f1679fdd7cb95dc567c32d2318853d43985642a04ea9806fcbc6ae619c",
+  "reviewedPalette": [
+    "#DAE2F5",
+    "#B7A2CA"
+  ],
+  "paletteObservation": "仅2个模块色：浅蓝Transformer block与淡紫输入/输出latent token。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

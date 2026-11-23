@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-cd5e52ff20a6",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "RAID检索与匹配代价过滤架构完整，已排除样例图和异常热图取色。",
+  "reviewedImageSHA256": "61f9f37b4550b6544464e597390c63b5a843eef4159fc7e162a51fe1666b000d",
+  "reviewedPalette": [
+    "#FFEBF1",
+    "#D1C7ED",
+    "#F4B4BE",
+    "#8FAADC",
+    "#DBEBCA"
+  ],
+  "paletteObservation": "浅粉查询、淡紫数据库、蓝色实例token与浅绿语义原型对应方法模块。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

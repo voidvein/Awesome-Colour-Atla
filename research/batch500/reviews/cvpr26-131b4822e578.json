@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-131b4822e578",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "真实DINO特征、frame/global聚合器、稀疏注意力token和MLP/DPT输出头架构完整。",
+  "reviewedImageSHA256": "c5b939f2748c5366883e9949c3e0e96240d6c493512aa156d8c52a7400e19ec5",
+  "reviewedPalette": [
+    "#ECF2FA",
+    "#FFE9CA",
+    "#B6D59A",
+    "#F19DB3",
+    "#A20025",
+    "#CFCFCF",
+    "#CCDFF5"
+  ],
+  "paletteObservation": "左侧多视图照片完全屏蔽；浅蓝全局、奶油frame、绿/粉视图token、暗红register token和灰色head来自结构。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      250,
+      549
+    ]
+  ]
+}

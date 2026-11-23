@@ -1,0 +1,43 @@
+{
+  "id": "cvpr26-842330e55bb1",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedAt": "2026-11-23T16:46:16.912071+00:00",
+  "reviewedImageSHA256": "3c314b4b32fdd8e2324eb6fdacf84579a6b9effe3277fbeadb8cf19c5f6d9b8b",
+  "reviewedImage": "research/batch500/candidates/cvpr26-842330e55bb1/reviewed-fixed.png",
+  "reviewedPalette": [
+    "#DDE2EA",
+    "#C4B9AF",
+    "#E7DCCA"
+  ],
+  "paletteObservation": "Gemma和左侧编码组件采用灰蓝色，Flow Matching及MLP为浅米褐色，较深米褐描边与阴影区分模块边界；未用右侧彩色手型渲染补色。",
+  "reason": "已替换为arXiv原文Figure 5 UniDex-VLA：Uni3D/Tokenizer经Gemma连接Flow Matching和FAAS动作输出；排除右侧手型渲染示例及输入点云后再取色。 已实际查看修复图与色卡及每个取色点，核对caption/sourceTitle。",
+  "figure": "Figure 5",
+  "sourceTitle": "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos",
+  "excludeRegions": [
+    [
+      994,
+      0,
+      1615,
+      397
+    ],
+    [
+      68,
+      258,
+      162,
+      385
+    ]
+  ],
+  "reviewEvidence": "contacts/audit-a/repair/17-masked.jpg",
+  "previousCandidateReview": {
+    "id": "cvpr26-842330e55bb1",
+    "verdict": "needs_recrop",
+    "reviewer": "/root/scale_ui",
+    "reviewedImageSHA256": "7a1a404976271f7f1f9b67c058668b2cc9cec1c5cf0e217b4239578f89c2560e",
+    "reason": "当前图是点云手部移除/重定向的照片与滑块界面，没有UniDex策略模型计算模块，需另选模型架构图。",
+    "reviewedImage": "research/batch500/candidates/cvpr26-842330e55bb1/html-0.png",
+    "reviewEvidence": "contacts/audit-a/individual/17.jpg",
+    "sourceTitle": "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos",
+    "figure": "Figure 2"
+  }
+}

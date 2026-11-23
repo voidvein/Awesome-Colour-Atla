@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-060c04254278",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "917aea6fb580b5fe631c50b986740300d0b9eef38d8a23511798a68b40530cbd",
+  "reviewedPalette": [
+    "#E2EAF6",
+    "#FFFCE9",
+    "#9999FF",
+    "#A9D18E",
+    "#FFCCFF",
+    "#8FAADC",
+    "#F8CAAC"
+  ],
+  "paletteObservation": "IQPIR 的量化 codebook 以绿、蓝、粉、紫和桃色条区分条目，低质编码器为浅黄色，第一阶段分区为浅蓝灰；所选桃色来自量化特征立方体而非人像。",
+  "reviewedAt": "2026-11-23T17:27:32Z"
+}

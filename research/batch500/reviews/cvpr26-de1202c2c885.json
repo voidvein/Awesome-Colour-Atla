@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-de1202c2c885",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "DepthFocus C-MoE、DCI、conditional block及总体网络完整，深度图和输入照片已排除取色。",
+  "reviewedImageSHA256": "806294eb72979ab197c21be9353bb9cd50d6d224426ef01b19cb69ec1a3da895",
+  "reviewedPalette": [
+    "#DAE3F3",
+    "#5B9BD5",
+    "#E6FFE5",
+    "#A5A5A5",
+    "#0070C0"
+  ],
+  "paletteObservation": "浅蓝C-block/decoder、深蓝expert权重、浅绿expert3、灰色matching和蓝色router对应模块。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

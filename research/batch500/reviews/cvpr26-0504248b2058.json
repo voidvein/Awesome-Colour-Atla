@@ -1,0 +1,30 @@
+{
+  "id": "cvpr26-0504248b2058",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "UniPixie网格编码、交叉/查询/自注意力和Flow Matching Decoder以及共享编码器完整。",
+  "reviewedImageSHA256": "4e64e6c5a04fdaaf15f6464084afa0bccfca8c03463ad30d578429017508d15e",
+  "reviewedPalette": [
+    "#E2EAF4",
+    "#57391F",
+    "#D7C09A",
+    "#7D9DC4",
+    "#2F4871"
+  ],
+  "paletteObservation": "输入物体和右侧物理仿真不采色；浅蓝decoder、蓝注意力、深蓝投影/模型线、棕色共享encoder与米色CLIP特征模块保留。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      1288,
+      0,
+      1923,
+      991
+    ],
+    [
+      0,
+      446,
+      385,
+      991
+    ]
+  ]
+}

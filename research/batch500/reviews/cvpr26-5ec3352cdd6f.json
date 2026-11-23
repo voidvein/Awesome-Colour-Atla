@@ -1,0 +1,29 @@
+{
+  "id": "cvpr26-5ec3352cdd6f",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "低频Diffusion Transformer、高频pixel decoder和频率相关损失模块完整。",
+  "reviewedImageSHA256": "d4c334d4b15dba6f23677744cd013b804a50f71cc6e28803c77df98a94673777",
+  "reviewedPalette": [
+    "#F8CDAC",
+    "#B6C6EA",
+    "#FDE694",
+    "#C7E4B3"
+  ],
+  "paletteObservation": "屏蔽噪声、输出图和DiT结果热图；保留杏色扩散、粉蓝解码器、黄色损失和绿色下采样模块。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      907,
+      0,
+      1563,
+      651
+    ],
+    [
+      0,
+      0,
+      133,
+      651
+    ]
+  ]
+}

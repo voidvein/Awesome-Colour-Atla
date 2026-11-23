@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-fe2af46d592f",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "TAPE的音频encoder、Task Adapter、prototype更新和few-shot分类神经机制完整。",
+  "reviewedImageSHA256": "98deaffe26efb8ae37ac65fd9c0feab50b4dbf7b20fa9530c60c38d017f0152e",
+  "reviewedPalette": [
+    "#FAE4D5",
+    "#DEEBF7",
+    "#CD1717",
+    "#2F74B5",
+    "#FF5623",
+    "#85CDFF",
+    "#FFE478"
+  ],
+  "paletteObservation": "原始音频波形展示不采色；桃task adapter、蓝特征/预测token、黄prototype、红相关点和橙演化箭头为实际语义配色。",
+  "reviewedAt": "2026-11-23T17:50:06Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      931,
+      172
+    ],
+    [
+      0,
+      409,
+      305,
+      695
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-3d2e27c0b4b3",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "S2VC条件压缩模块和单步扩散生成器完整，图题一致。",
+  "reviewedImageSHA256": "0da48fdeedf27ade88b4d3413c04e5a136f7a9e35180a6ee3f0a27d106af5491",
+  "reviewedPalette": [
+    "#FDEBED",
+    "#FDF1CD",
+    "#DCEAF7"
+  ],
+  "paletteObservation": "粉色扩散分区、浅黄可训练块、浅蓝冻结块均有图例对应。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-3924b216b7ca",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "HR/LR encoder-decoder segmentation, cross-resolution attention and confidence-guided denoising modules are explicit.",
+  "reviewedImageSHA256": "e328b0bdef92a78027ad95306cc7966087bfde89a005e4165fd5f5445d97ac92",
+  "reviewedPalette": [
+    "#D5E8C7",
+    "#F7E6E5",
+    "#FBD463",
+    "#AFCBDE",
+    "#F0D3B2",
+    "#9D9D9D",
+    "#FFE699"
+  ],
+  "paletteObservation": "Green denoising panel, pink LR branch, gold HR tokens, blue confidence map block, peach attention operation and gray/yellow feature/encoder modules are retained; street examples and attention visualizations excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

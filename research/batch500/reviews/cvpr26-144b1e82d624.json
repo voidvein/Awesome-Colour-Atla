@@ -1,0 +1,40 @@
+{
+  "id": "cvpr26-144b1e82d624",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "Figure 2 是客户端样本统计、差分隐私加噪及服务器分布对齐协议，只给一个笼统 Local Training 框，没有网络模块连接；唯一着色为同一蓝色系样本图标，其他候选为异质性或准确率曲线，不充架构卡。",
+  "reviewedImageSHA256": "d30658f15aacffa49e65938850e88b6ae81a1298130c2d89d4a7d6804e2a58c3",
+  "reviewedPalette": [
+    "#E4F2FD",
+    "#679EE8",
+    "#9ACDFF"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:27:30Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2. Overall framework of FedAlign."
+    },
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1. Illustration of data heterogeneity in federated learning."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3. Test accuracy over training rounds for CNN models with α = 0.5 and β = 0.05 on CIFAR-10 and MNIST."
+    },
+    {
+      "figure": "Figure 4",
+      "caption": "Figure 4. Test accuracy over training rounds for CNN models with α = 0.5 and β = 0.1 on CIFAR-10 and MNIST."
+    },
+    {
+      "figure": "Figure 5",
+      "caption": "Figure 5. Test accuracy of ResNet50 on CIFAR-10."
+    },
+    {
+      "figure": "Figure 6",
+      "caption": "Figure 6. Ablation Study of FedAlign on CIFAR-10."
+    }
+  ]
+}

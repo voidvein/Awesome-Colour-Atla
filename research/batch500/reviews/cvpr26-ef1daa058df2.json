@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-ef1daa058df2",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "MLLM tool invocation, score-vector fusion and GRPO reward-training agent framework is explicit.",
+  "reviewedImageSHA256": "85fa7d0ee41b18d6afb4a1959327d6a8f25cae37aabe344316eb1dea123fefae",
+  "reviewedPalette": [
+    "#E1EFD9",
+    "#D0ECFC",
+    "#DECFFB",
+    "#F6DEDE",
+    "#9DC3E6"
+  ],
+  "paletteObservation": "Green GRPO, cyan recognition-tool panel, lavender calls, pink metric-based reward and blue prompt panel are true architecture colours; biometric photos excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

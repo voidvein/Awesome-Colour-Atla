@@ -1,0 +1,38 @@
+{
+  "id": "cvpr26-60c50560d3b4",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "LLCC、HARM和视觉增强解码的Detect-Mitigate神经计算框架完整。",
+  "reviewedImageSHA256": "5d809ca492f3cfcdf4c415df3f2d9670f7a5dfce45d01e53f800eb3787be01b8",
+  "reviewedPalette": [
+    "#E6EAF6",
+    "#EED7C5",
+    "#FFFF00",
+    "#EEB9C2",
+    "#F7CE6B",
+    "#D6C9F3",
+    "#E1EDDA"
+  ],
+  "paletteObservation": "实景照片和注意力热图区域排除；淡紫模块、杏色目标识别、黄色检测强调和绿色最终输出等语义色保留。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      305,
+      316
+    ],
+    [
+      305,
+      53,
+      846,
+      295
+    ],
+    [
+      846,
+      0,
+      1167,
+      316
+    ]
+  ]
+}

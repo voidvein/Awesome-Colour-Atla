@@ -1,0 +1,42 @@
+{
+  "id": "cvpr26-51e90f31b99e",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "由能力示例Fig1改为Fig2，Chorus 3D encoder经projector对齐PE/DINO/SigLIP教师并计算多教师loss。",
+  "reviewedImageSHA256": "1dedfba51330b28a3270246237994ac0522619ac7ed37546f61063c5671e576b",
+  "reviewedPalette": [
+    "#F2DCC9",
+    "#C1E5F5",
+    "#B4E5A1",
+    "#F2AA84",
+    "#9CD9C2"
+  ],
+  "paletteObservation": "场景渲染、embedding点云和右侧下游结果全排除；仅米色教师、蓝/绿教师token、桃色Chorus编码器及青色loss/projector色。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      372,
+      523
+    ],
+    [
+      592,
+      262,
+      846,
+      523
+    ],
+    [
+      761,
+      0,
+      880,
+      178
+    ],
+    [
+      1184,
+      0,
+      1692,
+      523
+    ]
+  ]
+}

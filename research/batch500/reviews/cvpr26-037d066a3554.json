@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-037d066a3554",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整FedRAC动态信誉、子模型分配及client神经网络结构，图题对应。",
+  "reviewedImageSHA256": "dc37efe8fcafb40b0a10d94a61f8b7f9aa6a94de4c19302f416ec880459c49cf",
+  "reviewedPalette": [
+    "#ECF8FC",
+    "#F8E0FF",
+    "#7598DC",
+    "#D24CD2",
+    "#A4A4A4",
+    "#FF0000",
+    "#C00000"
+  ],
+  "paletteObservation": "浅蓝动态计算、粉紫rolling allocation、蓝紫阶段标题、灰色神经元和红色选中参数来自网络。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

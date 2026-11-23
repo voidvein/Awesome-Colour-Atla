@@ -1,0 +1,53 @@
+{
+  "id": "cvpr26-ce28fadf34fa",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "8d23b66e1f74746d54ac927e91628504641468be104278d3fba7ac1c7acbd837",
+  "reviewedPalette": [
+    "#E1EFD9",
+    "#E0C1B2",
+    "#E06666",
+    "#A6A6A6",
+    "#8E7BC3",
+    "#6C9EEB",
+    "#6FAC46"
+  ],
+  "paletteObservation": "浅绿Motion IDM容器内，红色和蓝色帧特征经桃色Motion Query得到紫色连续运动token，灰色查询token与绿色模块标题保持对比。",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "excludeRegions": [
+    [
+      0,
+      36,
+      200,
+      178
+    ],
+    [
+      0,
+      249,
+      198,
+      394
+    ],
+    [
+      896,
+      345,
+      1094,
+      496
+    ],
+    [
+      1224,
+      24,
+      1517,
+      130
+    ],
+    [
+      1176,
+      385,
+      1600,
+      510
+    ]
+  ],
+  "figure": "Figure 1",
+  "sourceTitle": "CoMo: Learning Continuous Latent Motion from Internet Videos for Scalable Robot Learning",
+  "reviewEvidence": "contacts/audit-e/repair/24-masked.jpg"
+}

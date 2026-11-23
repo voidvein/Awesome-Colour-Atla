@@ -1,0 +1,56 @@
+{
+  "id": "cvpr26-e9bac4cdd69f",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "6320a40512f9a5882fd07c5ee6b896ef99393c0cc33b32f0c2a11e90ddc27f3b",
+  "reviewedPalette": [
+    "#FDF9EF",
+    "#EED2B8",
+    "#D4E7C4",
+    "#A8DEDE",
+    "#FBEAAF",
+    "#A6A6A6",
+    "#DCEAF7"
+  ],
+  "paletteObservation": "一维潜表示压缩器的编码 Transformer 为浅绿、解码 Transformer 为桃色，latent token 为浅青，熵模型为淡黄，长期记忆为浅蓝；鸟图与图像 patch 已遮罩。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      54,
+      56,
+      295,
+      300
+    ],
+    [
+      1763,
+      82,
+      1987,
+      322
+    ],
+    [
+      178,
+      382,
+      275,
+      474
+    ],
+    [
+      1773,
+      384,
+      1858,
+      469
+    ],
+    [
+      197,
+      663,
+      252,
+      886
+    ],
+    [
+      1783,
+      659,
+      1853,
+      873
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-dd0c975a50c1",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "MAR outer loop, teacher/student one-step distillation and RL reward-model architecture are explicit.",
+  "reviewedImageSHA256": "9686ca7db133b08d512290c15bbd843e001ed0adb4224959d317f40b542d3e89",
+  "reviewedPalette": [
+    "#FFF8E1",
+    "#90ACDF",
+    "#AFAAAA",
+    "#FDCD7E",
+    "#FFBAAC"
+  ],
+  "paletteObservation": "Cream diffusion/RL panels, blue latent tokens, gray masked tokens, gold predicted tokens and salmon one-step/reward modules are actual diagram colours; generated frog image excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

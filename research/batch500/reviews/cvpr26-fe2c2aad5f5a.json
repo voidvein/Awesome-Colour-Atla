@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-fe2c2aad5f5a",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Reasoning Palette的VAE潜变量与LLM前缀注入架构完整，源内子图说明保留。",
+  "reviewedImageSHA256": "8fab25c685928e28fb8e4043414db0fb7ce5411531264cff381ab6814ba2bd08",
+  "reviewedPalette": [
+    "#FFF2CC",
+    "#BDD7ED",
+    "#82BDA0",
+    "#A3D194",
+    "#8EAADC",
+    "#D6F0E0",
+    "#405D71"
+  ],
+  "paletteObservation": "黄色VAE编解码、蓝色LLM token、深浅绿mean pooling与青色latent embedding对应模块。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

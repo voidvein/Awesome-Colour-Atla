@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-335745f618b4",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "SoccerMaster左侧Spatial/Temporal Transformer与MAP Head神经结构完整。",
+  "reviewedImageSHA256": "d738062d40aa03dc15af51b21630fac6553bee87cc7e35a8445cbf865644dd35",
+  "reviewedPalette": [
+    "#FBEAF3",
+    "#FBBAED",
+    "#CEB5FB",
+    "#172B51",
+    "#C3D2EB",
+    "#FCD5F4",
+    "#BF9EFA"
+  ],
+  "paletteObservation": "全幅右侧任务截图和输入球场图片全部屏蔽；粉/紫语义token、Transformer块和蓝灰阶段填色来自左侧实际架构。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      607,
+      0,
+      2023,
+      1088
+    ],
+    [
+      0,
+      0,
+      607,
+      305
+    ]
+  ]
+}

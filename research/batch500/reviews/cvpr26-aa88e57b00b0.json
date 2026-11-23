@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-aa88e57b00b0",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "af4b07740be02758e8289d550d622f741d257e3b53607f7ecae2b1e3e912fcd1",
+  "reviewedPalette": [
+    "#D3ECD2",
+    "#B46868",
+    "#AED6F1",
+    "#0088BA",
+    "#DDC0BB",
+    "#B90000",
+    "#613B7D"
+  ],
+  "paletteObservation": "深展开网络的近端映射分区为浅绿，FEB 特征块为砖粉红，卷积层为浅蓝，协作块为紫色，传递特征为青蓝；深红虚线框划分展开阶段。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

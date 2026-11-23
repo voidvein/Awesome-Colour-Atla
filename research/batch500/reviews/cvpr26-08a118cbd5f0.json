@@ -1,0 +1,30 @@
+{
+  "id": "cvpr26-08a118cbd5f0",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "图文编码器、数量嵌入、SPS/CAD与projection/upsampling神经计算结构完整。",
+  "reviewedImageSHA256": "1f4d91f93a1f4a70f7829929974b079da5325157ea5a865f57d2a97e01e37085",
+  "reviewedPalette": [
+    "#E6EFFC",
+    "#EBB6B2",
+    "#E5F2DF",
+    "#F7E8ED",
+    "#CFD7E2"
+  ],
+  "paletteObservation": "水果输入、相似度/密度热图及空间聚合结果不采色；浅蓝编码器、粉色文本/聚合、浅绿语义token及蓝灰投影为实际色。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      352,
+      229,
+      587
+    ],
+    [
+      945,
+      0,
+      1524,
+      587
+    ]
+  ]
+}

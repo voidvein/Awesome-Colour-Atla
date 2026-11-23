@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-f0f764cfc460",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "BiGMINT蛋白/药物/高内涵图像多模态融合与activity classifier结构完整，显微样例已排除取色。",
+  "reviewedImageSHA256": "dfd848c1f326c65c90f3e84f84e642c1f1eaca65a3bf53c452961f703722a00d",
+  "reviewedPalette": [
+    "#C4E19D",
+    "#B2E6FA",
+    "#49C1C4",
+    "#F297BD",
+    "#FFDE75"
+  ],
+  "paletteObservation": "浅绿融合与classifier、浅蓝chemoproteomics、青色活性、粉色非活性token与黄色增强矩阵对应模块。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

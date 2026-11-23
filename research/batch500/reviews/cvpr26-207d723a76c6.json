@@ -1,0 +1,24 @@
+{
+  "id": "cvpr26-207d723a76c6",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "保留GeoMMAgent工具库、计划/多Agent执行和反思的实际神经Agent系统，而非benchmark统计图。",
+  "reviewedImageSHA256": "660582384d9a54de000b8cece8fc7cf8917acf4cfddea115a0a69f08d4eec1ec",
+  "reviewedPalette": [
+    "#FFF1D6",
+    "#DEEBF7",
+    "#FFD09B",
+    "#F0CCD3",
+    "#F5EBDF"
+  ],
+  "paletteObservation": "遥感示例/查询图屏蔽；奶油规划、蓝执行、桃工具、粉工具库和浅米角色区为真实结构阶段色。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      373,
+      188
+    ]
+  ]
+}

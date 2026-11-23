@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-2c7c74e9d685",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "CIM策略LVLM、检索模型与可验证奖励的强化训练框架完整，棒球场和检索照片已屏蔽取色。",
+  "reviewedImageSHA256": "89238052a522cae423994efa5ebcb1851e4b7a4bb66ca8132710d4ff7adc92b8",
+  "reviewedPalette": [
+    "#F2FBFF",
+    "#F3705A",
+    "#324244",
+    "#FFE2C7"
+  ],
+  "paletteObservation": "浅青reward分区、桃色Policy Model、红色错误caption标记和深青LVLM角色来自方法。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

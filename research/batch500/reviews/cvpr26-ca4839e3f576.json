@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-ca4839e3f576",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "HATS图2是GUI语义歧义操作示例，三类手机截图未展示模型或Agent计算架构。",
+  "reviewedImageSHA256": "3945e53d09dd0d3d0fe5c1c8d4a8aada87911a2ab8789f368692da3f7132aa4d",
+  "reviewedPalette": [
+    "#B3DFF3",
+    "#FFF1DD",
+    "#4CB8E8",
+    "#CC0000",
+    "#0288D1",
+    "#CFCFCF",
+    "#374955"
+  ],
+  "paletteObservation": "蓝色按钮、红色框和背景来自界面样例，不能当作架构配色。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

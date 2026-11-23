@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-2d8180c1eca6",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整OCR/LLM推理、教师检测器、概率融合和学生检测器训练结构。",
+  "reviewedImageSHA256": "b7ce4a943fbd8e60dba8e14a299d3efcd2d2d2f91ae282f34bb038960887d8dd",
+  "reviewedPalette": [
+    "#B3E5FC",
+    "#FFF9C4",
+    "#FFCDD2",
+    "#C8E6C9",
+    "#E1BEE7",
+    "#5C6BC0",
+    "#EF5350"
+  ],
+  "paletteObservation": "浅蓝Student Detector、粉红Fusion、浅绿OCR、淡紫教师和浅黄Refined Detector对应模块。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

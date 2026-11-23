@@ -1,0 +1,28 @@
+{
+  "id": "cvpr26-2b685252acff",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "动态重加权OOD网络显示共享feature encoder、closed-set分类head与OOD detection head连接完整。",
+  "reviewedImageSHA256": "4c901d2ef00533e48a0e967409bd650e2589659780a26f8d5aaa24eb4c7802c9",
+  "reviewedPalette": [
+    "#C55F10",
+    "#2C4981",
+    "#B6C6EA"
+  ],
+  "paletteObservation": "输入照片、transport cost热图及结果散点图不采；仅棕/蓝两个特征encoder分支和浅蓝OOD head三种神经模块色。",
+  "reviewedAt": "2026-11-23T17:50:07Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      254,
+      562
+    ],
+    [
+      1184,
+      197,
+      1354,
+      450
+    ]
+  ]
+}

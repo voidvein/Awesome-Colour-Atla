@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-3b8a2ebbec82",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Sparse/structured latent generation with overlapping patch-wise learned flow and decoder is explicit.",
+  "reviewedImageSHA256": "0ece895a0d3e9ed0bd8c05ddbd1bc3f5addd2efa6ccb4515fd699e0289b34792",
+  "reviewedPalette": [
+    "#EAF2E6",
+    "#C0C4F3",
+    "#A02B93",
+    "#F4C1C9",
+    "#4EA72E",
+    "#F69AA0",
+    "#A6A6A6"
+  ],
+  "paletteObservation": "Green sparse-generation panel, lavender vector latent, purple structure-latent outline, pink latent tokens, green routing outline and gray latent glyphs are measured; output-town photo/render colours excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

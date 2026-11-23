@@ -1,0 +1,36 @@
+{
+  "id": "cvpr26-962230e3616e",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "00e8975fc35f6e0be260266f9c03048b0f77632891bdcdbaabc4802535c1d9c8",
+  "reviewedPalette": [
+    "#F0D6DC",
+    "#D4FCA9",
+    "#D5D7FF",
+    "#F2A9A4",
+    "#8AADCD"
+  ],
+  "paletteObservation": "CodeDance 的 MLLM 策略块为淡紫，rollout 为浅粉，执行后文本为浅绿，奖励 r 为蓝灰，优势 A 为珊瑚粉；公交车与工具裁图及插画色均已排除。",
+  "reviewedAt": "2026-11-23T17:53:42Z",
+  "excludeRegions": [
+    [
+      265,
+      289,
+      505,
+      477
+    ],
+    [
+      693,
+      0,
+      1332,
+      512
+    ],
+    [
+      764,
+      1113,
+      1320,
+      1454
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "cvpr26-677bd80da11e",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "542214ca3fce7122a73ef80b727ec70b568d5ec99bcfebf117dc56c87b2934b6",
+  "reviewedPalette": [
+    "#FEFAF1",
+    "#CDDFF5",
+    "#E7B7B6",
+    "#DE8989",
+    "#203864",
+    "#B4463C",
+    "#843C0C"
+  ],
+  "paletteObservation": "浅蓝条件输入与粉红异常处理区域形成冷暖对比，米色Task Rollback区域、藏蓝模块标题和红棕色重规划文字提供结构层次。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "excludeRegions": [
+    [
+      297,
+      205,
+      1514,
+      775
+    ],
+    [
+      4743,
+      436,
+      5959,
+      929
+    ],
+    [
+      4173,
+      1129,
+      4445,
+      1832
+    ]
+  ],
+  "figure": "Figure 2",
+  "sourceTitle": "RC-NF: Robot-Conditioned Normalizing Flow for Real-Time Anomaly Detection in Robotic Manipulation",
+  "reviewEvidence": "contacts/audit-e/repair/16-masked.jpg"
+}

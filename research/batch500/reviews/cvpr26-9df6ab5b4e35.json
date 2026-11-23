@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-9df6ab5b4e35",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整Multi-Patch Transformer架构；已排除输入图和几何渲染结果，仅保留模块区域取色。",
+  "reviewedImageSHA256": "4a842464c9ff13b703ed6107cb5a2fe992e74faa8b8f1782304802ab98bdd868",
+  "reviewedPalette": [
+    "#F1D0EE",
+    "#DAF1D1",
+    "#DDEBF7",
+    "#FAE3D6"
+  ],
+  "paletteObservation": "4色分别来自浅紫DPT头、浅绿Global Patch Encoder、浅蓝backbone和浅桃注意力层。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

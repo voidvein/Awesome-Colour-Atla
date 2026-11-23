@@ -1,0 +1,36 @@
+{
+  "id": "cvpr26-4d245653b8a1",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "54665b3619164358cfd3eb378ff422e4563c64891ad38a57fda66d860573a48d",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。 已遮罩示例照片/图像区域重新取色，并实际再次查看图与新色卡确认。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-4d245653b8a1/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/06.jpg",
+  "sourceTitle": "NESTOR: A Nested MOE-based Neural Operator for Large-Scale PDE Pre-Training",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#DBDBDB",
+    "#FFF1CC",
+    "#C5DFB3",
+    "#CAFFFF",
+    "#BE9000",
+    "#90AADB",
+    "#E2EFDB"
+  ],
+  "paletteObservation": "灰色总体MoE容器配奶油黄色FlashAttn/MLP、浅青Router、浅绿输出投影；下部蓝紫和浅绿分别分隔两种细节模块。",
+  "excludeRegions": [
+    [
+      34,
+      16,
+      169,
+      456
+    ],
+    [
+      1248,
+      16,
+      1377,
+      453
+    ]
+  ],
+  "maskReviewEvidence": "contacts/audit-a/masks/06.jpg"
+}

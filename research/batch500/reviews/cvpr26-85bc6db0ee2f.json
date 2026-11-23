@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-85bc6db0ee2f",
+  "verdict": "needs_palette_mask",
+  "reviewer": "source_figures",
+  "reason": "DynamicTree流程完整，但照片/渲染屏蔽后当前灰色来自频率轴、仅橙色对应明确网络块；不能用谱点或树渲染补足模块色。",
+  "reviewedImageSHA256": "9117892326e752a37ebed6ddd97cc0205e98ff773cc475683e30e7c93008a847",
+  "reviewedPalette": [
+    "#F2AA84",
+    "#9C9C9C"
+  ],
+  "paletteObservation": "橙色Sparse Encoder/Diffusion可用，灰色频率网格与蓝色谱渲染需进一步甄别，暂不接受。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "cvpr26-1b73a9b4b1d6",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "c69a43ccfa5618831ee95223f6548b228e9018ac49d8e4921d65d3f9c7af6299",
+  "reviewedPalette": [
+    "#FFFBEF",
+    "#DAE3F5",
+    "#FADADF",
+    "#D4F3F0",
+    "#FCE6D5",
+    "#E3F2D9"
+  ],
+  "paletteObservation": "查询 token 和真实原型使用浅蓝，伪造原型使用浅粉，patch token 为桃色、CLS token 为浅青，似然权重块为浅绿；人脸与注意力热图均已遮罩。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      129,
+      135,
+      274,
+      278
+    ],
+    [
+      334,
+      102,
+      395,
+      326
+    ],
+    [
+      1349,
+      459,
+      1444,
+      651
+    ],
+    [
+      707,
+      465,
+      852,
+      581
+    ]
+  ]
+}

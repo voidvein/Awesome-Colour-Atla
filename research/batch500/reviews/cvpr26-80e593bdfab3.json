@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-80e593bdfab3",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "e258e05ca9d08e01cfff3afde34167474118b685392eddfcf793722383effaf6",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-80e593bdfab3/cvpr26-80e593bdfab3.png",
+  "reviewEvidence": "contacts/audit-a/individual/09.jpg",
+  "sourceTitle": "UniMERNet: A Universal Network for Real-World Mathematical Expression Recognition",
+  "figure": "Figure 5",
+  "reviewedPalette": [
+    "#FFE6CC",
+    "#BEDBB3",
+    "#D9E7FB",
+    "#F8A9A9",
+    "#FF8686",
+    "#84C26E",
+    "#F7CDCC"
+  ],
+  "paletteObservation": "浅桃色用于ConvEnhance/MLP，绿色用于R-S Attention，粉红用于Local/MER Attention，蓝色包围输入符号序列。"
+}

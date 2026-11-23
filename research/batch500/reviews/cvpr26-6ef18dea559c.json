@@ -1,0 +1,61 @@
+{
+  "id": "cvpr26-6ef18dea559c",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "7f3b603469ce80eaa94b358d949db9dcbd178b013617cd12e3f4c7205311a7cc",
+  "reviewedPalette": [
+    "#D3EADA",
+    "#D7E9FF",
+    "#FFC993",
+    "#4E6756",
+    "#FDDFF9",
+    "#FFDDB7"
+  ],
+  "paletteObservation": "AutoGaze 的自回归 Transformer 为浅绿、视觉编码器为橙色、重建损失头为浅蓝，深绿箭头反馈采样结果，Video MAE 奖励块为浅粉；所有视频 patch 已排除。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      11,
+      48,
+      340,
+      432
+    ],
+    [
+      532,
+      92,
+      613,
+      174
+    ],
+    [
+      693,
+      113,
+      727,
+      151
+    ],
+    [
+      1040,
+      108,
+      1089,
+      159
+    ],
+    [
+      1181,
+      117,
+      1211,
+      151
+    ],
+    [
+      384,
+      311,
+      499,
+      430
+    ],
+    [
+      911,
+      306,
+      1032,
+      430
+    ]
+  ]
+}

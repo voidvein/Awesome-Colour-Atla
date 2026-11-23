@@ -1,0 +1,42 @@
+{
+  "id": "cvpr26-48ccafb4f03b",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "c95e44b7f5834e090b0b7ccc2ac7ee542336b0dc6ac69831131b6e17f128fa5e",
+  "reviewedPalette": [
+    "#C2F1C8",
+    "#CAEEFB",
+    "#FFC3C6",
+    "#FBE3D6",
+    "#DDE5F2"
+  ],
+  "paletteObservation": "360 度视觉搜索图以粉红标注 SFT、浅青标注多轮 RL，推理文本框为浅绿，任务框为桃色，观测历史 token 为淡蓝；机场照片不参与取色。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      157,
+      234,
+      500,
+      404
+    ],
+    [
+      1161,
+      101,
+      1358,
+      209
+    ],
+    [
+      848,
+      320,
+      1042,
+      419
+    ],
+    [
+      1256,
+      359,
+      1439,
+      463
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "cvpr26-1d2bb6c123d7",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "CLIP语义/几何图构建、多层消息传递、FFN和异常评分网络完整。",
+  "reviewedImageSHA256": "6b669cf89f43c206658446ac8d1937a9ea39553ff2539d73279a6b7cdaac5eb6",
+  "reviewedPalette": [
+    "#E7EFF9",
+    "#F8D7BE",
+    "#D3EAD4",
+    "#C0D6FB",
+    "#F6B082",
+    "#BEBFBE"
+  ],
+  "paletteObservation": "输入和布局结果图排除，残余深蓝热图候选也剔除；保留绿语义、蓝几何、桃色评分等明确模块色。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      237,
+      420
+    ],
+    [
+      1455,
+      0,
+      1692,
+      420
+    ],
+    [
+      237,
+      210,
+      508,
+      420
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-e707837df5dd",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Complete dual-resolution ViT/Global Transformer, adapter and point/pose/scale heads are explicit.",
+  "reviewedImageSHA256": "090688a0c5cf6d0f6893c0436e4af841e31ce76e0d3ecff7db9eb829db9f204b",
+  "reviewedPalette": [
+    "#FFB46F",
+    "#B8534F",
+    "#81B366"
+  ],
+  "paletteObservation": "Measured orange Global Transformer outline, red convolution/MLP-head outlines and green Adapter outline are the three actual module colours; room photos/pointmaps excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

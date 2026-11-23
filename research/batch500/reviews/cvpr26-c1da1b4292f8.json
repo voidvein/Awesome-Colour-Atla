@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-c1da1b4292f8",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整PhaSR三支Transformer与PAN/PATB结构，输入/normal/depth/histogram色已排除。",
+  "reviewedImageSHA256": "49ff5b2065177e43233302f90d4e3e021e7d7755a61625f4be8c732b4041f5db",
+  "reviewedPalette": [
+    "#B3B3B3",
+    "#810000"
+  ],
+  "paletteObservation": "保留2种真实架构色：灰色Transformer/投影块与深红梯度/下采样连接；不使用蓝色法线图。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

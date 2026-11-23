@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-849669162d68",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "c0885cd812a78b468f0d0faf2a399ba41d019703c9e1dd549264294606194097",
+  "reviewedPalette": [
+    "#C2E8F7",
+    "#F6C5AC",
+    "#E9F8CD",
+    "#60CAF4",
+    "#B4E4A1",
+    "#ACA7CD"
+  ],
+  "paletteObservation": "ViBES 已换成真正的 Figure 2：Decoder 为浅青，token 交织为桃色，Fractional RoPE 为浅黄绿，手部 token 为绿、下身 token 为亮蓝，多模态自注意力为灰紫。",
+  "reviewedAt": "2026-11-23T17:53:41Z"
+}

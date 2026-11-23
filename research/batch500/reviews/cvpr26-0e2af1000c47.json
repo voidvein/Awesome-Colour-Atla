@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-0e2af1000c47",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "5bba36852d03a0496496a16fc917d16e24b1fc39d73eb1ef209d73d3b37c8379",
+  "reviewedPalette": [
+    "#DAE2F5",
+    "#F7C6A0",
+    "#FFF9E8",
+    "#B4A2CF",
+    "#F5B7BE",
+    "#92D050",
+    "#FFC000"
+  ],
+  "paletteObservation": "FinPercep-RM 的奖励网络底座为浅蓝，适配器为桃色，特征区域为浅黄，课程范围用淡紫椭圆表示，粉/绿/黄边框对应噪声组和输出奖励区间。",
+  "reviewedAt": "2026-11-23T17:53:42Z"
+}

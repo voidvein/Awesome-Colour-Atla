@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-f65c1cb768e6",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "6086a5c9052c9137998abe780f2bbfe535c2310c9e8dfa58e0179fd309bfb955",
+  "reviewedPalette": [
+    "#ECF3FA",
+    "#9CC2E5",
+    "#FFEFC4",
+    "#EB9D85",
+    "#EBD720",
+    "#006FC0",
+    "#F8E0DA"
+  ],
+  "paletteObservation": "联合注意力和 RoPE 方块为淡紫色，Linear 与 MLP 为蓝色，动作查询为淡黄色，蓝黄两路连线在自注意力中汇合，底部 hindsight 编码器为浅粉。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

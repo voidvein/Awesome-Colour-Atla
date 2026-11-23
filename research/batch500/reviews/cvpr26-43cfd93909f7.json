@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-43cfd93909f7",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整Robo-SGG两阶段架构及NRM/LEE细节；掩掉车辆示例后重提色并复看。",
+  "reviewedImageSHA256": "c52e22d12a10e8561ebf4246349344b84399faa7a520a278ae15f5478da1265d",
+  "reviewedPalette": [
+    "#FBE5D6",
+    "#DDEAF7",
+    "#F8CAAD",
+    "#FFF2CC",
+    "#E2F0D9",
+    "#BFBFBF"
+  ],
+  "paletteObservation": "浅桃NRM、浅蓝对象关系编码器、浅黄残差区域与浅绿场景图节点可对应到模块。",
+  "reviewedAt": "2026-11-23T16:38:04Z"
+}

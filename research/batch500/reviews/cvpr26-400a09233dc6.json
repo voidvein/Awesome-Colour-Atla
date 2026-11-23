@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-400a09233dc6",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "原图含完整语义融合框架及示例，已排除照片区域，仅保留真实语义模块配色。",
+  "reviewedImageSHA256": "00d93abcc3dc3f3d1866740e20d8f476edcc99063c97b8b16c083af785b7920b",
+  "reviewedPalette": [
+    "#DDEBF6",
+    "#FFD866",
+    "#E2EFD8",
+    "#999999",
+    "#2F5497"
+  ],
+  "paletteObservation": "浅蓝全局局部融合、黄色局部语义、浅绿验证背景与蓝色语义箭头均可对应。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

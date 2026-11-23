@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-e30fc776fc9b",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "TriDF Figure 2 describes data generation, annotation and benchmark evaluation; cached alternatives are examples, statistics or templates, not model architecture.",
+  "reviewedImageSHA256": "4939f6968d8192afef2a95d17fbedc0767bed99681b959c1efdee55a63927f1a",
+  "reviewedPalette": [
+    "#E1ECFF",
+    "#FFF2AB",
+    "#D9E3BF",
+    "#FEECE3",
+    "#31859D",
+    "#8FA758",
+    "#6B8EBE"
+  ],
+  "paletteObservation": "Visible colours belong to dataset/benchmark, rendered examples or non-neural algorithm illustrations; not accepted as network-module colours.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

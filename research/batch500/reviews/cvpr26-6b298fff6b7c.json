@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-6b298fff6b7c",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "完整PAVAS多模态扩散网络，已看大图及新色点；遮罩照片/点云，保留PPE棕色标题与真实模型蓝黄红模块。",
+  "reviewedImageSHA256": "a03824b1972d260d07e71b6db4e656ee29a2f22208883d45ef1f35f35701803c",
+  "reviewedPalette": [
+    "#FFEFEF",
+    "#FFE3A4",
+    "#D0E7FC",
+    "#EE9699",
+    "#C6B19D",
+    "#FFC7A9",
+    "#7EB6DE"
+  ],
+  "paletteObservation": "浅蓝色编码速度相关分支，浅黄色编码质量相关分支，粉红色统一音频适配器；棕色PPE标题与蓝色Fusion块提供较深的结构锚点。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

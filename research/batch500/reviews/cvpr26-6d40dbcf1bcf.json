@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-6d40dbcf1bcf",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Two-stage Single-View/Multi-View DiT plus routed and part-aligned attention are explicit and complete.",
+  "reviewedImageSHA256": "7abf513cdd2d72f8e39e6d342bd3e6897db0256dd96a2727c163272c7598c8ac",
+  "reviewedPalette": [
+    "#FFE6CC",
+    "#DCF9FF",
+    "#F9CC84",
+    "#E3E4F9",
+    "#B0DFF0"
+  ],
+  "paletteObservation": "Cyan/peach architecture panels, golden attention blocks, lavender routing panel and blue latent tokens are measured; textured objects and part-render colours excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

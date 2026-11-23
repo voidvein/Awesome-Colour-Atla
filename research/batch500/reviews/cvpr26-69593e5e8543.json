@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-69593e5e8543",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Replaced matching-results Figure 2 with original Figure 3 showing clean/noisy ViT encoder/decoder training branches and LoRA adaptation.",
+  "reviewedImageSHA256": "e1c6e3d770aaa0ba55e2e122823a8dac61ee8654be5813fd6ed6e158256faffd",
+  "reviewedPalette": [
+    "#DDDBF7",
+    "#FFE2D8",
+    "#DCFFD8"
+  ],
+  "paletteObservation": "Lavender frozen MASt3R branch, peach Dark3R adaptation branch and pale green loss panel are the three genuine neural framework colours; scene images and loss feature maps excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

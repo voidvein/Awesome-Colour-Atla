@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-fed32acfb776",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整ActiveVLA粗细Paligemma、active view和3D action网络，物体照片与结果已排除取色。",
+  "reviewedImageSHA256": "2bc5eb0d1e7596aa9eabac056187f81e245c97926d8f7f4faf3c59d0ab44f567",
+  "reviewedPalette": [
+    "#FFF1C9",
+    "#DAE2F5",
+    "#F5B7BE",
+    "#D3F4F1",
+    "#B6C6EA"
+  ],
+  "paletteObservation": "浅黄粗感知、淡蓝动作分支、粉红image token、浅青Paligemma和蓝色convex upsample来自网络。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

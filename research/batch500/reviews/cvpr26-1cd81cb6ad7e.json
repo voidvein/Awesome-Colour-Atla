@@ -1,0 +1,31 @@
+{
+  "id": "cvpr26-1cd81cb6ad7e",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "bb977b61ee11345a8ddfefdd58da587e629e34cf50a0c52716a4a1f9c1214293",
+  "reviewedPalette": [
+    "#DCE5D5",
+    "#FEDAA6",
+    "#D9E2F3",
+    "#FFC000",
+    "#93A9D7",
+    "#73A1EC"
+  ],
+  "paletteObservation": "ATD 的视觉交叉注意力为浅绿，左右脑查询分别以桃色和浅蓝标记，导航图的节点为蓝色与金黄，状态/想象连接用橙蓝两色；室内照片和脑图标不参与取色。",
+  "reviewedAt": "2026-11-23T17:53:42Z",
+  "excludeRegions": [
+    [
+      115,
+      293,
+      490,
+      426
+    ],
+    [
+      1016,
+      256,
+      1089,
+      325
+    ]
+  ]
+}

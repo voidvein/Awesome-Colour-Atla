@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-6220c9be0f3c",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "查看原文方法/其他图：DCT、低通和阈值的传统感知哈希流程，无神经模块，其他为数据错误实例。",
+  "reviewedImageSHA256": "e504b771f25ae44b5a900a0d4a0cd7ad301357f5b992bda88e63e71df7e54d11",
+  "reviewedPalette": [
+    "#334456",
+    "#67515D",
+    "#547085",
+    "#86686A",
+    "#203248",
+    "#403C4D",
+    "#5A656E"
+  ],
+  "paletteObservation": "候选七色全来自卫星照片；拒绝，未以黑线或白纸凑色。",
+  "reviewedAt": "2026-11-23T17:11:14Z"
+}

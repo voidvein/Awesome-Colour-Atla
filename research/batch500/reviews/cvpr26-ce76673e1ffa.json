@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-ce76673e1ffa",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "CGU-Bayes因果图到神经推断集成结构完整，输入物体图已排除取色。",
+  "reviewedImageSHA256": "744142a5aa1d88fa5346b079ae25f662acd241251a55b58a5d6da2759da26cc6",
+  "reviewedPalette": [
+    "#DDEAF7",
+    "#1E4E79"
+  ],
+  "paletteObservation": "保留2色：淡蓝条件引导箭头与深蓝Bayesian inference结构标注。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

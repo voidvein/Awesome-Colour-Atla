@@ -1,0 +1,41 @@
+{
+  "id": "cvpr26-df6857a05d7b",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "多先验表征、OmR/fusion和融合block/component attention模块完整。",
+  "reviewedImageSHA256": "8656e556bb0c60f02201dabc8d1eebbccffd364713a2aad611a8ed943a1cacda",
+  "reviewedPalette": [
+    "#CFD4E8",
+    "#FBE4D6",
+    "#FDE499",
+    "#FFF4D1"
+  ],
+  "paletteObservation": "滤去低光照片、增强结果和特征热图颜色；只留FB灰紫、CWA杏色和两种黄色融合/调制区。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      389,
+      314
+    ],
+    [
+      1286,
+      0,
+      1692,
+      314
+    ],
+    [
+      0,
+      296,
+      575,
+      616
+    ],
+    [
+      575,
+      394,
+      1134,
+      616
+    ]
+  ]
+}

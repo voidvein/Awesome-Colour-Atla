@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-3e1d52054620",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "补取并查看原始PDF：Fig1仅任务能力示例，Fig3为训练数据饼图，Fig4为RL优势公式比较，余图为案例/成绩，无可用网络结构图。",
+  "reviewedImageSHA256": "5f1787252a1c857a72c8f6083c69f497a64aa48d5e8ee4d3118b680f9e558605",
+  "reviewedPalette": [
+    "#E6ECF2",
+    "#F9F3E2",
+    "#FAEBF7",
+    "#E8DFD9"
+  ],
+  "paletteObservation": "未以数据饼图或任务实例背景替代架构配色。",
+  "reviewedAt": "2026-11-23T17:11:14Z"
+}

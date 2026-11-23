@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-cad19a2921a3",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Reward/policy models and SFT-to-policy-guided RL training graph are explicit.",
+  "reviewedImageSHA256": "e2d8e204dd2da49a419e9a91316c392ad279d6523b3372bc12470a5a93c2ead6",
+  "reviewedPalette": [
+    "#D8D9D8",
+    "#BCCAEA",
+    "#F3E0C2",
+    "#D5E7D3"
+  ],
+  "paletteObservation": "Gray reward-model regions, lavender policy/RL panel, beige data-preparation panel and pale green SFT panel are retained; before/after photos excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

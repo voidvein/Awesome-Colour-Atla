@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-4969087afabc",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "MIRA Figure 3 shows benchmark task distribution and data construction; remaining candidates are task examples/performance comparisons, not architecture.",
+  "reviewedImageSHA256": "e74daaf2158c9751bd2c4e6ad0209ac2adf7b394218937f3f0a4528f2a422d78",
+  "reviewedPalette": [
+    "#F4EBDE",
+    "#B2B783",
+    "#C89F62",
+    "#C79177",
+    "#B7D9D0",
+    "#E8D3A5",
+    "#E8C9B6"
+  ],
+  "paletteObservation": "Visible colours belong to dataset/benchmark, rendered examples or non-neural algorithm illustrations; not accepted as network-module colours.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

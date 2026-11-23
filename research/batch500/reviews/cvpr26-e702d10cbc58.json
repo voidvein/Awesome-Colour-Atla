@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-e702d10cbc58",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "3825c135beb8bc15cba8227ed03125e702259a2b1daa9a261bb8f252220329e2",
+  "reviewedPalette": [
+    "#D5D5D5",
+    "#FFE598",
+    "#C4E0B4",
+    "#BDD6ED"
+  ],
+  "paletteObservation": "灰色DiT与前馈模块承载主干，奶油黄自注意力/条件token、浅绿文本token和淡蓝噪声token贯穿训练两侧。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "excludeRegions": [
+    [
+      97,
+      56,
+      438,
+      368
+    ],
+    [
+      1029,
+      273,
+      1106,
+      366
+    ]
+  ],
+  "figure": "Figure 2",
+  "sourceTitle": "MakeAnything: Harnessing Diffusion Transformers for Multi-Domain Procedural Sequence Generation",
+  "reviewEvidence": "contacts/audit-e/repair/09-masked.jpg"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cvpr26-5d5c8a714fab",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "28e2e2168fc1bde062e8a5a53c31fff60dbcd034eb5e8315ec186f31d174870d",
+  "reviewedPalette": [
+    "#92D050",
+    "#FF9300"
+  ],
+  "paletteObservation": "排除动物、车辆及增强图后只保留两种实际网络色：CLS 与层级损失块为绿色，目标 embedding 及文本损失块为橙色。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      159,
+      236,
+      360,
+      395
+    ],
+    [
+      882,
+      74,
+      1055,
+      216
+    ],
+    [
+      1111,
+      77,
+      1205,
+      220
+    ],
+    [
+      877,
+      315,
+      1525,
+      418
+    ]
+  ]
+}

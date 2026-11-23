@@ -1,0 +1,30 @@
+{
+  "id": "cvpr26-b23f1056f96f",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "3cf44481d6223f6e88379212104e6b41295ca846f0d35ce9a7be31c1df64d3e0",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。 已遮罩示例照片/图像区域重新取色，并实际再次查看图与新色卡确认。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-b23f1056f96f/cvpr26-b23f1056f96f.png",
+  "reviewEvidence": "contacts/audit-a/individual/22.jpg",
+  "sourceTitle": "Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning",
+  "figure": "Figure 3",
+  "reviewedPalette": [
+    "#FDD9C4",
+    "#C1BEFD",
+    "#F2CFED",
+    "#DCEAF7",
+    "#AF66D0",
+    "#544EC4",
+    "#61CAF3"
+  ],
+  "paletteObservation": "浅紫视觉编码器、桃色LLM与投影器、粉色工具箱构成主干分工，蓝紫色奖励模块和青色图例形成对比。",
+  "excludeRegions": [
+    [
+      200,
+      21,
+      369,
+      730
+    ]
+  ],
+  "maskReviewEvidence": "contacts/audit-a/masks/22.jpg"
+}

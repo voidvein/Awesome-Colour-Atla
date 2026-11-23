@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-7a355f548721",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Explicit image encoder, VLM, adapters and mask decoder architecture is complete.",
+  "reviewedImageSHA256": "a6d21d3c68c1dbd2ad441b6a33d13b1d51c154a6857678c26c8b8cf562db6e8b",
+  "reviewedPalette": [
+    "#C2F0C7",
+    "#F8F7B4",
+    "#C1E5F5",
+    "#F2CFED"
+  ],
+  "paletteObservation": "Green VLM, yellow Mask Decoder, blue Image Encoder and pink text-token adapter are retained; soccer photographs excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

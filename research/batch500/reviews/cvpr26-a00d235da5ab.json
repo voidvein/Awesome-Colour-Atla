@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-a00d235da5ab",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "图4为UniMA明确的多模态接收、TER推理、检查和生成代理结构；并非仅基准统计。",
+  "reviewedImageSHA256": "bf4a0f247384598e677a0653fef8319c1c2b45646aec8499c8db60d08d0ba0e1",
+  "reviewedPalette": [
+    "#FBEBE8",
+    "#F0B3A7",
+    "#CFCDF6",
+    "#F6E6B8",
+    "#97D6F2",
+    "#BCD6A3",
+    "#F0C419"
+  ],
+  "paletteObservation": "桃粉TER推理模块、淡紫生成模块、黄色接收、青色检查器和浅绿report评审路径可定位。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

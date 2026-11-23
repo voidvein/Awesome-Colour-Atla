@@ -1,0 +1,23 @@
+{
+  "id": "cvpr26-f5dc9ed20b60",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "统一decoder-only多模态模型、双FFN和attention/QKV结构完整。",
+  "reviewedImageSHA256": "dc493cbb772489829b79c9140ee17fdc40c9d08771066c5abb85a39df992fc85",
+  "reviewedPalette": [
+    "#DFE9F6",
+    "#FAE2D5",
+    "#D9F2D0",
+    "#F0F9ED"
+  ],
+  "paletteObservation": "右侧生成猫与编辑实例全部排除；只保留模型主体蓝、桃和绿色FFN/输入token填色。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      1049,
+      0,
+      1692,
+      612
+    ]
+  ]
+}

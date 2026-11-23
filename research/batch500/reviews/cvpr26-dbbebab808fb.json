@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-dbbebab808fb",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "已看新裁后的完整attention架构和图例，去对齐场景照片与性能散点，四色均真实模块填充/背景。",
+  "reviewedImageSHA256": "3ba263311ff0851f9a2462d89c468957fff5cf6b6128590d5b1405f8a7a035fb",
+  "reviewedPalette": [
+    "#FEFFEB",
+    "#FFCD8C",
+    "#C3DDB0",
+    "#EDF8FD"
+  ],
+  "paletteObservation": "橙色表示全局注意力，绿色表示帧注意力，浅黄和浅蓝背景区分早期与后期层；缩小后的全局注意力块仍保持橙色语义。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

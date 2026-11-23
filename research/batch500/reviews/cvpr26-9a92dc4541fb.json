@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-9a92dc4541fb",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "b9c03773d2f4ede0bc1a4d5642deadf6f7d91fe9d015d134ee979ae8880590d0",
+  "reviewedPalette": [
+    "#FEFBE4",
+    "#E9E4FF",
+    "#FFE5E9",
+    "#E4FFE9",
+    "#CFE2F3"
+  ],
+  "paletteObservation": "NoRD 主干为淡黄，视觉编码器为浅绿，语言 tokenizer 为淡紫，动作 tokenizer 为浅粉，输出动作 token 为浅蓝，形成清楚的多模态汇合结构。",
+  "reviewedAt": "2026-11-23T17:53:41Z"
+}

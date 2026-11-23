@@ -1,0 +1,48 @@
+{
+  "id": "cvpr26-9b807f5ddc81",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "Figure 2 展示分割、运动提案搜索、几何剪枝与融合的优化过程，主体为点云/高斯渲染例子，未绘神经网络模块结构；其他主源候选为重建结果、提案过程或消融，不能用几何流程充数。",
+  "reviewedImageSHA256": "21da6ec2acc0d1ecdf7dd66d48e8670e94ae7b78d85baaf8075ffcb6cd87003c",
+  "reviewedPalette": [
+    "#E97131",
+    "#CBCAC8",
+    "#D9F2D0",
+    "#0F9ED5",
+    "#4EA72E",
+    "#FFEDB4",
+    "#A77A50"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:27:30Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2. ArtPro reconstructs articulated objects from multi-view RGBD images of two states. The pipeline begins by initializing part- motion proposals through over-segmentation and a mixed-variable search. These proposals are then refined via a self-supervised optimiza- tion that updates the parts and their motion parameters using transformable 3D Gaussians. The optimization incorporates motion pruning and proposal integration operations to calibrate motions and merge proposals into coherent movable parts. Finally, a post-processing re- finement stabilizes the appearance, geometry, and motion parameters of the reconstruction."
+    },
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1. Existing methods like ArtGS [32] are highly sensitive to initial part segmentation, leading to inaccurate motion and ge- ometry. Our method, ArtPro, leverages a prior-guided mobility initialization and adaptively merges mobility proposals during op- timization, achieving robust reconstruction of complex multi-part articulated objects."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3. The part initialization and reconstruction results of ArtGS [32] and ours on two-part objects. Although our approach doesn’t merge the two disadjacent movable parts (second row), we still obtain accurate motion and geometry reconstruction."
+    },
+    {
+      "figure": "Figure 4",
+      "caption": "Figure 4. The reconstructed articulated objects in different motion states (t = {0, 0.5, 1}) and their part-motion structures."
+    },
+    {
+      "figure": "Figure 5",
+      "caption": "Figure 5. The intermediate results during our adaptive proposal integration optimization. We show the optimized Gaussians (with their center points) and the estimated motions before the proposal integration operation at each cycle."
+    },
+    {
+      "figure": "Figure 7",
+      "caption": "Figure 7. Reconstructed results of real-world articulated objects."
+    },
+    {
+      "figure": "Figure 6",
+      "caption": "Figure 6. Ablation study results. To compare with our OverSeg initialization, we use DBSCAN [7] as our clustering implementation, denoted V anilla. We further add motion initialization to V anilla and OverSeg baseline, denoted w/ MoI. Finally, we removed the pruning strategy from Full (w/o Prune) to verify its significant."
+    }
+  ]
+}

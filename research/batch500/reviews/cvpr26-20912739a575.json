@@ -1,0 +1,45 @@
+{
+  "id": "cvpr26-20912739a575",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "d04642ad419dc8beb2e2eaa2ea6f89b23c3d2d32a607339921753268fac1e304",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。 已遮罩示例照片/图像区域重新取色，并实际再次查看图与新色卡确认。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-20912739a575/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/32.jpg",
+  "sourceTitle": "Fine-grained Image Aesthetic Assessment: Learning Discriminative Scores from Relative Ranks",
+  "figure": "Figure 4",
+  "reviewedPalette": [
+    "#E2F0D9",
+    "#DEEBF7",
+    "#424B55",
+    "#F0FDF4"
+  ],
+  "paletteObservation": "排除全部示例照片后保留四个模块代表色：浅薄荷色DiffToken、浅绿CTAlign、浅蓝RankReg及深灰对话框描边。",
+  "excludeRegions": [
+    [
+      23,
+      101,
+      1410,
+      745
+    ],
+    [
+      23,
+      857,
+      899,
+      1488
+    ],
+    [
+      945,
+      1151,
+      1873,
+      1439
+    ],
+    [
+      2299,
+      1192,
+      3118,
+      1465
+    ]
+  ],
+  "maskReviewEvidence": "contacts/audit-a/masks/32.jpg"
+}

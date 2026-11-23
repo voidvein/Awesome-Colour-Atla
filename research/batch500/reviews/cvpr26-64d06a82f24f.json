@@ -1,0 +1,40 @@
+{
+  "id": "cvpr26-64d06a82f24f",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "E2EGS Figure 1 为事件累加、时序一致性、近邻/深度/表面采样及高斯渲染的传统几何优化流程，没有明确的神经网络模块结构；其他候选为结果或消融，不能充架构卡。",
+  "reviewedImageSHA256": "e7d818d240f79e0f019992ed187d6448478d8eda0a46db8dfa99a54c9f9d269b",
+  "reviewedPalette": [
+    "#C1C1C1",
+    "#C7C3FE",
+    "#D4FEBF",
+    "#FFF3F3",
+    "#FEA116",
+    "#1C15C0",
+    "#00AAE9"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1 : Edge-guided reconstruction framework. Our pipeline extracts robust edges from consecutive event maps (Sec. 3.2 ), initializes edge-aware Gaussians (Sec. 3.3 ), and applies edge-guided losses during joint optimization of 3D scene representation and camera trajectory (Sec. 3.4 ). Depth sampling generates edge-guided Gaussians along viewing rays using inverse depth distribution, while surface sampling randomly initializes complementary Gaussians to cover texture-less regions. k k -NN stands for k k -nearest neighbors."
+    },
+    {
+      "figure": "Figure 4",
+      "caption": "Figure 4 : Impact of trajectory error on reconstruction quality. (a) Ground truth. (b) IncEventGS exhibits multiple failure modes: spatial misalignment causing viewpoint shifts and blurred regions in distant areas beyond initial coverage (top), and objects disappearing (bottom). (c) IncEventGS † fails to reconstruct scenes due to severe trajectory errors. (d) Our method achieves accurate reconstruction with sharp textures and correct spatial alignment."
+    },
+    {
+      "figure": "Figure 5",
+      "caption": "Figure 5 : Effect of edge-guided loss. Baseline (top) vs. ours with edge loss but random initialization (bottom) at early and final training stages. Each pair shows rendered image (left) and depth map (right). Depth maps show that our edge-guided loss enables faster convergence."
+    },
+    {
+      "figure": "Figure 6",
+      "caption": "Figure 6 : Effect of edge ratio on reconstruction quality. Red boxes highlight comparison regions. (a) Ground truth. (b) Without edge guidance, fine details such as dot patterns on the back wall are lost. (c-d) Moderate edge ratios achieve optimal reconstruction with well-preserved details. (e) Excessive edge emphasis causes reconstruction degradation due to insufficient surface coverage."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3 : Qualitative results on Replica dataset. Red boxes highlight regions of interest for comparison. Our method produces sharper boundaries and cleaner surfaces compared with baselines. IncEventGS shows failures including wave-like artifacts, missing details, and indistinct boundaries. IncEventGS † exhibits severe reconstruction failures due to accumulated trajectory estimation errors."
+    }
+  ]
+}

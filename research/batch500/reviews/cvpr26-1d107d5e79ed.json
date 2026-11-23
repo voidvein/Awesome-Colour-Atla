@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-1d107d5e79ed",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由对象生成样例改为图1完整Edit-As-Act LLM目标预测和planner-validator回归闭环；室内渲染已排除取色。",
+  "reviewedImageSHA256": "b8bdfd86f629f13dffe6ff84674c2d699ecbb3f1d8c25931b6264f9bbf2cafa6",
+  "reviewedPalette": [
+    "#FAE4D5",
+    "#FFE699",
+    "#C5DFB4",
+    "#B4C6E7",
+    "#F4B083"
+  ],
+  "paletteObservation": "桃色目标条件、黄色Planner、绿色Validator、蓝色Goal Regression和橙色状态箭头对应Agent模块。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

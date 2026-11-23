@@ -1,0 +1,35 @@
+{
+  "id": "cvpr26-69493b65d84b",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "fbc09173ec3e6ae8ebc4e888af9d1b88c9d76bca8daf7bb5208540065246a838",
+  "reviewedPalette": [
+    "#ECF0F8",
+    "#FCF0C7",
+    "#B7E5C7",
+    "#FBDDE0"
+  ],
+  "paletteObservation": "SRPO 的观测 token 为淡蓝灰、动作 token 为薄荷绿，Reference Model 使用淡黄，优势分数使用浅粉；环境图标、轨迹照片与彩色曲面已排除。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      188,
+      283,
+      343,
+      404
+    ],
+    [
+      903,
+      78,
+      1030,
+      476
+    ],
+    [
+      1150,
+      217,
+      1396,
+      402
+    ]
+  ]
+}

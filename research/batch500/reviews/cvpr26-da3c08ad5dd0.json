@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-da3c08ad5dd0",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Complete Deformation Extraction and Deformation Transfer networks with point encoders and modulated task tokens.",
+  "reviewedImageSHA256": "0e7ad5e4593b0b50a84dcddf63deff73509a0bc79a5807f82d56d79106d2136b",
+  "reviewedPalette": [
+    "#A6CAEC",
+    "#E4DAF3",
+    "#FBE4D7",
+    "#BFBFBF",
+    "#FFB3B3",
+    "#7DC7B1"
+  ],
+  "paletteObservation": "Blue point encoders, purple transfer transformer, peach head, gray query tokens, pink prompt tokens and green task-token channels are actual architecture glyphs.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

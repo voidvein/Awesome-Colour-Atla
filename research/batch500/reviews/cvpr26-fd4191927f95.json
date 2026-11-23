@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-fd4191927f95",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Replaced conceptual transfer Figure 1 with original Figure 4 showing pretrained conditional-noise predictors and forward/reverse neural paths; original transparency flattened on white.",
+  "reviewedImageSHA256": "5da42b62504081017766c4a8c8717c9c7dacd77d65219772abb1a2199b30e9be",
+  "reviewedPalette": [
+    "#B6C7EA",
+    "#FCE6D5",
+    "#2E54A1",
+    "#C65F10"
+  ],
+  "paletteObservation": "Blue noise-predictor/label blocks, peach target-label panel, dark blue forward-noise node and orange reverse-noise node are true computation colours; animal/noise examples excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

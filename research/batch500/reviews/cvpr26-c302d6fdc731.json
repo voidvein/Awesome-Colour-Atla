@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-c302d6fdc731",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整神经形状PDE solver从surface采样、patch、局部frame到神经更新计算结构。",
+  "reviewedImageSHA256": "25d864bbd965daefdb3f09c3a1ccd3c7ba8d91ae3678b52c716900a8735ec571",
+  "reviewedPalette": [
+    "#C5DCDE",
+    "#E9DFB3",
+    "#E9D67D"
+  ],
+  "paletteObservation": "浅青神经局部更新块、淡黄采样/patch节点与较深黄色grid节点来自计算图。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

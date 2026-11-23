@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-10d78425e77b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整DCP-SFR网络和CACA/ACL/SSR细节；热图照片全部屏蔽后仅保留2个主要平填模块色。",
+  "reviewedImageSHA256": "a3ec7639c4239f81ce63507731c7e8e66c35c9c15bfd4d765b14558e8685aba4",
+  "reviewedPalette": [
+    "#FDFAEE",
+    "#CCF4FF"
+  ],
+  "paletteObservation": "实际保留的奶油色对应异常定位模块背景，浅青色对应Feature Comparison路径。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

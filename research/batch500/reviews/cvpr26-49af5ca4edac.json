@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-49af5ca4edac",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整CARE教师学生自监督与分子引导训练架构，两大面板完整，颜色能对应块和嵌入。",
+  "reviewedImageSHA256": "0d88f32e9895e97777edc36c1c52c8b7050c8dcb53d3d3a463c9457129ef3adf",
+  "reviewedPalette": [
+    "#FFF6D9",
+    "#D8BACD",
+    "#9AD88E",
+    "#FFD866",
+    "#A7C1A8",
+    "#FFE699",
+    "#F3B085"
+  ],
+  "paletteObservation": "粉紫patch编码器、绿色RNA嵌入、黄色蛋白嵌入和橙色相关矩阵为真实计算区域。",
+  "reviewedAt": "2026-11-23T16:38:04Z"
+}

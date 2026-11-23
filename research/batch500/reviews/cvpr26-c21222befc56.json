@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-c21222befc56",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "7703f1be98b7534fa17526078d5a2afbbae113ab41cca973e2a3e89f19d9bf8c",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-c21222befc56/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/26.jpg",
+  "sourceTitle": "Generalizable Video Quality Assessment via Weak-to-Strong Learning",
+  "figure": "Figure 3",
+  "reviewedPalette": [
+    "#DDEAF7",
+    "#E2F0D9",
+    "#F3B183",
+    "#A9D18E",
+    "#FFD966",
+    "#FBE5D6",
+    "#FFF2CC"
+  ],
+  "paletteObservation": "蓝色LLM解码器与浅绿文本嵌入层构成主干，桃色图像编码分支和黄色运动分支对应各自token。"
+}

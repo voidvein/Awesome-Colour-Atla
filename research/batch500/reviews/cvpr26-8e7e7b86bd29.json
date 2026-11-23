@@ -1,0 +1,40 @@
+{
+  "id": "cvpr26-8e7e7b86bd29",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "Figure 1 仅为成员推断与成员伪造问题背景，通用神经网络图标没有实际模块结构。主源其余图是扰动图像或实验结果，当前色卡大部分来自鸟类照片，不收录。",
+  "reviewedImageSHA256": "50d12e14af133d52fc08b151dad7bc46fc3dedbc30c9cdc1a9451f333c760547",
+  "reviewedPalette": [
+    "#172C51",
+    "#0070C0",
+    "#C00000",
+    "#505B6D",
+    "#706A5C",
+    "#C0504D",
+    "#78723E"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:27:30Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1 : Overview of the Background and Our Proposed Research Problems."
+    },
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2 : Imperceptible Adversarial Perturbations on ImageNet-100 . The first row are the original non-members, and the second row are the corresponding perturbed fabricated members. We used ϵ = 2 / 255 \\epsilon=2/255 for ℬ ϵ ​ [ x ] \\mathcal{B}_{\\epsilon}[x] here. The perturbations are extremely imperceptible to the human eye, which demonstrates that the Member Fabrication Attack ( MFA ) can be successful with only the addition of very small perturbations."
+    },
+    {
+      "figure": "Figure 9",
+      "caption": "Figure 9 : Imperceptible Adversarial Perturbations on ImageNet-100 . For each pair, the top image is the original non-member, and the bottom image is the corresponding perturbed fabricated member, demonstrating that the perturbations are imperceptible to the human eyes. We used ϵ = 2 / 255 \\epsilon=2/255 for ℬ ϵ ​ [ x ] \\mathcal{B}_{\\epsilon}[x] here."
+    },
+    {
+      "figure": "Figure 10",
+      "caption": "Figure 10 : Imperceptible Adversarial Perturbations on ImageNet-100 . For each pair, the top image is the original non-member, and the bottom image is the corresponding perturbed fabricated member, demonstrating that the perturbations are imperceptible to the human eyes. We used ϵ = 2 / 255 \\epsilon=2/255 for ℬ ϵ ​ [ x ] \\mathcal{B}_{\\epsilon}[x] here."
+    },
+    {
+      "figure": "Figure 11",
+      "caption": "Figure 11 : Imperceptible Adversarial Perturbations on ImageNet-100 . For each pair, the top image is the original non-member, and the bottom image is the corresponding perturbed fabricated member, demonstrating that the perturbations are imperceptible to the human eyes. We used ϵ = 2 / 255 \\epsilon=2/255 for ℬ ϵ ​ [ x ] \\mathcal{B}_{\\epsilon}[x] here."
+    }
+  ]
+}

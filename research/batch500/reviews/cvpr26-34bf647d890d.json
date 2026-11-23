@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-34bf647d890d",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "df86726db4d63ca7078e7c12f7bbc25ef8f9ac9e9635a5e47ec6e97255e8a338",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-34bf647d890d/cvpr26-34bf647d890d.png",
+  "reviewEvidence": "contacts/audit-a/individual/28.jpg",
+  "sourceTitle": "SAME: Sparse and Anchored Model Editing for Heterogeneous Incremental Learning under Limited Data",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#3B6085",
+    "#FDD860",
+    "#90ACDF",
+    "#ED822F",
+    "#C6DBE9",
+    "#AFAAAA",
+    "#C81C31"
+  ],
+  "paletteObservation": "橙色新知识Key与红色知识注入分支相呼应，蓝色知识锚定/参数锚定分支形成对比，黄色Value及灰色网络节点辅助编码。"
+}

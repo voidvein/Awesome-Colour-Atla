@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-2a755e70d512",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "LongVT图3同时包含上方视频示例和下方完整LLM/视觉编码架构；取色已屏蔽上方视频示例。",
+  "reviewedImageSHA256": "b318abae7d3cb26a26435bc57053566f9b24846fd53d8d1805cfe6485f817d55",
+  "reviewedPalette": [
+    "#FBE6D5",
+    "#D2E9FF",
+    "#FF9179",
+    "#0AA06E"
+  ],
+  "paletteObservation": "桃色LLM、浅蓝Vision Encoder & Projection、橙色答案token和绿色工具验证标记是实际方法配色。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

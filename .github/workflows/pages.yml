@@ -5,6 +5,11 @@ on:
     branches: [main]
     paths:
       - 'dist/**'
+      - 'data/figure-assets/**'
+      - 'pipeline/restore_assets.py'
+      - 'pipeline/validate_release.py'
+      - 'tests/**'
+      - 'research/seed-palettes.json'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -26,21 +31,14 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v4
+      - name: Restore reviewed figure assets
+        run: python pipeline/restore_assets.py
       - name: Validate static site
         run: |
           node --check dist/app.js
-          python - <<'PY'
-          import json, pathlib, re
-          root = pathlib.Path('dist')
-          papers = json.loads((root / 'palettes.json').read_text(encoding='utf-8'))
-          assert len(papers) == 10
-          assert len({p['id'] for p in papers}) == 10
-          for p in papers:
-              assert (root / p['image']).is_file(), p['image']
-              assert all(re.fullmatch(r'#[0-9A-F]{6}', c) for c in p['colors'])
-          assert (root / 'index.html').is_file()
-          print('Validated 10 cards and their image assets.')
-          PY
+          python -m pip install Pillow
+          python pipeline/validate_release.py --expected-count 500
+          node tests/frontend-scale.cjs --require-release
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload website

@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-39c79b6b46e1",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "更换为完整SMS-Net模型Fig3，图例与两端输入输出完整，无前一段正文。",
+  "reviewedImageSHA256": "76f25d277a3dd521907d812df7bf5768f0050d03cb70aaa9b52f7f9979422779",
+  "reviewedPalette": [
+    "#E3F0DA",
+    "#909A6B",
+    "#966F5B",
+    "#BAC2D2",
+    "#5A4438",
+    "#D7B59D",
+    "#949494"
+  ],
+  "paletteObservation": "模块浅绿、橄榄、棕色、蓝灰与灰色立方体；排除右侧彩色视差/深度输出图，不取紫黄热图颜色。",
+  "reviewedAt": "2026-11-23T16:45:36Z",
+  "excludeRegions": [
+    [
+      1380,
+      245,
+      1560,
+      580
+    ]
+  ]
+}

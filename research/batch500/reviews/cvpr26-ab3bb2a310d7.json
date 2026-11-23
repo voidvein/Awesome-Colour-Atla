@@ -1,0 +1,71 @@
+{
+  "id": "cvpr26-ab3bb2a310d7",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "45cb13d4164a38b1e68d2802413751d4d13bb8a322db4a1236460804ee900fb8",
+  "reviewedPalette": [
+    "#DCEAF7",
+    "#F2AA84",
+    "#F6DFB0",
+    "#D6ED8B",
+    "#B2B2B2",
+    "#B5B2F8",
+    "#FDFEE8"
+  ],
+  "paletteObservation": "浅黄ViT骨干与浅蓝DINOv3分支并列，橙色SAR特征和黄绿色重建特征由浅紫损失连接；灰色掩码token与浅奶油噪声处理区域保持低饱和。",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "excludeRegions": [
+    [
+      0,
+      275,
+      546,
+      852
+    ],
+    [
+      1198,
+      275,
+      2353,
+      992
+    ],
+    [
+      2488,
+      100,
+      2637,
+      1006
+    ],
+    [
+      0,
+      1342,
+      2353,
+      2222
+    ],
+    [
+      2488,
+      1329,
+      2637,
+      2235
+    ],
+    [
+      4636,
+      275,
+      5249,
+      997
+    ],
+    [
+      4120,
+      1255,
+      5249,
+      2222
+    ],
+    [
+      717,
+      1736,
+      1181,
+      2208
+    ]
+  ],
+  "figure": "Figure 3",
+  "sourceTitle": "SARMAE: Masked Autoencoder for SAR Representation Learning",
+  "reviewEvidence": "contacts/audit-e/repair/17-masked.jpg"
+}

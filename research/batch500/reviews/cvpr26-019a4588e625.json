@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-019a4588e625",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整TDATR vision encoder、文本decoder与structure-guided cell alignment网络。",
+  "reviewedImageSHA256": "186bc74fbdd50745efde1e569c5722979378792329f4eb00b026719c094397a7",
+  "reviewedPalette": [
+    "#C4D4E6",
+    "#E1EFD9",
+    "#FFE699",
+    "#548235",
+    "#4471C4",
+    "#85CC85",
+    "#1CC2BE"
+  ],
+  "paletteObservation": "浅蓝文本decoder、浅绿结构attention、黄色视觉encoder、绿蓝定位和青色cell标签对应模块。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

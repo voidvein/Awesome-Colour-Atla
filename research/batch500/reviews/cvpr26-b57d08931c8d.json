@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-b57d08931c8d",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "MLLM-judge training and frozen-judge GRPO intrinsic-decomposition model form a clear learned-model framework.",
+  "reviewedImageSHA256": "35232c5d960b76eb934bfd60d0a638554a10fc12441fbbcc70a9d6530c3f8ade",
+  "reviewedPalette": [
+    "#FFEFEF",
+    "#D6F9F5",
+    "#FFF7A0"
+  ],
+  "paletteObservation": "Pink MLLM Judge, cyan policy-model block and yellow point-pair/reward computation panel are measured; intrinsic maps and RGB images excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

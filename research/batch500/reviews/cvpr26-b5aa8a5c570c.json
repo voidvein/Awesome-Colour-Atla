@@ -1,0 +1,36 @@
+{
+  "id": "cvpr26-b5aa8a5c570c",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "d9729666660d43d55dd50f8d87073a04fb7d3d409e27eb4946ea8aa7838763cd",
+  "reviewedPalette": [
+    "#FFF0C6",
+    "#FFD2D7",
+    "#BEE9FF",
+    "#156082",
+    "#E0E0FD"
+  ],
+  "paletteObservation": "RobotSeg 的图像编码器为浅蓝，结构记忆及机器人提示生成器为淡黄，掩码解码器为粉红，提示编码器为淡紫，数据流连线为深青；机器人画面与掩码叠图已排除。",
+  "reviewedAt": "2026-11-23T17:53:42Z",
+  "excludeRegions": [
+    [
+      13,
+      0,
+      322,
+      208
+    ],
+    [
+      833,
+      1,
+      1141,
+      228
+    ],
+    [
+      1176,
+      0,
+      1428,
+      197
+    ]
+  ]
+}

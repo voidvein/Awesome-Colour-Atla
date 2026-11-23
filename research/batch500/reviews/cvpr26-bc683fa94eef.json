@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-bc683fa94eef",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "MAD的音视频语言模型、模态query logits/权重提取、自适应解码与softmax响应路径完整。",
+  "reviewedImageSHA256": "e6d10b9cb13dd600ad0491a80323c3394d12f365efac7399967cbb2c29b6854d",
+  "reviewedPalette": [
+    "#F0F8FC",
+    "#FFF4D4",
+    "#8DBBC6",
+    "#24C8CD",
+    "#1EA3DF",
+    "#EA2163",
+    "#DEF6DA"
+  ],
+  "paletteObservation": "视频帧不采色；奶油AVLM、浅蓝generation、青logit和蓝/粉步骤箭头、浅绿response是实际神经计算模块的语义色。",
+  "reviewedAt": "2026-11-23T17:50:07Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      372,
+      246
+    ]
+  ]
+}

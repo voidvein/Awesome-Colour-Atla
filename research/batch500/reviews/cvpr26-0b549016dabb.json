@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-0b549016dabb",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整3D美学场蒸馏与视点搜索计算流程，室内照片和美学热图已排除取色。",
+  "reviewedImageSHA256": "a9a043f22109cd97e2c8db3bc298839d4284af326808c11ac739f7ba427ce6e7",
+  "reviewedPalette": [
+    "#E3FFFF",
+    "#FFFFDF",
+    "#F2AA84",
+    "#A5CAEB",
+    "#ECFFEC"
+  ],
+  "paletteObservation": "浅青蒸馏、浅黄粗搜索、浅绿精搜索、橙色美学头与蓝色Transformer为方法模块。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

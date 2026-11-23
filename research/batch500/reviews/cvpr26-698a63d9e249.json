@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-698a63d9e249",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整FlashVSR三阶段训练架构，掩膜去除视频示例与GT图取色后重新目视核验。",
+  "reviewedImageSHA256": "025e00d0aa4d7e6015bce25a6e607df52e2817696a3d5129cf2e01e7946352d9",
+  "reviewedPalette": [
+    "#BEBFBE",
+    "#FFF5DD",
+    "#B3E4A0",
+    "#C1E4F5",
+    "#FFDC69",
+    "#F7630C"
+  ],
+  "paletteObservation": "浅绿LR投影、蓝黄token、灰色latent框及橙色训练标记均来自网络模块。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

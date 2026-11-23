@@ -1,0 +1,29 @@
+{
+  "id": "cvpr26-4b7c83a67976",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "SocialNav Brain、text/vision/waypoint encoder、AR head与Action Expert/SAFE-GRPO路径完整。",
+  "reviewedImageSHA256": "feaf01d429b3071f571cc4d9f8e4b9b7e774de1b212fb87006884961e850184e",
+  "reviewedPalette": [
+    "#E2D5E7",
+    "#A8E7C8",
+    "#FEECD4",
+    "#C4DAF1"
+  ],
+  "paletteObservation": "导航截图与advantage表的数值色不采；手补浅紫SocialNav Brain模块主体，保留桃waypoint encoder、蓝action token/专家和绿合规奖励字段。",
+  "reviewedAt": "2026-11-23T17:50:07Z",
+  "excludeRegions": [
+    [
+      592,
+      548,
+      931,
+      730
+    ],
+    [
+      1218,
+      438,
+      1523,
+      657
+    ]
+  ]
+}

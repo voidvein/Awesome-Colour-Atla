@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-efa95a6a0477",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整FedPuReL训练、聚合、个性化残差学习三段网络流程，标题与图注一致。",
+  "reviewedImageSHA256": "faa1e4d5a61a7907bf41f6e7466be6d37c4e580b608b88cb2de09305c2b6226a",
+  "reviewedPalette": [
+    "#E7F5FC",
+    "#E1F1D7",
+    "#B4FBCC",
+    "#B3C0AC",
+    "#E9A2A9",
+    "#B80003",
+    "#D46161"
+  ],
+  "paletteObservation": "蓝色全局模型、绿色共享参数、粉红私有参数与深红残差权重形成分支区分。",
+  "reviewedAt": "2026-11-23T16:38:04Z"
+}

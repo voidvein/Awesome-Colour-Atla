@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-49a0837e22f6",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "266fb4003d8383a5937691581aee188adef07ab6dc0ea9fca46a2b1023d973bd",
+  "reviewedPalette": [
+    "#D5E8D4",
+    "#C1DF24",
+    "#F8E723",
+    "#5A4155",
+    "#277F8E",
+    "#34608D",
+    "#84D44B"
+  ],
+  "paletteObservation": "RAS 调度器、快慢区域和 DiT 共用浅绿色块，缓存与更新样本用黄、青、蓝、深紫等离散色条表达，不含照片采色。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

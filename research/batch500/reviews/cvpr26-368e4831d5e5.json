@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-368e4831d5e5",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "332495f9924487d65cd89c8218cd51939907faf6fbf6b175f4389443483acfc6",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-368e4831d5e5/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/30.jpg",
+  "sourceTitle": "OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models",
+  "figure": "Figure 3",
+  "reviewedPalette": [
+    "#E9DAC4",
+    "#E78319",
+    "#DEEBF0",
+    "#82695E",
+    "#AE9F99",
+    "#F04D4E",
+    "#D7C1C2"
+  ],
+  "paletteObservation": "橙色音频token与米色视觉token为核心编码，浅蓝视觉编码器与淡桃灰LLM/OmniZip模块承载主干，棕色连线统一流程。"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-174df7ee50ab",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "检查缓存PDF全部图候选：CompBench只展示数据收集/掩码预处理、任务分类和benchmark结果，没有明确神经架构。",
+  "reviewedImageSHA256": "279f420a1f1108f72311ee38a7b72a47706c36ee06c97441799a41ac95a22e06",
+  "reviewedPalette": [
+    "#FDF0F2",
+    "#984EA3",
+    "#E51A1D",
+    "#91A4A8",
+    "#00BA00",
+    "#C3B0A2",
+    "#D0D7DF"
+  ],
+  "paletteObservation": "候选色来自样例图/标志/数据处理区，不以benchmark数据生产流程替代网络架构。",
+  "reviewedAt": "2026-11-23T17:50:06Z"
+}

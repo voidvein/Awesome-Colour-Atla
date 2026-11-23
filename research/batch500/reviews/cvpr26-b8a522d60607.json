@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-b8a522d60607",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。",
+  "reviewedImageSHA256": "6369705c3d9b3c40d8afdb159a0b3be1ad8377afc16d4433ba67438ebb3eaad7",
+  "reviewedPalette": [
+    "#C5DFF7",
+    "#F8CAAC",
+    "#6E7E8B",
+    "#FFF1CC",
+    "#67ADDC",
+    "#0D3055",
+    "#F4B083"
+  ],
+  "paletteObservation": "浅蓝叠层与蓝色跳层比例环贯穿推理训练分支，浅桃VARiant主干和早/晚尺度色条区分采样阶段，奶油色token辅助编码。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "figure": "Figure 1",
+  "sourceTitle": "Progressive Supernet Training for Efficient Visual Autoregressive Modeling",
+  "reviewEvidence": "contacts/audit-e/individual/04.jpg"
+}

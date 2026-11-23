@@ -1,0 +1,50 @@
+{
+  "id": "cvpr26-92ed1b1b161a",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "将应用概念Fig1改为Fig2，含ID encoder/MLP、VID sampler、Stable Diffusion、VAE及水印编码/解码网络。",
+  "reviewedImageSHA256": "39aefde3adce7a6d77fc5e7cb76ac300f0cd977d9ca912573064d2c09203faf7",
+  "reviewedPalette": [
+    "#FFF8E9",
+    "#BCD6ED",
+    "#F4B083",
+    "#CC99FF",
+    "#FFD966",
+    "#B5DE99",
+    "#5B9BD4"
+  ],
+  "paletteObservation": "人脸、normal map、噪声和人体头模不入色卡；浅蓝神经encoder/SD、桃sampler、紫3D modeling、黄watermark decoder、绿signature encoder与蓝特征token来自模块。",
+  "reviewedAt": "2026-11-23T17:50:06Z",
+  "excludeRegions": [
+    [
+      220,
+      247,
+      389,
+      412
+    ],
+    [
+      423,
+      393,
+      609,
+      571
+    ],
+    [
+      677,
+      374,
+      795,
+      495
+    ],
+    [
+      829,
+      203,
+      931,
+      323
+    ],
+    [
+      1201,
+      254,
+      1371,
+      437
+    ]
+  ]
+}

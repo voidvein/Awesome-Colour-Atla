@@ -1,0 +1,47 @@
+{
+  "id": "cvpr26-1c8f9dfc87b1",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedAt": "2026-11-23T16:46:16.951081+00:00",
+  "reviewedImageSHA256": "a342c307fc3639a71e6b7c58b5bacf0240206147349eb39f4a12c313ea9f2060",
+  "reviewedImage": "research/batch500/candidates/cvpr26-1c8f9dfc87b1/reviewed-fixed.png",
+  "reviewedPalette": [
+    "#CDF4D3",
+    "#C2E5FF",
+    "#FFECBD",
+    "#FFC7C2",
+    "#3DADFF",
+    "#FFC943",
+    "#8BF4F9"
+  ],
+  "paletteObservation": "浅蓝环境接口、浅珊瑚智能体及奶油黄数据集标题构成三部分，中央浅青Vision Encoder与浅绿Action DiT区分感知和动作计算，轮廓用蓝/黄/青色强调。",
+  "reason": "已替换为原文Figure 1 NITROGEN overview，中央Vision Encoder与Action DiT以及图像/动作token和输入输出连接可辨；取色时排除两侧游戏封面、截图与手柄渲染区域。 已实际查看修复图与色卡及每个取色点，核对caption/sourceTitle。",
+  "figure": "Figure 1",
+  "sourceTitle": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
+  "excludeRegions": [
+    [
+      92,
+      175,
+      625,
+      676
+    ],
+    [
+      1086,
+      155,
+      1678,
+      676
+    ]
+  ],
+  "reviewEvidence": "contacts/audit-a/repair/34-masked.jpg",
+  "previousCandidateReview": {
+    "id": "cvpr26-1c8f9dfc87b1",
+    "verdict": "needs_recrop",
+    "reviewer": "/root/scale_ui",
+    "reviewedImageSHA256": "e332bf04d764594a2e7c068bff08c7a42752bdf0f76e4d8928d7f7a491dd5375",
+    "reason": "当前图是游戏视频内gamepad区域定位与按键提取示例，颜色来自游戏截图与手柄照片，并非NitroGen策略网络架构。",
+    "reviewedImage": "research/batch500/candidates/cvpr26-1c8f9dfc87b1/cvpr26-1c8f9dfc87b1.png",
+    "reviewEvidence": "contacts/audit-a/individual/34.jpg",
+    "sourceTitle": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
+    "figure": "Figure 2"
+  }
+}

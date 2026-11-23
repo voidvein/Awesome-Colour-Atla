@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-b7cb49908491",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "NullSteer图像/文本编码与零空间投影计算架构完整，输入照片已排除取色。",
+  "reviewedImageSHA256": "2f4489a590aae06b79a323be821e2a575b366be7b247b158fa016c31b2377fa2",
+  "reviewedPalette": [
+    "#E2E9F5",
+    "#9DC3E6",
+    "#FFE5C2",
+    "#F37C7C"
+  ],
+  "paletteObservation": "浅蓝hidden state、淡蓝投影背景、浅桃text encoder和粉红允许响应标记来自流程。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

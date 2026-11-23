@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-6318db9111e4",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "5ae3a1b9b814051283f3d9805051e6afdfadbb89a3ff11244b0ad98565417a26",
+  "reviewedPalette": [
+    "#FBEBC3",
+    "#F6CECC",
+    "#D9E8FC",
+    "#C7B5D7",
+    "#9DCEFB",
+    "#7A4072",
+    "#F6E9E4"
+  ],
+  "paletteObservation": "MCToGene 的时间与流匹配解码模块为淡黄，图像特征矩阵为浅粉，基因表达矩阵为深浅蓝，邻域注意力节点为淡紫，推理路径使用深紫色。",
+  "reviewedAt": "2026-11-23T17:53:42Z"
+}

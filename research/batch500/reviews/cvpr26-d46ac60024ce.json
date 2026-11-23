@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-d46ac60024ce",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Sound-source-localization network explicitly contains visual/audio encoders and contrastive feature learning.",
+  "reviewedImageSHA256": "7ac4cf46b0001fecc3ff0af467cb9221284a89b05deefd37bc531ae4c2b3c620",
+  "reviewedPalette": [
+    "#FFEBEA",
+    "#E6F3FF"
+  ],
+  "paletteObservation": "Only pink Visual Encoder and directly measured pale blue Audio Encoder fills are retained; data-generator icons and localization heatmap excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

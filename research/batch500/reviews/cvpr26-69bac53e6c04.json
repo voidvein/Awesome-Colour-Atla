@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-69bac53e6c04",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。 原先非架构候选已更换：Figure1研究路线信息图 → Figure5(c)位置编码计算架构。",
+  "reviewedImageSHA256": "52b38449d736e967e232cf09dab77c9937391e36a9e2c519d95b942b12797854",
+  "reviewedPalette": [
+    "#DDECD2",
+    "#D7E7F5",
+    "#9DC3E6",
+    "#A9D18E"
+  ],
+  "paletteObservation": "浅绿LLM与Align模块配合淡蓝Vision Encoder & Projector，蓝色视觉token和绿色RoPE时间对齐轴构成清楚的数据流；碗和食物照片颜色已排除。",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "excludeRegions": [
+    [
+      125,
+      179,
+      437,
+      277
+    ]
+  ],
+  "figure": "Figure 5(c)",
+  "sourceTitle": "TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs",
+  "reviewEvidence": "contacts/audit-e/repair/26-confirmed.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cvpr26-d60c32bb5b82",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "75215742387ec047d52208b0f676ba6f71309244fd9c4e328884837f54b75477",
+  "reviewedPalette": [
+    "#FFE6CD",
+    "#D9E8FB",
+    "#FDFCAA",
+    "#C0C0C0",
+    "#6D8DBE",
+    "#D79B00",
+    "#83B367"
+  ],
+  "paletteObservation": "浅蓝短期Q-Former与浅桃长期Q-Former构成双分支，黄色记忆token、蓝色模块边线与绿色反馈箭头贯穿读取和准备判断。",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "excludeRegions": [
+    [
+      0,
+      154,
+      3137,
+      697
+    ]
+  ],
+  "figure": "Figure 2",
+  "sourceTitle": "StreamReady: Learning What to Answer and When in Long Streaming Videos",
+  "reviewEvidence": "contacts/audit-e/repair/22-masked.jpg"
+}

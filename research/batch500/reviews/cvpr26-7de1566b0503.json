@@ -1,0 +1,43 @@
+{
+  "id": "cvpr26-7de1566b0503",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "UniLDiff双流特征融合、去噪UNet、退化专家路由与VAE decoder神经结构完整。",
+  "reviewedImageSHA256": "8f9e0edb3a910229e071ee35a1a1f6e7b7cfbdfea410aed5a24fea98c793ec16",
+  "reviewedPalette": [
+    "#BA9EDB",
+    "#D1C4DC",
+    "#91ACE0",
+    "#8451E1",
+    "#F5B7BF",
+    "#EDDDD5"
+  ],
+  "paletteObservation": "鹦鹉照片、噪声/latent小图和恢复结果不采色；紫色融合/专家、蓝文本encoder、粉linear与桃退化prompt保留。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      609,
+      172
+    ],
+    [
+      1354,
+      390,
+      1692,
+      781
+    ],
+    [
+      85,
+      250,
+      203,
+      351
+    ],
+    [
+      406,
+      250,
+      525,
+      351
+    ]
+  ]
+}

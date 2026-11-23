@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-5f733d7a874b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Voxel FlowEdit, SLAT Transformer and generation/control branches show the actual editable-asset neural computation.",
+  "reviewedImageSHA256": "2c829da1d448a589d155b18d5e41f97cc42aa5a4d960567e6db33fdc5a080b3a",
+  "reviewedPalette": [
+    "#FFF9EE",
+    "#AEBCC9",
+    "#FFC8C4",
+    "#4471C4",
+    "#FF9595",
+    "#CDCDEF"
+  ],
+  "paletteObservation": "Cream panel, blue-gray generation layers, pink/red control layers, blue Voxel FlowEdit tokens and lavender SLAT modules are retained; mesh/asset renders excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

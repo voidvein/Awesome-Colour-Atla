@@ -1,0 +1,38 @@
+{
+  "id": "cvpr26-7ff5563c2796",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "1a96603e728a0616f5084d21f729ebbdbfcc8c9abd9d6d30c9272566b0faf754",
+  "reviewedPalette": [
+    "#E8F5FC",
+    "#FFCCD5",
+    "#00B4D7",
+    "#FF748E",
+    "#90E0EF",
+    "#FBE6D7",
+    "#EDF7E4"
+  ],
+  "paletteObservation": "GeoDiT 的扩散 Transformer 为浅蓝，文本嵌入为浅桃，提示 token 用青蓝，待重建响应为深浅粉红；SigLip2 与 MLP 为浅绿，遥感照片及状态图例已遮罩。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      111,
+      135,
+      295,
+      243
+    ],
+    [
+      860,
+      39,
+      1004,
+      120
+    ],
+    [
+      313,
+      128,
+      576,
+      219
+    ]
+  ]
+}

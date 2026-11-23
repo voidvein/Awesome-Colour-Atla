@@ -1,0 +1,27 @@
+{
+  "id": "cvpr26-d2c11a77c530",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "OralGPT-Plus的instruction tuning、工具调用、RL模型和hybrid reward→scores/advantages神经训练系统完整。",
+  "reviewedImageSHA256": "ad99711b7cbb68d610981e2281fa40879dc72dcab47c9ade470d4ce675908c2e",
+  "reviewedPalette": [
+    "#FFC5C5",
+    "#E0D5E8"
+  ],
+  "paletteObservation": "X-ray和zoom/mirror结果全部排除，红色品牌logo/装饰蓝紫也剔除；仅粉色训练/奖励区域与淡紫reward-score token两种真实结构色。",
+  "reviewedAt": "2026-11-23T17:50:07Z",
+  "excludeRegions": [
+    [
+      677,
+      0,
+      1574,
+      310
+    ],
+    [
+      338,
+      382,
+      728,
+      685
+    ]
+  ]
+}

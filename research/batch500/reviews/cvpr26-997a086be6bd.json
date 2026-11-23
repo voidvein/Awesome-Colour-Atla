@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-997a086be6bd",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整Cov2Pose CNN、covariance pooling与manifold regression结构，输入/输出场景已排除取色。",
+  "reviewedImageSHA256": "b7bd51b200f8bf5e630f9cb6716132e4e797ed1d37fac54ca79aa59d71296303",
+  "reviewedPalette": [
+    "#FFFAEB",
+    "#DAE8FC",
+    "#F8CECC",
+    "#F4D696"
+  ],
+  "paletteObservation": "浅蓝feature maps、粉色regression、浅金几何矩阵与奶油色细节分区为实际模块。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

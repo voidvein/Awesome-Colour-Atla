@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-e344901a9b30",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由模型不一致说明改为图3完整UniChange MLLM和Token Driven Decoder架构。",
+  "reviewedImageSHA256": "195ab3b99eaadb3ccf94a2ac8a7751f0805556ac6b7622f02e052b4cf1606d4a",
+  "reviewedPalette": [
+    "#FFF9EF",
+    "#F37152",
+    "#FDAE61",
+    "#81D0D4",
+    "#C9EDFA",
+    "#008000",
+    "#FFF3CA"
+  ],
+  "paletteObservation": "浅黄token decoder、浅青特殊token、橙红T1/T2 token、浅绿MLLM和蓝色图例对应网络。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

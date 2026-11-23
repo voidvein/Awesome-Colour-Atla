@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-4b02d2952577",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Neural feature encoder feeds geometric-proximity and predictive-confidence adaptation; palette uses no confidence-bar or geometric-plot colours.",
+  "reviewedImageSHA256": "c7d967248a5334434163a637ca5e4455bb045707d1c8a8275b8b1d3931a53d38",
+  "reviewedPalette": [
+    "#D1D9E4",
+    "#D9D9D9"
+  ],
+  "paletteObservation": "Two muted actual structural fills are retained: blue-gray neural encoder and neutral gray input-stack glyph; both measured inside the computational path.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

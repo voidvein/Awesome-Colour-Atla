@@ -1,0 +1,28 @@
+{
+  "id": "cvpr26-6a4ad449dc7c",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "9f5888186f9e191a38454e603e30eeb04118955750f4fafe01e4f4ef79b41a7f",
+  "reviewedPalette": [
+    "#A9D18E",
+    "#D0CDCD",
+    "#FBE5D6"
+  ],
+  "paletteObservation": "FACE 的两个神经主模块为浅灰，扩散到自回归解码器的条件 latent 为绿色，面 token 为浅桃色；输入乐高照片和输出网格已排除，只保留三种实际结构色。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      29,
+      56,
+      153,
+      219
+    ],
+    [
+      630,
+      58,
+      754,
+      210
+    ]
+  ]
+}

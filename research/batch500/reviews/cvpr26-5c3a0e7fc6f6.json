@@ -1,0 +1,47 @@
+{
+  "id": "cvpr26-5c3a0e7fc6f6",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "ed437ab107c9a85bf9397d1ce80af80b00df7d8a841e88f6a5c84528ae1d6d3d",
+  "reviewedPalette": [
+    "#FDEDDD",
+    "#DBE9F6",
+    "#D9F1D0",
+    "#616EC6"
+  ],
+  "paletteObservation": "模型训练区域铺浅桃色，推理轨迹框中的思考步骤为浅蓝、最终答案为浅绿，蓝紫色箭头连接 SFT、rollout 与 GRPO 训练；品牌标志已排除。",
+  "reviewedAt": "2026-11-23T17:27:31Z",
+  "excludeRegions": [
+    [
+      27,
+      45,
+      107,
+      135
+    ],
+    [
+      18,
+      146,
+      87,
+      211
+    ],
+    [
+      176,
+      238,
+      266,
+      301
+    ],
+    [
+      307,
+      43,
+      410,
+      124
+    ],
+    [
+      814,
+      238,
+      878,
+      290
+    ]
+  ]
+}

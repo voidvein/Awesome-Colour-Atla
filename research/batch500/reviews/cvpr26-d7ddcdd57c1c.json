@@ -1,0 +1,25 @@
+{
+  "id": "cvpr26-d7ddcdd57c1c",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "VFM-VAE含冻结ViT、projection、多尺度空间latent、disentangler及modulated ConvNeXt decoder结构完整。",
+  "reviewedImageSHA256": "0645c345e45f7c84d31ba201cc9e14df1b446ce2979607049dd5a41a4c5933dc",
+  "reviewedPalette": [
+    "#E8F1F9",
+    "#2771C2",
+    "#C6DFB1",
+    "#FBE593",
+    "#F2AA84",
+    "#C2C6D7"
+  ],
+  "paletteObservation": "猫输入照片排除；蓝VFM、绿/黄/桃多尺度decoder blocks、浅蓝网络底和蓝灰ConvNeXt/Disentangler等真实模块色保留。",
+  "reviewedAt": "2026-11-23T17:50:07Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      163,
+      181
+    ]
+  ]
+}

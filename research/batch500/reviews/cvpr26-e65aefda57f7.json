@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-e65aefda57f7",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整局部4D表示、动态全局姿态及旋转不变卷积计算架构。",
+  "reviewedImageSHA256": "18d9cc5cd0dcb1e92eb24c3ec38dbf19d2de3b980d4f12db46a060cdd2073524",
+  "reviewedPalette": [
+    "#FFF1CC",
+    "#EBF2FA",
+    "#210080",
+    "#D5B556",
+    "#B8534F",
+    "#1F467E",
+    "#D9BEFF"
+  ],
+  "paletteObservation": "蓝色特征矩阵、紫色权重、金黄聚合、粉红中间矩阵与淡蓝局部坐标模块可对应。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

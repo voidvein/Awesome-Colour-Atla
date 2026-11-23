@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-125d5e8a8522",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "所选图1是全局/局部查询的具体提示与输出示例对照，大量照片和推理文本，未展示完整方法网络架构。",
+  "reviewedImageSHA256": "9f4978928fdebfd874955e72fde681e4933e3a2d55a7bbe016c3e890ee00f515",
+  "reviewedPalette": [
+    "#DDE2EB",
+    "#FCF5DF",
+    "#1B427C",
+    "#9D1F67",
+    "#7B942E",
+    "#645252",
+    "#53A33D"
+  ],
+  "paletteObservation": "草绿和灰褐来自人物照片，紫红为答案文字，不应当成网络模块配色。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

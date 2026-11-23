@@ -1,0 +1,29 @@
+{
+  "id": "cvpr26-275b5aac9b8d",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "UniLS自回归Self/Cross Attention、FFN及LoRA的两阶段音频驱动网络完整。",
+  "reviewedImageSHA256": "fce0a032ffa2a566245cca03ba7020bb0630d2ba3bb2043b7ea8bec86a5fb9dc",
+  "reviewedPalette": [
+    "#FCE2B9",
+    "#DCEAF7",
+    "#B6B6B6",
+    "#E5E8C1"
+  ],
+  "paletteObservation": "人脸照片、输出头模渲染排除；桃色cross attention、浅蓝style embedding、灰色self attention和浅黄绿FFN是真实模块。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      693,
+      906
+    ],
+    [
+      1672,
+      0,
+      2039,
+      906
+    ]
+  ]
+}

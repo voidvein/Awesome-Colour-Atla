@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-3598682443ce",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "将原图1裁为完整a-b架构面板，剔除右侧性能散点图；保留DDT和传统DiT完整对照网络。",
+  "reviewedImageSHA256": "8ac0e2991eb7a8f79959607bfea33387bf0cdf085ccde99e13aa3c5052d6d8a5",
+  "reviewedPalette": [
+    "#FBE3D6",
+    "#C1E5F5",
+    "#D9F2D0"
+  ],
+  "paletteObservation": "仅3个实际模块色：浅蓝Condition Encoder、浅绿Velocity Decoder、浅桃Diffusion Transformer。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

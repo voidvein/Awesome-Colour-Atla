@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-329cf2a1474c",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "图2为真实/模拟场景的轨迹扰动与伪专家场景序列示例，没有呈现具体网络或计算模块；不符架构色卡范围。",
+  "reviewedImageSHA256": "5f6574196e7a2fc184d35f7cb509205b7ee4556fa81c0626a030cc4489f1f24a",
+  "reviewedPalette": [
+    "#D0CDCD",
+    "#667AAA",
+    "#AB99C0",
+    "#8AABCE",
+    "#696B5E",
+    "#FFF1D1",
+    "#997584"
+  ],
+  "paletteObservation": "当前蓝紫灰色主要是场景帧边框和照片色，不能作为网络模块配色。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

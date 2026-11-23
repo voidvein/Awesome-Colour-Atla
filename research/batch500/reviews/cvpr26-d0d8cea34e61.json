@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-d0d8cea34e61",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Fig8详细显示compact NN内FFN、AdaLN、自注意力、QKV及latent/token输入输出。",
+  "reviewedImageSHA256": "a2440463328ed2bd81853de8c58cffe7a3d7dc199d8385bd062cae5b66f9d5b4",
+  "reviewedPalette": [
+    "#F2CFEE",
+    "#BFBFBF",
+    "#FFD579",
+    "#76D6FF",
+    "#7A81FF",
+    "#8EFA00",
+    "#FFFD78"
+  ],
+  "paletteObservation": "此图没有照片/数值热图；粉模块区、灰mask以及黄/蓝/紫/绿离散类别token均为设计的符号配色。",
+  "reviewedAt": "2026-11-23T17:39:45Z"
+}

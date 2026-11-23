@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-0a7a73066f49",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Replaced motivational Figure 1 with original Figure 2 showing LLM symbolic-program generator/interpreter and CLIP verification.",
+  "reviewedImageSHA256": "c93828f65f546063e72a47da73063da0f682f30e752648640f6e7fa2d8375e76",
+  "reviewedPalette": [
+    "#F8CAAC",
+    "#DEEBF7",
+    "#FFF1CC",
+    "#B4C6E7",
+    "#A9D18E"
+  ],
+  "paletteObservation": "Peach execution panels, blue program modules, yellow generators, muted blue pre-execution panel and green uncertainty verifier are retained; detected-object crops excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

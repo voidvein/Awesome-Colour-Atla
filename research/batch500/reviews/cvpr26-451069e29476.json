@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-451069e29476",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整CAC非欧几里得特征编码、双decoder和geodesic attention模块，图题对应。",
+  "reviewedImageSHA256": "85475e8daa686ab59851294d4b57f147fce4a558d7451d0d4cf8a7217ebfe885",
+  "reviewedPalette": [
+    "#CCCCCC",
+    "#B8DB59",
+    "#FFB570",
+    "#EBE7C5",
+    "#DAE3A1",
+    "#CCFFCC",
+    "#CCCCFF"
+  ],
+  "paletteObservation": "橙色Oblique Attention、浅绿Lorentz Attention、黄色背景、青绿投影和淡紫query块来自网络。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

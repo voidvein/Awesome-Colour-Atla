@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-0149a608aab5",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "Expert模仿、Prior/Decoder预训练和Encoder后训练神经结构完整。",
+  "reviewedImageSHA256": "13f3ecc69dfba24415952be76c4ce784a2cc619060c6d76a8d1f132a79dcd796",
+  "reviewedPalette": [
+    "#3A729A",
+    "#AC4877",
+    "#388E37"
+  ],
+  "paletteObservation": "移除人体/椅子渲染色与边缘灰，只保留蓝色Prior/Decoder、洋红Expert、绿色Encoder三种真实节点色。",
+  "reviewedAt": "2026-11-23T17:11:14Z"
+}

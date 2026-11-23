@@ -1,0 +1,35 @@
+{
+  "id": "cvpr26-f1d601eb2131",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "bd47d428c5e030a452af0e5a68c313308fca144e80309b2bc3b77c01ed33d72f",
+  "reviewedPalette": [
+    "#FFF1C9",
+    "#F6C097",
+    "#DAE2F5",
+    "#F1B901"
+  ],
+  "paletteObservation": "ClipGStream 的源片段 STF 为浅黄、MLP 解码器为桃色，静态特征为浅蓝灰，跨片段继承用金黄箭头表示；渲染照片与训练状态装饰色已排除。",
+  "reviewedAt": "2026-11-23T17:53:42Z",
+  "excludeRegions": [
+    [
+      76,
+      86,
+      456,
+      330
+    ],
+    [
+      601,
+      86,
+      992,
+      332
+    ],
+    [
+      1136,
+      86,
+      1530,
+      332
+    ]
+  ]
+}

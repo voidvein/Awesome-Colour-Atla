@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-907397b82bb6",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "ea559f8cedac94f616e67818d0e4942528a5525158b0f7998ba06a888347de73",
+  "reviewedPalette": [
+    "#D9F2D0",
+    "#FDC9C1",
+    "#C6DAFD",
+    "#E97131",
+    "#D76ECC",
+    "#45B1E0",
+    "#F9CC8B"
+  ],
+  "paletteObservation": "OmniSonic 的主体区域为浅绿、TriAttn-DiT 为浅粉，CLIP 为蓝、SpeechT5 为橙、FLAN-T5 为紫红，内部交叉注意力模块用淡黄色。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

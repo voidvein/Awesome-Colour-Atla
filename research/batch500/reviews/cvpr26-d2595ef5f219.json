@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-d2595ef5f219",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "f0567e06746d86d74d34d57085b944a6f58dac7ea9a30b46b145907907d43dfa",
+  "reviewedPalette": [
+    "#FBE3D6",
+    "#CAF0FC",
+    "#DAF3D0",
+    "#B4E5A1",
+    "#A6CAEC",
+    "#F2AA84",
+    "#E59EDD"
+  ],
+  "paletteObservation": "VerseCrafter 的 GeoAdapter 为浅绿并以较深绿色绘出 DiT 块，主 Wan-DiT 为浅青，Patchify 为浅蓝，Zero Linear 为粉紫，Rearrange 为橙桃色。",
+  "reviewedAt": "2026-11-23T17:53:40Z"
+}

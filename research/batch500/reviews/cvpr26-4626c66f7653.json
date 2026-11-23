@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-4626c66f7653",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "8bbe44d5e672c53bdfc89fe1fba767c3f0a51aa8df4ab7d1b88baab191667b75",
+  "reviewedPalette": [
+    "#FDEBD6",
+    "#B3B3B3",
+    "#E1F1E3"
+  ],
+  "paletteObservation": "基础 VLA 和直接推理框采用浅橙色，反事实 VLA 及自反思推理框采用浅绿色，灰色箭头连接训练与推理环路。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

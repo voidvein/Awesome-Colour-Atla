@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-35a165ca9381",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "Global/Scene/Segment/Entity层次记忆与推理LLM观察调用构成实际Agent架构。",
+  "reviewedImageSHA256": "b66ef7fce892f2f1b903f34b64e5eeca399ff4dd90f772fd3ef1a3f291fe0de7",
+  "reviewedPalette": [
+    "#FDEFE7",
+    "#D9F2D0",
+    "#80350E",
+    "#BFBFBF",
+    "#215F9A",
+    "#78206E",
+    "#E8D4E4"
+  ],
+  "paletteObservation": "视频截图排除；桃色LLM、绿场景、藕紫实体，以及显式实体/时间词语编码色来自结构标注。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      746,
+      2205,
+      1473
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-fc0060d49e06",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "SpectralMoE双门控专家和VFM插件网络完整，输入/输出和伪彩token已排除取色。",
+  "reviewedImageSHA256": "4be2835c7500da73b5f7a88d3b26133077eb6917a8fec40e193a5795a7186636",
+  "reviewedPalette": [
+    "#D7D7D7",
+    "#92CDDC"
+  ],
+  "paletteObservation": "仅2个实际模块色：灰色专家/Transformer块与青色foundation model输出头。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

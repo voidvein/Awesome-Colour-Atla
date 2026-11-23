@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-947aae7962db",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "DINOv2骨干、非对称几何聚合和归一化特征模块完整。",
+  "reviewedImageSHA256": "52a379e78f9f43b7621f48cf1b1b153cb38900a8dfc09e9ca4b87c616a3ac5ea",
+  "reviewedPalette": [
+    "#DBDCDD",
+    "#EF5E94",
+    "#FBD6B6",
+    "#97D0DE",
+    "#F4A0C0",
+    "#0669B4",
+    "#F5EA01"
+  ],
+  "paletteObservation": "街景/特征相似度图不入色卡；灰色特征token、粉色全局投影、桃色projection、青色加权与黄色归一化向量保留。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      474,
+      465
+    ],
+    [
+      0,
+      465,
+      575,
+      877
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-9c440e7288fc",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整RLVC奖励模型训练和视觉cue条件policy优化网络。",
+  "reviewedImageSHA256": "dcbde00c8d87bbfe395012ed1f47f0ee760068099eb2516baa950366134ce13d",
+  "reviewedPalette": [
+    "#DEEBF7",
+    "#F8CDCC",
+    "#FFF2CC",
+    "#95B1B6",
+    "#F3B183"
+  ],
+  "paletteObservation": "浅蓝policy、粉色visual feature、浅黄reward训练、青灰原型及桃色train标记对应真实网络。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

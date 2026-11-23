@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-b84940826e10",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "长度泛化V2A模型的chunk/dechunk、多模态/单模态块和时序/多模态路由结构完整。",
+  "reviewedImageSHA256": "46ef634dd4f8ec13bb8d8f64fb90211e9269c3099d1bce177a7c48e2c1875af2",
+  "reviewedPalette": [
+    "#FBECF8",
+    "#FFF7D9",
+    "#B6E1F8",
+    "#F4C3AF",
+    "#FFD760",
+    "#E97031",
+    "#DAF2D2"
+  ],
+  "paletteObservation": "图无自然图片或性能图；粉网络区、蓝多模态块、桃单模态块、黄输出、橙频率/时序token与绿色路由语义色保留。",
+  "reviewedAt": "2026-11-23T17:39:45Z"
+}

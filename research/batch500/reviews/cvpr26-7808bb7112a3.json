@@ -1,0 +1,59 @@
+{
+  "id": "cvpr26-7808bb7112a3",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。 原先非架构候选已更换：Figure1 teaser → Figure2几何提升及物理优化计算流程。",
+  "reviewedImageSHA256": "865a5c9e9abc316e4fb031eab6966847fcffbe216e93127f0f6b44b3f1ba34d3",
+  "reviewedPalette": [
+    "#B9D8E5",
+    "#99E67C",
+    "#EDD382",
+    "#7BBA65",
+    "#166487",
+    "#BABABA",
+    "#FEE782"
+  ],
+  "paletteObservation": "浅蓝背景路径与黄色前景路径汇聚几何种子，绿色弧形箭头表示物理优化路径，深青色坐标方向标记与灰色方向箭头提供辅助色。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "excludeRegions": [
+    [
+      114,
+      152,
+      366,
+      417
+    ],
+    [
+      380,
+      238,
+      494,
+      307
+    ],
+    [
+      516,
+      132,
+      848,
+      270
+    ],
+    [
+      506,
+      273,
+      850,
+      401
+    ],
+    [
+      867,
+      201,
+      1216,
+      425
+    ],
+    [
+      1212,
+      150,
+      1591,
+      415
+    ]
+  ],
+  "figure": "Figure 2",
+  "sourceTitle": "AeroDGS: Physically Consistent Dynamic Gaussian Splatting for Single-Sequence Aerial 4D Reconstruction",
+  "reviewEvidence": "contacts/audit-e/repair/11-final.jpg"
+}

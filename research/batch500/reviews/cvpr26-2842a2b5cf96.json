@@ -1,0 +1,40 @@
+{
+  "id": "cvpr26-2842a2b5cf96",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "Figure 1 为众包解释评估、标注成本和贝叶斯评分汇总的研究流程，并附结果柱形图，未绘可识别的模型计算架构；其他候选均为采样/聚合/实验统计图。",
+  "reviewedImageSHA256": "7609abcc259e3d885b6dc07c7d5c3391000f834a04bd85bd68e1c72dcc6b4337",
+  "reviewedPalette": [
+    "#F2CFEE",
+    "#80A868",
+    "#FBE3D6",
+    "#4D98B7",
+    "#B05887",
+    "#CF5B3F",
+    "#F3A027"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:27:30Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1. Overview of the explanation evaluation pipeline. We focus on two main challenges: 1: How to reduce high labeling cost? and 2: How to effectively handle noisy ratings?. Our proposed solutions are discussed in Section 3, validated in Section 4, and applied to compare automated interpretability methods in Section 5."
+    },
+    {
+      "figure": "Figure 5",
+      "caption": "Figure 5. Results of our MTurk study. Using BRAgg(SigLIP) for rating aggregation. All methods are restricted to length 1 explanations. Overall explanations of LE(SigLIP) have the highest correlation coefficient."
+    },
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2. Comparing different sampling strategies to estimate ρS. Our Model-Guided Importance Sampling (MG-IS) using SigLIP estimates significantly outperform baseline regardless of the size of sampled subset."
+    },
+    {
+      "figure": "Figure 4",
+      "caption": "Figure 4. Comparing the effect of our sampling technique MG-IS, rating aggregation method BRAgg independently and both together. The shaded region represents RCE≤25%."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3. Comparison of different rating aggregation strategies on simulated human study with error rate η = 23%, tested on the full dataset."
+    }
+  ]
+}

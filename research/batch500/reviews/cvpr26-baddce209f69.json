@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-baddce209f69",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "mask/image编码、残差量化code与两词重建的神经路径完整。",
+  "reviewedImageSHA256": "f4a3678ad33e851d4afd327cf5b3546a08ba1db0ac2c28a3fba2993f28133b87",
+  "reviewedPalette": [
+    "#C0C0C0",
+    "#9D7CC6",
+    "#C2D0EE",
+    "#BDA7D9",
+    "#6576CB",
+    "#253D6B",
+    "#8497B0"
+  ],
+  "paletteObservation": "左侧树/街景图片排除；紫色量化器、蓝/灰编码器框及浅紫code tokens来自网络节点。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      250,
+      472
+    ]
+  ]
+}

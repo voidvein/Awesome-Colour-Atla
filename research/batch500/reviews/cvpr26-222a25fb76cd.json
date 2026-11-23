@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-222a25fb76cd",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Domain-specific MoE encoder/router/expert paths are explicit within UniMMAD.",
+  "reviewedImageSHA256": "7f9850ef0b215565f0f42f785853966ec90b22aad1a189293138081c25d3860e",
+  "reviewedPalette": [
+    "#DAE2F5",
+    "#64769B",
+    "#94A5B9"
+  ],
+  "paletteObservation": "Pale blue encoder tokens, muted blue expert symbols and gray-blue condition router are measured only inside the architecture; taxonomy wheel and output-distribution panels excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

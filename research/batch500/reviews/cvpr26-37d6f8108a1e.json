@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-37d6f8108a1e",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整Driving Expert Adapter提示路由与LLM专家网络，未见裁切或正文污染。",
+  "reviewedImageSHA256": "98967bef9e37ae3521493b33ccc55d69903231e143b9123ea88a4601752fba74",
+  "reviewedPalette": [
+    "#FDF0E8",
+    "#C55A10",
+    "#DAE8FB",
+    "#7F9ECA",
+    "#A5A5A5",
+    "#F8CBAC",
+    "#538135"
+  ],
+  "paletteObservation": "桃色Prompt Adapter、橙色可学习prompt、蓝色视觉与绿色文本/专家对应模块。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

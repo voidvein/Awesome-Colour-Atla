@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-0d8864a9a331",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整MAPLE图像编码、Raster AR Decoder和LLM联合训练架构，图题对应且边界完整。",
+  "reviewedImageSHA256": "7ff6d57cd9d19ef1122ff9a9691569a598fdbef1320db54e95b05833f12f4fd2",
+  "reviewedPalette": [
+    "#D9F0FF",
+    "#FAB462",
+    "#B3DCC7",
+    "#D9C2DD",
+    "#E99C9D",
+    "#B383B9",
+    "#AAAAAA"
+  ],
+  "paletteObservation": "蓝色前景latent、橙色LLM latent、绿色encoder、紫色图像embedding和粉色文本token可对应。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

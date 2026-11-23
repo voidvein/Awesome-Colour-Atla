@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-c8d106e6847e",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "LLM故事推理、事件时间线/描述和多事件扩散生成网络流程完整。",
+  "reviewedImageSHA256": "4d9fba86f0b6639d51005572d73c8c4a71ee4a4b412e9360f7314fd5763c99f3",
+  "reviewedPalette": [
+    "#FCF0E8",
+    "#F4B182",
+    "#608AC3",
+    "#FCE598",
+    "#C45B27",
+    "#DAE2F3",
+    "#2A75B6"
+  ],
+  "paletteObservation": "屏蔽故事示例与输出音视频色谱；保留橙色LLM、蓝色阶段条、奶油扩散块、浅蓝时间线等设计色。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      372,
+      573
+    ],
+    [
+      1151,
+      0,
+      1692,
+      430
+    ]
+  ]
+}

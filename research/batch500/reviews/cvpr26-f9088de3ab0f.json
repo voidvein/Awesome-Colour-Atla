@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-f9088de3ab0f",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "MedTVT-R1多模态编码、projector、LLM和RL训练结构完整，ECG/CXR/LAB输入示例已屏蔽。",
+  "reviewedImageSHA256": "bc50150a9b152e9e124337c2548ee379473abcc6f8f11c076de4a57ec9dddce5",
+  "reviewedPalette": [
+    "#ACB8C9",
+    "#D7C4B6",
+    "#DECEFC",
+    "#93C8FC",
+    "#FFDAB3",
+    "#E4D283"
+  ],
+  "paletteObservation": "蓝灰LLM、桃色projector、紫色RFT分区、蓝色ECG编码、浅橙CXR编码和黄色奖励对应模块。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

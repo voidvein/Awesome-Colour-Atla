@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-3eeb66c65a04",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Vision-language backbone, global prior memory, flow policy and local SSM/linear consistency layers are explicit.",
+  "reviewedImageSHA256": "ef7e11598a7dab21a35e7c2a4ee5e4b1c4cd36b7e5be2010c00a062e7f6cfcb6",
+  "reviewedPalette": [
+    "#EBF8FC",
+    "#FFE7B7",
+    "#E0EED9",
+    "#D7D6D2",
+    "#FCEAD2"
+  ],
+  "paletteObservation": "Pale blue memory panel, yellow flow-policy block, green consistency-memory panel and gray/cream memory-token glyphs are retained; observation/action photos excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

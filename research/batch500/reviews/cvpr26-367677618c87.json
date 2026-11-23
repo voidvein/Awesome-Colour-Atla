@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-367677618c87",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Text/vision encoders with suppression and relationship-alignment modules are explicit; original transparency composited on white for legibility.",
+  "reviewedImageSHA256": "94ed48985db1d42bdab4c2dc731aec84b0f3de518add99be87a71fa21e24a4df",
+  "reviewedPalette": [
+    "#FEE4E5",
+    "#FFEFCB",
+    "#9EC4E9",
+    "#FABA01",
+    "#2B72B2",
+    "#BE8F01",
+    "#989898"
+  ],
+  "paletteObservation": "Pink alignment panels, cream text-feature panel, blue visual features, gold text features/arrows and gray text encoder form measured architecture colours; bird photos excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

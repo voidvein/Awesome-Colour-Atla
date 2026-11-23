@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-95b84dc89028",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "自动构造锚点提示并输入MLRM的神经推理攻击机制框架完整，图内文字仅作为论文证据。",
+  "reviewedImageSHA256": "81fe42944be21fc3d1f98ece6ed1d3e7632dc5e673b1b920705ff9c1cd1b6a81",
+  "reviewedPalette": [
+    "#D4E1F5",
+    "#D5E7D4",
+    "#F7CDCC",
+    "#FF7C80",
+    "#97D077",
+    "#FDDF7C",
+    "#48DA97"
+  ],
+  "paletteObservation": "蓝色意图分类、绿安全锚、粉色有害意图及黄/青阶段连接均为结构语义编码，没有照片色。",
+  "reviewedAt": "2026-11-23T17:39:44Z"
+}

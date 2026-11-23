@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-b8641c7e423b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由截断图2改为完整图3的测试时优化/特征上采样计算结构；手动保留准确模块像素证据。",
+  "reviewedImageSHA256": "b1aece36042eaa646021c3ec7f62489559553432c5f30979c2b848574f910f88",
+  "reviewedPalette": [
+    "#C1EAF0",
+    "#EFEEC2"
+  ],
+  "paletteObservation": "仅2个真实模块色：青色Upsample Anything与淡黄Foundation Model，排除飞机照片和特征热图。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

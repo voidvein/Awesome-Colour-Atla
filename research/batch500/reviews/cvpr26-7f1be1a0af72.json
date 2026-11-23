@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-7f1be1a0af72",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "改选图3后仍只有四个训练阶段、数据量与epoch说明，未展示编码/融合/解码网络或明确神经计算块。",
+  "reviewedImageSHA256": "180b306a734faa8ec20b7ce807640cd5c2f3e108de21950159bed74fa0785be1",
+  "reviewedPalette": [
+    "#FCE8F7",
+    "#ECB9E2",
+    "#178FEB"
+  ],
+  "paletteObservation": "粉紫阶段卡片和蓝色顺序箭头是训练日程，不能代替模型架构色卡。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

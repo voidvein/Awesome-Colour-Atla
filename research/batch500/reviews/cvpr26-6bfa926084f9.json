@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-6bfa926084f9",
+  "verdict": "needs_palette_mask",
+  "reviewer": "source_figures",
+  "reason": "GeoWorld架构完整，但重提后的棕橙/蓝色仍混入动作分布或几何曲面可视化，须进一步选真实模块取色。",
+  "reviewedImageSHA256": "2791457c462b8dece9841f4d0205c5532eebd05d03c18d92b68032ee39ccf917",
+  "reviewedPalette": [
+    "#D6E6F5",
+    "#FF8F1F",
+    "#B8441D",
+    "#74A4BB"
+  ],
+  "paletteObservation": "浅蓝编码器可用，棕色动作分布和曲面色不能直接称为网络模块色。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

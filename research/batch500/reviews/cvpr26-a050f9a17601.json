@@ -1,0 +1,33 @@
+{
+  "id": "cvpr26-a050f9a17601",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "DoorMan包含Teacher Policy PPO→Student DAgger→Student GRPO的神经策略迁移与观测连接。",
+  "reviewedImageSHA256": "eca7f4e21167bf8973df461497d58a4f5070f7e25ac8a0c60a4154b3fa07b96b",
+  "reviewedPalette": [
+    "#D9D9D9",
+    "#E0EAD7"
+  ],
+  "paletteObservation": "两张视觉观测/门场景及环境图标不取色；只保留灰色teacher/student策略模块和浅绿色最终student阶段两色。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      249,
+      229,
+      532,
+      463
+    ],
+    [
+      565,
+      229,
+      831,
+      463
+    ],
+    [
+      706,
+      474,
+      831,
+      545
+    ]
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cvpr26-77eb68c5bc95",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "Figure 2 实际绘出网格渲染编辑、泊松几何混合和纹理调和，未展示其生成模型的网络组件；Figure 3 为几何混合损失细节，其他为编辑结果和消融，不以传统融合流程计作网络结构图。",
+  "reviewedImageSHA256": "25fe80dab5465047f2878958f9e16bca3cb78c2d79fa816f2805fe15152fd216",
+  "reviewedPalette": [
+    "#CDF0FD",
+    "#C5E6A3",
+    "#ECC9F0",
+    "#FFE88A",
+    "#BFBFBF",
+    "#89E0FD",
+    "#93BAFF"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:27:30Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2. An overview of the CraftMesh framework. Our framework follows an image editing–mesh generation–seamless fusion pipeline that fully leverages the strengths of 2D models for image editing and 3D models for high-quality mesh generation. First, Edited Region Mesh Generation produces meshes for the editing region. Then, Poisson Geometry Blending achieves natural geometric transi- tions through normal blending. Finally, Poisson Texture Harmonization performs texture fusion to seamlessly color the edited regions."
+    },
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1. Mesh editing results produced by CraftMesh. CraftMesh is a versatile 3D mesh editing framework that enables users to perform text-based and drag-based editing, and delivers high-quality outputs even in challenging editing scenarios."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3. Details of Poisson Geometry Blending. We employ a hybrid SDF/Mesh representation, which is optimized to be harmo- nious using blended normals."
+    },
+    {
+      "figure": "Figure 5",
+      "caption": "Figure 5. Our method effectively adapts to drag-based mesh edit- ing, enabling precise and intuitive geometry manipulation through user-specified drag controls. (a) shows the original mesh, with ar- rows drawn to signify drag; (b) shows the editing results."
+    },
+    {
+      "figure": "Figure 6",
+      "caption": "Figure 6. Ablation studies. (a,b) Poisson Geometry Blending; (c,d) Poisson Texture Harmonization; (e) the distribution loss; (f) the gradient loss; (g) the boundary loss."
+    },
+    {
+      "figure": "Figure 4",
+      "caption": "Figure 4. Qualitative comparisons show that our method produces harmonious geometry structure, intricate local details, and high-fidelity colors, while other methods give simple and inconsistent results."
+    }
+  ]
+}

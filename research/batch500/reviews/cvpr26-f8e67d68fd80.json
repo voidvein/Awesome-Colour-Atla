@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-f8e67d68fd80",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "实际图为人工参与的概念范围定义、边界图像检索和反馈迭代流程，没有显式模型层、神经计算结构或模型内部数据流；其余 Figure 2 为用户迭代例子、Figure 3 为 F1 曲线，不收录为网络架构。",
+  "reviewedImageSHA256": "343ca6494706524d679816b0ed505eac44f45294b0c0e4564b9f2e2838803d93",
+  "reviewedPalette": [
+    "#FFF7CB",
+    "#FFE6DF",
+    "#DBFFE1",
+    "#80FB97",
+    "#C0C0C0",
+    "#FABD61",
+    "#FDA323"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:27:30Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1. Overview of the Agile Deliberation framework and architecture. Given a subjective concept and a target dataset, Agile Deliberation produces both a structured concept deﬁnition and an image classiﬁer through a human-in-the-loop deliberation process. At the scoping stage, the decomposition module helps users break down their initial concept into a structured deﬁnition. At the iteration stage, the borderline image retrieval module surfaces semantically borderline images for user labeling and reﬂection, while the concept reﬁnement module updates the deﬁnition to incorporate this feedback and preserve performance on previously labeled data."
+    },
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2. Example of iterative concept reﬁnement in Agile Deliberation (from an actual study participant). We show the ﬁrst three iteration rounds, highlighting updates within two subconcepts for brevity. Only one representative image from each batch of borderline images is displayed for illustration. In the concept scoping stage, the participant ﬁrst decomposed their initial concept into in-scope and out- of-scope subconcepts. In the subsequent concept iteration stage, they reviewed surfaced borderline images, provided labels and optional feedback, and the system incorporated this feedback into progressively reﬁned deﬁnitions."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3. F1 scores of Agile Deliberation across rounds of concept iteration compared with two automated baselines."
+    }
+  ]
+}

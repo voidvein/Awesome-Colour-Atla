@@ -1,0 +1,46 @@
+{
+  "id": "cvpr26-9e774cfdf617",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "7c82293ec72c3aebe03cf92eee590f5a7bace70b807403dbe9ee3a71cf7904b3",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。 已遮罩示例照片/图像区域重新取色，并实际再次查看图与新色卡确认。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-9e774cfdf617/cvpr26-9e774cfdf617.png",
+  "reviewEvidence": "contacts/audit-a/individual/11.jpg",
+  "sourceTitle": "AIMDepth: Asymmetric Image-Event Mamba for Monocular Depth Estimation",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#E6F3DF",
+    "#DAE2F5",
+    "#FBECEE",
+    "#CCCCCC",
+    "#FFF8E1"
+  ],
+  "paletteObservation": "浅粉VSS Block、淡蓝CVSS Block、浅绿ModiLocal Block和浅黄跨模态先验模块形成四区域划分；灰色仅取计算矩阵。",
+  "excludeRegions": [
+    [
+      173,
+      47,
+      298,
+      136
+    ],
+    [
+      456,
+      47,
+      573,
+      138
+    ],
+    [
+      600,
+      47,
+      723,
+      138
+    ],
+    [
+      789,
+      331,
+      1160,
+      610
+    ]
+  ],
+  "maskReviewEvidence": "contacts/audit-a/masks/11.jpg"
+}

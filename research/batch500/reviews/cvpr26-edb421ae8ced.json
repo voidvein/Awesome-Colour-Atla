@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-edb421ae8ced",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "ef0b4e2e5343701224539b085900d15ce2be26ebe0446b2e1e273be429291e16",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-edb421ae8ced/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/08.jpg",
+  "sourceTitle": "Instance-level Visual Active Tracking with Occlusion-Aware Planning",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#FFF1C9",
+    "#C7E4B3",
+    "#DAE2F5",
+    "#EE939E",
+    "#E5B831",
+    "#91ACDF",
+    "#63F2EE"
+  ],
+  "paletteObservation": "浅黄、浅绿、浅桃色区分跟踪流程阶段，粉色连线串联在线增强，蓝色标题框与黄/青候选掩码保持可区分性。"
+}

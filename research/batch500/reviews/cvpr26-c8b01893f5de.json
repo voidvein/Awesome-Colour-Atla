@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-c8b01893f5de",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "图4仅为层位置LoRA的定量比较与MUSIQ结果图，未展示网络或计算架构。",
+  "reviewedImageSHA256": "d3c4aabd68023fdd050c21fce95f04827bb64a13bae28569ebac9105819926f3",
+  "reviewedPalette": [
+    "#F05656",
+    "#4F8EF7"
+  ],
+  "paletteObservation": "红蓝分别是实验数据系列，不能视为网络模块配色。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

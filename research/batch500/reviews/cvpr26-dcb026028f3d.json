@@ -1,0 +1,44 @@
+{
+  "id": "cvpr26-dcb026028f3d",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "Figure 3 是三种 pretext 任务的鸟类视频变换/答案示例表，没有模型结构；主源其他图是任务分布、性能或消融，无法替换为真实架构。",
+  "reviewedImageSHA256": "53324a1462f06ea276b5b31cb221e7c1fd13633baae0a5d17d6862740f5bc43d",
+  "reviewedPalette": [
+    "#FCE8DA",
+    "#563B36",
+    "#D1B0C3",
+    "#00B0F0",
+    "#8A7865",
+    "#534B5C",
+    "#DAE9FB"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:27:30Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3. An overview of our three self-supervised pretext tasks. (a) Anomaly Grounding: A temporal segment is perturbed (e.g., via rotation), and the task is to identify the start and end timestamps of this anomaly. (b) Object Counting: Procedurally generated shapes are overlaid onto selected frames, and the task is to count the total number of each shape type. (c) Temporal Jigsaw: The video is divided into clips which are then shuffled. The task is to predict the original temporal order of the segments."
+    },
+    {
+      "figure": "Figure 4",
+      "caption": "Figure 4. Task distribution in VIUBench and VideoSSR-30K. The left panel illustrates the proportional data distribution across our three pretext tasks and their subtypes for VIUBench. The right panel shows the corresponding composition of VideoSSR-30K."
+    },
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2. Performance comparison on four video tasks. VideoSSR-8B consistently outperforms Qwen3-VL-8B across four video tasks."
+    },
+    {
+      "figure": "Figure 5",
+      "caption": "Figure 5. Comparison of single task and mixed task training at the 30k data scale. The results demonstrates that task diversity is more effective for improving performance than simply scaling up the data for a single pretext task."
+    },
+    {
+      "figure": "Figure 6",
+      "caption": "Figure 6. Ablation study of the 14 perturbation subtypes for Anomaly Grounding. Accuracy is reported on Video-MME."
+    },
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1. Distribution of answer correctness on ReWatch and LongVideoReason. Across both models and datasets, a vast ma- jority of questions yield a bimodal outcome, resulting in either zero or eight correct answers. This zero variance issue is notably more pronounced for the more powerful Qwen3-VL model."
+    }
+  ]
+}

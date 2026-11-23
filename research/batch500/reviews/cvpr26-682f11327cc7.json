@@ -1,0 +1,46 @@
+{
+  "id": "cvpr26-682f11327cc7",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "a1d52a341af4dbe11eae20104250cea3617414687d3ba1de7670bf6082f5408c",
+  "reviewedPalette": [
+    "#FBF0EB",
+    "#896260",
+    "#FAD9B5",
+    "#236FA0",
+    "#E1EFD9",
+    "#EEF5FA"
+  ],
+  "paletteObservation": "暖粉SFT区与冰蓝RL区并列，棕色对话循环箭头和蓝色奖励箭头区分训练阶段，浅橙角色图标和浅绿验证框提供辅助强调；遥感照片已排除。",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "excludeRegions": [
+    [
+      7,
+      116,
+      238,
+      345
+    ],
+    [
+      824,
+      111,
+      951,
+      213
+    ],
+    [
+      822,
+      276,
+      967,
+      421
+    ],
+    [
+      1324,
+      106,
+      1418,
+      206
+    ]
+  ],
+  "figure": "Figure 2",
+  "sourceTitle": "Asking like Socrates: Socrates helps VLMs understand remote sensing images",
+  "reviewEvidence": "contacts/audit-e/repair/19-masked.jpg"
+}

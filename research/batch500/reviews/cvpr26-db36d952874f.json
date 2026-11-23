@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-db36d952874f",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "Original Figure 4 depicts Base MLLM/SFT/HARL poster examples and output-quality comparisons, not an explicit neural architecture; Figure 3 is data construction.",
+  "reviewedImageSHA256": "a464c7170ff4a57990f06ec1cdc261cd982e0201fcf68da2eb74fba8f4a646c2",
+  "reviewedPalette": [
+    "#FFDE59",
+    "#EE7471",
+    "#FFC265"
+  ],
+  "paletteObservation": "The visible yellow, red and orange belong to posters and the stage arrow; they are not architecture module colours.",
+  "reviewedAt": "2026-11-23T17:38:43Z"
+}

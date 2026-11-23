@@ -1,0 +1,28 @@
+{
+  "id": "cvpr26-e0166893f74e",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "VIVA含LLaVA tokenizer/vision encoder、VAE、projector与DiT的指令视频编辑神经架构。",
+  "reviewedImageSHA256": "67086d50cf024b863b467dea845a801f34bb604dcc401a4732f6f4eff1ae49be",
+  "reviewedPalette": [
+    "#D9F2D0",
+    "#CAEDFB",
+    "#F6C6AD"
+  ],
+  "paletteObservation": "输入/参考/编辑后照片全部排除；仅浅绿projector/DiT、浅蓝VLM与桃VAE三种神经模块色。",
+  "reviewedAt": "2026-11-23T17:50:06Z",
+  "excludeRegions": [
+    [
+      0,
+      227,
+      338,
+      567
+    ],
+    [
+      1151,
+      272,
+      1692,
+      567
+    ]
+  ]
+}

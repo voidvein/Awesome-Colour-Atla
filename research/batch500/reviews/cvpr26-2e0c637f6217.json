@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-2e0c637f6217",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "完整Transformer-VFM与异常score/decoder结构，六色取色点均在真实神经模块或token，非灰度示例输入。",
+  "reviewedImageSHA256": "c761b57358d19a925caa59baa9ad3d15ffa1e93f55c5d72619219e9e25a808bf",
+  "reviewedPalette": [
+    "#CCE4FF",
+    "#CCFFCC",
+    "#FFCCCC",
+    "#FFE6CC",
+    "#E4CCFF",
+    "#B7BBBD"
+  ],
+  "paletteObservation": "桃色Patch Embedding、绿色Norm、粉色注意力和淡紫MLP组成主干，浅蓝突出新增的异常打分与解码器，灰色作为基础模块中性色。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

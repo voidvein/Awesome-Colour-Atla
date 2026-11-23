@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-deaf8ceabab0",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整PhyOceanCast扩散预测和两个物理网络模块，照片与输出图面板已掩膜重提色。",
+  "reviewedImageSHA256": "53e2add9c095eeecd968e6db62186a92af5828e298781f8281af003ed6cb285f",
+  "reviewedPalette": [
+    "#B4A7B7",
+    "#FFBE9B",
+    "#4E4351",
+    "#B0BFFE",
+    "#2165AC"
+  ],
+  "paletteObservation": "灰紫时间编码、橙色球面图模块、淡紫嵌入和蓝色land-ocean mask表示方法分支。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

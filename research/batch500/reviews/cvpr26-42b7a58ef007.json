@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-42b7a58ef007",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。",
+  "reviewedImageSHA256": "ca512b0caaa6c1d6cf23715eaf8a06481441f30135719d43a8699191932e3092",
+  "reviewedPalette": [
+    "#FCF0F0",
+    "#EAD1EC",
+    "#FDCBC5",
+    "#FFF2CC",
+    "#B9E7D8",
+    "#E2F0D9",
+    "#FFFAEA"
+  ],
+  "paletteObservation": "浅粉CFDA、淡紫交叉注意力、薄荷绿CPFP、浅绿解混模块与奶油黄融合模块区分功能，整图以浅色填充和黑线组织稠密结构。",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "figure": "Figure 3",
+  "sourceTitle": "Enhancing Unregistered Hyperspectral Image Super-Resolution via Unmixing-based Abundance Fusion Learning",
+  "reviewEvidence": "contacts/audit-e/individual/18.jpg"
+}

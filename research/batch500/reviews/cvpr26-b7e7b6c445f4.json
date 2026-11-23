@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-b7e7b6c445f4",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "多头attention+MoE与CME-MoE扩展、元专家和自扩展原型分类器完整。",
+  "reviewedImageSHA256": "4dfa63cb5022fc21f6f2555c8dc20309cdfb8e202e86061ce29e45c103c52e9b",
+  "reviewedPalette": [
+    "#FAF6B5",
+    "#D1C4E1",
+    "#D4ECEB",
+    "#313E45",
+    "#F9D2B8",
+    "#F8BDCE",
+    "#E94424"
+  ],
+  "paletteObservation": "黄CME、紫SEPC、青色元优化、桃/粉专家及训练/阈值强调均为网络机制的实际色标。",
+  "reviewedAt": "2026-11-23T17:11:14Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-505f2a9012b8",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "逐图查看本地原文：可微光线追踪、透镜删除、光学成像和传统ISP流程，没有神经网络或明确神经模块。",
+  "reviewedImageSHA256": "2359edc463a593f197b99095beab629812cec7ce8dfdcb64ec8b94e1c192aadc",
+  "reviewedPalette": [
+    "#D9D9D9",
+    "#F37651",
+    "#5BA7C7",
+    "#F05425",
+    "#51BDC3",
+    "#D4342D"
+  ],
+  "paletteObservation": "候选颜色来自射线/PSF与光学参数，不作为网络架构配色。",
+  "reviewedAt": "2026-11-23T17:39:44Z"
+}

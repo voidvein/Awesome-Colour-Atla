@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-df436def8688",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "AVFakeBench Figure 2 is a synthetic/editing forgery dataset-construction process; other available figures are examples/bias assessment, not a model architecture.",
+  "reviewedImageSHA256": "eb7722d6f1ec52ffc532ffdfe5fb3e3a120dea5e9072d0cf30f88a7072a95304",
+  "reviewedPalette": [
+    "#FBF0E7",
+    "#FFD966",
+    "#00B050",
+    "#4674C1",
+    "#C00000",
+    "#707265",
+    "#EDF5FA"
+  ],
+  "paletteObservation": "Visible colours belong to dataset/benchmark, rendered examples or non-neural algorithm illustrations; not accepted as network-module colours.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

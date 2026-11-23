@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-4ad66d604a44",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "42777f3815c03f91523ebd75af13581b7ade411165c0b9d747bcbeecabe9cafc",
+  "reviewedPalette": [
+    "#EEF3FC",
+    "#FCE5CD",
+    "#C9DAF8"
+  ],
+  "paletteObservation": "CountGD++ 已从样例 Figure 4 换为 PDF Figure 2 的真实 SwinT、特征增强与交互架构：图像 token 为浅蓝，文本 token 为浅桃，模型子区使用更淡的蓝色底。",
+  "reviewedAt": "2026-11-23T17:53:42Z"
+}

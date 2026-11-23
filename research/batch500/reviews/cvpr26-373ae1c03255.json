@@ -1,0 +1,59 @@
+{
+  "id": "cvpr26-373ae1c03255",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "9619c990ca1977a2ef3a64ce78d967ad1e8b64efc3724524c485e54a997350c9",
+  "reviewedPalette": [
+    "#F8F6E3",
+    "#DCEAF7",
+    "#A6C9EB",
+    "#F6C5AC",
+    "#FAE2D5",
+    "#D1D1D1",
+    "#83CAEB"
+  ],
+  "paletteObservation": "冻结VGGT与点预测头采用浅蓝，实例解码器和MLP采用杏桃，浅黄背景承载距离图合成；灰色实例查询与青蓝logits保留模块层次。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "excludeRegions": [
+    [
+      100,
+      201,
+      267,
+      348
+    ],
+    [
+      810,
+      93,
+      900,
+      249
+    ],
+    [
+      1133,
+      95,
+      1256,
+      250
+    ],
+    [
+      1336,
+      88,
+      1586,
+      235
+    ],
+    [
+      809,
+      293,
+      961,
+      454
+    ],
+    [
+      1359,
+      372,
+      1496,
+      525
+    ]
+  ],
+  "figure": "Figure 5",
+  "sourceTitle": "ArchSym: Detecting 3D-Grounded Architectural Symmetries in the Wild",
+  "reviewEvidence": "contacts/audit-e/repair/13-masked.jpg"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-9eccaa5463a2",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "PG-SFD架构和原型注意力模块完整，屏蔽输入图和性能雷达图取色。",
+  "reviewedImageSHA256": "5f6ea55cd02a815064934a411df9ae85fca933f083a8635a3db4fe0f5156a8ca",
+  "reviewedPalette": [
+    "#FDE1E1",
+    "#FFF2CC",
+    "#FFD966",
+    "#BDD7EE",
+    "#FFE699",
+    "#A9D18E"
+  ],
+  "paletteObservation": "黄色UAD、浅蓝分类、粉红DGI、绿色PA与浅黄MLP对应真实网络块。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

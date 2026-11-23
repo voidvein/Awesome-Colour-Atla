@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-6013448ea870",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "MLLM and multi-head attention rescaling computation are explicit; explanatory head-result grids are not used for palette.",
+  "reviewedImageSHA256": "88635bb8686e4057396bae8fb28138cd6a358a9714d19a3d73f349f1dd78943c",
+  "reviewedPalette": [
+    "#F5E8C8",
+    "#466066",
+    "#C4C4D7"
+  ],
+  "paletteObservation": "Pale yellow perception-layer panel, dark teal normalization/feed-forward labels and lavender attention projection blocks are measured from the network, not right-side outcome grids.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

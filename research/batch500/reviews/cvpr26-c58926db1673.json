@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-c58926db1673",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "真正的VLM-3R Fig3，第5页；LLM、视觉/空间编码器、融合路径及底部标签完整。",
+  "reviewedImageSHA256": "1b81d9d31548822a1c3bad7089f05211d668802feaf72987927495fa0640c80c",
+  "reviewedPalette": [
+    "#DEE9D7",
+    "#BA580A",
+    "#717D47",
+    "#B9B9B9",
+    "#172C51",
+    "#A9D18E",
+    "#756C54"
+  ],
+  "paletteObservation": "浅绿LLM、棕色视觉编码器、橄榄空间编码器、深蓝边框和中性色；排除单目视频实景条。",
+  "reviewedAt": "2026-11-23T16:45:36Z",
+  "excludeRegions": [
+    [
+      970,
+      310,
+      1430,
+      385
+    ]
+  ]
+}

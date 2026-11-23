@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-fc7f0490a582",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "Figure 1 实为视频生成器/提示类别分布与内容统计环形图，未绘网络或计算模块。主源另外两张候选仅为视频例子与检测 AUC 热图，不能用统计配色充架构卡。",
+  "reviewedImageSHA256": "cededfbfa72556d39c2799351635167c700629b9cae8763722400fec939261e4",
+  "reviewedPalette": [
+    "#D3F4F0",
+    "#F7E7D6",
+    "#FFAAA5",
+    "#C8DFB8",
+    "#BBDEFB",
+    "#B39DDB",
+    "#F6727F"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:27:30Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1. Overview of AIGVDBench. Our benchmark demon- strates advantages in scale, content diversity, coverage of genera- tion tasks, diversity of video generation models, and video realism."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3. Each heatmap displays the AUC scores of a detector trained on one gener- ative model (rows) and evaluated across others (columns)."
+    },
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2. Visual examples of the AIGVDBench."
+    }
+  ]
+}

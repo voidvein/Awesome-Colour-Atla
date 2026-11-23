@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-69164d3a735a",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "DriveLaW视频DiT与动作DiT双分支完整，输入和未来场景照片已排除取色。",
+  "reviewedImageSHA256": "fc6d2f5740ac560bdae69e996a63423f3cf728fdd61c85911206620d4d060ddd",
+  "reviewedPalette": [
+    "#D8E8F8",
+    "#CDE4B8",
+    "#EEF6E4",
+    "#F3F7FF"
+  ],
+  "paletteObservation": "绿色video DiT、蓝色action DiT及浅绿/浅蓝相应分区对应两个模型。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

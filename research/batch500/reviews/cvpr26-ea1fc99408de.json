@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-ea1fc99408de",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整DCVC-UF chunk编码/解码、streamlined entropy和rate adjustment神经网络。",
+  "reviewedImageSHA256": "75135b23eb34fd29ea454a589927312aeaf3856876f493ddb224214b118e9667",
+  "reviewedPalette": [
+    "#DEEBF7",
+    "#FFF1CC",
+    "#A9D18E",
+    "#FFE699",
+    "#E3D2F1",
+    "#FCE0E0",
+    "#E1EFD9"
+  ],
+  "paletteObservation": "浅蓝chunk分支、浅黄DC块、浅绿context特征、淡紫rate模块和粉色entropy块对应结构。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

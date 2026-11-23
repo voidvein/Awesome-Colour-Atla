@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-e023b87103b6",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "图像描述、角色判断、讽刺/荒诞对比和结果生成构成多阶段神经推理链。",
+  "reviewedImageSHA256": "47a6d288c5bb395660f1770c47c563f1df710418a132a07a58c53d092a7d19ed",
+  "reviewedPalette": [
+    "#E8C2C3",
+    "#FECD5B",
+    "#DAECCF",
+    "#E6F2FB",
+    "#D8D1E8",
+    "#FCE6D4",
+    "#D0D1D3"
+  ],
+  "paletteObservation": "输入插图完全屏蔽；绿/粉/紫/蓝推理节点及黄色理论分支背景为明确的阶段分色。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      406,
+      280
+    ]
+  ]
+}

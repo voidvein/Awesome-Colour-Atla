@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-026e9ce381a4",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整双输入token和causal representation calibration网络，输入灰图已屏蔽取色。",
+  "reviewedImageSHA256": "1cd91da8fd6ab70b9a5583d06db0cb0681e34f979a3c32505e01d905c2e0128a",
+  "reviewedPalette": [
+    "#B3B3B3",
+    "#DAE8FC",
+    "#D5E8D4",
+    "#FFB570",
+    "#203B72",
+    "#B3C4B1"
+  ],
+  "paletteObservation": "浅蓝vision token、浅绿probe/token、橙色原输入路径、灰色Transformer和深蓝LLM输出对应结构。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-205347eab4d5",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "粗到细自回归注意力mask和放大计算结构可见，非结果曲线。",
+  "reviewedImageSHA256": "047d04c5420e0c2d208afb3d8800b63f1e070d56c1b1dc302dcbbe8573b6900b",
+  "reviewedPalette": [
+    "#EBEAFA",
+    "#F7ECDA",
+    "#CCD8E6",
+    "#EAD1DC"
+  ],
+  "paletteObservation": "淡紫图像token注意力、桃色放大区、蓝灰网格和粉色类别注意力均为掩码语义编码。",
+  "reviewedAt": "2026-11-23T17:11:14Z"
+}

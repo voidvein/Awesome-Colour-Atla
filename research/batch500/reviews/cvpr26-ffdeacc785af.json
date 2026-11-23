@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-ffdeacc785af",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "GEM-TFL所选图为MIL与回归训练/推断管线的抽象对照，未呈现具体特征网络或神经计算模块。",
+  "reviewedImageSHA256": "c472ef7d1d3d9b37bb14b5991378fa26712027ad93da4d76468e28ab2776034b",
+  "reviewedPalette": [
+    "#D9D9D9",
+    "#FFF1C9",
+    "#F58F9F",
+    "#FBC7B3",
+    "#C00000",
+    "#75BC42",
+    "#C5DFB4"
+  ],
+  "paletteObservation": "粉绿输出标签、黄色MIL和蓝色regression泛化框不足以代表真实模型架构配色。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

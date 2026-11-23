@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-ae35c254256b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "图为明确VidThinker中MLLM captioning、LLM-assisted retrieval与帧定位计算流程，已屏蔽视频照片。",
+  "reviewedImageSHA256": "352dcf79a79e256c9967ab2a41f3d4de58a38dc0f2556e5790e93d57f7b6f35b",
+  "reviewedPalette": [
+    "#D9D9D9",
+    "#BC8B6A",
+    "#FFCEAD"
+  ],
+  "paletteObservation": "3色来自灰色LLM检索模块、棕色选定片段矩形与桃色定位三角标记。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

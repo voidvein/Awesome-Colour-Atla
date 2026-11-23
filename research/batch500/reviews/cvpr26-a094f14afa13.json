@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-a094f14afa13",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "20167002249c2dd924c1933699936e1bf20b1e1a1a0d6062860e0a3b0e93c79d",
+  "reviewedPalette": [
+    "#4774CA",
+    "#00AF50",
+    "#BDBDBD",
+    "#E44B5E",
+    "#F5B7BE",
+    "#91ACDF",
+    "#0000FF"
+  ],
+  "paletteObservation": "DINO/CLIP 提取的视图特征用深浅蓝与粉红区分，已见类别 token 为绿色，未见和虚拟特征为灰色；类间推拉及类别点使用红、蓝、绿，桌子渲染图已遮罩。",
+  "reviewedAt": "2026-11-23T17:53:42Z",
+  "excludeRegions": [
+    [
+      0,
+      24,
+      313,
+      275
+    ]
+  ]
+}

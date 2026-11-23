@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-c239fde3ea4b",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "SPM参数/非参数模块、融合注意力与遗忘删除路径结构完整。",
+  "reviewedImageSHA256": "7c0e5d0d3d714d85510501a12b8922ac3cc16e263562e03bac1dc42eb0d8438f",
+  "reviewedPalette": [
+    "#FBE3D6",
+    "#D9F2D0",
+    "#A6A6A6",
+    "#8ED973",
+    "#C1E5F5",
+    "#275317",
+    "#B4E5A1"
+  ],
+  "paletteObservation": "屏蔽两侧输入/输出实例照片；杏色非参数路径、蓝色参数路径、绿/灰注意力特征均来自实际图形模块。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      474,
+      852
+    ],
+    [
+      1453,
+      0,
+      1579,
+      852
+    ]
+  ]
+}

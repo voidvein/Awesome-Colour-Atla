@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-68e03d9e7703",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "图6是雷达合成数据的重建结果对比，含场景、雷达强度和输出，不是网络架构。",
+  "reviewedImageSHA256": "52da0aa9235e4a0f2377043a6504dfd83ffbc3b783ff18516d5241dba297f9b1",
+  "reviewedPalette": [
+    "#FBE5D6",
+    "#A5A6AB",
+    "#FF9954",
+    "#3A4E69",
+    "#708090",
+    "#839C75",
+    "#A6CEE3"
+  ],
+  "paletteObservation": "肤灰场景色、橙黄雷达输出和绿色框属于结果可视化，不能当作模块配色。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

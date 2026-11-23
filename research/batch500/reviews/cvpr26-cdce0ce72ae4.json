@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-cdce0ce72ae4",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整FEAT几何结构对齐与server correction结构，训练样例照片已排除取色。",
+  "reviewedImageSHA256": "e752d2bdd76563a2016fa17a3d09d4a4322486d87d82843e36adc9e267b5beca",
+  "reviewedPalette": [
+    "#97ACBE",
+    "#FDD7D2",
+    "#F0937A",
+    "#CDB87A",
+    "#DAE2F3"
+  ],
+  "paletteObservation": "蓝灰feature extractor、粉红pairwise矩阵、橙色校正标记、金色ETF分类器和淡蓝聚合对应网络。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

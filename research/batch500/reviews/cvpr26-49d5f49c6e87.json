@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-49d5f49c6e87",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由LaSeRS构建改为图4真实SegEarth-R2网络；已屏蔽右侧attention可视化与遥感照片取色。",
+  "reviewedImageSHA256": "e4fdb327e5e985ce62100a2ff535fad8f162ff868d16eb615447486f5cdf1618",
+  "reviewedPalette": [
+    "#FDF7E1",
+    "#FACDD0",
+    "#C5E1B3",
+    "#F9D2AF",
+    "#3AC6F3"
+  ],
+  "paletteObservation": "浅黄MLLM、粉色语言模型、浅绿分割头、桃色pixel decoder与青色image token图例对应架构。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

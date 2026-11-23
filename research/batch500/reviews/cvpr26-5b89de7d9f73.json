@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-5b89de7d9f73",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "已看完整原版两阶段训练架构及色卡，图无裁断；蓝色模型条、红色潜变量、绿色图像嵌入与灰色文本token对应图中实际颜色。",
+  "reviewedImageSHA256": "299cefc496806e41430af467ae90f67cf5b1cae7ba8a4c1aab37c0e6bb675a9b",
+  "reviewedPalette": [
+    "#D4E6F8",
+    "#ADADAD",
+    "#CF3F3F",
+    "#80D180",
+    "#D15753"
+  ],
+  "paletteObservation": "浅蓝横条把两阶段的视觉语言模型统一起来，红色潜变量与绿色图像嵌入形成语义对比，灰色文本token保持辅助层级。",
+  "reviewedAt": "2026-11-23T16:27:02Z"
+}

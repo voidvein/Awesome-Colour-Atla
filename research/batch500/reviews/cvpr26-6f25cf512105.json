@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-6f25cf512105",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "HoloCine窗口交叉注意力与跨镜头自注意力计算结构完整；视频帧已屏蔽取色。",
+  "reviewedImageSHA256": "9e9ace7958ea524ab403ae07290af5c035989a1277e83fd51489e68323bb3f0f",
+  "reviewedPalette": [
+    "#D4D8F4",
+    "#FCF1EA",
+    "#949A91",
+    "#FFF2CC",
+    "#E2F0D9"
+  ],
+  "paletteObservation": "淡紫注意力矩阵、浅黄FFN、浅绿Window Cross Attention和桃色shot-attention为模块色。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

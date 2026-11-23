@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-3db875f45686",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "EHETM事件稳定与Bi-Mamba恢复网络完整，屏蔽输入事件云和输出帧取色。",
+  "reviewedImageSHA256": "898f0edd822ae72abdc5f458698a2b1078c18894354c481a18f0069bf94355e0",
+  "reviewedPalette": [
+    "#F2FFFF",
+    "#FADCC4",
+    "#C3C3C3",
+    "#9BFD7F",
+    "#F9F9C9",
+    "#CCC3FF"
+  ],
+  "paletteObservation": "浅青ET-Stable、桃色Bi-Mamba、浅绿场景mask、黄色极性权重与淡紫轨迹模块可对应。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

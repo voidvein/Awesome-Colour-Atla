@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-6811a6da9cbd",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "cae20c66106fa1981aeeddc39d788f1a3b3990652d853706e8216f5187c171d1",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-6811a6da9cbd/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/01.jpg",
+  "sourceTitle": "Retrieving Counterfactuals Improves Visual In-Context Learning",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#FFE6CC",
+    "#D9E7FB",
+    "#00A570",
+    "#00B7EC",
+    "#0EB14C",
+    "#84B956",
+    "#FFBC53"
+  ],
+  "paletteObservation": "浅蓝图像编码器与浅桃文本编码器形成冷暖分工，绿色检索示意图标、青色问题图标和橙色提示标记提供辅助色。"
+}

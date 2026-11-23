@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-e3985579af11",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由数据生成图改选论文图2，现为完整PEAV音频/视频/文本编码架构。",
+  "reviewedImageSHA256": "0ed1a09625cc4e266a10d335330c87565d357140419c8c665bdca6f249c0e031",
+  "reviewedPalette": [
+    "#E1EAF2",
+    "#00546A",
+    "#2D4978",
+    "#D1D7ED"
+  ],
+  "paletteObservation": "浅蓝音视频编码、淡紫文本编码和深青/深蓝模态箭头均来自网络。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

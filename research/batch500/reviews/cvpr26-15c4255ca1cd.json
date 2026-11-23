@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-15c4255ca1cd",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整RehearseVLA世界模型模拟与反思闭环，训练数据、优化和反思面板均完整；照片已排除取色。",
+  "reviewedImageSHA256": "eddc8a6330c4be4955ecee295fe7260767fd3e3f7b806d487485d307ec6cf43f",
+  "reviewedPalette": [
+    "#FFF2CC",
+    "#DAE3F3",
+    "#A9D18E",
+    "#FFD966",
+    "#F8CAAD"
+  ],
+  "paletteObservation": "浅黄世界模拟、浅蓝VLA、浅绿反思模块、黄色循环箭头和浅桃latent示意可定位。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

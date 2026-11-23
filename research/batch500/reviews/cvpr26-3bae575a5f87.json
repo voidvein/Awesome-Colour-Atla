@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-3bae575a5f87",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "FFGo训练部分明确为I2V Model加LoRA分支，模型输入与输出关系完整；数据照片不参与取色。",
+  "reviewedImageSHA256": "be77cf71b5025861b49de4230ca24de570cae9a421ff507decb3bfb026c66b91",
+  "reviewedPalette": [
+    "#0E9ED4",
+    "#F7630C"
+  ],
+  "paletteObservation": "仅2色：青色冻结I2V模型边框/标记与橙色LoRA可训练火焰提示。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-c9ccce1cbb6e",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整3DThinker监督训练和RL训练框架，已屏蔽室内样例照片。",
+  "reviewedImageSHA256": "b90df1de8ab30814e4318a34b33dac329bbda017205de91e488fcf0e055dbd72",
+  "reviewedPalette": [
+    "#F2FAFF",
+    "#EF5153",
+    "#1FD1A1",
+    "#F7D7D6",
+    "#D6F0E2"
+  ],
+  "paletteObservation": "浅蓝监督阶段、粉色RL阶段、红色3D latent和青绿输入/奖励标签来自方法块。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

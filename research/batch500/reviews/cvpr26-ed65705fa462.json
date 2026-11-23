@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-ed65705fa462",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "LTS-FS层级归因与稀疏特征引导结构完整，输入艺术照片已排除取色。",
+  "reviewedImageSHA256": "8605be89776c283cf37f0aadb6d4b70b535cc2e237bbf635feddb17135abbc06",
+  "reviewedPalette": [
+    "#E2F0D9",
+    "#EDE5F3",
+    "#8EAADC",
+    "#AFABAB",
+    "#F7C99B",
+    "#FBE5D6"
+  ],
+  "paletteObservation": "浅绿steering后网络、淡紫数据区、蓝色归因值、灰色logit、桃色干预路径为计算模块。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-e55b4aab488b",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "313b75e2c1bed341344b2dd1fb09113218b41fed4aec013af64d27106a3d7082",
+  "reviewedPalette": [
+    "#F0F8FD",
+    "#F7C9AC",
+    "#D2B0D5",
+    "#A4BAE4",
+    "#FFF1C9"
+  ],
+  "paletteObservation": "GNVC-VD 的上下文 codec 为浅蓝，分析/合成变换和适配器为桃色，上下文特征为紫色、压缩 latent 为蓝色，buffer 为淡黄；章节标题条色未列入色卡。",
+  "reviewedAt": "2026-11-23T17:53:42Z"
+}

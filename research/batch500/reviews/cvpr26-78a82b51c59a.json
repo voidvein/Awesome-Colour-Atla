@@ -1,0 +1,31 @@
+{
+  "id": "cvpr26-78a82b51c59a",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "ART Transformer、hexaplane/property decoder和part slot/geometry输出连接完整。",
+  "reviewedImageSHA256": "438a68d081da8bb56db814f4ca683ff902b362f1c768fa5efa94d9f2d37ef94a",
+  "reviewedPalette": [
+    "#DCEAF7",
+    "#D1BCD3",
+    "#FFECA9",
+    "#F7CAAC",
+    "#FFFFF2",
+    "#FCE2E0"
+  ],
+  "paletteObservation": "木制实体渲染与左下原始多视图不取色；蓝Transformer、紫hexaplane、黄patchify、桃part tokens、奶油properties decoder与浅粉slot tokens保留。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      931,
+      0,
+      1692,
+      611
+    ],
+    [
+      0,
+      458,
+      541,
+      611
+    ]
+  ]
+}

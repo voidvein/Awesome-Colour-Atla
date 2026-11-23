@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-85a53d586cf7",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "检查缓存PDF全部图：GIFT为query relevance×directed diversity及预算迭代选帧，之后仅接通用VLM应用框，无明确神经架构或神经计算模块。",
+  "reviewedImageSHA256": "11208f30a9c425cababdb8eaa49721be61e8d16fcdd5b79c9017bc4a8a2ae37e",
+  "reviewedPalette": [
+    "#E2F1D9",
+    "#DAE2F5",
+    "#69883A",
+    "#F1B902",
+    "#FF0000",
+    "#75BC42",
+    "#FCE7D6"
+  ],
+  "paletteObservation": "候选绿/蓝来自传统选帧阶段、红色散点和视频示例；不以普通预处理/性能图凑网络架构色卡。",
+  "reviewedAt": "2026-11-23T17:50:07Z"
+}

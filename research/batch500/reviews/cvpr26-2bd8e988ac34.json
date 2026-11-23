@@ -1,0 +1,30 @@
+{
+  "id": "cvpr26-2bd8e988ac34",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Backbone/Adapter、带吸引排斥约束的表征空间与密度检测路径完整。",
+  "reviewedImageSHA256": "ea12751ac69ae5aafc04df869715df2c7e7498fdfe0b3d289321a5aae649332b",
+  "reviewedPalette": [
+    "#D9D9D9",
+    "#C00000",
+    "#FF0000",
+    "#548235",
+    "#4472C4"
+  ],
+  "paletteObservation": "唇部照片和高斯密度伪彩图不采色；灰色Backbone、红色损失/聚类与绿蓝语义簇线条来自架构编码。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      761,
+      533
+    ],
+    [
+      1489,
+      293,
+      1692,
+      533
+    ]
+  ]
+}

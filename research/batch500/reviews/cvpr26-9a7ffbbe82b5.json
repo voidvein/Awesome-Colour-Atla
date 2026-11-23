@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-9a7ffbbe82b5",
+  "verdict": "rejected",
+  "reviewer": "root",
+  "reason": "已看Figure2和原HTML全部图注：展示GMM/optimal-transport潜空间簇、动机及精度图，未提供可核验的encoder/神经模型结构图，不用概念统计图充数。",
+  "reviewedImageSHA256": "6a417bff10f70c3db37db5978ce5eee406db21e415d2b9a9de6d13aaf64bc18c",
+  "reviewedPalette": [
+    "#E1D5E7",
+    "#FAD6AB",
+    "#FDFFC3",
+    "#E41300",
+    "#FAD9D5",
+    "#B9C7D3",
+    "#D9E7FB"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:28:14Z"
+}

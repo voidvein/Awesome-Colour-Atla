@@ -1,0 +1,36 @@
+{
+  "id": "cvpr26-34eed49d4a9c",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "多模态图、GraphSAGE、CNDA跨节点双注意力和CNAP pooling神经结构完整。",
+  "reviewedImageSHA256": "13354cda5e713f61a6e02e5a44281983281236a7eb76a65d692dc649dd20e6c1",
+  "reviewedPalette": [
+    "#F8CDAC",
+    "#AEEBE5",
+    "#FDEAA9",
+    "#D7C6E4",
+    "#FAE2E5"
+  ],
+  "paletteObservation": "组织图、下游表达结果和矩阵数值蓝不入色卡；桃CNDA、青CNAP、黄graph、紫共享/私有网络分区与粉target行色保留。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      450,
+      269
+    ],
+    [
+      1349,
+      0,
+      1799,
+      538
+    ],
+    [
+      1349,
+      754,
+      1799,
+      1077
+    ]
+  ]
+}

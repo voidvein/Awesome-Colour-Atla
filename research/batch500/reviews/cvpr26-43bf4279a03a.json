@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-43bf4279a03a",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "ee8b8a23924afc184cc9dc2e9f56cc6181de4bfad0c7b16ee09427e392e9e325",
+  "reviewedPalette": [
+    "#EFFBFF",
+    "#BEBEBE",
+    "#79B4C2",
+    "#BDDEDC",
+    "#D5DCE4"
+  ],
+  "paletteObservation": "ComPose 的补全和几何关系分区用浅青色，Decoder 与评分选择模块为更深青色，几何编码块为灰青，特征向量为浅蓝灰；所选颜色均来自方块而非点云。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

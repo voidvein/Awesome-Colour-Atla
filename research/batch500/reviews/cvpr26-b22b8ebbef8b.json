@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-b22b8ebbef8b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由概念图改为图2完整FEAST特征提取、堆叠attention block与MLP；WSI和表达图已排除取色。",
+  "reviewedImageSHA256": "32a8ab3ad8c1106ff5e12c863779d49bfac61647b9e4369ecd80f8f3cb24df17",
+  "reviewedPalette": [
+    "#E5CDC0",
+    "#A5A5A5",
+    "#DFF1F0"
+  ],
+  "paletteObservation": "桃色Feature Extractor/MLP、浅青FEAST block框与灰色中间特征为实际计算结构。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

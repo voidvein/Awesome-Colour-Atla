@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-a27b74ec6cdd",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "查看缓存原文所有方法候选：RKPM粒子、弹性特征分析与降阶数值模拟，不是神经网络/神经模块。",
+  "reviewedImageSHA256": "a88533b3bdd86ebf1cdd7c9c03f370ada340c5f3b7eb44a2142eaf42704dd091",
+  "reviewedPalette": [
+    "#D60103",
+    "#5B9CF0",
+    "#203473",
+    "#2D4BAD",
+    "#3D6EA6",
+    "#32134C",
+    "#1B5A63"
+  ],
+  "paletteObservation": "原色主要来自数值仿真物体渲染；不以其红蓝渲染色代替网络配色。",
+  "reviewedAt": "2026-11-23T17:11:14Z"
+}

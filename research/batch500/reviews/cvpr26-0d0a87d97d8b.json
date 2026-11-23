@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-0d0a87d97d8b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整REACT奖励模型SFT/GRPO训练与采样框架，视频人物和右侧示例已排除取色。",
+  "reviewedImageSHA256": "cc8a4de7cb5e102d16da9444bab0d8c5194edc3ce8becd92c339c41d7b95db3e",
+  "reviewedPalette": [
+    "#F9DBDF",
+    "#FFF1C9",
+    "#D3F4F1",
+    "#75BC42"
+  ],
+  "paletteObservation": "粉色reward model、浅黄reward/response、浅青奖励汇聚和绿色采样/token标记为真实方法块。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

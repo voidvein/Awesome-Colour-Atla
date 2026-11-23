@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-f413f5080fb0",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "Even original method Figure 4 is Gaussian rasterization, caching, tile sorting and GPU scheduling; no explicit neural model architecture is shown.",
+  "reviewedImageSHA256": "b917397450bd1346853c56a73e838ee46924da3cf1080ef5ec098ee0c1e18d4b",
+  "reviewedPalette": [
+    "#FFF8E3",
+    "#D9E2F2",
+    "#A6A6A6",
+    "#7EDAD9",
+    "#FFC000",
+    "#D8905A",
+    "#D3AADE"
+  ],
+  "paletteObservation": "Visible colours belong to dataset/benchmark, rendered examples or non-neural algorithm illustrations; not accepted as network-module colours.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

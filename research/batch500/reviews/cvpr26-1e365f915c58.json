@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-1e365f915c58",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整CMDM MAC-VAE、causal DiT和diffusion forcing训练结构，无真实图像干扰。",
+  "reviewedImageSHA256": "29d72ef8ffd3367e1a98d098ba06c8c6a211a6e5a106c37c436639a560c99fd1",
+  "reviewedPalette": [
+    "#FF334B",
+    "#FF697A",
+    "#FF96A3",
+    "#1A74FF",
+    "#172B51",
+    "#CCCCCC",
+    "#C9162B"
+  ],
+  "paletteObservation": "蓝色时序/attention、灰色motion token、红到浅粉噪声时间步对应因果扩散结构。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

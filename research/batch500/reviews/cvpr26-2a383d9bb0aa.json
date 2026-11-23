@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-2a383d9bb0aa",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "VLM自适应观察、工具token/answer token、bbox工具与多分辨率视觉输入路径完整。",
+  "reviewedImageSHA256": "f60141d406e24ac00214e5cc20fc94fe25c084c07a81eecbb3e5f81f44afceac",
+  "reviewedPalette": [
+    "#D5E8D4",
+    "#EDF3FD",
+    "#1BA1E2",
+    "#8EB2F7",
+    "#ED89BF",
+    "#F8CECC",
+    "#82B366"
+  ],
+  "paletteObservation": "排除低分辨率照片；绿VLM、紫工具、蓝tool/visual token、粉answer token和杏色question为模型语义色。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      750,
+      529,
+      1249
+    ]
+  ]
+}

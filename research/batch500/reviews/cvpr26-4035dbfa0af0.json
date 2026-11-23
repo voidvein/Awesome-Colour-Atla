@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-4035dbfa0af0",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整ViT奖励模型与GRPO图像融合训练网络，已屏蔽真实输入/输出及评分emoji，不以照片色补足。",
+  "reviewedImageSHA256": "8e4d38244cb946c9ec982f2dcc817a9ad1d5148d226af3161b2edf5940e0e5be",
+  "reviewedPalette": [
+    "#D5DCE6",
+    "#9EA9BD",
+    "#DAB1B6"
+  ],
+  "paletteObservation": "仅3色：蓝灰Backbone、较深蓝灰ViT块、粉灰reward/feature模块。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

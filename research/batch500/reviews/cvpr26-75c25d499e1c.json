@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-75c25d499e1c",
+  "verdict": "rejected",
+  "reviewer": "root",
+  "reason": "已目视确认当前图是数据集场景照片，非网络架构；该篇暂无可证明架构。",
+  "reviewedImageSHA256": "fdc6c54257e29a43944e48b46e23baf99113e64c1635eecb62181972f6de1733",
+  "reviewedPalette": [
+    "#452314",
+    "#4D6C63",
+    "#B4D2C6",
+    "#554B39",
+    "#869E97",
+    "#713F1F"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T16:29:41Z"
+}

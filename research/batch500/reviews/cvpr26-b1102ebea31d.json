@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-b1102ebea31d",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整V2Drop插层及token变化计算结构，输入照片和小图token已从取色排除，舍弃残留照片深绿。",
+  "reviewedImageSHA256": "99414d749176523aba0ce8b5e50cb0bf877da843bc963096209f80e806abf34e",
+  "reviewedPalette": [
+    "#FBE6D4",
+    "#ED822E",
+    "#75BC42",
+    "#A6D385"
+  ],
+  "paletteObservation": "4色为桃色Transformer层、橙色层标签、绿色变化柱及浅绿token丢弃模块。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

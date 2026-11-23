@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-4576aaa90a87",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "Franca图左侧包含嵌套投影、聚类头和多尺度聚类损失，方法结构完整保留。",
+  "reviewedImageSHA256": "2240db6400688a2f56b06c92972d7e8688f0e59cc09825e35df7f9d2dba6cd8b",
+  "reviewedPalette": [
+    "#FFF7E8",
+    "#B7CFF5",
+    "#7DA7A1",
+    "#F6C6B4",
+    "#B47CF8",
+    "#D55E53",
+    "#436460"
+  ],
+  "paletteObservation": "采色仅左侧方法区，排除右侧数据气泡与结果散点；保留浅蓝聚类头、粉紫编码器和不同簇点颜色。",
+  "reviewedAt": "2026-11-23T16:45:37Z",
+  "excludeRegions": [
+    [
+      728,
+      0,
+      1692,
+      402
+    ]
+  ]
+}

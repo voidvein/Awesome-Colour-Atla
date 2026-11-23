@@ -1,0 +1,108 @@
+{
+  "id": "cvpr26-3c61659b6899",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Complete talking-face deformation network with style/audio and emotion controls; explicit face/photo/emoji exclusion boxes narrowed to examples and manual exact module pixels verified.",
+  "reviewedImageSHA256": "6f5f0316bf0d5fc6edd3253074ea379c5ce9af8c2bf9ca00219137c8f97a0df0",
+  "reviewedPalette": [
+    "#FEF2EA",
+    "#F7CDE1",
+    "#FDF0BF",
+    "#CBE1F1",
+    "#ED9797"
+  ],
+  "paletteObservation": "Peach Emotion Control panel, pink Emotion Control block, yellow Emotion Encoder, blue Style Encoder and salmon Warping Module are the five measured module colours.",
+  "reviewedAt": "2026-11-23T17:42:02Z",
+  "excludeRegions": [
+    [
+      170,
+      137,
+      250,
+      210
+    ],
+    [
+      513,
+      132,
+      595,
+      210
+    ],
+    [
+      930,
+      122,
+      1030,
+      219
+    ],
+    [
+      1126,
+      58,
+      1192,
+      118
+    ],
+    [
+      1457,
+      48,
+      1559,
+      283
+    ],
+    [
+      147,
+      340,
+      307,
+      415
+    ],
+    [
+      625,
+      685,
+      688,
+      746
+    ],
+    [
+      424,
+      791,
+      517,
+      879
+    ],
+    [
+      1098,
+      366,
+      1525,
+      441
+    ],
+    [
+      1117,
+      510,
+      1230,
+      625
+    ],
+    [
+      1187,
+      654,
+      1310,
+      779
+    ],
+    [
+      1310,
+      610,
+      1404,
+      701
+    ],
+    [
+      1424,
+      654,
+      1547,
+      779
+    ],
+    [
+      755,
+      809,
+      839,
+      888
+    ],
+    [
+      182,
+      42,
+      245,
+      98
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-419f0feea1b2",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整TRIDENT VAE、条件DiT与RNA/drug expert结构，细胞显微图已排除取色。",
+  "reviewedImageSHA256": "83df102d61973c205801e0cb7d7a18c3b12127504443ca4f9e99e34380c2ab9f",
+  "reviewedPalette": [
+    "#ECF5FE",
+    "#FFE6CC",
+    "#FFC7CC",
+    "#FFBC6D",
+    "#FF0000"
+  ],
+  "paletteObservation": "浅蓝VAE、浅桃cross-attention、粉红LayerNorm、橙色转录条件和红色训练标记对应网络。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

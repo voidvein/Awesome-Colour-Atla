@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-06a89971f07e",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Pretrained 3D backbone, 3D-2D adapter, point-pixel projection and learned class-agnostic segmentation are explicit.",
+  "reviewedImageSHA256": "832066ba93aaac8088a3c84348387cf7b6657a1a3172b69738bf8882c1550d6c",
+  "reviewedPalette": [
+    "#D2EDF8",
+    "#A6CAEC",
+    "#FFE8C8"
+  ],
+  "paletteObservation": "Pale cyan 3D segmentation block, blue 2D/projection features and peach instance-mask block are measured module colours; coloured stool masks, scene photos and similarity examples excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

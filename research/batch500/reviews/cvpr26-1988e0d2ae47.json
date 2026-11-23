@@ -1,0 +1,43 @@
+{
+  "id": "cvpr26-1988e0d2ae47",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "3dce0f280d2494c2a3b5a9615000214ffe63b0a4e3c77ea78e39035b5d9bf7f4",
+  "reviewedPalette": [
+    "#FFCCCC",
+    "#CCEFFC",
+    "#FAECDC",
+    "#AB86C7",
+    "#92ACDC",
+    "#CACACA"
+  ],
+  "paletteObservation": "Qwen-Image-Layered 的 VLD-MMDiT 和 Patchify 为粉红，视觉语言编码器和 RGBA-VAE 为浅蓝，输入提示框为米色，层 token 为紫色，图像 token 为蓝色；插画与层样例已遮罩。",
+  "reviewedAt": "2026-11-23T17:27:31Z",
+  "excludeRegions": [
+    [
+      824,
+      25,
+      1616,
+      725
+    ],
+    [
+      327,
+      595,
+      511,
+      698
+    ],
+    [
+      558,
+      595,
+      753,
+      705
+    ],
+    [
+      531,
+      410,
+      587,
+      455
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-2f02639969db",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整Vanilla SD/SpecVLM/ParallelVLM计算流程与缓存token对照，属于明确推理计算结构。",
+  "reviewedImageSHA256": "3e3c87ba4c00ce51e5c226e43497144393578ad865e69c27c3da86b684649cc7",
+  "reviewedPalette": [
+    "#C0DCAD",
+    "#E4E1F8",
+    "#F6E5D6",
+    "#D2D0D0",
+    "#DDECD2",
+    "#D7CFFB",
+    "#F6D0B6"
+  ],
+  "paletteObservation": "绿色目标prefill、淡紫目标token、浅桃draft token、灰色model idling均有图例。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

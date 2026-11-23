@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-6bef19e46717",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "音频预训练图包含明确Audio Encoder、Linear Classifier、bidirectional Text Decoder及训练目标，结构完整。",
+  "reviewedImageSHA256": "3cae74251ca3b58f1e605663f503fa28326d198ccfe0ae67c05f4eeccf5380ec",
+  "reviewedPalette": [
+    "#DCECD7",
+    "#FBE5B5",
+    "#ECD5DF",
+    "#FAD978",
+    "#D3E4F4",
+    "#E6F6FC",
+    "#FCF5E0"
+  ],
+  "paletteObservation": "绿色Text Decoder、黄色Audio Encoder/标签、粉色classifier和蓝色LLM Parser对应模块。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

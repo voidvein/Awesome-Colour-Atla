@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-f34e1c16e7c5",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整F2Net频率分解、多分支网络与融合结构，分割伪彩和遥感图已排除取色。",
+  "reviewedImageSHA256": "6e4df0dd039bc93cd7f5107f9e1df31162390b11884487eb2dd8224f7edc0151",
+  "reviewedPalette": [
+    "#F9DAC4",
+    "#E4F1DC",
+    "#F5BD96",
+    "#80B2DD",
+    "#FFE9A7",
+    "#B6D89F"
+  ],
+  "paletteObservation": "桃色长程Transformer、浅绿短程卷积、粉色频率分解、蓝色HFF和浅黄高频分支对应模块。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

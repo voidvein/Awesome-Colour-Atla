@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-b016a2019e72",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "b30c5555e045ff49556db68df95f8fe11e622e55977d8c710f035fe111a8126c",
+  "reviewedPalette": [
+    "#BDD7ED",
+    "#FFF2CC",
+    "#8EAADC",
+    "#C4E0B4",
+    "#4471C4",
+    "#F8CAAD"
+  ],
+  "paletteObservation": "多模态姿态图的 encoder 为蓝灰、feature 为浅绿，融合与 Shapley 模块为浅蓝，总损失为淡黄，贡献箭头为深蓝，RGB 模态标记为浅桃；输入灰度样本色已删去。",
+  "reviewedAt": "2026-11-23T17:53:42Z"
+}

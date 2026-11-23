@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-02f31ba21092",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "ForceVLA2完整层次模型，已排除上方照片/案例区域再取色并复看，色点在VLM、encoder、tokens与MoE。",
+  "reviewedImageSHA256": "766525f6832b4786c7c2e56c1afeced51ce65b4bd3022f7a6634c72db73e4106",
+  "reviewedPalette": [
+    "#DAE3F5",
+    "#FFEFD7",
+    "#F0CACA",
+    "#91ACE0",
+    "#E2F6F5",
+    "#B7C7E9",
+    "#FEF7F2"
+  ],
+  "paletteObservation": "浅绿色VLM与暖黄色多模态编码器构成两类输入处理，蓝紫色连接跨尺度MoE，粉色任务token与淡青色图像token保持语义区分。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

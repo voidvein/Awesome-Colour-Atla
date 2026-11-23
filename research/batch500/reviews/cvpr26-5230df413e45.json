@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-5230df413e45",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "c2841a311061f9c98a6adb2876c7867899f3393d51ad45251cf16caddebddeb7",
+  "reviewedPalette": [
+    "#FFFFF2",
+    "#C4C6B5",
+    "#FEDABE",
+    "#E1D5E7",
+    "#B0DDF0",
+    "#E6F6FF",
+    "#D5E7D4"
+  ],
+  "paletteObservation": "替换后的 Figure 3 明确绘出文本编码器、Embedding、位置编码、Transformer 和解码链：编码器浅蓝，Transformer 桃色，运动向量淡紫，动作条件灰绿。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

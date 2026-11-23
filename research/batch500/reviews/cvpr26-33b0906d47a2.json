@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-33b0906d47a2",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。",
+  "reviewedImageSHA256": "dfa8e3bd53f556b4e16c79c38baa746b536b7dfffb511a030b4497dd241d42c2",
+  "reviewedPalette": [
+    "#F6C6AD",
+    "#8CDAFE",
+    "#F7F2EA",
+    "#A6A6A6",
+    "#F2CFEE",
+    "#C4D1DE",
+    "#ED694A"
+  ],
+  "paletteObservation": "天蓝文本模块与浅桃运动模块并列，粉色退出头补充停止决策，灰色MoT模块标题与红橙训练标记区分结构和状态。",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "figure": "Figure 2",
+  "sourceTitle": "LLaMo: Scaling Pretrained Language Models for Unified Motion Understanding and Generation with Continuous Autoregressive Tokens",
+  "reviewEvidence": "contacts/audit-e/individual/21.jpg"
+}

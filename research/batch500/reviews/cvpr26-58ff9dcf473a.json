@@ -1,0 +1,48 @@
+{
+  "id": "cvpr26-58ff9dcf473a",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "Globscope Figure 1 展示损失景观分析流程：自动编码器仅黑白轮廓，当前全部七色均来自二维/三维损失热图，输入神经网络为通用图标。其他候选为景观、树或性能图，不以热图色冒充网络配色。",
+  "reviewedImageSHA256": "93f5738310bd3433542b73fcc0cb640b29956985c2a18be56f3c40037c14e353",
+  "reviewedPalette": [
+    "#440256",
+    "#3E4C8A",
+    "#449574",
+    "#2F7E83",
+    "#386891",
+    "#5CB064",
+    "#4F347F"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 1",
+      "caption": "Figure 1. Overall pipeline of our Globscope framework. Input models are encoded into a low-dimensional landscape using an autoencoder. The resulting latent space is used to compute a persistence diagram, which is then thresholded and simplified to form a merge tree that reveals the major structures (minima, saddle points) of the loss landscape."
+    },
+    {
+      "figure": "Figure 7",
+      "caption": "Figure 7. Models C and D are two independently trained trajectories of the MNIST-MLP network. Using DEEP-ALIGN, we align model D to model C by passing their final checkpoints through the alignment procedure, producing an aligned model E. The resulting permutation is then applied consistently to all intermediate checkpoints of trajectory D, yielding the full aligned trajectory E. While all methods were able to cluster the trajectory points together, UMAP, Kernel-PCA fails to provide any insight into the geometry of the trajectories."
+    },
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2. UMAP and Kernel PCA fail to reveal a coherent global structure, whereas our AutoEncoder-based approach clearly separates the basins associated with different variants. Consistent with the MDS and Isomap results, Variant D appears in a distinct region of the landscape, well-separated from the remaining variants."
+    },
+    {
+      "figure": "Figure 4",
+      "caption": "Figure 4. Merge Tree Analysis of Resnet56 for a 2D loss land- scape. Each node is labelled by its x,y position and their corre- sponding loss (L). Each node is marked with an ID on top of it."
+    },
+    {
+      "figure": "Figure 5",
+      "caption": "Figure 5. Mode connectivity curves originating from variant G to other variants, projected into the global loss landscape of ResNet56 models trained on CIFAR-10. For each variant, only the best-performing model was used to compute the connectivity path."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3. We observe that UMAP and Kernel-PCA can produce a continuous latent space, but this space fails to provide any meaningful geometric information about the structure of the loss landscape. In contrast, our autoencoder learns a manifold where distinct basins, minima, and sub- spaces are clearly represented. However, since nonlinear methods provide only approximate inverse transformations, reconstruction losses are computed for each and reported in Table 1. It should be noted that the reconstruction error of Kernel-PCA and UMAP are higher than the AutoEncoder. Additionally, the visualization produced by the autoencoder is consistent with the outputs of clustering-based methods (e.g., MDS). This further demonstrates that, beyond pro- ducing a continuous landscape, the autoencoder effectively captures model similarity in a manner comparable to established clustering methods."
+    },
+    {
+      "figure": "Figure 6",
+      "caption": "Figure 6. Permutation symmetry visualization using DEEP-ALIGN on MNIST MLP models. Each pair of models and its aligned (per- muted) counterpart are shown in the same color. Arrowheads indicate the model obtained after applying DEEP-ALIGN, aligning it to one model in the pair"
+    }
+  ]
+}

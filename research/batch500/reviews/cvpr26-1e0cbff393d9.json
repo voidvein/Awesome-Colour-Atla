@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-1e0cbff393d9",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "视觉编码、learned Compressor、LLM与演化标签训练/推理结构完整。",
+  "reviewedImageSHA256": "2fe39d7187e982b7f8e1d4711a25ba8090693f03234765feaecab0c6ab140067",
+  "reviewedPalette": [
+    "#E8C4E0",
+    "#6FAC46",
+    "#4671C4",
+    "#ED0000",
+    "#C8D5EE",
+    "#FAB4B4",
+    "#6F2F9F"
+  ],
+  "paletteObservation": "顶部输入照片和小型输出曲线区域排除；粉色LLM/encoder、绿色compressor、蓝红保留/丢弃标签及紫system token均为真实神经/语义编码。",
+  "reviewedAt": "2026-11-23T17:50:06Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      335,
+      136
+    ],
+    [
+      244,
+      495,
+      335,
+      619
+    ]
+  ]
+}

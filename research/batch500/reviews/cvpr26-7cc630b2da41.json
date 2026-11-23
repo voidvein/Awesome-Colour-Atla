@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-7cc630b2da41",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "GUI-CEval图3是任务定义、数据采集、人工标注和质量控制流程，不是Agent神经网络架构。",
+  "reviewedImageSHA256": "4d339f5fa72be2db31f6cf9a715f3681765fc2263dc746cac6e4a8533b9c31d8",
+  "reviewedPalette": [
+    "#FADBE0",
+    "#E4F2D9",
+    "#DBB4E3",
+    "#F6B482",
+    "#8F3EA4",
+    "#ACD78F",
+    "#EF939E"
+  ],
+  "paletteObservation": "手机界面及数据分区卡片色不能作为网络配色。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cvpr26-6e1ba863b730",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Point Encoder、Mask Transformer、姿态与形状双Decoder架构完整。",
+  "reviewedImageSHA256": "d9c1e375e5e6b739539a45279d5fc80b6d45488f904eb6910d74a5b6193e558a",
+  "reviewedPalette": [
+    "#F7E97D",
+    "#9FCE7E",
+    "#9FCFFF",
+    "#FFC184",
+    "#FFF1CC",
+    "#FC7158"
+  ],
+  "paletteObservation": "两端碎片/恢复物体和灰色结果箭头不入色卡；黄姿态、绿形状、蓝mask transformer、桃encoder及红色token保留。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      220,
+      646
+    ],
+    [
+      1404,
+      0,
+      1692,
+      646
+    ]
+  ]
+}

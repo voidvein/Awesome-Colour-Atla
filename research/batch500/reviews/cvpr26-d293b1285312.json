@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-d293b1285312",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "GSA Figure 2 consists of rendered cars, coloured 3D feature surfaces and registration/alignment plots; no explicit neural computational module architecture is shown.",
+  "reviewedImageSHA256": "8b1391be85c0605dd98e18c368dffe86b19db7179ddc63f55e51cef71ee25a22",
+  "reviewedPalette": [
+    "#E4E9F0",
+    "#B9CFBC",
+    "#C2594E",
+    "#ED1B24",
+    "#008341",
+    "#2A3890",
+    "#D1CCE0"
+  ],
+  "paletteObservation": "Visible colours belong to dataset/benchmark, rendered examples or non-neural algorithm illustrations; not accepted as network-module colours.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

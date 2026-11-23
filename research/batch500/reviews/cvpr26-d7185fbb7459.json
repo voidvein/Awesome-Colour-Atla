@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-d7185fbb7459",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整RETA检索、动态连接与持久拓扑对齐训练网络，数据集缩略图已排除取色。",
+  "reviewedImageSHA256": "883991dae404aa6bfdbd1cf3cbb076e169ab68c67f1fb1d2f7d149784fdbbcaf",
+  "reviewedPalette": [
+    "#EBBB8D",
+    "#E39241",
+    "#B6C6EA",
+    "#C7E4B3",
+    "#D0CECE"
+  ],
+  "paletteObservation": "橙色合成样本/拓扑、蓝色真实样本/拓扑、浅绿kNN与灰色pool均有图例或模块对应。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

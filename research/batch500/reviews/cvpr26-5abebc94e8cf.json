@@ -1,0 +1,29 @@
+{
+  "id": "cvpr26-5abebc94e8cf",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "UniComp的ViT/MLP、帧组融合、token allocation和动态压缩到LLM路径完整。",
+  "reviewedImageSHA256": "730dec29f57f669aabaed76704d90d7c77ea695fef26bf8ee0e194aa9b0d04b6",
+  "reviewedPalette": [
+    "#C1E5F5",
+    "#F2CFED",
+    "#D9F2D0",
+    "#FBE3D6"
+  ],
+  "paletteObservation": "底部原始帧与右侧照片token示例不入色卡；蓝神经层、粉/绿/桃语义token与融合分支保留。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      562,
+      0,
+      969,
+      494
+    ],
+    [
+      0,
+      445,
+      562,
+      494
+    ]
+  ]
+}

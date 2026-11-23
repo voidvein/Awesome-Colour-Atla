@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-7bf3bdf084ad",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "本地PDF逐图候选核对：Fig2为数据规模/训练时长阶段概览和任务例子，其他为性能、数据组成与定性结果，无具体神经架构。",
+  "reviewedImageSHA256": "4158a0ba0523639c84b8db65409e43ebbf6d48d00cc7b3dfe9e7b2d29bc04424",
+  "reviewedPalette": [
+    "#B4B4B4",
+    "#115153",
+    "#B54822",
+    "#EE7B32",
+    "#C07141",
+    "#D3581B",
+    "#D2743D"
+  ],
+  "paletteObservation": "主要颜色来自医学照片/插图，不符合网络结构配色来源。",
+  "reviewedAt": "2026-11-23T17:11:14Z"
+}

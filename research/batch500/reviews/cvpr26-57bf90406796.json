@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-57bf90406796",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "图3为完整潜空间模型到生成解码器的两步推理架构；保留2个真实模块色。",
+  "reviewedImageSHA256": "043cc05d8348c496d92473d1288db97bf7e5f20b0bbcfb60d212fc3a38c11d5f",
+  "reviewedPalette": [
+    "#E1D5E7",
+    "#B0E3E6"
+  ],
+  "paletteObservation": "青色Latent Space Model与淡紫Generative Decoder构成两阶段网络配色。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

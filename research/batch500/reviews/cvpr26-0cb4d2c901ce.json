@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-0cb4d2c901ce",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Explicit teacher/U-Net priors-to-geometry diffusion network with spectral gates.",
+  "reviewedImageSHA256": "7a691d8b671e577593296c0bc190b5a874dd2e1bcbd8c6969ad1692922c38c19",
+  "reviewedPalette": [
+    "#DEEBF7",
+    "#FDF8AF",
+    "#C5DFB4"
+  ],
+  "paletteObservation": "Only pale blue U-Nets, yellow spectral gates and green timestep-conditioning blocks are retained; RGB/depth maps excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

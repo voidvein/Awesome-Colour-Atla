@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-28167c45a93c",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整编码器/Translator/解码器及PFG和MSInit计算模块；已排除输入输出视频照片。",
+  "reviewedImageSHA256": "c1b978e01fb94089a94e30826fdff6e7c72cd0c8858b297a21b575a46ded7fad",
+  "reviewedPalette": [
+    "#D1E2F3",
+    "#FFEBAB",
+    "#C5DFB4",
+    "#B07DD7",
+    "#F7C5A2",
+    "#CDCD7C"
+  ],
+  "paletteObservation": "浅蓝PFG、浅黄MSInit、绿色空间编码器与紫色门控边界均为实际模块色。",
+  "reviewedAt": "2026-11-23T16:38:04Z"
+}

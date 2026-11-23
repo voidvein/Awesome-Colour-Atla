@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-cc698b4f0777",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "从teaser尝试图4后仍为三角形采样与表面特征/网格分辨率对比，未展示神经网络或完整神经计算结构。",
+  "reviewedImageSHA256": "f9f6746297f1aa997b4e3c01dd788cbb7ad4cdaee891c96d3141a66d219ea7b7",
+  "reviewedPalette": [
+    "#3333FF",
+    "#7590A8",
+    "#00CC00",
+    "#FF0000",
+    "#4C6173",
+    "#90AFD1",
+    "#5E788E"
+  ],
+  "paletteObservation": "蓝绿红采样点与渲染表面色不能代替网络模块配色。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

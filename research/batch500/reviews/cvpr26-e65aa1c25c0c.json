@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-e65aa1c25c0c",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "HiCoDiT低/高层speech-token预测架构完整，视频人脸已排除取色。",
+  "reviewedImageSHA256": "fe5586b6c767780a31f3d666057de519739ab1c3b6e6d7e3e91e073de954bbae",
+  "reviewedPalette": [
+    "#DDECF8",
+    "#5D85B4",
+    "#BFBFBF",
+    "#A9D18E",
+    "#E2F0D9"
+  ],
+  "paletteObservation": "浅蓝层级block、深蓝token、灰色mask、浅绿情绪/身份MLP分支对应网络。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-440df6608cb3",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "QuietPrune adapter和逐层query-guided token剪枝架构完整，输入图已排除取色。",
+  "reviewedImageSHA256": "fe3bb795616bb5daad6268e1d214dd30329d8868c33c08061b47d15341a3dd90",
+  "reviewedPalette": [
+    "#FFF9E8",
+    "#BABCB7",
+    "#B1D39A",
+    "#F97B76",
+    "#F6BB8E",
+    "#F9DC77"
+  ],
+  "paletteObservation": "浅黄VLM、灰色保留token、红色剪枝token、桃色adapter、浅绿group attention对应模块。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

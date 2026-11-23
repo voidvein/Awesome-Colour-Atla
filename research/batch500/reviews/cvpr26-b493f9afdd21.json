@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-b493f9afdd21",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "VideoHV-Agent的Thinker/Judge/Verifier/Answer四代理及假设验证闭环完整。",
+  "reviewedImageSHA256": "72f18a80d58226837860c7472408afc3b4703148fa30a492232eefbdfdc87cdc",
+  "reviewedPalette": [
+    "#EAF3E4",
+    "#E3D9EC",
+    "#B9A0D1",
+    "#AACEF1",
+    "#D55452",
+    "#58BBE4",
+    "#E5EAF6"
+  ],
+  "paletteObservation": "淡紫代理、蓝色hypothesis/evidence、红色验证、浅绿verification分区和浅紫answer分区对应模块。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

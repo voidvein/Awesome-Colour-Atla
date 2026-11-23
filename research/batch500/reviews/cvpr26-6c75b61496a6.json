@@ -1,0 +1,22 @@
+{
+  "id": "cvpr26-6c75b61496a6",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "视觉编码器、随机mask与文本解码器形成实际预训练架构。",
+  "reviewedImageSHA256": "b4ee9b9b88a93e11b69959f4fd05d3bca8dcbd8e93bd48fd8c6e1e4b38b5c06d",
+  "reviewedPalette": [
+    "#C6E0F0",
+    "#F7C6AD",
+    "#AEAEAE"
+  ],
+  "paletteObservation": "排除顶部猫照片；蓝色编码器/解码器、桃色文本条件与灰色mask tokens三种真实设计色。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      307,
+      199
+    ]
+  ]
+}

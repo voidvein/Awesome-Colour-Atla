@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-a784dba26741",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "5a9627870baf6c5b56b64c11fb167df708c38330453536a28d1a3529e739b9b9",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-a784dba26741/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/24.jpg",
+  "sourceTitle": "Latent Chain-of-Thought World Modeling for End-to-End Autonomous Driving",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#874FFF",
+    "#C3A8FF",
+    "#F9A491",
+    "#C1E4FF",
+    "#FFC6C1",
+    "#76C4FE",
+    "#2A4272"
+  ],
+  "paletteObservation": "紫色VLA主干及浅紫推理token统一潜在链，浅蓝图像分词器/观察token与珊瑚色轨迹解码器/动作token区分输入输出。"
+}

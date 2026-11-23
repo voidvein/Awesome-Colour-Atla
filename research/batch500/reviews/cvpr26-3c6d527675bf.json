@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-3c6d527675bf",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整Fed-ADE共享/个性化模型与客户端自适应学习率网络。",
+  "reviewedImageSHA256": "387be709950e391889a847681d43be6423e292ffd0765233841e38b1acd8b05d",
+  "reviewedPalette": [
+    "#E8EEF8",
+    "#FFF2CC",
+    "#C5E0B4",
+    "#C55A11",
+    "#FFE699",
+    "#0033CC",
+    "#385723"
+  ],
+  "paletteObservation": "淡蓝联邦聚合、浅黄shared层、浅绿低学习率、橙色高学习率和深蓝参数标记对应结构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

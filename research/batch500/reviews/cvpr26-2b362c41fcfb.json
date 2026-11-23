@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-2b362c41fcfb",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "图5是3DReflecNet数据集资产生成、扫描、材质和评估流程，不是方法网络架构。",
+  "reviewedImageSHA256": "8cf7d49f136fa01dafd8e10e7df8975dec4a91e968d8a9b2fbf214e7a041ba93",
+  "reviewedPalette": [
+    "#DEDEDE",
+    "#C31313",
+    "#E87C0F",
+    "#CCAD9C",
+    "#37E13A",
+    "#FFE8B8",
+    "#275787"
+  ],
+  "paletteObservation": "绿幕、材质照片、Blender图标贡献多数色彩，不能用于网络色卡。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

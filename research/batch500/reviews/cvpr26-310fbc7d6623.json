@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-310fbc7d6623",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。",
+  "reviewedImageSHA256": "40e2c2e1a1a45b4395753dc4dc99725d9e95773472ea60694413e7c94202a370",
+  "reviewedPalette": [
+    "#F1FCED",
+    "#F0D7D2",
+    "#26F6CD",
+    "#C4D2E3",
+    "#4E95D9",
+    "#95E4F3",
+    "#C7DFD1"
+  ],
+  "paletteObservation": "浅灰蓝检索编码器连接绿色知识图与浅绿GRASP区域，青绿色知识保留气泡、浅粉问题框与蓝色箭头形成清楚层级。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "figure": "Figure 3",
+  "sourceTitle": "M 3 KG-RAG: Multi-hop Multimodal Knowledge Graph-enhanced Retrieval-Augmented Generation",
+  "reviewEvidence": "contacts/audit-e/individual/05.jpg"
+}

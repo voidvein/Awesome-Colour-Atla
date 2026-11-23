@@ -1,0 +1,37 @@
+{
+  "id": "cvpr26-65bd691cfda5",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "a607e04847c6308d9a52fbea4f5a065ec0bb91546380e983060ae5395accfad1",
+  "reviewedPalette": [
+    "#DDDDDD",
+    "#DDD7F3",
+    "#D6E8FB"
+  ],
+  "paletteObservation": "灰色编码器、淡蓝解码器与浅紫CLS token构成克制的三色结构；示例鸟图及ImageNet图标颜色未计入色卡。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "excludeRegions": [
+    [
+      118,
+      50,
+      540,
+      587
+    ],
+    [
+      541,
+      47,
+      734,
+      585
+    ],
+    [
+      1360,
+      49,
+      1562,
+      585
+    ]
+  ],
+  "figure": "Figure 2",
+  "sourceTitle": "In Pursuit of Pixel Supervision for Visual Pre-training",
+  "reviewEvidence": "contacts/audit-e/repair/02-masked.jpg"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-53a0cac3c3b2",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "5d2ee1a577e9411783fbfa0d0e8dd4f06853c504abbdd346d8f3f76087867ca2",
+  "reviewedPalette": [
+    "#ECF1F9",
+    "#FFE598",
+    "#538134",
+    "#2E5496",
+    "#F3B082",
+    "#A5A5A5",
+    "#96C4DC"
+  ],
+  "paletteObservation": "学生骨干为黄色，更新模块及视差细化分支为绿色，块搜索外框为深蓝，蒸馏分区为桃色；浅蓝绘出传递的代价体。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-1dc14aa82c1e",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "TALK2MOVE场景编辑flow模型、GRPO采样与空间奖励结构完整，输入照片已排除取色。",
+  "reviewedImageSHA256": "17086860fe639002a6d456267d4e92ad70089d1b5b721cf80bc84261a5d10936",
+  "reviewedPalette": [
+    "#FFF3D8",
+    "#E6F0F9",
+    "#BFBFBF",
+    "#F2AA84",
+    "#F9D1A8"
+  ],
+  "paletteObservation": "浅蓝ODE shortcut、桃色flow训练节点、浅黄数据区和灰色模型块为实际方法元素。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

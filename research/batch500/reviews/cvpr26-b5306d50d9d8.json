@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-b5306d50d9d8",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "FEDOT黑盒编码器、正交变换、分类器和联邦聚合架构完整。",
+  "reviewedImageSHA256": "ccc1c9d9671d514d87c296061433575d6d79911aca07b6332dd485e266fbaca3",
+  "reviewedPalette": [
+    "#F7C0CA",
+    "#FCECEF",
+    "#C7D3F4",
+    "#D9F2D0"
+  ],
+  "paletteObservation": "粉色正交变换与client角色、浅粉client区、蓝紫及浅绿client角色标记来自架构实体。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

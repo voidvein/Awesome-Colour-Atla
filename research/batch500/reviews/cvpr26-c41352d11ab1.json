@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-c41352d11ab1",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "图为明确的曝光时间到MTF/PSF/模糊合成计算模块流水线；已屏蔽渲染热图与照片重提色。",
+  "reviewedImageSHA256": "37e4490f4f48277e2030515489e1ef1ce0904e251a8ce210ae16ac1b687ed745",
+  "reviewedPalette": [
+    "#C5DFB4",
+    "#D5DCE4",
+    "#F4C99F",
+    "#A3B8D7"
+  ],
+  "paletteObservation": "绿色MTF、桃色模糊宽度均值、蓝色曝光时间token与蓝灰标准差块对应实际计算。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

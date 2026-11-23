@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-79d6fb3eb6c7",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整ReAG检索、Critic过滤和Generator强化训练结构，输入小图不影响当前色卡的模块对应。",
+  "reviewedImageSHA256": "51a693c2db8af217cf640ac4ba5d6264c130ec597deb8a0df49cf440a18d3213",
+  "reviewedPalette": [
+    "#EDF5E9",
+    "#A6A6A6",
+    "#548234",
+    "#572A67",
+    "#FFFF00",
+    "#FFD966",
+    "#FFE699"
+  ],
+  "paletteObservation": "浅绿retrieval、灰色Critic、深绿文档箭头、紫色token和黄色passage与图例一致。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

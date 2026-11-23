@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-b37f62edae63",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Video/audio conditioning encoders, token alignment, cross-attention diffusion transformer and STAR-DPO are explicit.",
+  "reviewedImageSHA256": "c86ce26efa4d537c43916604825246b13a5417c379154876db06d6f45abc975f",
+  "reviewedPalette": [
+    "#D5E7D4",
+    "#D4E1F5",
+    "#F7CDCC",
+    "#CCCCCC",
+    "#FFF1CC",
+    "#99C7BE"
+  ],
+  "paletteObservation": "Green cross-attention panel, pale blue diffusion blocks, pink visual encoder, gray normalization, yellow projections and teal conditioning blocks are retained; videos/spectrogram examples excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

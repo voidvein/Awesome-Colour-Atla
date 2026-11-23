@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-13c7412914db",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整ZOO-Prune视觉token扰动、zeroth-order估计和投影剪枝结构，无照片污染。",
+  "reviewedImageSHA256": "85b7bce3e74f78081e3fcd6060e60f87644d3cf349dc596270879e32c7e9368b",
+  "reviewedPalette": [
+    "#D7E2EC",
+    "#FFE3A1",
+    "#C47EBA",
+    "#EAAFE3",
+    "#DFC5DC"
+  ],
+  "paletteObservation": "蓝灰LLM/encoder、淡黄image token、紫红perturbed token和粉色敏感性模块对应网络。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

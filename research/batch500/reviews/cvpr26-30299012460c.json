@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-30299012460c",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整相对姿态优化、可微渲染、几何和语义损失框架，玩偶及帽子渲染已排除取色。",
+  "reviewedImageSHA256": "f6e6897e09a9ec3c37fa3a1d98c85cd0139606e39d0eb5d4ed7b1860a07467d3",
+  "reviewedPalette": [
+    "#B7BFC6",
+    "#EBC2D9",
+    "#F8E1AA"
+  ],
+  "paletteObservation": "灰蓝Differentiable Renderer、粉色semantic/geometric loss和浅金Init Scene框对应计算结构。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

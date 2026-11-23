@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-d537b82049f0",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "裁去右侧奖励曲面，只保留完整D2-Align扩散和方向解耦计算网络；源图像像素裁剪坐标已记录。",
+  "reviewedImageSHA256": "49d9d536d3c4f7759c51fd54628cc4b4b4808f2180812f202884ba3869dc3119",
+  "reviewedPalette": [
+    "#ED7D31",
+    "#7030A0",
+    "#94D064",
+    "#4E7CB7",
+    "#8B58B3"
+  ],
+  "paletteObservation": "橙色正方向、紫色负方向、绿色校正文本向量、蓝色偏移和较浅紫差分方向对应计算路径。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "cvpr26-85c9dcefda19",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "NAF编码器、2D-RoPE、pool和cross-scale neighborhood attention结构完整。",
+  "reviewedImageSHA256": "7350983bdb96c6457a901492c4ff85fa9d84966f2dca5b82370a93045666e144",
+  "reviewedPalette": [
+    "#9BE3FA",
+    "#FAB495",
+    "#CDEEDD"
+  ],
+  "paletteObservation": "水果和右侧/底部特征热图全排除；仅青色无参数模块、桃色可训练encoder和浅绿注意力外框三种真实架构色。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      249,
+      212
+    ],
+    [
+      582,
+      47,
+      831,
+      283
+    ],
+    [
+      391,
+      306,
+      540,
+      424
+    ]
+  ]
+}

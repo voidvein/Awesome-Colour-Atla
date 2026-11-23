@@ -1,0 +1,108 @@
+{
+  "id": "cvpr26-a2097e5d4059",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "HumanVBench 当前图为宠物/车辆/动画任务示例与 QA/干扰项生成和人工确认流程，其他候选也为标注流程或样例，未绘模型网络架构；不使用影视或照片颜色充数。",
+  "reviewedImageSHA256": "2717af48cbaeded393028bc9e7e2cbe254c97d86b355eb87c9391098d79c29a6",
+  "reviewedPalette": [
+    "#BEBEBE",
+    "#EBA44C",
+    "#415264",
+    "#DDEEF6",
+    "#D17B62",
+    "#507458",
+    "#9C7576"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "candidateEvidence": [
+    {
+      "figure": "Figure 5",
+      "caption": "Figure 5 : Demonstration of our pipeline’s generalizability. (a) Object attribute recognition for pets. (b) Object temporal tracking for cars. (c) General causal reasoning QA generated for an object-centric event, with the MLLMs used in this case being Gemini-1.5-pro, VideoLLaMA3, LLaVA-Video, and gpt-4o. This highlights the adaptability of our framework."
+    },
+    {
+      "figure": "Figure 2",
+      "caption": "Figure 2 : The Human-Centric Video Annotation Pipeline involves obtaining videos featuring people and annotating both visual and auditory information as well as overall event atmospheres."
+    },
+    {
+      "figure": "Figure 3",
+      "caption": "Figure 3 : The Distractor-Included QA Synthesis Pipeline facilitates four steps: selecting “question videos”, generating Questions, ensemble-based options generation with model-derived errors as distractors, and manually verifying multiple-choice questions."
+    },
+    {
+      "figure": "Figure 24",
+      "caption": "Figure 24 : An example of using Human-Centric Annotation Pipeline for annotation."
+    },
+    {
+      "figure": "Figure 8",
+      "caption": "Figure 8 : Example of Emotion Recognition task."
+    },
+    {
+      "figure": "Figure 9",
+      "caption": "Figure 9 : Example of Emotion Temporal Analysis task."
+    },
+    {
+      "figure": "Figure 10",
+      "caption": "Figure 10 : Example of Attitude Recognition task."
+    },
+    {
+      "figure": "Figure 11",
+      "caption": "Figure 11 : Example of Emotion Intensity Comparision task."
+    },
+    {
+      "figure": "Figure 12",
+      "caption": "Figure 12 : Example of Text-to-Human task."
+    },
+    {
+      "figure": "Figure 13",
+      "caption": "Figure 13 : Example of Human-to-Text task."
+    },
+    {
+      "figure": "Figure 14",
+      "caption": "Figure 14 : Example of Human Counting task."
+    },
+    {
+      "figure": "Figure 15",
+      "caption": "Figure 15 : Example of Appearance Time Detection task."
+    },
+    {
+      "figure": "Figure 16",
+      "caption": "Figure 16 : Example of Behavoir Temporal Analysis task."
+    },
+    {
+      "figure": "Figure 17",
+      "caption": "Figure 17 : Example of Behavior Causualty Analysis task."
+    },
+    {
+      "figure": "Figure 18",
+      "caption": "Figure 18 : Example of Action at Specific Time task."
+    },
+    {
+      "figure": "Figure 19",
+      "caption": "Figure 19 : Example of Time of Specific Action task."
+    },
+    {
+      "figure": "Figure 20",
+      "caption": "Figure 20 : Example of Audio-Visual Speaker Matching task."
+    },
+    {
+      "figure": "Figure 21",
+      "caption": "Figure 21 : Example of Active Speaker Detection task."
+    },
+    {
+      "figure": "Figure 22",
+      "caption": "Figure 22 : Example of Audio-Visual Alignment Detection task."
+    },
+    {
+      "figure": "Figure 23",
+      "caption": "Figure 23 : Example of Speech Content Matching task."
+    },
+    {
+      "figure": "Figure 4",
+      "caption": "Figure 4 : Two examples of 8-frame speaker videos sampled evenly for the emotion recognition task, with responses from various MLLMs."
+    },
+    {
+      "figure": "Figure 7",
+      "caption": "Figure 7 : Histogram of smoothed distractor selection frequency by 25 open-source MLLMs across six tasks, generated via Distractor-Included Synthesis QA pipeline."
+    }
+  ]
+}

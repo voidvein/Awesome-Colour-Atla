@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-c938efc4e1a1",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整JSRL/VGII/AFRI三模块融合网络，源图和缺失模态示例已排除取色。",
+  "reviewedImageSHA256": "b4dad5a9e53b832e0ff5d1296fe791f3953fa77f2a8a9c50195df4ebfcc43e5b",
+  "reviewedPalette": [
+    "#F2F8EB",
+    "#FBD7AE",
+    "#C8C8C8",
+    "#9BCBE1",
+    "#BBE3B7",
+    "#DABEF8"
+  ],
+  "paletteObservation": "桃色IV-DLB、浅蓝HeadNet/REN、绿色TailNet、紫色RFN与浅绿模块区对应网络。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

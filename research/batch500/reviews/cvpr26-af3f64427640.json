@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-af3f64427640",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Complete semantic conditioning, diffusion U-Net and topology reconstruction graph; unused white canvas trimmed only.",
+  "reviewedImageSHA256": "be22d7f7ca9918232729b7a1aec31494810dd61b2caa1975f84b0285d2724a9d",
+  "reviewedPalette": [
+    "#DCEAF7",
+    "#FAE2D5",
+    "#C44E44"
+  ],
+  "paletteObservation": "Pale blue conditioning panel, peach topology panel and red architecture-routing arrows are sampled; aerial images and vector-map example colours excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

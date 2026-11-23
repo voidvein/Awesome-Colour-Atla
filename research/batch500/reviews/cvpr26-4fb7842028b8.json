@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-4fb7842028b8",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Agent4FaceForgery生成蓝图、社会交互及拒绝采样架构完整，照片已排除取色。",
+  "reviewedImageSHA256": "90c973837002cedc42798ff949e6c83686e90aac2e6ec657a0e9e43f7631962a",
+  "reviewedPalette": [
+    "#CBF7CB",
+    "#D9E8F0",
+    "#FFE17D",
+    "#75ACFE"
+  ],
+  "paletteObservation": "浅绿Adaptive Rejection Sampling、浅蓝Profile/Memory模块、黄色状态和蓝色频率条来自方法模块。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

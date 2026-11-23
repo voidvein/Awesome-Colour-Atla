@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-c86d74ba5de6",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "KERNEL multi-modal graph-learning framework explicitly includes ViT encoder and HGNN supervised graph modules.",
+  "reviewedImageSHA256": "60374c8ca50293b28d8c9d2501d692f80ba5c8aea350cb17ec29fef8c20649da",
+  "reviewedPalette": [
+    "#B8C8D6",
+    "#DBA780",
+    "#FFF2CC"
+  ],
+  "paletteObservation": "Blue-gray learned graph/edge features, tan graph nodes and pale yellow ViT encoder block are measured computational colours; cell photographs and transcriptomic heatmap colours excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

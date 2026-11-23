@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-71080bc039de",
+  "verdict": "rejected",
+  "reviewer": "root",
+  "reason": "已目视确认是数据标注生产流程，非网络/计算模块结构图。",
+  "reviewedImageSHA256": "8a437a07ab87dcec82853eb98dac8e7fa1c11de1427d6f98b8f413246c9dd09f",
+  "reviewedPalette": [
+    "#CECECE",
+    "#B6E8B5",
+    "#ECF4CB",
+    "#F4CAF2",
+    "#4A8CA9",
+    "#C6AC8D",
+    "#A2E0EB"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T16:29:41Z"
+}

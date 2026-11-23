@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-ae1043d2f9b2",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整Reward Forcing流式DiT缓存与判别训练结构，输出视频已从取色排除。",
+  "reviewedImageSHA256": "46b538c14956af0c6179465dce1e5862b41154108729fa0acac86fe76f33198c",
+  "reviewedPalette": [
+    "#DDEAF7",
+    "#FFF2CC",
+    "#F8AA57",
+    "#F8CAAD",
+    "#F6D7F6",
+    "#FFD16E"
+  ],
+  "paletteObservation": "蓝色KV缓存、浅粉当前流、橙黄噪声token及浅桃VAE解码器为实际结构。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

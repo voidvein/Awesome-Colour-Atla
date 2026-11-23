@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-aeea7d8a07a3",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Hi-GRPO高层语义与低层视觉推理的自回归3D生成训练结构完整。",
+  "reviewedImageSHA256": "f25d7da2742dfd1da8202630bd8200dd8c4239b75779efa408444e81c9f362bd",
+  "reviewedPalette": [
+    "#DAE2F3",
+    "#FFDF95",
+    "#FFEFC9",
+    "#B4C6E7",
+    "#D0CECE",
+    "#ACB8C9",
+    "#FFF5DF"
+  ],
+  "paletteObservation": "淡蓝自回归模型、浅黄高层推理token、蓝灰低层视觉token和灰色条件token来自模型。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

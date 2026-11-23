@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-b453b885dde5",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "Replaced teaser with method Figure 2, but visible blocks are Gaussian anchor construction, optimal transport, optical-flow warping and uncertainty/refinement illustrations without an explicit neural model architecture.",
+  "reviewedImageSHA256": "13c076cf9a01b2c48e1ed58dbd18e0e2a622e2e08c6cb55dd12519df0ec53e03",
+  "reviewedPalette": [
+    "#DEEBF7",
+    "#34C5CA",
+    "#E2F0D9",
+    "#FD5C0C",
+    "#FCAD36",
+    "#FFFF00",
+    "#7B706A"
+  ],
+  "paletteObservation": "Visible colours belong to dataset/benchmark, rendered examples or non-neural algorithm illustrations; not accepted as network-module colours.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

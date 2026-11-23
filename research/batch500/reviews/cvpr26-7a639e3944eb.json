@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-7a639e3944eb",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Difficulty-conditioned diffusion, prior-fitted attention network and online DA-PFN inference architecture are explicit.",
+  "reviewedImageSHA256": "671436cfc7b75713de2b77358f6d750a4d17bc01b14122b9a1f4e18c10531ce8",
+  "reviewedPalette": [
+    "#E9F4E8",
+    "#F0D0B7",
+    "#B1C8B9",
+    "#F8F7CA"
+  ],
+  "paletteObservation": "Pale green offline panel, peach online panel, muted green attention network and yellow diffusion blocks are measured modules; decorative task curves excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-01fe36bdbc65",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "FedARA完整低秩神经模型分解/聚合/本地训练/对齐四阶段，色点均为框架或参数块。",
+  "reviewedImageSHA256": "77d45446254aff38e06e950947035e31b3d2d4d3b8a7c739ed7e2cc2a314e26b",
+  "reviewedPalette": [
+    "#FFFBF2",
+    "#AEAEAE",
+    "#FFDB97",
+    "#BAEFED",
+    "#D2DAF4",
+    "#F6BAA0",
+    "#8EAADC"
+  ],
+  "paletteObservation": "浅蓝与淡紫标识参数分解结构，青色和桃色区分聚合与重建，浅黄色组织本地训练；深浅蓝参数块在多个阶段保持一致。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

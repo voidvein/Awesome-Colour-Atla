@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-2b208a25d78f",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "TUNA统一视觉表示、语言理解和flow-matching生成网络完整，图像和视频样例已排除取色。",
+  "reviewedImageSHA256": "fc0fac24638c01750bcc1aea8435f83066a8fa6e2688f2ff0af7a41a00379e67",
+  "reviewedPalette": [
+    "#FFDDA6",
+    "#DEDEFF",
+    "#6DB1FF",
+    "#8ECFC9",
+    "#699995"
+  ],
+  "paletteObservation": "浅橙LLM、淡紫双head、蓝色文本token、青绿视觉token与较深青绿生成token来自网络。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

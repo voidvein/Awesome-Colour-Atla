@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-8b5e65aebaef",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Dual-decoder U-Net and degradation-aware diffusion fusion graph are explicit.",
+  "reviewedImageSHA256": "177b01237f0cee3cd4e3b9f5589faecd4c0f4cb4db8910ed3ea03835fc7767b0",
+  "reviewedPalette": [
+    "#FFF1CC",
+    "#D9E7FB",
+    "#94A3D0",
+    "#92D050",
+    "#D8D8D8"
+  ],
+  "paletteObservation": "Yellow iteration panel, blue recurrent-denoising panel, lavender denoising block, green U-Net layers and gray feature stack are actual modules; source/fused scene photos and heatmap examples excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

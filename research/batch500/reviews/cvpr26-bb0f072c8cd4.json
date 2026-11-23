@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-bb0f072c8cd4",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "GLIC编码解码、图聚合和卷积块完整，图题与论文对应。",
+  "reviewedImageSHA256": "cf5c99fd3765ea772a053a22e9c21311b21a01cb28c199e5245f4e33658d6ef6",
+  "reviewedPalette": [
+    "#DEEBF7",
+    "#FFF2CC",
+    "#FFCCCC",
+    "#E2F0D9",
+    "#FBE5D6"
+  ],
+  "paletteObservation": "浅蓝GFA块、浅黄LayerNorm、浅绿FFN、粉红global graph与桃色local graph直接来自模块。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

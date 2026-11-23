@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-a252b05be72a",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整MorphSeek编码/解码高斯策略头、warm-up和GRPO框架。",
+  "reviewedImageSHA256": "3bb7c9841d475efbdc90ecf9f94c7ffdf0c6abb06641a17d1d440ff3404942f8",
+  "reviewedPalette": [
+    "#E1EFD8",
+    "#FFFF7F",
+    "#7FD7F7",
+    "#A5A57F",
+    "#FFB2E5",
+    "#F6BD97",
+    "#B2DE5E"
+  ],
+  "paletteObservation": "黄色网络、粉色trajectory、蓝色loss、浅绿迭代与桃色最佳trajectory均有图例。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

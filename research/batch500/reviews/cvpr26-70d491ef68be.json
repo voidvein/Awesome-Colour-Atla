@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-70d491ef68be",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整VIRAL teacher-student控制网络和WBC动作通路，模拟照片与RGB帧已排除取色。",
+  "reviewedImageSHA256": "9883d8c165b9ebeaabc4a4b426d6eda22ed086d6b78b649bc6d937f327232926",
+  "reviewedPalette": [
+    "#D9EEED",
+    "#9D7AD9",
+    "#B3BAC2",
+    "#43AAA9"
+  ],
+  "paletteObservation": "浅青教师与privileged感知、紫色student/Dagger标记、灰色WBC以及青色动作箭头为结构色。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

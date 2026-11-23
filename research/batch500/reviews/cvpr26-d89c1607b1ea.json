@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-d89c1607b1ea",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "a6624c2dd49cefd16dbd862af2e5c8a18a7a8511cdf2ce128e64b019dffb301e",
+  "reviewedPalette": [
+    "#EBC1A8",
+    "#A6BAAF",
+    "#FEC107",
+    "#9675CE",
+    "#C6DEE0",
+    "#B5BAC0"
+  ],
+  "paletteObservation": "FMPose3D 已换为 Figure 2 的真实 GCN/Attention 架构：三维骨架嵌入为灰绿，二维嵌入为紫，时间嵌入为亮黄，GCN 与 Attention 为桃色，LayerNorm/MLP 为浅青。",
+  "reviewedAt": "2026-11-23T17:53:42Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-d7917ce73ebb",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整PHASE-Net视觉编码、空间滤波、GTCN和ZAS模块，人物输入已排除取色。",
+  "reviewedImageSHA256": "1083210b0913affb6f0dd7809fd531054afe6b7902fa9541755939f7d3f5010b",
+  "reviewedPalette": [
+    "#E3EEF9",
+    "#637EBB",
+    "#ADD5CF",
+    "#91ACC7",
+    "#C7E4B3"
+  ],
+  "paletteObservation": "浅蓝GTCN、蓝色时空tensor、青色/绿色ZAS通道与蓝灰tensor来自真实计算结构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

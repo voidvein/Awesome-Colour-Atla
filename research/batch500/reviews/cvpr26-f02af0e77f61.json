@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-f02af0e77f61",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "VideoMaMa latent encoder、DINOv3、MLP与diffusion U-Net完整，人物和中间latent图已排除取色。",
+  "reviewedImageSHA256": "98aad5ec1506a1105c2cf8e97c13b4f984ceb400dbbf894b94ea5b627c2b2c5e",
+  "reviewedPalette": [
+    "#DAECFF",
+    "#1BA9C9",
+    "#D7C2DA"
+  ],
+  "paletteObservation": "浅蓝latent/U-Net、青色temporal layer与淡紫MLP为真实模块色。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-c48ceca9041b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Student few-step generator, teacher distribution-matching and adaptive regression training graph is explicit.",
+  "reviewedImageSHA256": "5cfa7a1cad714b61ee4418253ce8af94cf836bb674d2486f6df30825ff122419",
+  "reviewedPalette": [
+    "#B4C7E7",
+    "#A9D18E",
+    "#FBE5D6",
+    "#548234",
+    "#2E5497",
+    "#FFC000",
+    "#C45A11"
+  ],
+  "paletteObservation": "Blue adaptive-regression loss, green distribution-matching loss, peach temporal regularizer and blue/green/yellow/orange neural routing are retained; flower video/noise images excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

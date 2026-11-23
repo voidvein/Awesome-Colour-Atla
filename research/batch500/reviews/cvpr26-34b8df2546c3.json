@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-34b8df2546c3",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整BlooDet mask/point双分支、memory和Laplace edge计算结构，手术输入帧已排除取色。",
+  "reviewedImageSHA256": "db97b9aaab22cb0955a4e429f4b09b837334ce0ef7f6b1cb1ac448b0cef2cbe9",
+  "reviewedPalette": [
+    "#CBD0DA",
+    "#D7AFBD",
+    "#526487",
+    "#9D5E71",
+    "#203764"
+  ],
+  "paletteObservation": "蓝灰mask分区、粉紫point分区、蓝色edge generator及深蓝memory token对应模块。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

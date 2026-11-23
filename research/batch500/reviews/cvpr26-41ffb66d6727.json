@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-41ffb66d6727",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "VISTA图包含工具集合、VISTA-Gym与VLM Agent交互回路及动作/观察/奖励策略更新，属于Agent训练架构。",
+  "reviewedImageSHA256": "f381066e9c50451b9a7bbab7bb548db100366e6f6f34fcba21dd40c291c8e2a4",
+  "reviewedPalette": [
+    "#DCEAF7",
+    "#9DC6FB",
+    "#529EFB",
+    "#F9DA41",
+    "#EE685C",
+    "#4B9B42",
+    "#B0EF8F"
+  ],
+  "paletteObservation": "排除左侧问答示例区；蓝色工具区与token、黄色问题标记、红绿反馈和浅绿成功反馈均为图中语义编码。",
+  "reviewedAt": "2026-11-23T16:45:36Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      575,
+      419
+    ]
+  ]
+}

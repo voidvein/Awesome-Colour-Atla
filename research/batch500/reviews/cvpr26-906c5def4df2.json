@@ -1,0 +1,40 @@
+{
+  "id": "cvpr26-906c5def4df2",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "视觉动态压缩、dLDM和自回归Transformer训练/推理两阶段网络完整。",
+  "reviewedImageSHA256": "a54667e422042dd71dda896e37fa21a746049eb8e1cab2cc7fc7444d0c6a647f",
+  "reviewedPalette": [
+    "#E4E6F0",
+    "#FDE3C0",
+    "#FBE1E2"
+  ],
+  "paletteObservation": "照片、潜变量可视化与生成实例不入色卡；仅保留浅紫分区、杏色dLDM/VDM模块与粉色离散latent tokens。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      288,
+      60,
+      812,
+      191
+    ],
+    [
+      51,
+      287,
+      812,
+      364
+    ],
+    [
+      981,
+      18,
+      1692,
+      298
+    ],
+    [
+      1438,
+      478,
+      1692,
+      597
+    ]
+  ]
+}

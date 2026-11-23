@@ -1,0 +1,35 @@
+{
+  "id": "cvpr26-4212e70ee43f",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "ViT编码块、位置/patch嵌入、query fusion和track queries路径完整。",
+  "reviewedImageSHA256": "4434a3122863efafd0f86e9f1d4bc0fdaf1926773d914d7e562e09b0a6fa3a13",
+  "reviewedPalette": [
+    "#FFF0E6",
+    "#FF6D01",
+    "#ECF3FD",
+    "#FFDFC7"
+  ],
+  "paletteObservation": "上下鸟类帧照片不采色；浅桃Transformer区域、橙色神经层边框、浅蓝query token和桃色编码块来自原结构。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      2045,
+      121
+    ],
+    [
+      0,
+      0,
+      307,
+      278
+    ],
+    [
+      1022,
+      0,
+      1288,
+      278
+    ]
+  ]
+}

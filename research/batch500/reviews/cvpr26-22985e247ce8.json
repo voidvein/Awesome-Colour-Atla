@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-22985e247ce8",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "查看原文图候选：训练视觉饮食的饱和度/模糊/连续性数据增广，仅列off-the-shelf模型，未画神经架构。",
+  "reviewedImageSHA256": "7a589928c4836defd39ef2b7dc277c5b57565f02771390036066e5716ed2fb76",
+  "reviewedPalette": [
+    "#89857C",
+    "#196A24",
+    "#926143",
+    "#AEBAB6",
+    "#C00000",
+    "#BD7529",
+    "#9F9C93"
+  ],
+  "paletteObservation": "颜色来自样例照片和数据增广标志，不能拿来凑网络色卡。",
+  "reviewedAt": "2026-11-23T17:39:45Z"
+}

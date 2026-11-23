@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-1c1093f1533e",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Language-conditioned diffusion architecture explicitly shows frozen VAE and text encoders plus denoising model.",
+  "reviewedImageSHA256": "94dd1deea6d0141f4fb12b046396058db71a6d1373cad40b5a88e30f8f7ba360",
+  "reviewedPalette": [
+    "#CFE2F3",
+    "#D9EAD3",
+    "#D9D2E9"
+  ],
+  "paletteObservation": "Pale blue variational encoder/decoder, green Text Encoder and lavender Diffusion Model are measured directly; room RGB/depth examples excluded with explicit rectangles.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

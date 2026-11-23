@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-85a4ec0fbb0a",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "ActivePolicy探索规划、映射、候选视点与后精炼计算流程完整。",
+  "reviewedImageSHA256": "bac0c88a0449755335260d5dd0b116aee768a19b92c0e3f3f11d3127aea8f0cc",
+  "reviewedPalette": [
+    "#F7CBAC",
+    "#BDD7EE",
+    "#C5E0B3",
+    "#FEE599",
+    "#FEC000",
+    "#4672C4",
+    "#C55A11"
+  ],
+  "paletteObservation": "桃色下一视点计算、蓝色后精炼、绿色规划、黄色候选视点模块可对应。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

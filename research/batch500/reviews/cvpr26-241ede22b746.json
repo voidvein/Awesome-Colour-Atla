@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-241ede22b746",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "d9d01f85aed2c707d5fb6261c46378be2b7224fbffeb81ff442de189bb86dfb4",
+  "reviewedPalette": [
+    "#DC0E0E",
+    "#364ACC",
+    "#175F5A",
+    "#F5AC17"
+  ],
+  "paletteObservation": "预测未来的函数与标题为红色，预测历史为蓝色，前向动力学变量为深青，逆动力学变量为金黄；火焰训练图标的橙色未列入色卡。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

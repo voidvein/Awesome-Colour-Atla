@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-4a70c4ff8e94",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "完整Eagle神经解释框架，已看单图与改色联系图，手采模块填充/描边，未用照片热图。",
+  "reviewedImageSHA256": "e09fcb30530b9037ec4246b234e3488f1f68eb56896a98ac1e8047970ec62ca3",
+  "reviewedPalette": [
+    "#E8E8F0",
+    "#FCD5B4",
+    "#B9CDE5",
+    "#DAEDF3",
+    "#8064A1",
+    "#4E81BD",
+    "#E46B0A"
+  ],
+  "paletteObservation": "紫色模型边框与浅灰紫目标函数保持一致，Insight用暖橙填充和橙色描边，Necessity用浅蓝与蓝色描边，分割模块使用淡青色，形成冷暖两条解释线索。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

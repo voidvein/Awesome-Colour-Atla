@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-1593abeea0ef",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整token grounding幻觉检测计算结构；已屏蔽真实图像和attention伪彩。",
+  "reviewedImageSHA256": "dc9ac0cc8806e852d1428d2b44f864bd3e2228c2a833fd2f4e0b3ec0bbdd6d2a",
+  "reviewedPalette": [
+    "#B4C6E7",
+    "#F8CAAC",
+    "#4471C4",
+    "#FF7B80"
+  ],
+  "paletteObservation": "蓝色跨模态一致性、桃色注意力离散分数、蓝色token通路和粉红幻觉token为实际流程色。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-f2a3c183b6a7",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整双噪声visual stream和判别DiT训练结构，真实建筑样例已排除取色。",
+  "reviewedImageSHA256": "4ad2ee9f7b38bf8e9681cbda4810183eae260bc9c307f28774d47d42e39fb1b1",
+  "reviewedPalette": [
+    "#EDF4FA",
+    "#FDC9C8",
+    "#AC86C7",
+    "#91ADDC",
+    "#E12519"
+  ],
+  "paletteObservation": "粉红Cross Attention/Conv、淡紫image token、蓝色text token和红色训练标记对应架构。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

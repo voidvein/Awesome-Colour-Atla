@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-e7c2ea113b93",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整DRM Transformer训练及Reward Output Head架构，未混正文。",
+  "reviewedImageSHA256": "d117e4a6bd98c0f0638961578b3e8aab12c85fc18a876f31745e6751031d8def",
+  "reviewedPalette": [
+    "#DAE2F5",
+    "#FBE6D4",
+    "#F8CDAC",
+    "#D0CECE",
+    "#B6C6EA"
+  ],
+  "paletteObservation": "淡蓝DiT背景、桃色Transformer、橙色reward head和灰色移除层对应真实网络。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

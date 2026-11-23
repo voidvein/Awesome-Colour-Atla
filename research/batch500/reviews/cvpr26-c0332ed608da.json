@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-c0332ed608da",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "191c8c2d82f22e678019fe591352e84c911a396b137fc02c95fae475f83143c5",
+  "reviewedPalette": [
+    "#E06666",
+    "#CC4125",
+    "#8E7CC3",
+    "#6EA8DC",
+    "#93C47D",
+    "#FFD966"
+  ],
+  "paletteObservation": "输入嵌入 token 为砖红，ViT 的权重 token 为紫色、输出权重为蓝色，坐标为珊瑚红；绿色和黄色基参数方块接入 INR 解码器。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

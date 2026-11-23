@@ -1,0 +1,36 @@
+{
+  "id": "cvpr26-1ca358ade5c3",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "b186450a906c10ee714fc9fe31dfae1d2d7ad1fd55a86a137e1ff5b95c20bf8b",
+  "reviewedPalette": [
+    "#EBF9E4",
+    "#DEEBF7",
+    "#F7E7E6",
+    "#FFF1CC",
+    "#F3E9F9"
+  ],
+  "paletteObservation": "COPO 的 token 与奖励序列使用浅黄、浅蓝和浅桃，输入提示为淡紫，奖励分组为浅绿；狗图和机器人插画已排除，保留框图及实际数据流色。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      142,
+      462,
+      350,
+      652
+    ],
+    [
+      455,
+      431,
+      618,
+      604
+    ],
+    [
+      366,
+      759,
+      445,
+      815
+    ]
+  ]
+}

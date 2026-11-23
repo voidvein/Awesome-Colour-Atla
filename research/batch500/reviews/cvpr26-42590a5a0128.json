@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-42590a5a0128",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整PaQ-DETR查询权重、pattern表征和deformable detection结构，马照片已排除取色。",
+  "reviewedImageSHA256": "9c9714660d31c48be4bb33c6d75a6f7aca068fa50c05e04d31f7fdae6986097f",
+  "reviewedPalette": [
+    "#FBEBDD",
+    "#B7DDE8",
+    "#FDE499",
+    "#789340",
+    "#30859B"
+  ],
+  "paletteObservation": "浅桃attention、浅青quality alignment、黄色pattern/FFN、绿色feature及青色position embedding对应模块。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

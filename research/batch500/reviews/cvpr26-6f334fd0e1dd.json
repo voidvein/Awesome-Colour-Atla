@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-6f334fd0e1dd",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "图1是concept-based解释忠实性度量与删除代理的概念比较，没有具体模型网络架构。",
+  "reviewedImageSHA256": "2ac053f0fd60f756a14259f75e40d23aa83ca41b0f2966099726b2dc0412c589",
+  "reviewedPalette": [
+    "#D8D8D8",
+    "#F9EE9D",
+    "#E8BD79",
+    "#9EEBCF",
+    "#E6030F",
+    "#95CCFF",
+    "#FFF1F8"
+  ],
+  "paletteObservation": "黄色指标、橙色surrogate和红色删除空间属于指标说明，不以此凑网络卡片。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

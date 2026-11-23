@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-d820e138f804",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "多帧scene-flow网络φG及运动候选、投票聚合计算结构完整。",
+  "reviewedImageSHA256": "a5b9db25c7b46e8f20e24dd4f614f4df98ee87d7c467427f2b1d4fc23d868a61",
+  "reviewedPalette": [
+    "#F1F4FD",
+    "#C2C3C7",
+    "#FB8A90"
+  ],
+  "paletteObservation": "屏蔽/剔除点云、输出场景流与训练火焰；保留候选生成浅蓝底、灰色候选运动几何和粉色投票矩阵。",
+  "reviewedAt": "2026-11-23T17:39:44Z"
+}

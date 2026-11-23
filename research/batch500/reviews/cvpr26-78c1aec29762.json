@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-78c1aec29762",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "UNet编码、SAFB注意力块和损失监督神经结构完整。",
+  "reviewedImageSHA256": "f9bb64fd52d89f299f2df9ea8e8229542d6ecb57b1ed65215428321dc551d313",
+  "reviewedPalette": [
+    "#000000",
+    "#FF0000"
+  ],
+  "paletteObservation": "去掉所有组织/预测图紫色；手采黑色神经模块边框和红色损失箭头两色，明确保留其真实黑白加红强调设计。",
+  "reviewedAt": "2026-11-23T17:11:14Z"
+}

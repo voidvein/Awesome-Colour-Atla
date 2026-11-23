@@ -1,0 +1,31 @@
+{
+  "id": "cvpr26-6179b93e2578",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "e84332251303a55d5cfd04ddc3f7a9f6757bc9fd516e7597d569501d3a55f267",
+  "reviewedPalette": [
+    "#F4CCCC",
+    "#C8DAF8",
+    "#B6D6A8",
+    "#FFE499",
+    "#B4A7D5",
+    "#EA9999"
+  ],
+  "paletteObservation": "CoWTracker 的更新算子为粉红，空间/时间注意力为浅蓝，骨干为绿色，warp 节点为淡黄；目标特征为淡紫、隐藏状态为珊瑚粉，视频与轨迹热图已排除。",
+  "reviewedAt": "2026-11-23T17:53:41Z",
+  "excludeRegions": [
+    [
+      104,
+      36,
+      302,
+      161
+    ],
+    [
+      778,
+      229,
+      962,
+      367
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cvpr26-7866e46c85b8",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "TALON encoder blocks、projector与prototype在线更新/类别发现结构完整。",
+  "reviewedImageSHA256": "38f0e9dc4fe3d15c51d95c48f236d6476fe6ed96f899239e77e3e0b08b31d258",
+  "reviewedPalette": [
+    "#FAE4D5",
+    "#DAE2F3",
+    "#C5DFB4",
+    "#ACB8C9",
+    "#E1EFD9"
+  ],
+  "paletteObservation": "鸟照片底部曾残留一像素行，已扩大遮罩并删除棕色照片候选；仅保留桃encoder、蓝prototype/embedding、绿类别token和蓝灰分隔的真实模块色。",
+  "reviewedAt": "2026-11-23T17:50:06Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      158,
+      186
+    ],
+    [
+      0,
+      232,
+      139,
+      427
+    ]
+  ]
+}

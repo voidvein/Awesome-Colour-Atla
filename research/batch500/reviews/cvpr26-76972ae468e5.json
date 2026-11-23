@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-76972ae468e5",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由AMB3R teaser改为图2真实front-end/back-end网络，重建/深度图已排除取色。",
+  "reviewedImageSHA256": "a1424581f6d788182b91f52276f0e5b338c97021e735015271b12100e5db4740",
+  "reviewedPalette": [
+    "#A5A9FF",
+    "#94C0F3"
+  ],
+  "paletteObservation": "仅两种实际网络色：浅蓝ViT/Transformer块与淡紫后端voxel特征token。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

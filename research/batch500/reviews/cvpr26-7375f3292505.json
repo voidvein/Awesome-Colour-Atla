@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-7375f3292505",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "bc1ba7a21e6957b3431fc971ca3b0215e7925fb91624a8c5b08c71d83bbddc32",
+  "reviewedPalette": [
+    "#FBE3E3",
+    "#FFF1CC",
+    "#FFD964",
+    "#629FD7",
+    "#EE9090",
+    "#58A249",
+    "#A8D08D"
+  ],
+  "paletteObservation": "VideoARM 的控制器和工作记忆用浅绿，结果记忆及工具用淡黄，时间定位工具描蓝边，右侧思考过程用粉红框，记忆更新箭头使用相应绿红颜色。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

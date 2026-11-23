@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-86f3935fca29",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "SafeDrive ProposalNet、SWNet、FRNet完整三段网络，图注和题名一致。",
+  "reviewedImageSHA256": "69e05644d37726133b78ad031f0447b92697ee9d116095f05b5f8bded6a37d48",
+  "reviewedPalette": [
+    "#F6E2AC",
+    "#739186",
+    "#D1D1D1",
+    "#B5C1A0",
+    "#F5D573",
+    "#475C54",
+    "#C5AC5C"
+  ],
+  "paletteObservation": "米黄网络分区、青灰预测头、灰色ProposalNet、浅绿联合表示与黄色BEV特征均来自结构。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

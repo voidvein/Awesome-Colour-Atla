@@ -1,0 +1,27 @@
+{
+  "id": "cvpr26-9a627dac998a",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Fig3右侧明确画出冻结预训练stereo神经模型和带可训练适配器的目标网络，属神经模块迁移架构。",
+  "reviewedImageSHA256": "5f6bdb936dbf08e5d601f334fd20ff6b0fa943abe8400a33f546a45e4bfe80cd",
+  "reviewedPalette": [
+    "#EA9999",
+    "#E69138"
+  ],
+  "paletteObservation": "仅两种实色：红色为预训练/适配后的stereo网络主体，橙色为可训练适配器；左侧数据工厂照片、事件图、全部深度输出色带均未采色。 复看后收窄真实照片/事件/深度排除框，橙适配器点位保持在有效神经模块内。",
+  "reviewedAt": "2026-11-23T17:42:12Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      1415,
+      532
+    ],
+    [
+      1635,
+      0,
+      2033,
+      532
+    ]
+  ]
+}

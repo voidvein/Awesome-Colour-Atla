@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-168cce64dcb5",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整BRGMAR图像/基因图网络与多模态cross-attention结构，组织图和基因散点已排除取色。",
+  "reviewedImageSHA256": "cddc1f0839176ca7b2f82c56c714fbf6feba8ca9108c053c8fa7f73e1bcf14a4",
+  "reviewedPalette": [
+    "#F2AA84",
+    "#A6CAEC",
+    "#B4E5A2"
+  ],
+  "paletteObservation": "浅蓝Vision Encoder、浅绿Graph Conv和桃色gene/domain对齐模块构成实际网络色。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

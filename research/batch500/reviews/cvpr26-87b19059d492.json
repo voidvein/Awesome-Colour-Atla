@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-87b19059d492",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "ScaleFormer全网及STT/CTT结构完整，色点位于编码/解码、Transformer块和模块背景，不在卫星输入。",
+  "reviewedImageSHA256": "c48d5427d570e08dd5ee365a2d5850ab1d859650a35498f352cbae335935e8f4",
+  "reviewedPalette": [
+    "#FCE2A0",
+    "#FCEDF0",
+    "#AECEFA",
+    "#BEBEBE",
+    "#FDF3D5",
+    "#DAE8FC",
+    "#E5F2E8"
+  ],
+  "paletteObservation": "浅黄与浅蓝交替编码两条尺度路径，浅绿用于编码器/解码器，淡粉和灰色辅助区分模块细节；蓝色和黄色在跨尺度融合处继续复用。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

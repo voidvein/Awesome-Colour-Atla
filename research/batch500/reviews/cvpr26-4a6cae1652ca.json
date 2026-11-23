@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-4a6cae1652ca",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "ActiveAD图1为通用选样、人工标注与训练循环概述，未呈现具体神经网络或内部计算模块。",
+  "reviewedImageSHA256": "093709b0ce2cf6ed92eee04e99261bfead83ce0b914969cfcc4e257a31cd2e73",
+  "reviewedPalette": [
+    "#DAE3F3",
+    "#93918D",
+    "#879EB6",
+    "#49473D",
+    "#B2B8C4",
+    "#AB9F93"
+  ],
+  "paletteObservation": "照片背景灰褐污染色卡，仅一个选样蓝框不足以构成网络配色。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

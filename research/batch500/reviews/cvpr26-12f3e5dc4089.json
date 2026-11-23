@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-12f3e5dc4089",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "B3-Seg相机候选、EIG选择与Beta-Bernoulli更新计算结构完整；渲染和照片已屏蔽。",
+  "reviewedImageSHA256": "39763d8a13855ccf7dbc0201c291c09e65abd6a3c9998563b285931b51752ccf",
+  "reviewedPalette": [
+    "#E5F2E4",
+    "#BDCCDA"
+  ],
+  "paletteObservation": "仅保留浅绿Beta更新与蓝灰Grounded SAM2模块两种真实颜色。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

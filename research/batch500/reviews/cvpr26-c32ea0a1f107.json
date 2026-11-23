@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-c32ea0a1f107",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。",
+  "reviewedImageSHA256": "56f7a8f616691cdb241f791c79d6d84daf72df2f3b190e1853c6e0924af04827",
+  "reviewedPalette": [
+    "#E7D4CF",
+    "#ACB8C9",
+    "#8FAADC",
+    "#FFF1CC",
+    "#FFE699",
+    "#F4B083",
+    "#333E50"
+  ],
+  "paletteObservation": "粉棕原型记忆库、蓝灰边界分析模块与奶油黄特征提取/投影模块串联，杏桃原型条和深灰输出保持可追踪性。",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "figure": "Figure 2",
+  "sourceTitle": "Multi-Prototype Compactness and Boundary-Aware Synthesis for Unsupervised Anomaly Detection",
+  "reviewEvidence": "contacts/audit-e/individual/20.jpg"
+}

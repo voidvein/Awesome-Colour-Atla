@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-2c5600c99b1e",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "检查原文方法候选：非一致性得分近邻匹配、分位数和统计校准流程，当前候选还是性能散点图；无神经结构。",
+  "reviewedImageSHA256": "9a2c2890f42c85848eaa1ff989d407828bf007dc765ffdc8f6434e6382592a8f",
+  "reviewedPalette": [
+    "#FFA500",
+    "#7B92C7"
+  ],
+  "paletteObservation": "当前橙蓝来自性能曲线，不是网络模块色。",
+  "reviewedAt": "2026-11-23T17:39:45Z"
+}

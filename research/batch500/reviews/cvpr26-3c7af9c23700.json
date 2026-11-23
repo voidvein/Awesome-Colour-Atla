@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-3c7af9c23700",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整ACoT-VLA显式/隐式动作推理与action-guided预测架构，视觉输入已屏蔽取色。",
+  "reviewedImageSHA256": "c150feab9b02b0a98f6eae3b7d16b888b8c70d8bbd6c7f3de6169d2b786a03a4",
+  "reviewedPalette": [
+    "#F6E9DD",
+    "#ACD68E",
+    "#E8ECFA",
+    "#FFF1CA",
+    "#D0CECE"
+  ],
+  "paletteObservation": "桃色隐式推理、浅黄显式推理、淡蓝VLM、绿色KV cache和灰色条件块对应结构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

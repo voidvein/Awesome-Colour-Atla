@@ -1,0 +1,26 @@
+{
+  "id": "cvpr26-fdbc69f0d759",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "图多模态编码、Mixer/Attention/MLP及结构感知提示和路由网络完整。",
+  "reviewedImageSHA256": "34837a5e3e8c54666677eff67be9d8891eec38af10701a5fb6cfd5da30334832",
+  "reviewedPalette": [
+    "#E1EFD9",
+    "#DEEBF7",
+    "#FBECB0",
+    "#B0BED7",
+    "#F99F9E",
+    "#FF6501",
+    "#E9C0A4"
+  ],
+  "paletteObservation": "排除输入实景缩略图；绿/蓝FFN、黄AddNorm、粉色模态token及训练标志来自结构本身。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      245,
+      379
+    ]
+  ]
+}

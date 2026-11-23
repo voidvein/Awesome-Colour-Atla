@@ -1,0 +1,38 @@
+{
+  "id": "cvpr26-9192fe98fbcf",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "4b99b27d9877056d3b6ac86c49945b72416cf349623a7b098a8d9216cd018d1b",
+  "reviewedPalette": [
+    "#EDF3FB",
+    "#FDF1D4",
+    "#B39ABF",
+    "#84A1C9",
+    "#E1D5E7",
+    "#DBE9DA",
+    "#9573A6"
+  ],
+  "paletteObservation": "AVA-VLA 的注意力堆叠为浅蓝，主动视觉注意力模块为淡紫并描深紫边，视觉编码为浅绿，动作头与循环状态为淡黄；机器人照片和装饰图标已排除。",
+  "reviewedAt": "2026-11-23T17:53:41Z",
+  "excludeRegions": [
+    [
+      16,
+      92,
+      100,
+      181
+    ],
+    [
+      16,
+      341,
+      103,
+      430
+    ],
+    [
+      876,
+      195,
+      991,
+      328
+    ]
+  ]
+}

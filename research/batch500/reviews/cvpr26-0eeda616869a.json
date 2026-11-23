@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-0eeda616869a",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "beab321db1a46180ff1d54618a8a3c66a8e2756756b4235fab0ae62c47bd9c8e",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-0eeda616869a/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/27.jpg",
+  "sourceTitle": "Linking Modality Isolation in Heterogeneous Collaborative Perception",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#DEEBF7",
+    "#FFF2CC",
+    "#FFE699",
+    "#4472C4",
+    "#FFD966",
+    "#D0CECE",
+    "#2E75B6"
+  ],
+  "paletteObservation": "浅蓝与浅黄编码空间标识两种模态，深蓝箭头串联编码器、适配器与重建模块，金黄token与灰色翻译器形成层次。"
+}

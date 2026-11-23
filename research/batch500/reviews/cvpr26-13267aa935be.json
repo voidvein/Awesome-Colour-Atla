@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-13267aa935be",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "CMPStereo双向跨模态prompt和级联视差细化网络完整。",
+  "reviewedImageSHA256": "1696d8c0949aa84950dd3bcb22253d3743374d2296d10f5159da057604744b7b",
+  "reviewedPalette": [
+    "#FEF9C7",
+    "#DBEDF2",
+    "#B5DD87",
+    "#7CBDF2",
+    "#F8CAAC",
+    "#FED351",
+    "#FFE699"
+  ],
+  "paletteObservation": "浅黄visual transform、浅蓝跨域一致性、绿色/蓝色两模态编码器与桃色prompt支路对应模块。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

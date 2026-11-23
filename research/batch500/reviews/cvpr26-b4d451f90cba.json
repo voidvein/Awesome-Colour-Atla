@@ -1,0 +1,28 @@
+{
+  "id": "cvpr26-b4d451f90cba",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "附录Fig35含Qwen-VL decoder、视觉投影/编码器、文本嵌入与LoRA的明确神经架构。",
+  "reviewedImageSHA256": "af0aded8a930434780b2c51f84d08706b1dc13c2f9274bc681a4e85fbe7d6297",
+  "reviewedPalette": [
+    "#EF634B",
+    "#28C3C3",
+    "#FABE0A"
+  ],
+  "paletteObservation": "视频与评分卡不采色；仅红色Qwen decoder、青色视觉模块、黄色文本嵌入三色。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      192,
+      313,
+      480
+    ],
+    [
+      679,
+      0,
+      1044,
+      480
+    ]
+  ]
+}

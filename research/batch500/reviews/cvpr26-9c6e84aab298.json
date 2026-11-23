@@ -1,0 +1,29 @@
+{
+  "id": "cvpr26-9c6e84aab298",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "Prune2Drive层内剪枝、优化环路和token选择计算模块完整。",
+  "reviewedImageSHA256": "83d9ffe1bc86567547ac2cefdc458d8a6b91c03c318c20b4537bc76ba6840603",
+  "reviewedPalette": [
+    "#FFCCCC",
+    "#74C3E8",
+    "#042333",
+    "#E6EFF7"
+  ],
+  "paletteObservation": "重新手采粉色剪枝节点、蓝色视觉token、深青边框和浅蓝优化区；不取矩阵数值热图或道路照片颜色。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      154,
+      452,
+      284
+    ],
+    [
+      734,
+      378,
+      941,
+      591
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-2cc8924ed710",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Complete semantic and pixel distillation network; palette sampled from architecture blocks with rendered input/output examples excluded.",
+  "reviewedImageSHA256": "98fb1610e65db8087c6c71e2aeb645c53d8503bb4f2cb77bd1ebcc11a142eb65",
+  "reviewedPalette": [
+    "#C5DFB4",
+    "#EE939E",
+    "#E7F1F9",
+    "#FFF1CC",
+    "#6F2F9F"
+  ],
+  "paletteObservation": "Green diffusion/cross-attention blocks, pink texture map, pale blue SR network, yellow LoRA and purple rasterizer form five measured module colours.",
+  "reviewedAt": "2026-11-23T17:38:43Z"
+}

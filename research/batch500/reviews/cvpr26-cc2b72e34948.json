@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-cc2b72e34948",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整Evo-1四种VLM与动作专家整合模块，层级和attention连接清晰。",
+  "reviewedImageSHA256": "c847405355a473a24ec78049ed5b29f171efdd3cfc573041f6167cf4cebc4c96",
+  "reviewedPalette": [
+    "#FFDAC0",
+    "#BAE9FD",
+    "#C0E1C2",
+    "#FFE2A6",
+    "#C0C6E0"
+  ],
+  "paletteObservation": "浅蓝VLM layer、桃色Cross-Attention、浅绿线性整合、黄色中间token与蓝紫动作token对应模块。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

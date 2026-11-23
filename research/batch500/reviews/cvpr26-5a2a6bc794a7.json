@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-5a2a6bc794a7",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "修复错误跨图裁切，仅保留完整EVATok Figure3 Q-Former Encoder/VQ/Decoder；上方Figure2和图注正文已删除，PDF源坐标同步。",
+  "reviewedImageSHA256": "df5daabfd9f6ff7474d12bc7167e6565cc817c6ee50023f4954ace6b271c5b7c",
+  "reviewedPalette": [
+    "#C2E9F2",
+    "#B5DE99",
+    "#FFF3A3",
+    "#F3C5C1",
+    "#AFABAB"
+  ],
+  "paletteObservation": "浅蓝、浅绿、浅黄、粉红query token与灰色Video输入来自完整tokenizer网络。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "cvpr26-87f7a3236a5a",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "6945f466a0f69425751821e022cfed068128481652e5cc1fe47c2be6663d9d5a",
+  "reviewedPalette": [
+    "#0064BC",
+    "#7EC3FF",
+    "#FFBCC3",
+    "#D9D9D9",
+    "#BDEBDF",
+    "#DA0047"
+  ],
+  "paletteObservation": "DINOv2、ViT 和 Transformer 使用深蓝长条，表情 token 为粉红色，二维/三维 token 为薄荷绿，头像编码边框为浅蓝；脸部及彩色潜码图已排除。",
+  "reviewedAt": "2026-11-23T17:27:31Z",
+  "excludeRegions": [
+    [
+      3,
+      0,
+      398,
+      433
+    ],
+    [
+      489,
+      79,
+      822,
+      315
+    ],
+    [
+      1010,
+      81,
+      1193,
+      218
+    ],
+    [
+      1561,
+      78,
+      1681,
+      412
+    ],
+    [
+      1760,
+      0,
+      2041,
+      480
+    ]
+  ]
+}

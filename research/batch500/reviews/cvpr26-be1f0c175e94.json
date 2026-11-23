@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-be1f0c175e94",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "逆散射MLP与位置编码、接收场拼接计算结构完整，绿色介质渲染已屏蔽取色。",
+  "reviewedImageSHA256": "58ec445d4cbbe1ce7ef26ebd356939c0e05c36c5d4733981ca9383ac1d44824e",
+  "reviewedPalette": [
+    "#9DC3E6",
+    "#D1D1D1",
+    "#FFC000"
+  ],
+  "paletteObservation": "浅蓝接收场token、黄色位置/场token及灰色MLP为实际网络配色。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

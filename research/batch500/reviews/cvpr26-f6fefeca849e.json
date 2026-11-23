@@ -1,0 +1,40 @@
+{
+  "id": "cvpr26-f6fefeca849e",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "换为SafeGRPO Fig2实际训练/奖励构造流程，而非Fig3数据集统计饼图。",
+  "reviewedImageSHA256": "04bb4fb48dd4730372813df5f40cdc1cee917c3847512aa562557b14c87a6ce5",
+  "reviewedPalette": [
+    "#EAF2FF",
+    "#505868",
+    "#E46C0B"
+  ],
+  "paletteObservation": "仅取训练侧策略输出节点：浅蓝文档token填色、深灰蓝框线、橙色Policy Outputs标签；排除左侧饼图、照片、人物插画及背景纹理。",
+  "reviewedAt": "2026-11-23T16:45:37Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      1050,
+      863
+    ],
+    [
+      0,
+      0,
+      1692,
+      190
+    ],
+    [
+      0,
+      345,
+      1692,
+      863
+    ],
+    [
+      1500,
+      0,
+      1692,
+      863
+    ]
+  ]
+}

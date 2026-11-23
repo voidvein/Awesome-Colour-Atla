@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-4b00bfe5ac3d",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "882c49f61083e1bf8f2e86df00b76da3c8fdb400d8acacc150cac619ce9d3a70",
+  "reviewedPalette": [
+    "#6A8ED0",
+    "#91C36E",
+    "#B39BD1",
+    "#F1A06A",
+    "#C0DDAC",
+    "#F7C6A7",
+    "#D7D7D7"
+  ],
+  "paletteObservation": "LiteSense 的 Spatial Block 为蓝色，PCSI 融合模块为淡紫，上采样块为绿色，直方图块为橙色；模块内部卷积/激活的分区采用对应浅绿和浅桃。",
+  "reviewedAt": "2026-11-23T17:53:40Z"
+}

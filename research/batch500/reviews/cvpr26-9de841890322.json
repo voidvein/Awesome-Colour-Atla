@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-9de841890322",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "语义理解、密度估计、shape encoder与自回归Transformer骨架生成路径完整。",
+  "reviewedImageSHA256": "dfd3093bf36898460de8ae71ceb5d6485cf57ead840ca1867cdf7fb766c024f3",
+  "reviewedPalette": [
+    "#E5EFFF",
+    "#C5E0B4",
+    "#FFF2CC",
+    "#D81E06",
+    "#E2F0D9",
+    "#FBE5D6",
+    "#A9D18E"
+  ],
+  "paletteObservation": "左右输入/输出几何可视化不取色；淡蓝Transformer、绿语义、黄色shape和不同token语义色保留。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      203,
+      613
+    ],
+    [
+      1472,
+      0,
+      1692,
+      613
+    ]
+  ]
+}

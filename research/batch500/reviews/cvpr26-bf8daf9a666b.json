@@ -1,0 +1,39 @@
+{
+  "id": "cvpr26-bf8daf9a666b",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "完整Watch-and-Learn Fig2包含IDM模型和多阶段训练/推理流程，原始流程图保留。",
+  "reviewedImageSHA256": "7e60cf7ee718fca4c9675f6a1512693b02b00036dd0f26c3c4bbca397f53dc55",
+  "reviewedPalette": [
+    "#B7824C",
+    "#888888"
+  ],
+  "paletteObservation": "只取神经模型块棕色Transformer/动作头和灰色SigLIP2编码器；手工核对灰色模块104812精确像素，排除界面截图与prompt薄边。",
+  "reviewedAt": "2026-11-23T16:45:37Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      3747,
+      1136
+    ],
+    [
+      0,
+      1136,
+      1745,
+      2418
+    ],
+    [
+      3330,
+      1136,
+      5133,
+      2418
+    ],
+    [
+      1745,
+      1136,
+      3330,
+      1765
+    ]
+  ]
+}

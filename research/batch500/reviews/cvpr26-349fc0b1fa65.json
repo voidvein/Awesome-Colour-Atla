@@ -1,0 +1,29 @@
+{
+  "id": "cvpr26-349fc0b1fa65",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Symphony含planning/grounding/reflection多个神经Agent及阶段信息交互。",
+  "reviewedImageSHA256": "5f98cb02c08caec6bc7feb886ee9a94df42cd6c74aae1b0e0fa8060a3139d3f3",
+  "reviewedPalette": [
+    "#DAE7FB",
+    "#FFF1CC",
+    "#E1EFD7",
+    "#F1FDFD"
+  ],
+  "paletteObservation": "顶端视频和局部帧缩略图全部排除；浅蓝reflection、奶油plan、浅绿grounding与浅青任务区为Agent背景色，去logo蓝/图标深灰。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      1692,
+      139
+    ],
+    [
+      0,
+      271,
+      338,
+      541
+    ]
+  ]
+}

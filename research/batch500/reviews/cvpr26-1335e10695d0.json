@@ -1,0 +1,34 @@
+{
+  "id": "cvpr26-1335e10695d0",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedAt": "2026-11-23T16:46:16.022828+00:00",
+  "reviewedImageSHA256": "db099c6a4f4d0f74b289aea969fb23e79dcd664863d756dda8d05cf42af9e10d",
+  "reviewedImage": "research/batch500/candidates/cvpr26-1335e10695d0/reviewed-fixed.png",
+  "reviewedPalette": [
+    "#D9E7FA",
+    "#D4E8D3",
+    "#F1AA84",
+    "#63AC9F",
+    "#CE796D",
+    "#DFA8A0",
+    "#205F9A"
+  ],
+  "paletteObservation": "浅绿文化修饰词与浅蓝名词输入进入分层文本编码器；文化层Attention/MLP为杏橙色，绿色与蓝色统计模块保持两路对比，底部SAE为浅紫。",
+  "reason": "已替换为原文Figure 5（Methods for Neuronal Detection）；图中完整显示Text Encoder分层、Attention/MLP与SAE编码器及文化神经元筛选，是实际计算结构而非数据集构建。 已实际查看修复图与色卡及每个取色点，核对caption/sourceTitle。",
+  "figure": "Figure 5",
+  "sourceTitle": "Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation",
+  "excludeRegions": [],
+  "reviewEvidence": "contacts/audit-a/repair/02-card.jpg",
+  "previousCandidateReview": {
+    "id": "cvpr26-1335e10695d0",
+    "verdict": "needs_recrop",
+    "reviewer": "/root/scale_ui",
+    "reviewedImageSHA256": "e310b733802fb87fc44d56f0844143fbd78ca1a94e300941d67c8b6872eccac5",
+    "reason": "当前图是CultureBench人工收集、注释、翻译与审校的数据构建示意，不是文本生成模型网络架构，需另选模型/计算架构图。",
+    "reviewedImage": "research/batch500/candidates/cvpr26-1335e10695d0/cvpr26-1335e10695d0.png",
+    "reviewEvidence": "contacts/audit-a/individual/02.jpg",
+    "sourceTitle": "Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation",
+    "figure": "Figure 2"
+  }
+}

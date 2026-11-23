@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-8a84f192ab5a",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Replaced data-processing Figure 2 with original Figure 3 showing SAM/DINO encoders, geometric context and causal decoder/head architecture.",
+  "reviewedImageSHA256": "c0b41ecaa1c456d884083e8c075629170a81e4e05c5012928c4512be0a6cdfda",
+  "reviewedPalette": [
+    "#FFF1CC",
+    "#E4F7FC",
+    "#FFD966",
+    "#A0E1F8",
+    "#B2DE84",
+    "#FFC000"
+  ],
+  "paletteObservation": "Cream decoder panel, pale cyan feature panel, gold causal attention, blue SAM/DINO encoders, green prediction heads and yellow cross-attention are measured; RGB frames and detection-result colours excluded.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

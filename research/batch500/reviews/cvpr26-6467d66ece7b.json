@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-6467d66ece7b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "AutoDebias检测、适配和去偏完整计算流程，生成照片已屏蔽取色。",
+  "reviewedImageSHA256": "fd86cfb83a77ad4416f3046acb83107493b4caa748ccd8cd735d231612b6d434",
+  "reviewedPalette": [
+    "#ECF4FF",
+    "#E2F9E2",
+    "#8199B7",
+    "#A7A6A6",
+    "#CDAE75"
+  ],
+  "paletteObservation": "淡蓝图像/CLIP编码、浅绿LLM、灰色bias token和金色prompt token为模块填色。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

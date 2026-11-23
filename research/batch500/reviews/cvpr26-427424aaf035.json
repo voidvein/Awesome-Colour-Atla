@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-427424aaf035",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "由图像概览改为Fig3，ControlNet与四个FFN/cross/self-attention主块、projector/LoRA结构完整。",
+  "reviewedImageSHA256": "a3017998b46c46a8a3442aaeff29524bde6cab5c706c8fd7086705076c0436c1",
+  "reviewedPalette": [
+    "#E1D6EC",
+    "#C5DFB4",
+    "#FFE699",
+    "#6F2F9F",
+    "#E52320",
+    "#F39200",
+    "#2E5496"
+  ],
+  "paletteObservation": "此图无照片；紫preceding tokens/框、绿reference、黄text token、蓝noisy target及红/橙训练状态符号均来自原图语义图例。",
+  "reviewedAt": "2026-11-23T17:39:45Z"
+}

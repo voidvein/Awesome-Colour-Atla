@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-954b3bd75778",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "CCCaption正确性/完整性双奖励与动态查询计算结构完整，松鼠照片已排除取色。",
+  "reviewedImageSHA256": "a5826f4cee66991c995d10a18ae1ca11b950f77252eaad70d8347871a9d87355",
+  "reviewedPalette": [
+    "#DAE2F5",
+    "#F5B7BE",
+    "#C5DFB4",
+    "#1E386B"
+  ],
+  "paletteObservation": "绿色Correctness模型、粉红Completeness模型、蓝灰数据筛选和深蓝流程箭头来自方法。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

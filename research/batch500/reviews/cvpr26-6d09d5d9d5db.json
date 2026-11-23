@@ -1,0 +1,37 @@
+{
+  "id": "cvpr26-6d09d5d9d5db",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "f2e9741b30cc295145749d092776d4265ee7465856992f37138d0d3cc3cf15de",
+  "reviewedPalette": [
+    "#002060",
+    "#B4E5A3",
+    "#FFE670"
+  ],
+  "paletteObservation": "深蓝标题统一高斯填充、纹理修复和物理模拟阶段，浅绿块表示高斯演化及弹塑性计算模型，黄色照明符号强调光照参数；西瓜渲染配色已排除。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "excludeRegions": [
+    [
+      73,
+      179,
+      951,
+      538
+    ],
+    [
+      1156,
+      181,
+      1367,
+      538
+    ],
+    [
+      1369,
+      329,
+      1668,
+      535
+    ]
+  ],
+  "figure": "Figure 3",
+  "sourceTitle": "GaussianFluent: Gaussian Simulation for Dynamic Scenes with Mixed Materials",
+  "reviewEvidence": "contacts/audit-e/repair/08-masked.jpg"
+}

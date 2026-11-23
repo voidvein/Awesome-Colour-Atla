@@ -1,0 +1,44 @@
+{
+  "id": "cvpr26-a9bd63a6e6e5",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "CLIPoint3D含prompt、text/image encoder、源/目标点云编码和prototype迁移的网络架构完整。",
+  "reviewedImageSHA256": "4b224ef5e78b5407191ce35f9340ee0dd320e9d0bc4cfc9d55408904868a134a",
+  "reviewedPalette": [
+    "#FFF1CC",
+    "#EFCFDB",
+    "#D3A3F7",
+    "#FFDD77",
+    "#C17979",
+    "#E3BCE7",
+    "#76BEFB"
+  ],
+  "paletteObservation": "椅子/实体渲染及源prototype照片不采色；奶油模块、桃prompt/token、紫image encoder、黄损失、红text encoder与蓝point encoder来自结构。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      1139,
+      0,
+      1627,
+      270
+    ],
+    [
+      521,
+      437,
+      1123,
+      795
+    ],
+    [
+      0,
+      398,
+      358,
+      795
+    ],
+    [
+      1383,
+      398,
+      1627,
+      795
+    ]
+  ]
+}

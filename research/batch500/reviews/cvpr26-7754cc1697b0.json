@@ -1,0 +1,43 @@
+{
+  "id": "cvpr26-7754cc1697b0",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "EagleVision多模态LLM、SPF-DPP采样、BEV描述和零样本RL架构完整。",
+  "reviewedImageSHA256": "41caba069c8aea343a34725a2e44aa6ad2cd555759be2a4cb6c1b4bc60fdc03f",
+  "reviewedPalette": [
+    "#FAE4D5",
+    "#D2E3F4",
+    "#8FAADC",
+    "#F4B083",
+    "#C5DFB4",
+    "#DDCCE4"
+  ],
+  "paletteObservation": "摄影视图、场景地图和拼接图不采色；桃色MLLM、浅蓝SPF-DPP、蓝/桃/绿视觉token及紫色answer区来自结构编码。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      219,
+      309
+    ],
+    [
+      349,
+      0,
+      657,
+      309
+    ],
+    [
+      767,
+      0,
+      996,
+      309
+    ],
+    [
+      0,
+      327,
+      498,
+      583
+    ]
+  ]
+}

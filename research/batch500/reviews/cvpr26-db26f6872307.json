@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-db26f6872307",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由实验结果图4改选图3，并去除最右评估面板；保留完整输入、双头特征和策略网络。",
+  "reviewedImageSHA256": "1379842114e1e645379851e7261970e5951f58df54934924ade4889c0db4cd7b",
+  "reviewedPalette": [
+    "#DCEAF7",
+    "#D9F2D0"
+  ],
+  "paletteObservation": "2个实际模块色为浅蓝双头特征提取区域和浅绿Agent Neural Network策略区域。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

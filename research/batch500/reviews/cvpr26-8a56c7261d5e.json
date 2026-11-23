@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-8a56c7261d5e",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Explicit VLM/DiT attention, timestep and generation/segmentation computation; examples and noise distributions excluded from palette.",
+  "reviewedImageSHA256": "ce7947604ddeba9b18af410feaf14ec55436c0206c4a83ad5547d045544dd419",
+  "reviewedPalette": [
+    "#DEEBF7",
+    "#FAE4D5",
+    "#538235",
+    "#C55A11"
+  ],
+  "paletteObservation": "Pale blue and peach attention branches combine with green generation and brown segmentation routing, all measured from the computational diagram.",
+  "reviewedAt": "2026-11-23T17:38:43Z"
+}

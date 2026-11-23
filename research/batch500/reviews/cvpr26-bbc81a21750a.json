@@ -1,0 +1,36 @@
+{
+  "id": "cvpr26-bbc81a21750a",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Anchor Predictor、CNN、Gaussian Decoder MLP与Gaussian Refiner注意力结构完整。",
+  "reviewedImageSHA256": "4b993a10b4f704e4300e0a1c1d67c51006eb1d2914edd9d27343b017feae3428",
+  "reviewedPalette": [
+    "#FFF1CC",
+    "#FFD966",
+    "#A9D18E",
+    "#D9D9D9",
+    "#E1EFD9"
+  ],
+  "paletteObservation": "输入/几何渲染不采色；奶油refiner区、黄色全局/串行注意力、绿色CNN/MLP及浅绿decoder背景来自架构。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      346,
+      449
+    ],
+    [
+      407,
+      0,
+      651,
+      449
+    ],
+    [
+      916,
+      0,
+      1262,
+      449
+    ]
+  ]
+}

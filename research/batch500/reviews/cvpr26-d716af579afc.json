@@ -1,0 +1,12 @@
+{
+  "id": "cvpr26-d716af579afc",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "概念encoder图去除RGB/深度/分割照片后，仅剩1个可确认模块代表色，不以照片凑足2色。",
+  "reviewedImageSHA256": "47915c1d48425652df61e80ab63a1ee26e19edbcf2dffde9b16133cc0b95169d",
+  "reviewedPalette": [
+    "#CFE2F3"
+  ],
+  "paletteObservation": "仅浅蓝embedding节点可确认；原灰褐/深蓝来自室内样例，不能接受该色卡。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

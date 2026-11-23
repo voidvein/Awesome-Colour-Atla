@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-a1d8763adb3d",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。",
+  "reviewedImageSHA256": "4ae764eea50f28e6c4144742efd0c005a09efaec1d844e62d36458b4dd7370d5",
+  "reviewedPalette": [
+    "#DAEDF3",
+    "#FDEADA",
+    "#69A7FF",
+    "#4CAF50",
+    "#00BCE7",
+    "#6B77A9",
+    "#D25627"
+  ],
+  "paletteObservation": "蓝色轮廓组织数据合成与训练区域，淡蓝CP奖励和奶油格式奖励框区分监督信号，绿色状态图标与橙色训练图标提供局部强调。",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "figure": "Figure 2",
+  "sourceTitle": "OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models",
+  "reviewEvidence": "contacts/audit-e/individual/28.jpg"
+}

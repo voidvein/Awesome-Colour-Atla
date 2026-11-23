@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-fd3cbd45946b",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "848bab9c0f7d4d24e60261c0b7e782f4dd2211e9cb92d05b71e57f55cce58de2",
+  "reviewedPalette": [
+    "#FCEEE7",
+    "#C1E5F5",
+    "#FFCE00",
+    "#A1C59F",
+    "#6659A8",
+    "#FFD364",
+    "#9315A5"
+  ],
+  "paletteObservation": "DIEM 的重要性度量和数据重加权模块为浅蓝，模块组背景为浅桃，奖励符号为黄色；彩色渐变方块表示重加权前后的梯度，包含紫、绿与黄色。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

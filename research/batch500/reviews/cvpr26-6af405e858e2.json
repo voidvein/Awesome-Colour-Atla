@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-6af405e858e2",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由合成数据图改选图2完整SAGE工作流，显示control/reasoning角色、工具动作与多轮状态；视频取色已屏蔽。",
+  "reviewedImageSHA256": "39102982aaecfeaba08e6ce53607a316061aa37719d7085d336ee4a3a41853d2",
+  "reviewedPalette": [
+    "#2A88EF",
+    "#105157",
+    "#0B9869",
+    "#1B8B93",
+    "#8612B0"
+  ],
+  "paletteObservation": "蓝色token、深青工具盒、绿色action步骤、青色工具调用与紫色controller边框对应代理结构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

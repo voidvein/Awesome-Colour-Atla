@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-8a73e9d0f981",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Reasoner MLLM, DiT generator, VAE and interleaved reflection network are explicit.",
+  "reviewedImageSHA256": "2933a79073583c881338e77ca1bbf2e36d4b683026148a89dad6e845ce221088",
+  "reviewedPalette": [
+    "#FBEBE0",
+    "#F3B183",
+    "#D4436D",
+    "#FF9999",
+    "#DAE3F3"
+  ],
+  "paletteObservation": "Peach reflection panel, orange Unified Fine-tuned MLLM, magenta DiT, salmon VAE and pale blue hidden-state panel are actual modules; edited-image colours excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

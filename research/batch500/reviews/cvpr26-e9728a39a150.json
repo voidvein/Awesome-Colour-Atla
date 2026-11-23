@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-e9728a39a150",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "HypoDepth融合、迭代深度解码、attention和GRU完整，输入及深度伪彩已排除取色。",
+  "reviewedImageSHA256": "1410361c13dd29e18275859621e96d15fc64cd598ddf2e44df894e2effe17b57",
+  "reviewedPalette": [
+    "#BBDAD3",
+    "#F7F4E4",
+    "#C3D2EB",
+    "#B9D9A3"
+  ],
+  "paletteObservation": "浅青Depth Decoder、奶油色Cross Attention、蓝色feature投影与浅绿cost-volume来自模块。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

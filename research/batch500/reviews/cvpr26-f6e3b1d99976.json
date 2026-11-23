@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-f6e3b1d99976",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "878c06372ff9f6747503b0fc753fa7470c07523ceae864e3642c778054fdc76d",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-f6e3b1d99976/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/31.jpg",
+  "sourceTitle": "Tri-Subspaces Disentanglement for Multimodal Sentiment Analysis",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#FBE5D6",
+    "#A6A6A6",
+    "#FFB2B2",
+    "#70AD47",
+    "#FFC000",
+    "#5B9BD5",
+    "#FFEF9F"
+  ],
+  "paletteObservation": "绿色语言分支、黄色视觉分支和粉色音频分支区分输入，共享表示与蓝色子模态表示再进入桃色注意力模块。"
+}

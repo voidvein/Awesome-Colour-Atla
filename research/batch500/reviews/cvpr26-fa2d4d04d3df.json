@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-fa2d4d04d3df",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "G2VLM双专家Mixture-of-Transformer结构完整，图号及标题对应。",
+  "reviewedImageSHA256": "1fc510f86647ae45f2062a53a1e307638fd988032d3b348943f7dac56bc9ac99",
+  "reviewedPalette": [
+    "#D9EAD3",
+    "#CFE2F3",
+    "#D9D2E9",
+    "#D2E3E2"
+  ],
+  "paletteObservation": "浅绿几何专家、浅蓝语义专家、淡紫交错推理与青灰Self-Attention为四个模块。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

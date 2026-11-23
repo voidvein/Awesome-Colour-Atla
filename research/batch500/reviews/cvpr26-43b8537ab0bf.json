@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-43b8537ab0bf",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "E2OAL已知/未知类估计、目标模型和动态分区计算流程完整。",
+  "reviewedImageSHA256": "8b764ac807a6f4680620e8f8d70dd8ec1c868e666aa9fc433c82c21eafade307",
+  "reviewedPalette": [
+    "#DCEAF7",
+    "#FAE2D5",
+    "#95DCF8",
+    "#EF968E",
+    "#C5DFB4",
+    "#2C7ECF",
+    "#4EA72E"
+  ],
+  "paletteObservation": "蓝色已知类、绿色未知类、桃色编码器、粉红未标注池与蓝绿置信条对应流程。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-6cd00cec3fd7",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "Multi-Crit Figure 1 is benchmark prompt/response collection and human annotation; cached paper figures contain examples rather than a neural architecture.",
+  "reviewedImageSHA256": "c3b9066bd8a4be6e2b9893298cddd7c1cbbf6836f698df74a57017f98a04c548",
+  "reviewedPalette": [
+    "#F4F8EC",
+    "#FAE2B9",
+    "#C2E9F5",
+    "#FF6900",
+    "#CEC6E6",
+    "#AFBB8E",
+    "#FABEE4"
+  ],
+  "paletteObservation": "Visible colours belong to dataset/benchmark, rendered examples or non-neural algorithm illustrations; not accepted as network-module colours.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-a4394c3b27db",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。",
+  "reviewedImageSHA256": "a180a37f2d752c6630c6a3975e13b036a0fca1deae18cf47202d60df996b4876",
+  "reviewedPalette": [
+    "#FFF8DF",
+    "#5B9AD4",
+    "#ACD68E",
+    "#C8DDF0",
+    "#EF939E",
+    "#CDE6BA",
+    "#CDC3A1"
+  ],
+  "paletteObservation": "绿色Client1与蓝色ClientM对应各自编码器和原型，浅青服务器位于中央，粉红全局原型与奶油客户端容器提供辅助编码。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "figure": "Figure 2",
+  "sourceTitle": "Taming Noise-Induced Prototype Degradation for Privacy-Preserving Personalized Federated Fine-Tuning",
+  "reviewEvidence": "contacts/audit-e/individual/06.jpg"
+}

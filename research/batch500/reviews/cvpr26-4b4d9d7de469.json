@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-4b4d9d7de469",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整ERBA多模态蛋白网络，包含结构编码、反应桥接、注意力与MoE。",
+  "reviewedImageSHA256": "20411dda6092c47be8a62aa0bb954fb5a908831abdb4d3b3b76511ec0c5fa311",
+  "reviewedPalette": [
+    "#EBF4FF",
+    "#FAE4D5",
+    "#9DC3E6",
+    "#EAF5E7",
+    "#D5DCE4",
+    "#FFF1CC",
+    "#BCD6ED"
+  ],
+  "paletteObservation": "浅蓝Transformer、浅桃Attention、浅绿分子/投影和浅黄嵌入对应网络分支。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

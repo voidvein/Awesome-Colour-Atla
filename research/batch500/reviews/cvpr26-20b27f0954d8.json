@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-20b27f0954d8",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "完整监督增强和频率掩码神经模块，已遮罩所有上方照片与下方输入/输出，复看色点位于网络填色。",
+  "reviewedImageSHA256": "6ba6dff430c35267cbe870a755a99f43d9712a537e5d6c801752c568d19dda6f",
+  "reviewedPalette": [
+    "#FFE2BA",
+    "#C0E7F7",
+    "#F2F3C1",
+    "#DADDED"
+  ],
+  "paletteObservation": "浅橙色组织频率掩码生成器，粉蓝色区分注意力与MLP层，淡紫系数块连接浅黄绿色的掩码构建节点，少量颜色贯穿上下两条网络。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

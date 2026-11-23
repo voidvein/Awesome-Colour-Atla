@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-6bf9c2d2ac3a",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "fa27a5b03aad906d010332ce03810024670c5bd9147af455d1b0394fb46d53c0",
+  "reviewedPalette": [
+    "#C5DFB4",
+    "#FDDEDF",
+    "#AEABAB",
+    "#DFCCEE",
+    "#F4C487",
+    "#F19C9F",
+    "#C0C17B"
+  ],
+  "paletteObservation": "SwiftVLA 的动作 token 为浅绿、二维特征为浅粉、四维特征为淡紫，融合 token 为橙色；注意力掩码用灰色表示可见性并配橄榄色文本和粉红状态。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

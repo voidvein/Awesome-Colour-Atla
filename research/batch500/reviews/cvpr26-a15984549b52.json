@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-a15984549b52",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "已看完整重裁后的DiT360主网络；去掉下方照片/特征例图，采色排除输入照片，三色在模块中重复使用。",
+  "reviewedImageSHA256": "ba98f98eb1068483a9472e7d9f3af06ad66f9e3765a6f520fd2866afbd3dec5d",
+  "reviewedPalette": [
+    "#EBF0F9",
+    "#FFF2CA",
+    "#E3F2D9"
+  ],
+  "paletteObservation": "浅蓝背景区分透视分支，浅黄色用于图像重投影和细化模块，浅绿色标识潜变量与噪声token，突出两条路径汇入同一DiT。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

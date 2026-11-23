@@ -1,0 +1,24 @@
+{
+  "id": "cvpr26-209f68000ee7",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Fig11展示真实实时推理模块：独立解码、条件更新、主去噪自/交叉注意力与线程队列。",
+  "reviewedImageSHA256": "0c32f7e515128daa970c49a6d7487a395da6240617cd0acf884f903e081892c3",
+  "reviewedPalette": [
+    "#FFFAEE",
+    "#CCCCCC",
+    "#0022BB",
+    "#B6E6FF",
+    "#42A2FF"
+  ],
+  "paletteObservation": "观察照片排除；奶油线程/去噪区、灰色conditioner及蓝色队列/特征token均来自模块本身。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      50,
+      115,
+      112
+    ]
+  ]
+}

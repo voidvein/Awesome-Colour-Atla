@@ -1,0 +1,44 @@
+{
+  "id": "cvpr26-556bc3d417cb",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "b45c22e2348ac0df8ad141599e3a553e50b0300ccbe9da815542d9b73282fd2c",
+  "reviewedPalette": [
+    "#E1EEE0",
+    "#F6CECC",
+    "#F9F0CF",
+    "#DAE8F5"
+  ],
+  "paletteObservation": "浅绿主流程容器内，浅蓝Perception/Fusion、奶油黄Cross Attention及引导模块、浅粉约束修正块区分计算功能；地图及传感器图片未用于采色。",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "excludeRegions": [
+    [
+      105,
+      32,
+      331,
+      255
+    ],
+    [
+      597,
+      71,
+      978,
+      164
+    ],
+    [
+      1001,
+      70,
+      1346,
+      164
+    ],
+    [
+      1366,
+      36,
+      1601,
+      382
+    ]
+  ],
+  "figure": "Figure 2",
+  "sourceTitle": "GuideFlow: Constraint-Guided Flow Matching for Planning in End-to-End Autonomous Driving",
+  "reviewEvidence": "contacts/audit-e/repair/23-masked.jpg"
+}

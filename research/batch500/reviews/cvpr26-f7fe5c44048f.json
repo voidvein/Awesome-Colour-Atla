@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-f7fe5c44048f",
+  "verdict": "rejected",
+  "reviewer": "root",
+  "reason": "已看Figure2并检查原HTML全部图注：图1为benchmark概览、图2为数据构建、图3及附录为问答错误/精度样例，无网络或明确神经计算架构。",
+  "reviewedImageSHA256": "f560c7c9dbbeb19c4f13faa1eed7dad842aa1dc1327cf99bcb548b51612c0191",
+  "reviewedPalette": [
+    "#EEF6E9",
+    "#2E74B6",
+    "#548234",
+    "#BF9000",
+    "#C45A11",
+    "#333E50",
+    "#FBB4AE"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:28:14Z"
+}

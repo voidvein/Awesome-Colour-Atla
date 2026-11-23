@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-f9e9ee0e6add",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "9a1b2516f65564f987bb52d680c752b3d5d7972920d16d76ba690c860572e8d1",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-f9e9ee0e6add/cvpr26-f9e9ee0e6add.png",
+  "reviewEvidence": "contacts/audit-a/individual/16.jpg",
+  "sourceTitle": "Anomaly-Related Residual Fields for Cross-domain Anomaly Detection",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#F8EBBB",
+    "#C3C5D1",
+    "#FFFAE9",
+    "#FF0000",
+    "#FFCA02",
+    "#163E64",
+    "#78206E"
+  ],
+  "paletteObservation": "浅黄、浅绿、淡紫区分三类残差字段，灰蓝跨域对齐模块与深蓝/红色信号线构成对比，黄色连接标记串联流程。"
+}

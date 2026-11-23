@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-fc414cd5bae7",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "Omni-MMSI图3主要为会议截图、工具抽取示例与长段对话prompt/output，未呈现具体神经网络结构。",
+  "reviewedImageSHA256": "14ac4c9f049265b068640c813201c6573394013b628c5c87c25105a379faa019",
+  "reviewedPalette": [
+    "#BEBEBE",
+    "#7B706C",
+    "#554C47"
+  ],
+  "paletteObservation": "现灰褐色取自桌面照片和文本背景，不能作为架构模块配色。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

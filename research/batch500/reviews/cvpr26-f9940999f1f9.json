@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-f9940999f1f9",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reason": "已核对全文图列表并实际另选Figure4；Figure3是数据标注/文本生成流程，Figure4只有帧编号与<img>序列示例（还引自既有InternVL文献），没有编码器、LLM或训练计算模块架构；其余为数据样例和指标图，不用token格式条充当网络图。",
+  "reviewedImageSHA256": "679b74d8b47fb3afbd9db3ddcc1b735698578d712ccb95a07c1f754e6cb14d07",
+  "reviewedPalette": [
+    "#D9EAD3",
+    "#C9DAF8",
+    "#999999",
+    "#FFE599",
+    "#569696",
+    "#CC0000",
+    "#F2FDFF"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T17:11:30Z",
+  "reviewEvidence": "contacts/audit-e/individual/27.jpg",
+  "additionalEvidence": "contacts/audit-e/repair-candidates.json",
+  "alternativeCandidateEvidence": "contacts/audit-e/repair/27-new.jpg"
+}

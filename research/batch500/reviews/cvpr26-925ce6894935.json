@@ -1,0 +1,52 @@
+{
+  "id": "cvpr26-925ce6894935",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "Interact2Ar展示motion encoder、自/交叉注意力、specific heads与扩散迭代神经结构。",
+  "reviewedImageSHA256": "155ab23510577fe98585af331d8fee154aaafd6e5e5ba4a9b5e1e07d5dbd9285",
+  "reviewedPalette": [
+    "#B4B3B3",
+    "#E27631",
+    "#3FA4BA"
+  ],
+  "paletteObservation": "全部人体渲染屏蔽；手采灰色cross-attention/head模块，以及模型内部两种运动流的橙/青交叉注意力连接线，未取人体皮肤/衣物色。",
+  "reviewedAt": "2026-11-23T17:50:07Z",
+  "excludeRegions": [
+    [
+      100,
+      75,
+      215,
+      260
+    ],
+    [
+      785,
+      145,
+      980,
+      300
+    ],
+    [
+      140,
+      575,
+      300,
+      715
+    ],
+    [
+      420,
+      575,
+      565,
+      715
+    ],
+    [
+      735,
+      680,
+      985,
+      835
+    ],
+    [
+      1120,
+      65,
+      1600,
+      835
+    ]
+  ]
+}

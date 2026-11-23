@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-5436669de71b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Perception/state encoders, Transformer Decoder and adaptive reconstruction cross-attention network are complete.",
+  "reviewedImageSHA256": "dee6b2e993231b9c5afdf59114d6b4e864c1a978c0b3d29adbf1c0d966c2ad83",
+  "reviewedPalette": [
+    "#DDEDF4",
+    "#FDF4CC",
+    "#FDEBE0",
+    "#C7C4DB",
+    "#D0CECE",
+    "#FAD4BE"
+  ],
+  "paletteObservation": "Blue sampling panel, yellow perception encoder, peach timestep/ARM panels, purple decoder layers and gray mapping decoder are actual module colours; road frames and trajectory scatter excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

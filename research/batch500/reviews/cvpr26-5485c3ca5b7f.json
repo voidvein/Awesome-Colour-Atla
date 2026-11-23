@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-5485c3ca5b7f",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Collaborative policy generation, communication and refinement explicitly form a multi-agent reasoning architecture.",
+  "reviewedImageSHA256": "8f12fd8a046dc9732ce970e0c577e739cda08b47a60ccc2a1d1898d082392ebd",
+  "reviewedPalette": [
+    "#FCEFEC",
+    "#EC7C30",
+    "#FFD966",
+    "#4471C4",
+    "#C6D4FF",
+    "#E1F5DB",
+    "#DEEBF7"
+  ],
+  "paletteObservation": "Peach pipeline, orange policy nodes, yellow final answer, blue fixed-policy nodes and pale blue/green/lavender tool/agent panels are actual diagram colours; video frames excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

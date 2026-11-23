@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-a5e5fab245bb",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整三阶段生成签名提取及AIGI双流分类网络，照片已屏蔽且剔除残留照片灰色。",
+  "reviewedImageSHA256": "51b426d52cdc884fc80647b15e1c2833f189ec2d308df3ad2c132ef07ea208ef",
+  "reviewedPalette": [
+    "#E1F3F9",
+    "#FF6142",
+    "#AED0A2",
+    "#4EA72D"
+  ],
+  "paletteObservation": "浅青签名提取区、红色可训练提示、浅绿编码器和绿色双流特征来自实际方法模块。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

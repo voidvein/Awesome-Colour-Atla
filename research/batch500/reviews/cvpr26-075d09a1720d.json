@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-075d09a1720d",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "CoE包含明确VLM事件图构建、跨模态定位、事件演化和总结计算模块，并非仅数据样例。",
+  "reviewedImageSHA256": "927c7578ffbd29410ea5105be042cf4ff3aa3e39cb76fe391096e71c999ae0ae",
+  "reviewedPalette": [
+    "#FADEDC",
+    "#C5DFB4",
+    "#D9E8F8",
+    "#FFF1CC",
+    "#FFCCAE",
+    "#FFAB81"
+  ],
+  "paletteObservation": "浅蓝事件图模块、浅绿grounding、浅黄演化、粉红总结与桃色事件节点来自方法结构。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

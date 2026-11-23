@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-92d1bb337dfb",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "CaptionQA Figure 3 is taxonomy-driven benchmark question generation/filtering; other candidate figures are taxonomies, performance charts and captions, not architecture.",
+  "reviewedImageSHA256": "2211a8f3738f59bd48cd62fcf114938e44b8073a724d38e3cb4e01b9e71ae965",
+  "reviewedPalette": [
+    "#D6E6F0",
+    "#FEF4D3",
+    "#D8EDC2",
+    "#E1D2EE"
+  ],
+  "paletteObservation": "Visible colours belong to dataset/benchmark, rendered examples or non-neural algorithm illustrations; not accepted as network-module colours.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

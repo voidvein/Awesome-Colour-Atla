@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-de9ac3627ea8",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "GHN、任务感知重排和PITH参数继承网络各子模型完整。",
+  "reviewedImageSHA256": "7637e67ff5ca5a8e23e97a273f135414ffbbab35eef12f88e0182b6d1a432282",
+  "reviewedPalette": [
+    "#ECF4FD",
+    "#A8BAA2",
+    "#F1F3D1",
+    "#B8B6D9",
+    "#E3E6A1",
+    "#B7D4EF",
+    "#ABC698"
+  ],
+  "paletteObservation": "浅蓝网络、绿/黄预训练权重块和紫色编码器等均为有色模块填充。",
+  "reviewedAt": "2026-11-23T17:11:14Z"
+}

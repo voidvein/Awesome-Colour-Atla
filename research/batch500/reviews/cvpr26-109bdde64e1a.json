@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-109bdde64e1a",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整Lyapunov probe网络、多层隐藏状态和扰动计算结构，狗照片已排除取色。",
+  "reviewedImageSHA256": "a6380c6e906d74d3579ec948087d319d2849199dfd1fbc2c14482b1ab4ae8559",
+  "reviewedPalette": [
+    "#FFF6DE",
+    "#C8E2FB",
+    "#D3834D",
+    "#FFD3B3",
+    "#ED7D31"
+  ],
+  "paletteObservation": "浅黄MLLM分区、蓝色hidden states、桃色probe区域和橙色扰动/Transformer表示实际方法。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

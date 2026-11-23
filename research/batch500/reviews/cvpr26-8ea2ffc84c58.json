@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-8ea2ffc84c58",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "完整的RoPE/KV-cache神经计算机制图，两组缓存结构和时间坐标均保留；不是用户研究界面。",
+  "reviewedImageSHA256": "5b77a495a88f1418fb5bdbd5c8d69ae4636365c9b9ee30e1f9260eac16bda130",
+  "reviewedPalette": [
+    "#E7FBEC",
+    "#51D779",
+    "#A3F1B7",
+    "#DCFAFB"
+  ],
+  "paletteObservation": "四种实际token填色：浅绿、亮绿、中绿、浅青；未添加虚构第五色。",
+  "reviewedAt": "2026-11-23T16:45:36Z"
+}

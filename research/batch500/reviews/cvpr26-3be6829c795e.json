@@ -1,0 +1,34 @@
+{
+  "id": "cvpr26-3be6829c795e",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "Fig6展示MCoT模型→视觉熵识别→推理干预的明确神经推理机制。",
+  "reviewedImageSHA256": "b19b55dda81533d2b1a31347a802dca9dd41492447c078998fb27b18c29ff62f",
+  "reviewedPalette": [
+    "#EE9F6A",
+    "#6D8FCE",
+    "#172B51"
+  ],
+  "paletteObservation": "照片和紫黄色熵热图全部剔除；只留橙/蓝候选答案语义节点及深蓝模型框线。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      375,
+      397
+    ],
+    [
+      469,
+      380,
+      715,
+      567
+    ],
+    [
+      856,
+      255,
+      949,
+      386
+    ]
+  ]
+}

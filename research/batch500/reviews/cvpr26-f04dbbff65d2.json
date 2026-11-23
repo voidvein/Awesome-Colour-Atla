@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-f04dbbff65d2",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "图2是SpookyBench视觉刺激的运动感知机制与示例，并非网络结构或Agent方法架构。",
+  "reviewedImageSHA256": "39409d213af8489cf4728b23f80b4a075d1d93ebd2596d5547f462da4148af57",
+  "reviewedPalette": [
+    "#E8F5E9",
+    "#FFFFCC",
+    "#F3E4F5",
+    "#CCCC99",
+    "#F16847",
+    "#E2F1FC",
+    "#F16035"
+  ],
+  "paletteObservation": "色彩来自噪声掩码、刺激状态和说明面板，不用于架构色卡。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

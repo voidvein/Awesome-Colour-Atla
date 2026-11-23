@@ -1,0 +1,44 @@
+{
+  "id": "cvpr26-6a26f9031035",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "e7432c45085afd05effea97bd2f89d282dc30805761723497e4bee14ceab61d5",
+  "reviewedPalette": [
+    "#EEB8C3",
+    "#05B7B3",
+    "#C2DEF6",
+    "#CDEFDA",
+    "#2D8DC9",
+    "#F4ABA0",
+    "#BBCAE8"
+  ],
+  "paletteObservation": "目标视觉 token 用珊瑚粉色强调，输出 logits 的柱形用青、蓝、浅绿、浅粉区分，移除路径保留浅蓝箭头；海龟照片及局部 patch 已遮罩。",
+  "reviewedAt": "2026-11-23T17:27:31Z",
+  "excludeRegions": [
+    [
+      18,
+      61,
+      231,
+      265
+    ],
+    [
+      729,
+      65,
+      812,
+      136
+    ],
+    [
+      983,
+      56,
+      1020,
+      181
+    ],
+    [
+      982,
+      251,
+      1020,
+      380
+    ]
+  ]
+}

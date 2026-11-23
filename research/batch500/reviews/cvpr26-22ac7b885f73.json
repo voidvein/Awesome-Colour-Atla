@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-22ac7b885f73",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "可训练latent经映射MLP更新大网络权重的计算图完整。",
+  "reviewedImageSHA256": "4dc30abe129fbffa474ec66a76b1b5fed0969a2514d84d3740fb987722a2ea6e",
+  "reviewedPalette": [
+    "#D9E7FB",
+    "#D5E7D4",
+    "#C3D0E2"
+  ],
+  "paletteObservation": "图无照片/性能图；浅蓝大网络、浅绿mapping和蓝灰立体侧面为三种真实模块色。",
+  "reviewedAt": "2026-11-23T17:39:44Z"
+}

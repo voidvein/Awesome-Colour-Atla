@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-847dfff86d6e",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Avatar Forcing双运动编码与因果DiT网络完整，已掩膜人物照片排除肤色。",
+  "reviewedImageSHA256": "2f960357fffbf20b412485b16ad4503a87e7f2f247277ac4db38ab3f23e87035",
+  "reviewedPalette": [
+    "#CAEFFB",
+    "#FF5453",
+    "#002060",
+    "#FBE3D6"
+  ],
+  "paletteObservation": "青色为Dual Motion Encoder和Causal DForT，蓝色用户音频、红色avatar音频、浅桃参考token。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-6bbe0e5659d2",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Image/text encoders, MLP and cycle-consistent cross-modal feature alignment are explicit.",
+  "reviewedImageSHA256": "fe696ac4a4ec80b4a8ee3fa82d910a5c02cf06cf2d9e89a8e20efc90602c122d",
+  "reviewedPalette": [
+    "#F6FFE2",
+    "#FFA99F",
+    "#B4D6ED",
+    "#909090",
+    "#F6BD97",
+    "#A9D18E",
+    "#BAA0CA"
+  ],
+  "paletteObservation": "Green semantic-anchor panel/MLP, salmon text encoder, blue image encoder, gray patch features, peach and purple aligned token groups are measured architecture colours.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

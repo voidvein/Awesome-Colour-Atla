@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-5d4922e19a11",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "FlashMesh的Hourglass Transformer、cache和draft/verify structured speculation模块完整。",
+  "reviewedImageSHA256": "b0ce729d22dbc89abe10783be16081f17df2e000d16336e985ccd1f36ed98a1b",
+  "reviewedPalette": [
+    "#FFF2E5",
+    "#E1D5E7",
+    "#FFE9B7",
+    "#FFCCCC",
+    "#FFCCFF",
+    "#EACA7B",
+    "#FF9999"
+  ],
+  "paletteObservation": "图无自然照片或性能曲线；奶油采样/并行区、淡紫Transformer、黄上/下采样、粉LH和不同token类型色均有实际模块/图例对应。",
+  "reviewedAt": "2026-11-23T17:50:06Z"
+}

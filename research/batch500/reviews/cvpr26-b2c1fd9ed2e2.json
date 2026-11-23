@@ -1,0 +1,48 @@
+{
+  "id": "cvpr26-b2c1fd9ed2e2",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "f80c9771a5964271628aa5febad4f9cc75b5dce62a8eb6c73c7b59a694d9145c",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。 已遮罩示例照片/图像区域重新取色，并实际再次查看图与新色卡确认。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-b2c1fd9ed2e2/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/03.jpg",
+  "sourceTitle": "STCast: Adaptive Boundary Alignment for Global and Regional Weather Forecasting",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#EDFAFD",
+    "#02FEFF",
+    "#EAF0CD",
+    "#D8CFE4",
+    "#F9CBBA",
+    "#E9C58C",
+    "#63CFEC"
+  ],
+  "paletteObservation": "仅在处理器和解码器计算模块区域采色：青色Temporal MoE、淡紫Add & Norm、金黄Multi-Head Attention与桃绿Month Embedding构成对比。",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      1233,
+      32
+    ],
+    [
+      0,
+      386,
+      1233,
+      758
+    ],
+    [
+      0,
+      32,
+      556,
+      386
+    ],
+    [
+      1014,
+      32,
+      1233,
+      386
+    ]
+  ],
+  "maskReviewEvidence": "contacts/audit-a/masks/03.jpg"
+}

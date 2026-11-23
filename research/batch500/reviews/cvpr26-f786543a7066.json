@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-f786543a7066",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "e2657c5faaec63de300ec65ee4c190011bc426c19893ce1f96a2afa4b4a125ed",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-f786543a7066/cvpr26-f786543a7066.png",
+  "reviewEvidence": "contacts/audit-a/individual/21.jpg",
+  "sourceTitle": "LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#D0CDCD",
+    "#BCD3B0",
+    "#E6B9A9",
+    "#8498B0",
+    "#B4C7E7",
+    "#ACA167",
+    "#90AADD"
+  ],
+  "paletteObservation": "灰色预测器承载主干，绿、桃、蓝三组token表示图像、提示与响应，灰蓝和橄榄色区分预测/重掩码token。"
+}

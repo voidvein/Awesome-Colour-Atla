@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-158d83fad6cc",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "f42e420ca17be930050a395d97eb879903bca4416344abe4741de04cd94ea1c0",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-158d83fad6cc/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/36.jpg",
+  "sourceTitle": "ERMoE: Eigen-Reparameterized Mixture-of-Experts for Stable Routing and Interpretable Specialization",
+  "figure": "Figure 1",
+  "reviewedPalette": [
+    "#F6F4E5",
+    "#C7F6CC",
+    "#F4DBFF",
+    "#FFF6A9",
+    "#F6D5B5",
+    "#7C828C",
+    "#D1D7DD"
+  ],
+  "paletteObservation": "绿色专家块、浅紫专家类型、浅黄注意力块与桃色Router区分结构，灰色图例和评分箭头保持中性。"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cvpr26-6c24b02f982c",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "0f87fd641332cd7ff095599031ae8edcf99cd33a059eec417071751a0c2e839f",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-6c24b02f982c/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/07.jpg",
+  "sourceTitle": "C L A Y : C onditiona l Visual Simil a rit y Modulation in Vision-Language Embedding Space",
+  "figure": "Figure 3",
+  "reviewedPalette": [
+    "#FFF0CE",
+    "#FFCA70",
+    "#ED7D31",
+    "#548234",
+    "#FECF84"
+  ],
+  "paletteObservation": "浅黄切空间平面搭配橙色文本子空间，橙色条件向量与绿色数据库向量形成对比；图为完整条件相似度计算流程。"
+}

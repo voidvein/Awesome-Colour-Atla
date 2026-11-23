@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-c945970940e7",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "Stand-In模型图完整，全部取色标注位于分支背景、token、DiT/attention块或VAE模块，不取人脸。",
+  "reviewedImageSHA256": "540325019f0ecf90e3a5ee2c0442bb3792388d1216389bb5805fd3e672a4868d",
+  "reviewedPalette": [
+    "#EAF3FA",
+    "#B8D9CB",
+    "#82B09C",
+    "#6188B4",
+    "#F3DADC",
+    "#589C77",
+    "#D9D9D9"
+  ],
+  "paletteObservation": "绿色与蓝色分别区分原视频和条件图像分支，粉色突出受限自注意力，灰色VAE作为共享编码结构；深色token沿用各自分支色。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

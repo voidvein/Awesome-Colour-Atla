@@ -1,0 +1,41 @@
+{
+  "id": "cvpr26-9fd958c485d5",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "图中明确包含SVTRv2 Encoder→AR Decoder以及迭代伪标签/重采样的神经识别模型结构。",
+  "reviewedImageSHA256": "98409d7f40f9353fbd5154a6ad70ba8bbbbbc0ba5485c2b20abc482a53c9bf83",
+  "reviewedPalette": [
+    "#EEF3FF",
+    "#F6C6AC",
+    "#83CAEB",
+    "#5783FF"
+  ],
+  "paletteObservation": "文字/街景/合成样例照片不入色卡；蓝encoder、桃AR decoder、浅蓝框架背景和蓝框线四色来自实际模型/阶段区域。",
+  "reviewedAt": "2026-11-23T17:50:06Z",
+  "excludeRegions": [
+    [
+      544,
+      103,
+      725,
+      231
+    ],
+    [
+      463,
+      368,
+      926,
+      633
+    ],
+    [
+      1349,
+      17,
+      1813,
+      308
+    ],
+    [
+      1410,
+      411,
+      2014,
+      856
+    ]
+  ]
+}

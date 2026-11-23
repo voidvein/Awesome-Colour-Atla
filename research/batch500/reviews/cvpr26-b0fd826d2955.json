@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-b0fd826d2955",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "fdfd6703f88023249e70c9f06ad422ca729bced94864d6fbe255402b19d9deef",
+  "reviewedPalette": [
+    "#D4FEF2",
+    "#FFDAFF",
+    "#FFE699",
+    "#BF9000",
+    "#D6DCE5",
+    "#548234",
+    "#2E74B6"
+  ],
+  "paletteObservation": "OmniRet 的共享重采样器为深绿，LLM 为淡黄，注意力池化为金黄色，音频编码器为蓝色；浅青与浅粉的输入容器区分查询和候选。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

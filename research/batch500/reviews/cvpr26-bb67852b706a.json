@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-bb67852b706a",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "MoD-DPO图4为偏好数据生成与QA配对prompt流程，未展示Omni LLM本体或神经计算架构。",
+  "reviewedImageSHA256": "526fdbe7965f6eaeee247ce576e9e94fc8ca62050934aa0314671490e6ecc673",
+  "reviewedPalette": [
+    "#D9E7FB",
+    "#D5E7D4",
+    "#F7CDCC",
+    "#66A08F",
+    "#D5B556",
+    "#6B8EBE",
+    "#9573A6"
+  ],
+  "paletteObservation": "色彩来自描述、问答和偏好文本框，不以数据生成图凑网络色卡。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

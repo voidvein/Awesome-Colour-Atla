@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-9a6760264fd3",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "6b72f107bde9ef96f1d89d7c10ba8fca4b9c382155bd50ea8847cc81f303ea1e",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-9a6760264fd3/cvpr26-9a6760264fd3.png",
+  "reviewEvidence": "contacts/audit-a/individual/23.jpg",
+  "sourceTitle": "Resolving Evidence Sparsity: Agentic Context Engineering for Long-Document Understanding",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#FDFDF1",
+    "#D9C7E1",
+    "#DAEAB8",
+    "#8295A1",
+    "#FCBA5D",
+    "#545D6C",
+    "#26B7E8"
+  ],
+  "paletteObservation": "淡紫与浅绿检索特征条并列，浅粉、浅蓝和奶油色区域组织不同Agent，蓝色图标与橙黄色文档标记形成辅助色。"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-4efd3250ad20",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "所选图主要为三阶段RL训练样例与视频问答，未呈现具体视觉/融合/动作网络计算结构。",
+  "reviewedImageSHA256": "476d67c38c7956c769592c347eb8c4ab23ae8cde3e4540159768f5469bb1e93e",
+  "reviewedPalette": [
+    "#C1E5F5",
+    "#FBE3D6",
+    "#F2AA84",
+    "#909495"
+  ],
+  "paletteObservation": "肤色、视频背景和阶段示例标签混在色卡中，不作架构色卡。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

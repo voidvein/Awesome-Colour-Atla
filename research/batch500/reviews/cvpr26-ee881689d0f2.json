@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-ee881689d0f2",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "f7f5d8a43e222243932e3f9905d22e396f478325f63fa9138771921e614578e6",
+  "reviewedPalette": [
+    "#DAE2F3",
+    "#FAE4D5",
+    "#FFD966",
+    "#F4B083",
+    "#C5DFB4",
+    "#A5A6A5",
+    "#C55A11"
+  ],
+  "paletteObservation": "Mamba 与重建模块使用浅蓝和桃色，扰动 token 为黄色，分支特征为浅绿，瓶颈融合内保留橙色特征符号，深灰用于骨干和线性组件。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

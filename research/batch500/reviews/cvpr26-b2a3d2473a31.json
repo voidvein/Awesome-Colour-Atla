@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-b2a3d2473a31",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整GRaF编码、射线特征和Transformer神经射线追踪网络；latent彩色体素和输出谱图已排除取色。",
+  "reviewedImageSHA256": "70c5964f2a0b103e9d0ef238cedfd4611759e194a3b5c07f477eb56afc20566c",
+  "reviewedPalette": [
+    "#61CAF3",
+    "#8ED973",
+    "#CAEDFB",
+    "#D9F2D0"
+  ],
+  "paletteObservation": "绿色RF表征编码器与青蓝多头Transformer为两分支结构色，淡绿/淡青为其分区。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-493d3088b3c0",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "a3eeb90e525e7ff4b0a1a8e9575eb9607d4c51d7267a219b3bd53a7a3b2b2c47",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-493d3088b3c0/cvpr26-493d3088b3c0.png",
+  "reviewEvidence": "contacts/audit-a/individual/33.jpg",
+  "sourceTitle": "PlannerRFT: Reinforcing Diffusion Planners through Closed-Loop and Sample-Efficient Fine-Tuning",
+  "figure": "Figure 2",
+  "reviewedPalette": [
+    "#F1F5FF",
+    "#104761",
+    "#D9F1D0",
+    "#9EC9FC",
+    "#4BAE4F",
+    "#174AE6",
+    "#B3B9FB"
+  ],
+  "paletteObservation": "浅青共享场景编码器与蓝色探索策略区分模块，淡紫轨迹优化区域和浅蓝闭环控制符号配合绿色检查标记。"
+}

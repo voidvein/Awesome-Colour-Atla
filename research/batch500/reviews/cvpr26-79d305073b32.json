@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-79d305073b32",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整StreamAvatar block-causal DiT、滚动cache及两阶段distillation结构，无照片污染。",
+  "reviewedImageSHA256": "58e7000f6c83f74675f92094641b3babfcf61253301ceb7b1af005adbe18855b",
+  "reviewedPalette": [
+    "#DCEAF7",
+    "#FAE2D5",
+    "#D9F1D0",
+    "#B4E4A1",
+    "#FFFBD6",
+    "#DDDEDE"
+  ],
+  "paletteObservation": "浅蓝causal DiT、桃色bidirectional DiT、绿色frame-feature、浅黄Q-Former和灰色冻结token来自网络。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

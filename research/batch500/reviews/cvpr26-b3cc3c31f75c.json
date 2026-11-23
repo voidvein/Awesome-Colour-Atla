@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-b3cc3c31f75c",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整DenseRC教师/学生特征对齐和HSG网络细节，输入照片已排除取色。",
+  "reviewedImageSHA256": "53f1a06f88782af200244ea9382313e2da0ad2fe4e028fdd620d4e1285dedc74",
+  "reviewedPalette": [
+    "#ECF2F8",
+    "#A6C9EB",
+    "#205F9A",
+    "#153D63"
+  ],
+  "paletteObservation": "浅蓝HSG背景与特征块、深浅蓝RolAlign连接和注意力通路构成实际网络配色。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

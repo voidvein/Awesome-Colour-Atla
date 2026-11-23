@@ -1,0 +1,23 @@
+{
+  "id": "cvpr26-cde653b0c1e6",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "改选Fig3，明确显示policy/reference neural models、verifiable reward、GRPO和策略更新回路。",
+  "reviewedImageSHA256": "4035a2216254b86f898578599c8741f4433bc771cd52deae04b0bfa62bb28126",
+  "reviewedPalette": [
+    "#FAE4D5",
+    "#DAE2F3",
+    "#DEEBF7",
+    "#C55A11"
+  ],
+  "paletteObservation": "所有上方数据构建照片/深度图排除；手采桃色policy、淡紫reference/GRPO、浅蓝奖励模块及棕色策略反馈线。",
+  "reviewedAt": "2026-11-23T17:39:45Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      1692,
+      800
+    ]
+  ]
+}

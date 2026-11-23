@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-1972029c9882",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "MA-Bench图4为半自动QA生成和人工纠错数据构建流程，不是神经网络架构。",
+  "reviewedImageSHA256": "07deabc2fbe37dd09b69346d102e08490dca445d85743aa404d33519c21de3f2",
+  "reviewedPalette": [
+    "#FCDFCA",
+    "#B5C8E8",
+    "#ED7A0F",
+    "#91D050",
+    "#4D6BFE",
+    "#C8C4C4",
+    "#C2E5F5"
+  ],
+  "paletteObservation": "颜色主要标注任务prompt、样例动作和数据数量，不作为网络色卡。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

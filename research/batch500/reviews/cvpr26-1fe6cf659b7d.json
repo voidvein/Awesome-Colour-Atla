@@ -1,0 +1,28 @@
+{
+  "id": "cvpr26-1fe6cf659b7d",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "GDPO-SR包含Policy/Reference ISR、归因奖励、group advantage和GDPO loss的神经训练架构。",
+  "reviewedImageSHA256": "d0c7c511e260722dc409e411245c2c3ccf8c22b6084993f838fa6c43db255be7",
+  "reviewedPalette": [
+    "#FAF5ED",
+    "#D9E7FB",
+    "#FFE6CC"
+  ],
+  "paletteObservation": "花照片、SR样本和噪声全部排除，训练火焰/雪花图标色不采；只留蓝冻结model、桃可训练model和奶油loss/advantage计算区三色。",
+  "reviewedAt": "2026-11-23T17:50:06Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      508,
+      692
+    ],
+    [
+      508,
+      0,
+      931,
+      242
+    ]
+  ]
+}

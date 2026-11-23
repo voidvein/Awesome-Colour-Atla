@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-d6d9efd0ef68",
+  "verdict": "rejected",
+  "reviewer": "root",
+  "reason": "当前是旧EWC学习概念和公式流程，缺少明确网络结构。",
+  "reviewedImageSHA256": "e243fb995685fba5464a7794d734003f3f5f4fe2c5f56a4e94d2e420161f63bd",
+  "reviewedPalette": [
+    "#FBE6D4",
+    "#FDE694",
+    "#C7E4B3",
+    "#B6C6EA",
+    "#6282B3",
+    "#D9D9D9",
+    "#8AC4F6"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T16:29:41Z"
+}

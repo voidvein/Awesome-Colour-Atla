@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-2e064de47d12",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "f00ab98b6d6f53251e31e52005cb43a09f024390b31733aa60c08dbb90068ad5",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-2e064de47d12/cvpr26-2e064de47d12.png",
+  "reviewEvidence": "contacts/audit-a/individual/15.jpg",
+  "sourceTitle": "OlmoEarth: Stable Latent Image Modeling for Multimodal Earth Observation",
+  "figure": "Figure 3",
+  "reviewedPalette": [
+    "#EF529C",
+    "#B7B7B7",
+    "#C8DAF8",
+    "#FFF1CC",
+    "#F5BDD7",
+    "#B6D6A8",
+    "#F8CA9C"
+  ],
+  "paletteObservation": "粉红色对比损失与粉色token呼应，灰色ViT编码解码器为中性骨干，蓝色裁片模块及黄绿橙token提供模态区分。"
+}

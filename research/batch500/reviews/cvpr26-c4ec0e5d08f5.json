@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-c4ec0e5d08f5",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "STAGE STEP起止帧预测、MMDiT与memory pack完整，电影帧与中间示例已屏蔽取色。",
+  "reviewedImageSHA256": "1de5243be893c080d8ded118276789d7dec1563500b3f988cee5501ff8498bbd",
+  "reviewedPalette": [
+    "#E7F5FA",
+    "#FAE2D5",
+    "#ECC2D0",
+    "#ED6FA2",
+    "#C5DFB4"
+  ],
+  "paletteObservation": "浅蓝storyboard输入、桃色MMDiT、粉色latent pack、深粉memory token和浅绿refinement对应模块。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

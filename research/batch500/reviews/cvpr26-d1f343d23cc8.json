@@ -1,0 +1,38 @@
+{
+  "id": "cvpr26-d1f343d23cc8",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "将照片teaser Fig1换成Fig2，明确显示冻结feature extractor、可训练translator、CLIP/UnCLIP和等价特征投影神经机制。",
+  "reviewedImageSHA256": "5599824addf6be149a2a0eb2f906e7075d03031c1ecb13f2b92e7a610daba019",
+  "reviewedPalette": [
+    "#F9DEF0",
+    "#4EA62D",
+    "#155F81",
+    "#001F5F",
+    "#BBD0DA",
+    "#F6C5AC",
+    "#E59DDD"
+  ],
+  "paletteObservation": "鱼、海星、汽车照片全部屏蔽；深青feature/translator、绿CLIP、粉推理区、深蓝projector、蓝灰网络主体及紫/桃语义特征token均为模块色。",
+  "reviewedAt": "2026-11-23T17:50:07Z",
+  "excludeRegions": [
+    [
+      761,
+      226,
+      981,
+      407
+    ],
+    [
+      1404,
+      488,
+      1574,
+      660
+    ],
+    [
+      1404,
+      687,
+      1574,
+      877
+    ]
+  ]
+}

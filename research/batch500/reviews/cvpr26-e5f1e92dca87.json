@@ -1,0 +1,28 @@
+{
+  "id": "cvpr26-e5f1e92dca87",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "Point Feature Encoder与edge regression主网络及GREO cost/advantage/loss计算模块完整。",
+  "reviewedImageSHA256": "f7c9452550c29b8e09f881f0e73de65d510521d98be7d1f9c8c7e2d351f5fdca",
+  "reviewedPalette": [
+    "#DFDEEB",
+    "#A2BDD5",
+    "#D2E6D7"
+  ],
+  "paletteObservation": "上方点云/重建几何和下方线框示例不采色；只留浅紫geometry参数区、蓝GREO损失与浅绿confidence编码，未取pairwise cost数值色块。",
+  "reviewedAt": "2026-11-23T17:50:06Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      1692,
+      270
+    ],
+    [
+      0,
+      270,
+      457,
+      628
+    ]
+  ]
+}

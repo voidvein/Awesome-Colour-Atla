@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-c9d9b9d64fc6",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Dual Attention Encoder shows patch projection and intra/inter-frame attention computation.",
+  "reviewedImageSHA256": "b0268596e0639ce42f1f6ed14f11cf3fb0b661d0efa79514c2d24220f619b81f",
+  "reviewedPalette": [
+    "#7FCBA4",
+    "#DFEFDF",
+    "#7ECAC9",
+    "#17DEEF",
+    "#2FC0B4"
+  ],
+  "paletteObservation": "Green DAE/attention panels and teal/cyan feature-token glyphs are measured; atomic-action thumbnails and point-cloud example colours excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

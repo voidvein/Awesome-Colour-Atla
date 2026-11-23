@@ -1,0 +1,34 @@
+{
+  "id": "cvpr26-6bfc25df877e",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "APEX中MLLM/Grounded SAM、地图更新与异步三阶段模块完整，裁掉下方正文解释。",
+  "reviewedImageSHA256": "170498cff9fa619a984fca1500f1509e24a42e38fe408eb807f1c2cd3fcc0bbd",
+  "reviewedPalette": [
+    "#D9E7FB",
+    "#F7CDCC",
+    "#D5E7D4"
+  ],
+  "paletteObservation": "场景照片和体积热图不取色；只留地图更新浅蓝、目标grounding浅绿、行动决策粉色三个阶段色。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      200,
+      390,
+      330,
+      580
+    ],
+    [
+      550,
+      235,
+      850,
+      520
+    ],
+    [
+      950,
+      380,
+      1550,
+      600
+    ]
+  ]
+}

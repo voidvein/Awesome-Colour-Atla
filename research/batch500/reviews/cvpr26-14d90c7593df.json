@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-14d90c7593df",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整Understanding/Solving双Transformer循环及adaptive halt结构，限制为3个主要模块色。",
+  "reviewedImageSHA256": "36a69b6c76d9cd247db29c214f34fac2c8679bd5f29bc205bb0d2143856c46de",
+  "reviewedPalette": [
+    "#F6B482",
+    "#ACD78F",
+    "#FFF1CA"
+  ],
+  "paletteObservation": "橙色Understanding Module、绿色Solving Module和浅黄gate/中间状态来自实际神经计算。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

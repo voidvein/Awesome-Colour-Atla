@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-c6b54c86d8be",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "完整SAM3D编码器、跨注意力手/身解码器、特征/姿态token图，保留输入与网格输出。",
+  "reviewedImageSHA256": "e20d003c8dde8ca7accc19ef9b9f6faefc5a8828010edd23072db380a45a6fbc",
+  "reviewedPalette": [
+    "#CFF8CD",
+    "#F6EFE4",
+    "#B1B3B2",
+    "#62ED78",
+    "#FF94CA",
+    "#00A1FF",
+    "#F0ECC4"
+  ],
+  "paletteObservation": "扩大左侧照片排除区，去掉照片蓝边；保留浅绿解码器、奶油编码器、灰/绿token和粉/蓝prompt token。",
+  "reviewedAt": "2026-11-23T16:45:36Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      430,
+      460
+    ],
+    [
+      1269,
+      0,
+      1692,
+      460
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-1c63aca33ec5",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "精确裁出ArtiMuse完整Model Training面板，保留所有输入标签和Vision Encoder/MLP/Tokenizer/LLM分支，源坐标已同步。",
+  "reviewedImageSHA256": "6e923cbfc594c384aa3d926a617352734cce4cca696758e52f49e6a89cef84bc",
+  "reviewedPalette": [
+    "#B4C6E7",
+    "#DDEAF6",
+    "#FFD966",
+    "#A9D18E",
+    "#8FAADC"
+  ],
+  "paletteObservation": "蓝灰LLM、浅蓝Vision Encoder、黄色score token、绿色文本预训练标记及蓝色模型标题为真实结构色。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

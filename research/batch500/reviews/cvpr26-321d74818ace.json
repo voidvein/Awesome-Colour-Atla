@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-321d74818ace",
+  "verdict": "rejected",
+  "reviewer": "root",
+  "reason": "当前图主要是数据集构建与评估任务，不能作为网络架构收录。",
+  "reviewedImageSHA256": "69600c977fee7b2ee91dd9d0b1f13a2cef848f17a4b7298126d952baf5c7016c",
+  "reviewedPalette": [
+    "#EEECE2",
+    "#F9BE69",
+    "#611020",
+    "#75A559",
+    "#1D5089",
+    "#943E15",
+    "#E39D9B"
+  ],
+  "paletteObservation": "",
+  "reviewedAt": "2026-11-23T16:29:41Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-1ea04bf4eca6",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "完整双分支ViT/decoder架构，已逐个放大确认四个token立方体像素，不使用输入和追踪照片。",
+  "reviewedImageSHA256": "e8ac3735b4d6dc29dd94b14d75afb9f804bee8b9b1fd77206683b125c11be8e1",
+  "reviewedPalette": [
+    "#FFE6CC",
+    "#999999",
+    "#D5E7D4",
+    "#D9E7FB"
+  ],
+  "paletteObservation": "黄色token对应运动预测分支，浅绿与浅蓝区分空间分支的编码和解码token，灰色标识被掩码的token；色卡仅保留这四种结构色。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

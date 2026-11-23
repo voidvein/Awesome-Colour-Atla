@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-0e6c4ec28bcc",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整AeroGS初始化、位姿重建、锚点扩展和三类解耦网络细节。",
+  "reviewedImageSHA256": "ed4c7ed02bd88dc0b8e1bace6973cd84e9254135187bed261b4630a40703be61",
+  "reviewedPalette": [
+    "#DEEBF7",
+    "#C5DFB4",
+    "#FAE4D5",
+    "#FFD966",
+    "#2D75B6",
+    "#538235",
+    "#D07352"
+  ],
+  "paletteObservation": "蓝色deformation、绿色ego-object分支、桃色scale-complexity、黄色HSTD及蓝绿运动节点对应结构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

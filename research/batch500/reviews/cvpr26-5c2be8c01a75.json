@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-5c2be8c01a75",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Stereo Matching Model and its training dependencies are clear; disparity/depth images excluded.",
+  "reviewedImageSHA256": "9305722ecb1366b27ef545d6e42b3ee1f71f7c15411524ac58fc6b10c9e357eb",
+  "reviewedPalette": [
+    "#B4C7E7",
+    "#000000"
+  ],
+  "paletteObservation": "Blue Stereo Matching Model fill and measured black model outline/labels are the two actual structural colours.",
+  "reviewedAt": "2026-11-23T17:38:43Z"
+}

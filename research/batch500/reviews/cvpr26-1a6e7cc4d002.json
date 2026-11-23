@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-1a6e7cc4d002",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Learned 4D instance field and identity-estimation computational framework is intact; illustrative renders and identity distributions excluded from palette.",
+  "reviewedImageSHA256": "219181b41f9ef3fc2558be1e8121ee403a94c9de875fdfa4a540412a16aa336b",
+  "reviewedPalette": [
+    "#D9F7F9",
+    "#E7DACF"
+  ],
+  "paletteObservation": "Only cyan identity-estimation panel and beige instance-guided-resampling panel are retained, giving two actual framework colours.",
+  "reviewedAt": "2026-11-23T17:38:43Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-1cf488782e68",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor",
+  "reason": "改选Fig2完整推理与训练流程，比带奖励柱图的Fig3更贴合主流程检索；无裁断。",
+  "reviewedImageSHA256": "a6769a47c51f4ea6490c71175effa3e6c9ab8c65d4f553d7f35a42279295b428",
+  "reviewedPalette": [
+    "#7E7E7E",
+    "#DCEAF7",
+    "#FBE3D6",
+    "#F3CAC7",
+    "#E4E7FA",
+    "#156082"
+  ],
+  "paletteObservation": "直接依图例取六色：灰色思考上下文、蓝色工具、杏色编辑图像、粉色自评、淡紫反思与深青框线；逐个精确像素核对。",
+  "reviewedAt": "2026-11-23T16:45:36Z"
+}

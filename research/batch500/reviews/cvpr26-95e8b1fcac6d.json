@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-95e8b1fcac6d",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "WAM-Flow VLA与数值tokenizer及GRPO结构完整，驾驶照片已排除取色。",
+  "reviewedImageSHA256": "99030675feb0b6910473502528dc4b5db3ca8eff03f96424cda5e64e4060c8f4",
+  "reviewedPalette": [
+    "#FFF1E6",
+    "#E1D6E8",
+    "#EBA4A5",
+    "#C4A9D8",
+    "#91B5D4"
+  ],
+  "paletteObservation": "浅桃RL分区、淡紫Vision Encoder、粉红numerical token、紫色visual token和浅蓝编码对应模块。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

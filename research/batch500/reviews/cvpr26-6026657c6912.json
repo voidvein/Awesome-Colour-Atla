@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-6026657c6912",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "GS-CLIP几何prompt、几何蒸馏和协同视图细化双阶段结构完整。",
+  "reviewedImageSHA256": "5d310335d92f890762db4f79e6c1b440d2b337e232855dcb04a928fe33e2cc80",
+  "reviewedPalette": [
+    "#8EAADB",
+    "#EAF1F9",
+    "#6FC9C4",
+    "#B3B3B3",
+    "#DFAD36",
+    "#F7CDCC",
+    "#BA9FC8"
+  ],
+  "paletteObservation": "点云、渲染图、深度图和分割结果不采色；蓝image encoder、青PointNet、紫蒸馏、金色细化和粉色特征均为模块色。",
+  "reviewedAt": "2026-11-23T17:39:44Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      305,
+      931
+    ],
+    [
+      1404,
+      0,
+      1692,
+      931
+    ]
+  ]
+}

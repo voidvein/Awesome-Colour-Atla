@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-952d14d71751",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Replaced teaser Figure 1 with original Figure 2 containing MVSegNet, self/cross-attention and explode/implode latent networks.",
+  "reviewedImageSHA256": "5c9aa837fd160ca28f1dbf5878f530650e676aa9cb3fbf8072acd9703fdf5bf5",
+  "reviewedPalette": [
+    "#E6F6E0",
+    "#F6C0B9",
+    "#C9B9D4",
+    "#C0D09F",
+    "#D1D1D1",
+    "#E6F1FA"
+  ],
+  "paletteObservation": "Green implosion panel, pink segmentation panel, lavender attention/embedding layers, pale green cross-attention, gray self-attention and blue explosion panel are actual architecture colours; shape/part renders excluded.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

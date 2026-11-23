@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-ee0a5e32ba44",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "UniGeoSeg总网络与TATE/LKM细节完整，图注题名对应。",
+  "reviewedImageSHA256": "0d04b3809d35954e83df59703a5dbb78515f55abf264e61351f7351300052d51",
+  "reviewedPalette": [
+    "#F4B183",
+    "#CCE3B9",
+    "#BDD7EE",
+    "#FFDD9F",
+    "#AFABAB",
+    "#FBE9E7",
+    "#F9D2B7"
+  ],
+  "paletteObservation": "桃色LLM/Mask Decoder、浅绿连接与语义模块、浅蓝视觉和dropout token、浅黄记忆块对应网络。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

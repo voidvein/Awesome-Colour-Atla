@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-cad4290b3fda",
+  "verdict": "rejected",
+  "reviewer": "source_figures",
+  "reason": "VABench Figure 1 is task taxonomy and evaluation framework; other available figures concern benchmark curation, distributions and results, not architecture.",
+  "reviewedImageSHA256": "146b99888dd8a404955bf76b6832838a5927343e86aa6a77bcd148c3b78e1b7a",
+  "reviewedPalette": [
+    "#CEDFFD",
+    "#D4E8DD",
+    "#FDECCC",
+    "#4951D8",
+    "#2C51B3",
+    "#843B0A",
+    "#538235"
+  ],
+  "paletteObservation": "Visible colours belong to dataset/benchmark, rendered examples or non-neural algorithm illustrations; not accepted as network-module colours.",
+  "reviewedAt": "2026-11-23T17:47:45Z"
+}

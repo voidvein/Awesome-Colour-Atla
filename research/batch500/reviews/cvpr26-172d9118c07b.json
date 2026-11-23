@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-172d9118c07b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Merged task masks, gated action-expert cross-attention blocks and task router architecture are explicit.",
+  "reviewedImageSHA256": "694156b937ef2f9721ddd6d08b59732d57fdf1dde68d9dfbcfb4e91bf7949798",
+  "reviewedPalette": [
+    "#FFF5E9",
+    "#FF9999",
+    "#E6D0DE",
+    "#A7D9BE",
+    "#FFB366",
+    "#929290"
+  ],
+  "paletteObservation": "Cream router panel, pink/rose/green/orange task-token channels and gray backbone block are actual architecture glyphs; no photo colours used.",
+  "reviewedAt": "2026-11-23T17:47:44Z"
+}

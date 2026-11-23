@@ -1,0 +1,38 @@
+{
+  "id": "cvpr26-67bde04ef222",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "d7d230f308f17fe8b20e3e1d62508c8d71d720a2f9522bc299b77393b37d40bb",
+  "reviewedPalette": [
+    "#FAF0CE",
+    "#D4F0FB",
+    "#677EA3",
+    "#2C9F2C",
+    "#FF7E0D",
+    "#9367BC",
+    "#11AFED"
+  ],
+  "paletteObservation": "GeoViS 的 MCTS 搜索区为淡黄、地理上下文为蓝灰，搜索节点分别为青、橙、紫和绿色；VisualRAG 连接视觉与语言模块，所有卫星底图已遮罩。",
+  "reviewedAt": "2026-11-23T17:53:42Z",
+  "excludeRegions": [
+    [
+      100,
+      69,
+      576,
+      483
+    ],
+    [
+      1137,
+      349,
+      1267,
+      473
+    ],
+    [
+      1270,
+      346,
+      1595,
+      669
+    ]
+  ]
+}

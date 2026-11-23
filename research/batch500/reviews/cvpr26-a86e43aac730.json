@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-a86e43aac730",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "29fca91dedd85d13bfb30cb4a6dddc28a4b6a30e77c963d95c0a43b5dfd2d004",
+  "reason": "已核对可访问arXiv HTML全部5图；Figure 2是视频整理，另试Figure 4仍是手术照片检索与增强采样流程（颜色均来自手术照片），不是teacher/student或编码器网络架构；其他图为性能、数据差异与分布统计，拒绝作为网络架构色卡。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-a86e43aac730/html-0.png",
+  "reviewEvidence": "contacts/audit-a/individual/20.jpg",
+  "sourceTitle": "LEMON: A Large Endoscopic MONocular Dataset and Foundation Model for Perception in Surgical Settings",
+  "figure": "Figure 2",
+  "reviewedAt": "2026-11-23T16:46:16.917076+00:00",
+  "additionalEvidence": [
+    "contacts/audit-a/repair/20-card.jpg",
+    "contacts/audit-a/repair-candidates.json"
+  ]
+}

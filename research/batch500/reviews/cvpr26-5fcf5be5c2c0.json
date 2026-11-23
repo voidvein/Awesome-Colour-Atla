@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-5fcf5be5c2c0",
+  "verdict": "rejected",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "7613363d4c91fe67df7e83f9441d56ba6a70643891dd28e46b518a2b7de3db90",
+  "reason": "已核对缓存全文11页及全部4图：Figure 1为Web数据整理及版式输出，Figure 3为提示字段与类别映射，其他为统计与输出比较，没有明确LLM内部或训练计算模块架构，拒绝用版式示例凑网络图。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-5fcf5be5c2c0/cvpr26-5fcf5be5c2c0.png",
+  "reviewEvidence": "contacts/audit-a/individual/29.jpg",
+  "sourceTitle": "OmniDocLayout: Towards Diverse Document Layout Generation via Coarse-to-Fine LLM Learning",
+  "figure": "Figure 3",
+  "reviewedAt": "2026-11-23T16:46:16.919756+00:00",
+  "additionalEvidence": [
+    "contacts/audit-a/repair/29-pages.jpg",
+    "contacts/audit-a/repair-candidates.json"
+  ]
+}

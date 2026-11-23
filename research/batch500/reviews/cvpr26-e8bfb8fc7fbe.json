@@ -1,0 +1,41 @@
+{
+  "id": "cvpr26-e8bfb8fc7fbe",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。 原先非架构候选已更换：Figure1结果拼图 → Figure2 MultiShotMaster架构。",
+  "reviewedImageSHA256": "19db312ab9af467a925e6d7880201ba2485ad01dc3b12781fc766383c7220413",
+  "reviewedPalette": [
+    "#A4C4C3",
+    "#FAF8EB",
+    "#E6D0DD",
+    "#CDC2A3",
+    "#CBEEEB",
+    "#FFF0CA",
+    "#FCEDF8"
+  ],
+  "paletteObservation": "浅青色注意力与FFN块连接奶油黄叙事RoPE和浅粉位置感知RoPE区域，青灰注意力掩码区分多镜头/参考间的信息连接；不取示例视频颜色。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "excludeRegions": [
+    [
+      98,
+      59,
+      1597,
+      246
+    ],
+    [
+      503,
+      346,
+      1034,
+      483
+    ],
+    [
+      510,
+      702,
+      1049,
+      951
+    ]
+  ],
+  "figure": "Figure 2",
+  "sourceTitle": "MultiShotMaster: A Controllable Multi-Shot Video Generation Framework",
+  "reviewEvidence": "contacts/audit-e/repair/10-final.jpg"
+}

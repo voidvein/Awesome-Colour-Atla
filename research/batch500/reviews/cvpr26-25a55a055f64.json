@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-25a55a055f64",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "UniFusion完整重建/融合计算流程、双交互网络和adapter三面板，输入输出照片已排除取色。",
+  "reviewedImageSHA256": "33c5a43a0a85486d26accc00bead28e7bf68b6a39515cd8562ec59a4181ea026",
+  "reviewedPalette": [
+    "#D5DCE6",
+    "#C5DFB4",
+    "#7AA6CD",
+    "#C00002"
+  ],
+  "paletteObservation": "4色为蓝灰/浅绿重建融合分支、蓝色adapter和红色优化/梯度连接。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}

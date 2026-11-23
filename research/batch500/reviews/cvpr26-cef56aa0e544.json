@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-cef56aa0e544",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整CryoKRAQEN MLP、2D/3D codebook与weighted sum重建网络，冷冻电镜图已排除取色。",
+  "reviewedImageSHA256": "f4d18ad4ebb6f41fdecbc8d561606b7e407543d09e1beb44e764c351af020825",
+  "reviewedPalette": [
+    "#91C6C9",
+    "#E9717C",
+    "#92C0A2",
+    "#CAEEFB"
+  ],
+  "paletteObservation": "青色codebook、红色volume/code、绿色空间信息与浅蓝MLP均有图例对应。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

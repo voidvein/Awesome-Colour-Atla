@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-e71d5b40aea3",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "查看原图/图注：差分渲染、概率物理形状/法向/纹理估计与结构光采样优化，未显示神经网络模块。",
+  "reviewedImageSHA256": "4daaf3c88bc9f74fa17c743bccf71efd47f1d4b98516c372edf401d27a1ba4b4",
+  "reviewedPalette": [
+    "#F2BA01",
+    "#AFAAAA",
+    "#B38AD8",
+    "#F4B7BF",
+    "#C9E5B4"
+  ],
+  "paletteObservation": "主要是结构光掩码和物理估计结果；即使有彩色优化框也不计作神经架构。",
+  "reviewedAt": "2026-11-23T17:39:44Z"
+}

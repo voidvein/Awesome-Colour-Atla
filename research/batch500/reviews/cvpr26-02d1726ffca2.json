@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-02d1726ffca2",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "VtT图像/文本分支、V-T Fusion与DGSO梯度校正网络完整，输入猫照片已排除取色。",
+  "reviewedImageSHA256": "8415c83b4e115987bdca7282bf08863bc74fb5d2a5a58e124c237e5aba80eac4",
+  "reviewedPalette": [
+    "#B6C6EA",
+    "#FFE493",
+    "#FBCAA9",
+    "#C7DEB2",
+    "#EF969C",
+    "#C3C3C3"
+  ],
+  "paletteObservation": "蓝色MLP、黄色fusion、桃色cross-scan、绿色scan矩阵、粉色类别token和灰色归一化为网络元素。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

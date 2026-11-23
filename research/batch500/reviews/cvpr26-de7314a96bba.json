@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-de7314a96bba",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "质量感知patch权重、视觉编码器及两级聚合质量轴网络完整。",
+  "reviewedImageSHA256": "d3d2cccd565b4730be7577720dd217dbc05eac27e4ee3024465851d8e1e3ddc9",
+  "reviewedPalette": [
+    "#E0F1FE",
+    "#FFFAE6",
+    "#C5ECCC",
+    "#A2C2F6",
+    "#F7630C",
+    "#F8CECC",
+    "#A8A59B"
+  ],
+  "paletteObservation": "扩大照片/显著图排除区；浅蓝聚合、浅绿权重、奶油编码器、粉色轴特征与训练标记均可追踪。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      643,
+      371
+    ],
+    [
+      0,
+      357,
+      592,
+      714
+    ]
+  ]
+}

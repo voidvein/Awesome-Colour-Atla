@@ -1,0 +1,17 @@
+{
+  "id": "cvpr26-50124351f6cc",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "JUMP-Hand不确定性门控、混合视角与refinement网络完整；样例帧和输出图已屏蔽取色。",
+  "reviewedImageSHA256": "da0cb1b79e0b4d62541c72ca817ced03cbe8c1c557766d6f79a2b8f302f17dca",
+  "reviewedPalette": [
+    "#EFFAFF",
+    "#FFA0A0",
+    "#FFD7D7",
+    "#4874CB",
+    "#FF7A7A",
+    "#EF822F"
+  ],
+  "paletteObservation": "浅青attention分区、粉红不确定性矩阵、蓝色query token、橙色vertex query对应结构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

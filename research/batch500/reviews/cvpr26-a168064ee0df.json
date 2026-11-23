@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-a168064ee0df",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "DrivePI视觉编码、spatial projector、4D MLLM和多任务头结构完整，伪彩occupancy输出已排除。",
+  "reviewedImageSHA256": "022024a63da8e5ea690c4c41dc40d8f7521511912f6852ff82c183ed72bc079e",
+  "reviewedPalette": [
+    "#FDF1EB",
+    "#DEF4D8"
+  ],
+  "paletteObservation": "仅保留桃色3D任务heads和浅绿文本head两个实际模块色。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

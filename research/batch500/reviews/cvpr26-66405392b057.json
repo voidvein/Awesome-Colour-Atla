@@ -1,0 +1,25 @@
+{
+  "id": "cvpr26-66405392b057",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "深度/PE/vision/text编码、VLM、LoRA和PE decoder路径完整。",
+  "reviewedImageSHA256": "592aa5948983670efdd308878059083a09d19bed721ba3c59d3d27afb7b7f158",
+  "reviewedPalette": [
+    "#FECE9E",
+    "#C3ABCF",
+    "#B9E1A5",
+    "#84ADDB",
+    "#D5D4D4",
+    "#B4729C"
+  ],
+  "paletteObservation": "排除车辆照片；杏色文本、绿PE、蓝视觉、紫VLM、粉LoRA和灰色表示均为架构色。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      305,
+      434
+    ]
+  ]
+}

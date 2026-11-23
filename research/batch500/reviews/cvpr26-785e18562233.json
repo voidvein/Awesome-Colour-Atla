@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-785e18562233",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由EchoFoley数据集构建改为图7真实EchoVidia Agent推理过程，输入、action pool和生成器关系完整。",
+  "reviewedImageSHA256": "69d62b642d0150b5adf306ed4b5af05a19ba2caa3b5629fab84780c8d7e3fce9",
+  "reviewedPalette": [
+    "#DEE7F0",
+    "#1D5A77",
+    "#B4CDD2",
+    "#D1D1D1"
+  ],
+  "paletteObservation": "浅蓝action pool、深青Agent操作图标/箭头、灰色推理设计生成模块对应代理计算结构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-b296ead011e5",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "Pointer-CAD完整GNN嵌入、多模态融合、Qwen LLM和指针选择结构，人物图标已排除取色。",
+  "reviewedImageSHA256": "822c4e5ebb2ff35861bcd245a8bb72e1d86897bab838c4be35f441254e237ea6",
+  "reviewedPalette": [
+    "#585DC5",
+    "#7D639E",
+    "#DBEDF3",
+    "#1C22D5",
+    "#8B81DA"
+  ],
+  "paletteObservation": "蓝紫多模态fusion、灰紫LLM/translation、浅青GNN与深蓝pointer输出属于真实结构。",
+  "reviewedAt": "2026-11-23T16:54:45Z"
+}

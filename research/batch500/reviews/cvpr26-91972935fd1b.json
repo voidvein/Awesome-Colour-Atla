@@ -1,0 +1,32 @@
+{
+  "id": "cvpr26-91972935fd1b",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "71e3040a76705a96a9bb6ae37e68208dd6c80f7c8055c85ba5320a59220c00f3",
+  "reviewedPalette": [
+    "#E3EFD9",
+    "#DCE1F4",
+    "#F8CBAE",
+    "#4572C3",
+    "#90AADB",
+    "#FBE6D5",
+    "#B6C6E7"
+  ],
+  "paletteObservation": "可见光 RWKV 的 Spatial/Channel Mix 为淡蓝紫，事件分支为桃色，OTN-RWKV 融合块为浅绿，视觉 token 与预测条为深浅蓝；照片和事件图已遮罩。",
+  "reviewedAt": "2026-11-23T17:53:40Z",
+  "excludeRegions": [
+    [
+      160,
+      69,
+      230,
+      209
+    ],
+    [
+      163,
+      274,
+      280,
+      459
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-43fa0ae3ca25",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "SGDrive层级世界查询、世界头和Diffusion Planner完整；输入/输出场景已排除取色。",
+  "reviewedImageSHA256": "f2dcc1f1c35e462921e31e5c7cf8db87a787e4fb13ef78ca44fa90af96163723",
+  "reviewedPalette": [
+    "#B8CDE4",
+    "#C3D59B",
+    "#B3A1C6",
+    "#F9C090",
+    "#30859C"
+  ],
+  "paletteObservation": "蓝色VLM、青色world heads、绿色文本token、紫色视觉token与桃色planner对应模块。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

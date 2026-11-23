@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-d96bb38aa5dc",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "已看CMAC完整架构，左侧编码器、中央位置校准与右侧对比解码均完整，色卡对应模块填色及功能箭头，非示例照片。",
+  "reviewedImageSHA256": "a0c7159bdff12e831cfcf511cd0c9806b06fa408ac8a91c298a10288b7ed7963",
+  "reviewedPalette": [
+    "#FFF0CC",
+    "#DEEBF7",
+    "#4470C4",
+    "#EB7B2F",
+    "#5FA300",
+    "#BDBDBD",
+    "#FF0000"
+  ],
+  "paletteObservation": "浅蓝与浅黄组织注意力和解码模块，橙色标识文本路径，绿色突出校准后的输出流；蓝色编码器和灰色模块底形成较稳的结构层级。",
+  "reviewedAt": "2026-11-23T16:27:04Z"
+}

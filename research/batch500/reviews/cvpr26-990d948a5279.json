@@ -1,0 +1,44 @@
+{
+  "id": "cvpr26-990d948a5279",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图核对完整图与主源标题/图注；照片、热图和装饰取色已排除，保留色样点均确认属于计算模块、符号特征或实际模型数据流。",
+  "reviewedImageSHA256": "8e19c61f346c7d52ea28599933b2abe238b10d02a1ca271b2d4aae4eb75e39a2",
+  "reviewedPalette": [
+    "#D9F2D0",
+    "#FFC000",
+    "#C1E5F5",
+    "#FBE3D6",
+    "#46B1E1",
+    "#47D45A",
+    "#F2CFEE"
+  ],
+  "paletteObservation": "LAOF 的 IDM、FDM 与 Flow Decoder 为亮黄色，视觉编码器为浅蓝，特征 token 用蓝、绿和淡紫区分，整体模块组为浅绿；机器人照片与光流实例已排除。",
+  "reviewedAt": "2026-11-23T17:27:32Z",
+  "excludeRegions": [
+    [
+      290,
+      53,
+      813,
+      1163
+    ],
+    [
+      1226,
+      59,
+      1749,
+      1168
+    ],
+    [
+      279,
+      1221,
+      818,
+      1749
+    ],
+    [
+      1226,
+      1226,
+      1749,
+      1754
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-67ec47d2299b",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由消融柱图改为图2完整标准Transformer与2DLFM架构；屏蔽手部图和输出点云取色。",
+  "reviewedImageSHA256": "27212b930ed06d5ec6f1fc5bad6f66c3d8f6aee2fd600ac83228f34ab301d232",
+  "reviewedPalette": [
+    "#FFF7ED",
+    "#DCEAFD"
+  ],
+  "paletteObservation": "实际保留2色：浅桃标准Transformer分区和浅蓝2DLFM逐层位置编码分区。",
+  "reviewedAt": "2026-11-23T16:54:44Z"
+}

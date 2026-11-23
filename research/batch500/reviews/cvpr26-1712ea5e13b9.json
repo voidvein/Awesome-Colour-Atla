@@ -1,0 +1,13 @@
+{
+  "id": "cvpr26-1712ea5e13b9",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "de1eddb79583df4c3404e0d0538f09d38b787cd4dd387dead6b813ce538f3186",
+  "reviewedPalette": [
+    "#990000",
+    "#000099"
+  ],
+  "paletteObservation": "灰白色 MLLM 规划、感知和执行模块之间，长短期记忆读取以深蓝虚线表示，写入以深红虚线表示；只保留这两种有明确意义的连接色。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

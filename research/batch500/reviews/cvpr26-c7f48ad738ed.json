@@ -1,0 +1,14 @@
+{
+  "id": "cvpr26-c7f48ad738ed",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "由照片处理流程换为图3真实AntiStyle多层神经特征/池化网络，输入照片和噪声图已排除取色。",
+  "reviewedImageSHA256": "63fbd2253fdc19385bb9041083babf004551ff44fe5ea551c9db9942a8b28a93",
+  "reviewedPalette": [
+    "#C4CFE1",
+    "#F8CECC",
+    "#D9E8FB"
+  ],
+  "paletteObservation": "蓝灰feature plane、粉色pool层与浅蓝多层神经特征为实际结构色。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-303317c76da2",
+  "verdict": "rejected",
+  "reviewer": "figure_extractor/audit-g",
+  "reason": "逐图查看本地PDF：主方法图是RoPE相位曲线、注意力经验热图和延长视频结果，没有可用神经模块结构图。",
+  "reviewedImageSHA256": "fa52fda7c44ebdf8cf8ac4fb835a5a29674612643c08acc5335edd82d13750f5",
+  "reviewedPalette": [
+    "#431853",
+    "#443580",
+    "#FAE81A",
+    "#36588E",
+    "#8BC64C",
+    "#B9D432",
+    "#2B718F"
+  ],
+  "paletteObservation": "候选色来自注意力数值热图与性能/相位图，拒绝以其代替架构配色。",
+  "reviewedAt": "2026-11-23T17:39:44Z"
+}

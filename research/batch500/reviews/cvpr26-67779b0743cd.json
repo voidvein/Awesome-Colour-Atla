@@ -1,0 +1,27 @@
+{
+  "id": "cvpr26-67779b0743cd",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐篇实际查看原图、色卡和精确取色位置，核对caption及sourceTitle；完整网络/计算模块及数据流可辨，无正文混入。 排除示例照片/渲染区域后重新取色并再次看图确认。",
+  "reviewedImageSHA256": "87209bd2c84638dfe4558cafae2bdac934cff969c7f4ff3866df03c1be82b42a",
+  "reviewedPalette": [
+    "#DAE2F5",
+    "#FBE6D4",
+    "#F5B7BE",
+    "#FF0000",
+    "#D9D9D9"
+  ],
+  "paletteObservation": "淡蓝编码模型、浅桃预测方块与粉色风险节点沿时序展开，红色损失约束连线形成强调，灰色三角输入关系保持中性。",
+  "reviewedAt": "2026-11-23T17:11:29Z",
+  "excludeRegions": [
+    [
+      0,
+      542,
+      1428,
+      654
+    ]
+  ],
+  "figure": "Figure 2",
+  "sourceTitle": "RiskProp: Collision-Anchored Self-Supervised Risk Propagation for Early Accident Anticipation",
+  "reviewEvidence": "contacts/audit-e/repair/03-masked.jpg"
+}

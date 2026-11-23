@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-da99374fd16d",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "ArtLLM布局和几何生成两分支及token化、量化网络完整。",
+  "reviewedImageSHA256": "2495038e6bfb8fb29f623b110b464ab057cdf9454003d921a4e448e411203c6e",
+  "reviewedPalette": [
+    "#A6A6A6",
+    "#5B6094",
+    "#D9C593",
+    "#B5C0A5",
+    "#C17466",
+    "#F8C257",
+    "#D07932"
+  ],
+  "paletteObservation": "紫色布局/part模块、金色LLM、浅绿de-discretization、红色tokenizer/projector和橙黄token表示结构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

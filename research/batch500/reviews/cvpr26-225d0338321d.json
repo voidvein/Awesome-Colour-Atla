@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-225d0338321d",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "SRCP四阶段/分支神经训练框架完整，七个色点在模块节点/功能箭头，不取样例或输出热图。",
+  "reviewedImageSHA256": "dff0e223b2cae20e24ca879fd854d2162a327424db6643fd11f0f2055efbb57c",
+  "reviewedPalette": [
+    "#F9DBDF",
+    "#B6C6EA",
+    "#C1DCD8",
+    "#F2B4B7",
+    "#FFD3B3",
+    "#BBA3D5",
+    "#EC4235"
+  ],
+  "paletteObservation": "粉色、淡紫和浅蓝区分动态、逆动态及表示学习分支，青色与浅橙编码共享特征和目标网络，红色迭代箭头强调训练反馈。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cvpr26-24e27694179c",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构及主源标题/图注；保留色样均确认属于真实神经模块、符号特征或模型数据流，已去除照片/热图、装饰和冗余采样。",
+  "reviewedImageSHA256": "c02f071e074c521da28d9b3d9f38db5b1ed59ab2888d0e3d6e840e81fa5d0e2b",
+  "reviewedPalette": [
+    "#EDE1BC",
+    "#D9E7FA",
+    "#F8D5DD",
+    "#E9A3B1",
+    "#A2D0BB",
+    "#D4E7D3",
+    "#F6C5AC"
+  ],
+  "paletteObservation": "目标域适配图的骨干与投影层为浅蓝，TSA 为米黄，正模式特征为浅绿，负上下文为浅粉，Cos/Atten 为桃色，输出特征为粉绿叠片；输入与遮挡图已排除。",
+  "reviewedAt": "2026-11-23T17:53:42Z",
+  "excludeRegions": [
+    [
+      7,
+      11,
+      161,
+      136
+    ],
+    [
+      58,
+      196,
+      266,
+      257
+    ],
+    [
+      585,
+      193,
+      831,
+      258
+    ],
+    [
+      29,
+      500,
+      136,
+      584
+    ]
+  ]
+}

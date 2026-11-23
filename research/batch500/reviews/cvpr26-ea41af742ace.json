@@ -1,0 +1,15 @@
+{
+  "id": "cvpr26-ea41af742ace",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整C2SSM U-Net、cluster扫描和空间通道调制模块，输入输出和右侧特征图已排除取色。",
+  "reviewedImageSHA256": "ce73ff315059f352195407ae87835b67f4721a9bb22cb0a2bd2c86afe024180a",
+  "reviewedPalette": [
+    "#E1EFD9",
+    "#F8CAAC",
+    "#BEBFBE",
+    "#A9D18E"
+  ],
+  "paletteObservation": "浅绿cluster扫描、桃色通道调制、灰色Norm和绿色scanning权重为真实结构。",
+  "reviewedAt": "2026-11-23T17:14:35Z"
+}

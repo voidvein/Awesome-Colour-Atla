@@ -1,0 +1,31 @@
+{
+  "id": "cvpr26-5fdfc7f13b23",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "Visual encoder、Policy decoder、Cross-Attention和两个持续Critic的神经结构及加权TD损失完整。",
+  "reviewedImageSHA256": "2928517b70a5fe7f65f46f613c65d3fdd0f852ab6fd0846fb2a6878e788ec80a",
+  "reviewedPalette": [
+    "#EEF7FD",
+    "#F15A29",
+    "#1D78BE",
+    "#3F9564",
+    "#BF1E2D",
+    "#662C91"
+  ],
+  "paletteObservation": "两张驾驶截图全部排除并去灰色图片/抗锯齿候选；蓝视觉encoder、绿policy、紫attention、橙Critic、红TD loss和浅蓝latent区来自模块框线/填色。",
+  "reviewedAt": "2026-11-23T17:50:07Z",
+  "excludeRegions": [
+    [
+      0,
+      419,
+      372,
+      628
+    ],
+    [
+      1320,
+      0,
+      1557,
+      209
+    ]
+  ]
+}

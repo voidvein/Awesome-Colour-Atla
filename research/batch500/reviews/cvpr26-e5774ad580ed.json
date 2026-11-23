@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-e5774ad580ed",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "LLM并行验证、SLM自回归、阈值切换映射与候选token流完整。",
+  "reviewedImageSHA256": "ae9e0e06254a782a86418169a46a5012d11b61ba3eab5615d92ef8e700c7ddf9",
+  "reviewedPalette": [
+    "#DBDBDB",
+    "#4472C4",
+    "#ED7D31",
+    "#A87B5D",
+    "#6B9DCA",
+    "#00CCBB",
+    "#E8EDFE"
+  ],
+  "paletteObservation": "蓝/橙分布柱和设备链路、灰色候选区、浅紫验证层等为算法语义编码，无照片取色。",
+  "reviewedAt": "2026-11-23T17:11:14Z"
+}

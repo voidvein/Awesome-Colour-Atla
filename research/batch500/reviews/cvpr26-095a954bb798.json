@@ -1,0 +1,25 @@
+{
+  "id": "cvpr26-095a954bb798",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/root-d",
+  "reason": "双DiT音视频路径、跨模态注意力、V2A/A2V对齐与动态mask模块完整。",
+  "reviewedImageSHA256": "6c1426b01c5fba13e57eb6a69473687ed998bdbe26f88805dba43f41f7995236",
+  "reviewedPalette": [
+    "#EBF8F8",
+    "#F1AA84",
+    "#FAE2D5",
+    "#F6C5AC",
+    "#E7F7E2",
+    "#DCEAF7"
+  ],
+  "paletteObservation": "屏蔽顶部频谱与视频帧；浅青/绿/蓝注意力模块、橙色与杏色条件/噪声token均来自结构编码。",
+  "reviewedAt": "2026-11-23T17:11:14Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      1394,
+      163
+    ]
+  ]
+}

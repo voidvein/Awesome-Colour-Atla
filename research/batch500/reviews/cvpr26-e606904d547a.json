@@ -1,0 +1,21 @@
+{
+  "id": "cvpr26-e606904d547a",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reviewedImageSHA256": "fe39f31a4e17e23fc1b05d0c69b6c6010360fe2b6143f0dd13d13000ed66a28f",
+  "reason": "已逐图核对原图、色卡、取色像素及caption/sourceTitle；完整方法/模型数据流可见，无正文混入。",
+  "reviewedImage": "research/batch500/candidates/cvpr26-e606904d547a/cvpr26-e606904d547a.png",
+  "reviewEvidence": "contacts/audit-a/individual/05.jpg",
+  "sourceTitle": "AviaSafe: A Physics-Informed Data-Driven Model for Aviation Safety-Critical Cloud Forecasts",
+  "figure": "Figure 1",
+  "reviewedPalette": [
+    "#F3FFF3",
+    "#FDE1E1",
+    "#BAD3E4",
+    "#C0D1BF",
+    "#E1D5E7",
+    "#FFE6CC",
+    "#E8F2F8"
+  ],
+  "paletteObservation": "预测骨干采用浅粉背景及蓝色编码模块，物理约束与预测区域为浅绿，IC Block为淡紫，Mask Predictor为浅橙。"
+}

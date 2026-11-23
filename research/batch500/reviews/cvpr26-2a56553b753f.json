@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-2a56553b753f",
+  "verdict": "accepted",
+  "reviewer": "/root/scale_ui",
+  "reason": "逐图检查完整架构和对应主源图注；所有保留色样点均属于实际计算模块、符号特征或模型数据流。",
+  "reviewedImageSHA256": "8e5920fdada67386f9d4d3a03c2b83fac9c91dd188b5d43f89f99812b89d92eb",
+  "reviewedPalette": [
+    "#FFD1D1",
+    "#BFBFBF",
+    "#FFE699",
+    "#B4C7E7",
+    "#E2F0D9",
+    "#E6F4FF",
+    "#98823D"
+  ],
+  "paletteObservation": "CLCR 的语言 token 为粉红、视觉 token 为淡黄、声学 token 为浅蓝，IntraCED 以淡绿斜纹框表示，右侧共享与私有流保留对应浅色块。",
+  "reviewedAt": "2026-11-23T17:27:31Z"
+}

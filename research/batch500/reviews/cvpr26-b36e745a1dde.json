@@ -1,0 +1,38 @@
+{
+  "id": "cvpr26-b36e745a1dde",
+  "verdict": "accepted",
+  "reviewer": "figure_extractor/audit-m",
+  "reason": "4D-RGPT的teacher 4D encoder/decoder、学生视觉/时间encoder、LLM及latent/explicit distillation架构完整。",
+  "reviewedImageSHA256": "8c8215095124709d5d4af3fc27e07c87c752ccfe375db1d6d246b9833185a7b8",
+  "reviewedPalette": [
+    "#FFE3FF",
+    "#E7FFBE",
+    "#C0E4FF",
+    "#C785EA",
+    "#AC47E0",
+    "#FFBAD2",
+    "#C00000"
+  ],
+  "paletteObservation": "视频帧和depth/flow输出色图全部排除；粉紫蒸馏区、绿embedding、蓝encoder、紫latent tokens、粉LLM及红trainable状态标记来自原神经结构。",
+  "reviewedAt": "2026-11-23T17:50:07Z",
+  "excludeRegions": [
+    [
+      0,
+      0,
+      551,
+      293
+    ],
+    [
+      0,
+      458,
+      551,
+      824
+    ],
+    [
+      1571,
+      0,
+      2040,
+      824
+    ]
+  ]
+}

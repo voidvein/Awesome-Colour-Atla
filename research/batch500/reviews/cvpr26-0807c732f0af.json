@@ -1,0 +1,16 @@
+{
+  "id": "cvpr26-0807c732f0af",
+  "verdict": "accepted",
+  "reviewer": "source_figures",
+  "reason": "完整WPT world model、teacher/student plan decoder与reward蒸馏结构，驾驶观测已屏蔽。",
+  "reviewedImageSHA256": "607716f123a9ef1db57968d80f00c5482844ea6dafc16eeab7cc194cb581bca0",
+  "reviewedPalette": [
+    "#ECF3FA",
+    "#B4C7E8",
+    "#C4E0B4",
+    "#1296DB",
+    "#D81E06"
+  ],
+  "paletteObservation": "蓝色teacher、绿色student、蓝色action token、红色distillation和浅蓝训练分区来自网络。",
+  "reviewedAt": "2026-11-23T17:24:21Z"
+}

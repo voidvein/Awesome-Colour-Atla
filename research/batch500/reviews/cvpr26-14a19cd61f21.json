@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-14a19cd61f21",
+  "verdict": "accepted",
+  "reviewer": "root",
+  "reason": "完整DMGD扩散过程及语义/分布匹配计算模块，色源在模块底色、标签条与传输矩阵，不是照片。",
+  "reviewedImageSHA256": "c2e634a2a32a4efe38dba5bf737e532b8858a584e06a69c8a580c7a9d0db11a7",
+  "reviewedPalette": [
+    "#F1FAFD",
+    "#FFF1CC",
+    "#1F4E79",
+    "#BEBFBE",
+    "#C55A11",
+    "#FFC87E",
+    "#91ACE0"
+  ],
+  "paletteObservation": "浅黄底承载扩散主流程，浅蓝区分分布匹配区域，深蓝强调传输与匹配结构；橙色标签条与暖色语义分支形成对比。",
+  "reviewedAt": "2026-11-23T17:27:26Z"
+}

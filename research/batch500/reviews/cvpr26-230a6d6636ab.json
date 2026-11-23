@@ -1,0 +1,18 @@
+{
+  "id": "cvpr26-230a6d6636ab",
+  "verdict": "needs_palette_mask",
+  "reviewer": "source_figures",
+  "reason": "图为明确高斯约束与TSDF融合算法流程，但现色卡包含高饱和深度/法线渲染色和玩偶照片色；不能发布。",
+  "reviewedImageSHA256": "1878709a19864c72b5a166b4247b40b082f9751564b5bcd18f187455ba23e21e",
+  "reviewedPalette": [
+    "#B4C7E7",
+    "#FF7C81",
+    "#162C51",
+    "#02FFFD",
+    "#C4AC92",
+    "#36FFC9",
+    "#FC0100"
+  ],
+  "paletteObservation": "浅蓝GC圆节点与粉色约束网格可用，但青绿红色来自渲染中间结果，须排除重提。",
+  "reviewedAt": "2026-11-23T16:38:05Z"
+}
