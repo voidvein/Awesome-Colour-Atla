@@ -1,12 +1,51 @@
 <!doctype html>
-<html lang="zh-CN">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f7f8fa"><title>Colour Atlas — 论文里的好配色</title><meta name="description" content="从论文原版网络架构图中发现科研配色。CVPR 2026 论文原图、领域标签和可复制色卡。"><link rel="stylesheet" href="style.css"></head>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f7f8fa">
+<title>Colour Atlas — colour from research</title>
+<meta name="description" content="Discover research colour palettes from original architecture diagrams. CVPR 2026 papers, research tags and copyable colours.">
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
-<header class="header"><a class="brand" href="./" aria-label="Colour Atlas 首页"><span class="brand-icon"><i></i><i></i><i></i><i></i></span>Colour Atlas<span class="edition">研究配色档案</span></a><nav><a class="nav-active" href="#collection">探索色卡</a><button id="about">关于采色</button><a href="https://github.com/voidvein/Awesome-Colour-Atla" target="_blank" rel="noopener">GitHub</a></nav></header>
+<header class="header">
+<a class="brand" href="./" aria-label="Colour Atlas home" data-i18n-aria="home"><span class="brand-icon"><i></i><i></i><i></i><i></i></span>Colour Atlas<span class="edition" data-i18n="edition">Research colour archive</span></a>
+<nav aria-label="Main navigation" data-i18n-aria="navigation">
+<a class="nav-active" href="#collection" data-i18n="explore">Explore palettes</a>
+<button id="about" data-i18n="about">About the colours</button>
+<a class="github-link" href="https://github.com/voidvein/Awesome-Colour-Atla" target="_blank" rel="noopener">GitHub</a>
+<label class="language-control">
+<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg>
+<span class="sr-only" data-i18n="language">Language</span>
+<select id="language-select" aria-label="Language / 语言"><option value="en" lang="en">English</option><option value="zh-CN" lang="zh-CN">简体中文</option></select>
+<svg class="language-chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg>
+</label>
+</nav>
+</header>
 <main>
-<section class="hero"><div class="hero-copy"><p class="eyebrow"><span></span> FROM PAPERS, FOR YOUR NEXT FIGURE</p><h1>论文里的好配色，<br>成为你的<span class="accent">下一张图。</span></h1><p class="intro">从网络架构图里发现色彩灵感。保留原图、提取主色，<br class="desktop">让科研绘图少一点试错，多一点好看。</p><div class="hero-meta"><span><b id="paper-count">—</b> 篇收录论文</span><span><b id="domain-count">—</b> 个研究方向</span><span><b id="colour-count">—</b> 个代表色</span><span class="batch">CVPR 2026</span></div></div><div class="hero-art" aria-hidden="true"><div class="art-sheet sheet-back"><div></div></div><div class="art-sheet sheet-front"><span class="art-kicker">A LITTLE COLOUR GOES A LONG WAY</span><div class="art-colours"><i></i><i></i><i></i><i></i><i></i></div><div class="art-bottom"><span>Collected from research.</span><span>Made for discovery.</span></div></div><span class="art-caption">A field guide to scientific colour.</span></div></section>
-<section id="collection" class="collection"><div class="section-heading"><div><p class="eyebrow small">THE COLLECTION</p><h2>发现一组好配色<span id="total">—</span></h2></div><span class="sort-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h11M4 18h6"/></svg> 按点赞数排序</span></div><div class="toolbar"><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="搜索论文、领域或模型，例如：分割 / MoE" aria-label="搜索论文或标签"><kbd>/</kbd></label><button id="liked-filter" aria-pressed="false">♡ <span>我赞过的</span></button></div><div id="filters" class="filters" aria-label="按研究领域筛选"></div><div class="results-line"><p id="results" aria-live="polite">正在加载论文色卡…</p><button id="reset" hidden>清除筛选</button><span class="preview-note">预览版 · 点赞保存在当前浏览器</span></div><div id="cards" class="cards" aria-busy="true"></div><div id="pagination" class="pagination" hidden><p id="page-progress" aria-live="polite"></p><button id="load-more" type="button" aria-controls="cards">查看更多色卡</button></div><div id="load-error" class="empty" role="alert" hidden><h3>暂时无法加载色卡</h3><p>请检查网络连接，或稍后重试。</p><button id="retry-load" type="button">重新加载</button></div><noscript><p class="empty">请启用 JavaScript，以加载色卡、搜索领域和复制配色。</p></noscript><div id="empty" class="empty" hidden><span>⌕</span><h3>还没有找到这组配色</h3><p>换一个关键词，或清除筛选试试。</p><button id="empty-reset">查看全部色卡</button></div></section>
-<section class="closing"><span class="closing-icon">✳</span><div><h3>灵感有出处，配色有依据。</h3><p>每张卡片都链接原始论文。点击架构图查看大图与配色分析，点击色块复制 HEX。</p></div><button id="download-all">导出全部配色 JSON</button></section>
-</main><footer><a class="brand" href="./"><span class="brand-icon"><i></i><i></i><i></i><i></i></span>Colour Atlas</a><p>为下一张更清晰的科研图而收集。</p><span id="footer-count">CVPR 2026 · COLOUR COLLECTION</span></footer>
-<dialog id="detail"><div class="modal-top"><span>PALETTE EXPLORER</span><button id="close-detail" aria-label="关闭详情">×</button></div><div id="detail-body"></div></dialog><dialog id="about-dialog"><div class="modal-top"><span>关于采色</span><button id="close-about" aria-label="关闭说明">×</button></div><div class="about-copy"><h2>从架构图，到你的调色板。</h2><p><span id="about-count">正在载入收录数量。</span>论文来自 Paper Notes 的 CVPR 2026 索引。图片来自论文原文或作者公开项目，来源和图号在详情中逐一注明。</p><p>采色先定位模块填色、边框和 token，再统计原始像素中的代表颜色并目视校对。排除白背景、示例照片和噪声，保留有意义的中性色。每组保留 2–8 个确切的模块代表色；色块等宽展示，不表示像素占比。渐变使用模块中部的代表取样。</p><p>标签依据论文任务与模型类型整理；配色解读是本项目的设计分析。图像版权归原作者所有，引用原图时请遵守其许可并注明来源。</p><p>点赞从 0 开始，保存在当前浏览器，可取消。当前排序仅反映本浏览器的点赞，不是全站统计。同票时按收录顺序排列。</p><a href="https://papernotes.org/CVPR2026/" target="_blank" rel="noopener">查看论文索引</a></div></dialog><div id="toast" role="status" aria-live="polite"></div><script src="app.js" defer></script>
-</body></html>
+<section class="hero"><div class="hero-copy">
+<p class="eyebrow"><span></span> FROM PAPERS, FOR YOUR NEXT FIGURE</p>
+<h1 data-i18n-html="hero">Great colours from papers.<br>For your <span class="accent">next figure.</span></h1>
+<p class="intro" data-i18n-html="intro">Find colour inspiration in network architectures.<br class="desktop"> Original figures, considered palettes, clearer research.</p>
+<div class="hero-meta"><span><b id="paper-count">—</b> <span data-i18n="papers">papers collected</span></span><span><b id="domain-count">—</b> <span data-i18n="domains">research areas</span></span><span><b id="colour-count">—</b> <span data-i18n="colours">representative colours</span></span><span class="batch">CVPR 2026</span></div>
+</div><div class="hero-art" aria-hidden="true"><div class="art-sheet sheet-back"><div></div></div><div class="art-sheet sheet-front"><span class="art-kicker">A LITTLE COLOUR GOES A LONG WAY</span><div class="art-colours"><i></i><i></i><i></i><i></i><i></i></div><div class="art-bottom"><span>Collected from research.</span><span>Made for discovery.</span></div></div><span class="art-caption">A field guide to scientific colour.</span></div></section>
+<section id="collection" class="collection">
+<div class="section-heading"><div><p class="eyebrow small">THE COLLECTION</p><h2><span data-i18n="collection">Find your next palette</span><span id="total">—</span></h2></div><span class="sort-label"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h11M4 18h6"/></svg> <span data-i18n="sort">Sorted by likes</span></span></div>
+<div class="toolbar"><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Search papers, fields or models, e.g. segmentation / MoE" aria-label="Search papers or tags" data-i18n-placeholder="placeholder" data-i18n-aria="search"><kbd>/</kbd></label><button id="liked-filter" aria-pressed="false">♡ <span data-i18n="liked">My likes</span></button></div>
+<div id="filters" class="filters" aria-label="Filter by research area" data-i18n-aria="filters"></div>
+<div class="results-line"><p id="results" aria-live="polite">Loading research palettes…</p><button id="reset" hidden data-i18n="reset">Clear filters</button><span class="preview-note" data-i18n="preview">Preview · likes saved in this browser</span></div>
+<div id="cards" class="cards" aria-busy="true"></div>
+<div id="pagination" class="pagination" hidden><p id="page-progress" aria-live="polite"></p><button id="load-more" type="button" aria-controls="cards" data-i18n="more">Load more palettes</button></div>
+<div id="load-error" class="empty" role="alert" hidden><h3 data-i18n="loadError">Palettes could not be loaded</h3><p data-i18n="retryHint">Check your connection or try again later.</p><button id="retry-load" type="button" data-i18n="retry">Try again</button></div>
+<noscript><p class="empty">Enable JavaScript to browse palettes, search research areas and copy colours.</p></noscript>
+<div id="empty" class="empty" hidden><span>⌕</span><h3 data-i18n="empty">No matching palettes</h3><p data-i18n="emptyHint">Try another keyword or clear your filters.</p><button id="empty-reset" data-i18n="viewAll">View all palettes</button></div>
+</section>
+<section class="closing"><span class="closing-icon">✳</span><div><h3 data-i18n="closing">Inspiration with a source.</h3><p data-i18n="closingCopy">Every palette links to its paper. Open a figure for the full image and colour notes; select a swatch to copy its HEX.</p></div><button id="download-all" data-i18n="export">Export all palettes (JSON)</button></section>
+</main>
+<footer><a class="brand" href="./"><span class="brand-icon"><i></i><i></i><i></i><i></i></span>Colour Atlas</a><p data-i18n="footer">Collected for your next clearer research figure.</p><span id="footer-count">CVPR 2026 · COLOUR COLLECTION</span></footer>
+<dialog id="detail"><div class="modal-top"><span>PALETTE EXPLORER</span><button id="close-detail" aria-label="Close details" data-i18n-aria="closeDetail">×</button></div><div id="detail-body"></div></dialog>
+<dialog id="about-dialog"><div class="modal-top"><span data-i18n="about">About the colours</span><button id="close-about" aria-label="Close about" data-i18n-aria="closeAbout">×</button></div><div class="about-copy"><h2 data-i18n="aboutHeading">From architecture to palette.</h2><p><span id="about-count"></span><span data-i18n="aboutSource">Papers come from the Paper Notes CVPR 2026 index. Figures come from original papers or public author projects; each card identifies its source and figure number.</span></p><p data-i18n="aboutMethod">We sample module fills, outlines and tokens, then visually check the original pixels. Backgrounds, example photos and noise are excluded; meaningful neutral colours are retained. Each palette has 2–8 exact representative colours. Swatches have equal widths, not proportional areas. Gradients use a representative sample.</p><p data-i18n="aboutCredit">Tags describe the paper’s task and model. Colour notes are editorial analysis; English descriptions are machine-assisted translations. Original figure labels stay as published. Figure rights belong to their authors; follow the source licence when reusing them.</p><p data-i18n="aboutLikes">Likes start at zero, can be undone and are saved in this browser. The ranking reflects your local likes, not a shared site-wide count. Ties follow collection order.</p><a href="https://papernotes.org/CVPR2026/" target="_blank" rel="noopener" data-i18n="index">Browse the paper index</a></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="i18n.js" defer></script><script src="app.js" defer></script>
+</body>
+</html>
+

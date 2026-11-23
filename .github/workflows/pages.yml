@@ -36,6 +36,7 @@ jobs:
       - name: Validate static site
         run: |
           node --check dist/app.js
+          node --check dist/i18n.js
           python -m pip install Pillow
           python pipeline/validate_release.py --expected-count 500
           node tests/frontend-scale.cjs --require-release

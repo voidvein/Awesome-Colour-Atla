@@ -22,6 +22,8 @@ python -m http.server 4173 --bind 127.0.0.1 --directory dist
 
 ## 功能和范围
 
+- 页头提供 English / 简体中文选择，首次访问默认英文，并在当前浏览器记住选择。
+- 界面、领域标签和色卡说明随语言切换；切换时保留检索、筛选、展开数量与点赞。英文、中文文案保存在静态语言文件中，访客无需访问翻译服务。
 - 500 篇论文，原版架构图和每篇原论文/解读来源。逐图复核网络及神经模块，替换误选的 teaser、数据示例和性能图。
 - 每次加载 24 张；搜索、领域与标签筛选覆盖全部 500 篇。
 - 领域筛选、标签检索、全文关键词搜索、原图放大和配色观察。
@@ -48,6 +50,7 @@ python -m http.server 4173 --bind 127.0.0.1 --directory dist
 ```sh
 python pipeline/validate_release.py --expected-count 500
 node --check dist/app.js
+node --check dist/i18n.js
 node tests/frontend-scale.cjs --require-release
 python tests/asset_bundle.py
 ```

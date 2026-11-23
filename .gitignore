@@ -1,5 +1,6 @@
 .deps/
 .pdfdeps/
+.translationdeps/
 research/*.pdf
 research/*.png
 research/*.html

@@ -10,7 +10,7 @@ LOCAL=threading.local()
 def verify(base=BASE):
  rows=json.loads((ROOT/'dist/palettes.json').read_text(encoding='utf8'))
  assert len(rows)==500,'Only a complete 500-card release can pass the deployment check'
- paths={'index.html','style.css','app.js','palettes.json','collection.json','collection-audit.json'}
+ paths={'index.html','style.css','app.js','i18n.js','content-en.json','content-zh.json','palettes.json','collection.json','collection-audit.json'}
  paths.update(p[k] for p in rows for k in ('image','thumbnail') if p.get(k))
  version=hashlib.sha256((ROOT/'dist/palettes.json').read_bytes()).hexdigest()[:16]
  def check(rel):
