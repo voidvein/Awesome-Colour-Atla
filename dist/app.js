@@ -94,7 +94,7 @@ $('#download-all').onclick=()=>{
 async function loadPapers(){
  if(loading)return;loading=true;loadState='loading';$('#cards').setAttribute('aria-busy','true');$('#load-error').hidden=true;$('#results').textContent=t('loading');$('#download-all').disabled=true;
  try{
-  const responses=await Promise.all([fetch('palettes.json'),fetch('content-en.json'),fetch('content-zh.json')]);if(responses.some(r=>!r.ok))throw Error('Data could not be loaded');
+  const responses=await Promise.all([fetch('palettes.json'),fetch('content-en.json?v=20261124-languages'),fetch('content-zh.json?v=20261124-languages')]);if(responses.some(r=>!r.ok))throw Error('Data could not be loaded');
   const [data,english,chinese]=await Promise.all(responses.map(r=>r.json()));
   if(!english||english.version!==1||!english.strings||typeof english.strings!=='object')throw Error('Invalid English dictionary');
   if(!chinese||chinese.version!==1||!chinese.strings||typeof chinese.strings!=='object')throw Error('Invalid Chinese dictionary');

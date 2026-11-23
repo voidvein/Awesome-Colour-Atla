@@ -27,7 +27,7 @@ async function boot(responses,stored={}){
  const context={console,Blob,setTimeout:()=>1,clearTimeout(){},window:{},CSS:{escape:s=>s},navigator:{language:'zh-CN',clipboard:{writeText:async()=>{}}},
   localStorage:{getItem:k=>storage[k]||null,setItem:(k,v)=>{storage[k]=v}},
   URL:{createObjectURL:b=>{exports.push(b);return 'blob:test'},revokeObjectURL(){}},
-  fetch:async url=>{if(url==='content-en.json')return {ok:true,json:async()=>english};if(url==='content-zh.json')return {ok:true,json:async()=>chineseContent};const response=responses.shift();if(response instanceof Error)throw response;return {ok:true,json:async()=>response}},
+  fetch:async url=>{url=url.split('?')[0];if(url==='content-en.json')return {ok:true,json:async()=>english};if(url==='content-zh.json')return {ok:true,json:async()=>chineseContent};const response=responses.shift();if(response instanceof Error)throw response;return {ok:true,json:async()=>response}},
   document:{documentElement:{lang:'en'},activeElement:{tagName:'BODY'},body:{append(){}},createElement:()=>({...element(),click(){},select(){},remove(){}}),addEventListener:(k,v)=>{events[k]=v},querySelectorAll:selector=>{
    const attr=selector.match(/^\[data-(i18n(?:-[a-z]+)?)\]$/);if(!attr)return [];
    const key=attr[1].replace(/-([a-z])/g,(_,c)=>c.toUpperCase());return localized.filter(node=>node.dataset[key]);
