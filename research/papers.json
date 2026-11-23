@@ -1,0 +1,62 @@
+[
+  {
+    "id": "image_generation",
+    "title": "OmniGen2: Towards Instruction-Aligned Multimodal Generation",
+    "note": "https://papernotes.org/CVPR2026/image_generation/omnigen2_towards_instruction-aligned_multimodal_generation/",
+    "arxiv": null
+  },
+  {
+    "id": "3d_reconstruction",
+    "title": "3D Gaussian Splatting at Arbitrary Resolutions with Compact Proxy Anchors",
+    "note": "https://papernotes.org/CVPR2026/3d_reconstruction/3d_gaussian_splatting_at_arbitrary_resolutions_with_compact_proxy_anchors/",
+    "arxiv": null
+  },
+  {
+    "id": "object_detection",
+    "title": "Detect Anything via Next Point Prediction",
+    "note": "https://papernotes.org/CVPR2026/object_detection/detect_anything_via_next_point_prediction/",
+    "arxiv": null
+  },
+  {
+    "id": "segmentation",
+    "title": "Exploring the Underwater World Segmentation without Extra Training",
+    "note": "https://papernotes.org/CVPR2026/segmentation/exploring_the_underwater_world_segmentation_without_extra_training/",
+    "arxiv": null
+  },
+  {
+    "id": "image_restoration",
+    "title": "DiffDecompose: Layer-Wise Decomposition of Alpha-Composited Images via Diffusion Transformers",
+    "note": "https://papernotes.org/CVPR2026/image_restoration/diffdecompose_layer-wise_decomposition_of_alpha-composited_images_via_diffusion_/",
+    "arxiv": null
+  },
+  {
+    "id": "remote_sensing",
+    "title": "TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis",
+    "note": "https://papernotes.org/CVPR2026/remote_sensing/tessera_temporal_embeddings_of_surface_spectra_for_earth_representation_and_anal/",
+    "arxiv": null
+  },
+  {
+    "id": "video_understanding",
+    "title": "WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning",
+    "note": "https://papernotes.org/CVPR2026/video_understanding/worldmm_dynamic_multimodal_memory_agent_for_long_video_reasoning/",
+    "arxiv": "https://arxiv.org/abs/2512.02425"
+  },
+  {
+    "id": "autonomous_driving",
+    "title": "DriveMoE: Mixture-of-Experts for Vision-Language-Action Model in End-to-End Autonomous Driving",
+    "note": "https://papernotes.org/CVPR2026/autonomous_driving/drivemoe_mixture-of-experts_for_vision-language-action_model_in_end-to-end_auton/",
+    "arxiv": "https://arxiv.org/abs/2505.16278"
+  },
+  {
+    "id": "robotics",
+    "title": "Motus: A Unified Latent Action World Model",
+    "note": "https://papernotes.org/CVPR2026/robotics/motus_a_unified_latent_action_world_model/",
+    "arxiv": null
+  },
+  {
+    "id": "medical_imaging",
+    "title": "Generative Vision-Language Multiple Instance Learning for Weakly Supervised Neonatal Fundus Screening and Reporting",
+    "note": "https://papernotes.org/CVPR2026/medical_imaging/gvl_mil_neonatal_fundus_screening_and_reporting/",
+    "arxiv": null
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "image_generation",
+    "title": "OmniGen2: Towards Instruction-Aligned Multimodal Generation",
+    "sourceTitle": "OmniGen2: Exploration to Advanced Multimodal Generation",
+    "figure": "Figure 1 (author project page)",
+    "caption": "Architecture of OmniGen2.",
+    "imageUrl": "https://vectorspacelab.github.io/OmniGen2/static/img/omnigen/modelarch.png",
+    "paperUrl": "https://arxiv.org/abs/2506.18871",
+    "sourceUrl": "https://vectorspacelab.github.io/OmniGen2/",
+    "localPath": "dist/assets/image_generation.png",
+    "architecture": "解耦的自回归 Transformer 与扩散 Transformer 双路径；视觉理解由 ViT、文本 tokenizer 驱动，图像生成使用 VAE 与 Refiner。",
+    "visualAnalysis": "青蓝色区分理解路径，珊瑚橙区分生成路径，浅蓝 tokenizer 与中性灰 hidden states 构成层级；排除示例照片、噪声块取色。",
+    "verified": true,
+    "suggestedColors": [
+      "#97CBD9",
+      "#B3D9E4",
+      "#EF8E77",
+      "#D0CDCD",
+      "#B4C7E7"
+    ],
+    "colorMethod": "Original diagram flat fills and outlines; photos and noise excluded. TESSERA gradients sampled near module centers."
+  },
+  {
+    "id": "object_detection",
+    "title": "Detect Anything via Next Point Prediction",
+    "figure": "Figure 3 (arXiv v1)",
+    "caption": "Overview of the Rex-Omni Model Architecture.",
+    "imageUrl": "https://arxiv.org/html/2510.12798v1/model.png",
+    "paperUrl": "https://arxiv.org/abs/2510.12798",
+    "sourceUrl": "https://arxiv.org/html/2510.12798v1#S2.F3",
+    "localPath": "dist/assets/object_detection.png",
+    "architecture": "Qwen2.5-VL-3B 主干连接原生分辨率 ViT 与文本 tokenizer；以专用量化坐标 tokens 输出目标框和点。",
+    "visualAnalysis": "低饱和蓝灰色用于视觉主干与图像 token，浅桃色用于文本，米黄色用于坐标标记，深海军蓝提供文字对比；排除海鸟和船照片取色。",
+    "verified": true,
+    "license": "arXiv HTML v1 displays CC BY 4.0",
+    "suggestedColors": [
+      "#DDE4E9",
+      "#FBE3D6",
+      "#F3F3E0",
+      "#0E2841",
+      "#A6A6A6"
+    ],
+    "colorMethod": "Original diagram flat fills and outlines; photos and noise excluded. TESSERA gradients sampled near module centers."
+  },
+  {
+    "id": "segmentation",
+    "title": "Exploring the Underwater World Segmentation without Extra Training",
+    "figure": "Figure 4 (arXiv v1)",
+    "caption": "Earth2Ocean framework: Geometric-guided Visual Mask Generator, Category-visual Semantic Alignment, and mask classification.",
+    "imageUrl": "https://arxiv.org/html/2511.07923v1/pic_method_main.png",
+    "paperUrl": "https://arxiv.org/abs/2511.07923",
+    "sourceUrl": "https://arxiv.org/html/2511.07923v1#S3.F4",
+    "localPath": "dist/assets/segmentation.png",
+    "architecture": "CLIP 视觉编码器经几何注意力修正，与 MLLM 增强的文本嵌入融合，完成免训练开放词汇水下分割。",
+    "visualAnalysis": "黄色标识语言推理，草绿标识类别语义，蓝色标识融合类别特征；薄荷绿和粉蓝 token 形成辅助编码。",
+    "verified": true,
+    "license": "arXiv HTML v1 displays CC BY 4.0",
+    "suggestedColors": [
+      "#F1B902",
+      "#75BC42",
+      "#91ACDF",
+      "#FDE694",
+      "#E2F1D9",
+      "#323296"
+    ],
+    "colorMethod": "Original diagram flat fills and outlines; photos and noise excluded. TESSERA gradients sampled near module centers."
+  },
+  {
+    "id": "remote_sensing",
+    "title": "TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis",
+    "figure": "Figure 3 (arXiv v6)",
+    "caption": "Overview of the TESSERA processing pipeline, with dual modality encoders and a Transformer/GRU Sentinel-1 branch.",
+    "imageUrl": "https://arxiv.org/html/2506.20380v6/model_architecture.png",
+    "paperUrl": "https://arxiv.org/abs/2506.20380",
+    "sourceUrl": "https://arxiv.org/html/2506.20380v6#S3.F3",
+    "localPath": "dist/assets/remote_sensing.png",
+    "architecture": "Sentinel-1/2 多时相序列分别经 Transformer 与 GRU 编码，再由 MLP 融合、量化和 projector 投影进行 Barlow Twins 训练。",
+    "visualAnalysis": "浅桃色对应光学分支，青绿对应雷达分支，淡紫对应投影特征；深蓝轮廓统一全图。编码器包含渐变，取色应选择模块中部代表色。",
+    "verified": true,
+    "license": "arXiv HTML v6 displays CC BY 4.0",
+    "suggestedColors": [
+      "#F9DEC8",
+      "#AACFC8",
+      "#D3CAE6",
+      "#B6D2C7",
+      "#497589",
+      "#042433"
+    ],
+    "colorMethod": "Original diagram flat fills and outlines; photos and noise excluded. TESSERA gradients sampled near module centers."
+  },
+  {
+    "id": "robotics",
+    "title": "Motus: A Unified Latent Action World Model",
+    "figure": "Figure 1 (author project page)",
+    "caption": "Motus Architecture.",
+    "imageUrl": "https://motus-robotics.github.io/assets/motus/png/block.png",
+    "paperUrl": "https://arxiv.org/abs/2512.13030",
+    "sourceUrl": "https://motus-robotics.github.io/motus",
+    "localPath": "dist/assets/robotics.png",
+    "architecture": "视频生成、动作、理解三个专家经 Tri-model Joint Attention 相连；每个专家配有独立 FFN、归一化和编解码器。",
+    "visualAnalysis": "酒红、赭橙、紫色分别标识三个专家，搭配对应浅粉、奶油、淡紫底色；共享注意力层用三色渐变表达融合。排除实景照片和噪声块。",
+    "verified": true,
+    "suggestedColors": [
+      "#851321",
+      "#FFF0FF",
+      "#843F0B",
+      "#FFF3E6",
+      "#7030A0",
+      "#F0E9FF"
+    ],
+    "colorMethod": "Original diagram flat fills and outlines; photos and noise excluded. TESSERA gradients sampled near module centers."
+  }
+]

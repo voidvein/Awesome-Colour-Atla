@@ -1,0 +1,13 @@
+.deps/
+.pdfdeps/
+research/*.pdf
+research/*.png
+research/*.html
+research/*.txt
+source-index.html
+sample-note.html
+*.zip
+*.tar.gz
+outputs/
+__pycache__/
+.openai/*.local.*

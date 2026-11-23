@@ -1,0 +1,52 @@
+name: Deploy Colour Atlas to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Validate static site
+        run: |
+          node --check dist/app.js
+          python - <<'PY'
+          import json, pathlib, re
+          root = pathlib.Path('dist')
+          papers = json.loads((root / 'palettes.json').read_text(encoding='utf-8'))
+          assert len(papers) == 10
+          assert len({p['id'] for p in papers}) == 10
+          for p in papers:
+              assert (root / p['image']).is_file(), p['image']
+              assert all(re.fullmatch(r'#[0-9A-F]{6}', c) for c in p['colors'])
+          assert (root / 'index.html').is_file()
+          print('Validated 10 cards and their image assets.')
+          PY
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v5
