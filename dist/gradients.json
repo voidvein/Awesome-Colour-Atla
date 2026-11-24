@@ -1,0 +1,678 @@
+[
+  {
+    "id": "morning-atlas",
+    "name": {
+      "en": "Morning Atlas",
+      "zh-CN": "晨光图谱"
+    },
+    "group": "soft",
+    "stops": [
+      {
+        "color": "#9BADD0",
+        "position": 0
+      },
+      {
+        "color": "#E8A3B7",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "peach-linen",
+    "name": {
+      "en": "Peach Linen",
+      "zh-CN": "桃色亚麻"
+    },
+    "group": "soft",
+    "stops": [
+      {
+        "color": "#F1BEA5",
+        "position": 0
+      },
+      {
+        "color": "#F6E5D1",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "mint-manuscript",
+    "name": {
+      "en": "Mint Manuscript",
+      "zh-CN": "薄荷手稿"
+    },
+    "group": "cool",
+    "stops": [
+      {
+        "color": "#C5E5D7",
+        "position": 0
+      },
+      {
+        "color": "#9EC8D8",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "lilac-paper",
+    "name": {
+      "en": "Lilac Paper",
+      "zh-CN": "紫丁香纸"
+    },
+    "group": "soft",
+    "stops": [
+      {
+        "color": "#C6BDE2",
+        "position": 0
+      },
+      {
+        "color": "#F0D3DD",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "rose-quartz",
+    "name": {
+      "en": "Rose Quartz",
+      "zh-CN": "玫瑰石英"
+    },
+    "group": "warm",
+    "stops": [
+      {
+        "color": "#D88BA5",
+        "position": 0
+      },
+      {
+        "color": "#F1C3AF",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "blue-margin",
+    "name": {
+      "en": "Blue Margin",
+      "zh-CN": "蓝色页边"
+    },
+    "group": "cool",
+    "stops": [
+      {
+        "color": "#719BC8",
+        "position": 0
+      },
+      {
+        "color": "#C8E0EC",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "sage-sand",
+    "name": {
+      "en": "Sage & Sand",
+      "zh-CN": "鼠尾草与沙"
+    },
+    "group": "soft",
+    "stops": [
+      {
+        "color": "#ACC9AE",
+        "position": 0
+      },
+      {
+        "color": "#E8D9B9",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "apricot-note",
+    "name": {
+      "en": "Apricot Note",
+      "zh-CN": "杏桃便笺"
+    },
+    "group": "warm",
+    "stops": [
+      {
+        "color": "#F4C58D",
+        "position": 0
+      },
+      {
+        "color": "#E8A397",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "quiet-periwinkle",
+    "name": {
+      "en": "Quiet Periwinkle",
+      "zh-CN": "静谧长春花"
+    },
+    "group": "soft",
+    "stops": [
+      {
+        "color": "#A5B4DB",
+        "position": 0
+      },
+      {
+        "color": "#D8CDE8",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "tidal-glass",
+    "name": {
+      "en": "Tidal Glass",
+      "zh-CN": "潮汐玻璃"
+    },
+    "group": "cool",
+    "stops": [
+      {
+        "color": "#80BFB7",
+        "position": 0
+      },
+      {
+        "color": "#B5DBD1",
+        "position": 50
+      },
+      {
+        "color": "#D0E5EB",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "saffron-draft",
+    "name": {
+      "en": "Saffron Draft",
+      "zh-CN": "藏红花草稿"
+    },
+    "group": "warm",
+    "stops": [
+      {
+        "color": "#F1B45D",
+        "position": 0
+      },
+      {
+        "color": "#E2A0A3",
+        "position": 45
+      },
+      {
+        "color": "#9486BC",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "pink-annotation",
+    "name": {
+      "en": "Pink Annotation",
+      "zh-CN": "粉色批注"
+    },
+    "group": "soft",
+    "stops": [
+      {
+        "color": "#E4A3BA",
+        "position": 0
+      },
+      {
+        "color": "#F3D5DE",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "cloud-study",
+    "name": {
+      "en": "Cloud Study",
+      "zh-CN": "云层习作"
+    },
+    "group": "cool",
+    "stops": [
+      {
+        "color": "#DAE6EE",
+        "position": 0
+      },
+      {
+        "color": "#ACC8E5",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "fern-light",
+    "name": {
+      "en": "Fern Light",
+      "zh-CN": "蕨叶微光"
+    },
+    "group": "cool",
+    "stops": [
+      {
+        "color": "#9EC3AA",
+        "position": 0
+      },
+      {
+        "color": "#D9E2B7",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "amber-archive",
+    "name": {
+      "en": "Amber Archive",
+      "zh-CN": "琥珀档案"
+    },
+    "group": "warm",
+    "stops": [
+      {
+        "color": "#C68D56",
+        "position": 0
+      },
+      {
+        "color": "#ECC99E",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "dusk-index",
+    "name": {
+      "en": "Dusk Index",
+      "zh-CN": "暮色索引"
+    },
+    "group": "soft",
+    "stops": [
+      {
+        "color": "#AEADD0",
+        "position": 0
+      },
+      {
+        "color": "#D7BACD",
+        "position": 50
+      },
+      {
+        "color": "#E9D0BD",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "coral-signal",
+    "name": {
+      "en": "Coral Signal",
+      "zh-CN": "珊瑚信号"
+    },
+    "group": "vivid",
+    "stops": [
+      {
+        "color": "#EC777B",
+        "position": 0
+      },
+      {
+        "color": "#F1AD74",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "cyan-current",
+    "name": {
+      "en": "Cyan Current",
+      "zh-CN": "青色洋流"
+    },
+    "group": "vivid",
+    "stops": [
+      {
+        "color": "#36A9B8",
+        "position": 0
+      },
+      {
+        "color": "#83CFCA",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "violet-frequency",
+    "name": {
+      "en": "Violet Frequency",
+      "zh-CN": "紫色频率"
+    },
+    "group": "vivid",
+    "stops": [
+      {
+        "color": "#8779C4",
+        "position": 0
+      },
+      {
+        "color": "#C496CE",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "solar-bloom",
+    "name": {
+      "en": "Solar Bloom",
+      "zh-CN": "日光盛放"
+    },
+    "group": "vivid",
+    "stops": [
+      {
+        "color": "#F2CE62",
+        "position": 0
+      },
+      {
+        "color": "#F18E7A",
+        "position": 55
+      },
+      {
+        "color": "#D16593",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "lime-circuit",
+    "name": {
+      "en": "Lime Circuit",
+      "zh-CN": "青柠回路"
+    },
+    "group": "vivid",
+    "stops": [
+      {
+        "color": "#B7CF66",
+        "position": 0
+      },
+      {
+        "color": "#56BFA3",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "azure-pulse",
+    "name": {
+      "en": "Azure Pulse",
+      "zh-CN": "蔚蓝脉冲"
+    },
+    "group": "vivid",
+    "stops": [
+      {
+        "color": "#4D81D0",
+        "position": 0
+      },
+      {
+        "color": "#56C4D4",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "ocean-ink",
+    "name": {
+      "en": "Ocean Ink",
+      "zh-CN": "海洋墨水"
+    },
+    "group": "deep",
+    "stops": [
+      {
+        "color": "#243F60",
+        "position": 0
+      },
+      {
+        "color": "#4A8595",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "plum-velvet",
+    "name": {
+      "en": "Plum Velvet",
+      "zh-CN": "梅紫丝绒"
+    },
+    "group": "deep",
+    "stops": [
+      {
+        "color": "#4D345C",
+        "position": 0
+      },
+      {
+        "color": "#9C6486",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "copper-night",
+    "name": {
+      "en": "Copper Night",
+      "zh-CN": "铜色夜幕"
+    },
+    "group": "deep",
+    "stops": [
+      {
+        "color": "#393A4C",
+        "position": 0
+      },
+      {
+        "color": "#A5725D",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "forest-shade",
+    "name": {
+      "en": "Forest Shade",
+      "zh-CN": "林间暗影"
+    },
+    "group": "deep",
+    "stops": [
+      {
+        "color": "#264B45",
+        "position": 0
+      },
+      {
+        "color": "#729885",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "night-orchid",
+    "name": {
+      "en": "Night Orchid",
+      "zh-CN": "夜兰"
+    },
+    "group": "deep",
+    "stops": [
+      {
+        "color": "#25335D",
+        "position": 0
+      },
+      {
+        "color": "#6B4B8B",
+        "position": 60
+      },
+      {
+        "color": "#C38CAA",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "graphite-mist",
+    "name": {
+      "en": "Graphite Mist",
+      "zh-CN": "石墨薄雾"
+    },
+    "group": "deep",
+    "stops": [
+      {
+        "color": "#3F495B",
+        "position": 0
+      },
+      {
+        "color": "#8B9AAB",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "paper-moon",
+    "name": {
+      "en": "Paper Moon",
+      "zh-CN": "纸月"
+    },
+    "group": "soft",
+    "stops": [
+      {
+        "color": "#DCD6DF",
+        "position": 0
+      },
+      {
+        "color": "#F2E6D8",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "lagoon-sketch",
+    "name": {
+      "en": "Lagoon Sketch",
+      "zh-CN": "潟湖速写"
+    },
+    "group": "cool",
+    "stops": [
+      {
+        "color": "#619C9E",
+        "position": 0
+      },
+      {
+        "color": "#B4D5BF",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "warm-porcelain",
+    "name": {
+      "en": "Warm Porcelain",
+      "zh-CN": "暖瓷"
+    },
+    "group": "warm",
+    "stops": [
+      {
+        "color": "#D4AB94",
+        "position": 0
+      },
+      {
+        "color": "#EEE0CA",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "terracotta-bloom",
+    "name": {
+      "en": "Terracotta Bloom",
+      "zh-CN": "陶土花开"
+    },
+    "group": "warm",
+    "stops": [
+      {
+        "color": "#B87264",
+        "position": 0
+      },
+      {
+        "color": "#DCAD95",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "sea-lavender",
+    "name": {
+      "en": "Sea Lavender",
+      "zh-CN": "海岸薰衣草"
+    },
+    "group": "cool",
+    "stops": [
+      {
+        "color": "#A2C6D4",
+        "position": 0
+      },
+      {
+        "color": "#B4ACD2",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "desert-evening",
+    "name": {
+      "en": "Desert Evening",
+      "zh-CN": "沙漠晚霞"
+    },
+    "group": "warm",
+    "stops": [
+      {
+        "color": "#E4B989",
+        "position": 0
+      },
+      {
+        "color": "#CA8C9D",
+        "position": 50
+      },
+      {
+        "color": "#8F91BB",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "golden-olive",
+    "name": {
+      "en": "Golden Olive",
+      "zh-CN": "金色橄榄"
+    },
+    "group": "warm",
+    "stops": [
+      {
+        "color": "#A5B37A",
+        "position": 0
+      },
+      {
+        "color": "#E7CA83",
+        "position": 100
+      }
+    ]
+  },
+  {
+    "id": "iris-veil",
+    "name": {
+      "en": "Iris Veil",
+      "zh-CN": "鸢尾轻纱"
+    },
+    "group": "soft",
+    "stops": [
+      {
+        "color": "#B9A3D5",
+        "position": 0
+      },
+      {
+        "color": "#D7B8D3",
+        "position": 50
+      },
+      {
+        "color": "#F1D6CF",
+        "position": 100
+      }
+    ]
+  }
+]

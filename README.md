@@ -20,6 +20,10 @@ python -m http.server 4173 --bind 127.0.0.1 --directory dist
 
 打开 http://127.0.0.1:4173/ 。需要通过 HTTP 打开，以加载配色 JSON。
 
+## 渐变色卡
+
+[独立渐变页面](https://voidvein.github.io/Awesome-Colour-Atla/gradients.html) 提供 36 组整理配色，采用上方圆形预览、下方颜色组成的卡片。支持名称/HEX 检索、色系筛选、方向调整、大图预览，以及复制单色、整组颜色和 CSS；与论文页共用语言偏好。布局参考 WebGradients，渐变配色独立整理，不标为论文提取色。数据位于 `dist/gradients.json`。
+
 ## 功能和范围
 
 - 页头提供 English / 简体中文选择，首次访问默认英文，并在当前浏览器记住选择。

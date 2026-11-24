@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f7f8fa">
+<title>Colour Atlas</title>
+<link rel="icon" href="favicon.ico?v=brand-1" sizes="16x16 32x32"><link rel="icon" type="image/svg+xml" href="favicon.svg?v=brand-1">
+<meta name="description" content="Explore curated gradients, see every colour stop, and copy HEX values or ready-to-use CSS.">
+<link rel="stylesheet" href="style.css?v=20261124-neurips-01"><link rel="stylesheet" href="gradients.css?v=1">
+</head>
+<body class="gradient-page">
+<header class="header">
+<a class="brand" href="./" aria-label="Colour Atlas home" data-gradient-aria="home"><span class="brand-icon"><i></i><i></i><i></i><i></i></span>Colour Atlas<span class="edition" data-gradient-copy="edition">Gradient collection</span></a>
+<nav aria-label="Main navigation" data-gradient-aria="navigation">
+<a href="./#collection" data-gradient-copy="paperPalettes">Paper palettes</a><a class="nav-active" href="#gradient-collection" data-gradient-copy="gradients">Gradients</a>
+<a class="github-link" href="https://github.com/voidvein/Awesome-Colour-Atla" target="_blank" rel="noopener">GitHub</a>
+<label class="language-control"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="sr-only" data-gradient-copy="language">Language</span><select id="language-select" aria-label="Language / 语言"><option value="en" lang="en">English</option><option value="zh-CN" lang="zh-CN">简体中文</option></select><svg class="language-chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></label>
+</nav>
+</header>
+<main>
+<section class="gradient-intro"><p class="eyebrow" data-gradient-copy="eyebrow">THE GRADIENT COLLECTION</p><h1 data-gradient-copy="heading">Find your gradient.</h1><p class="intro" data-gradient-copy="intro">Smooth colour blends for your next figure. Preview a gradient, see its colours, and take the one that fits.</p></section>
+<section class="gradient-tools" id="gradient-collection" aria-label="Gradient collection" data-gradient-aria="collectionLabel">
+<div class="gradient-toolbar">
+<label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input type="search" id="gradient-search" aria-label="Search gradients" placeholder="Search by name or HEX, e.g. lilac / #9BADD0" data-gradient-aria="search" data-gradient-placeholder="placeholder"><kbd>/</kbd></label>
+<div class="direction-control"><label for="gradient-angle" data-gradient-copy="direction">Direction</label><input id="gradient-angle" type="range" min="0" max="360" step="5" value="135"><output id="gradient-angle-output" for="gradient-angle">135°</output><button class="direction-reset" id="reset-angle" type="button" aria-label="Reset direction to 135 degrees" data-gradient-aria="resetAngle" title="Reset direction to 135 degrees"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 6a7 7 0 1 1-1 7M4 2v5h5"/></svg></button></div>
+</div>
+<div id="gradient-filters" class="filters" aria-label="Filter gradients" data-gradient-aria="filters"></div>
+<p class="gradient-count" id="gradient-results" aria-live="polite">Loading gradients…</p>
+<div id="gradient-loading" class="gradient-loading" data-gradient-copy="loading">Loading gradients…</div>
+<div id="gradient-grid" class="gradient-grid" aria-busy="true"></div>
+<div id="gradient-empty" class="gradient-empty" hidden><h2 data-gradient-copy="empty">No matching gradients</h2><p data-gradient-copy="emptyHint">Try a name, a HEX value, or another colour family.</p><button id="gradient-reset" type="button" data-gradient-copy="viewAll">View all gradients</button></div>
+<div id="gradient-error" class="gradient-empty gradient-error" role="alert" hidden><h2 data-gradient-copy="loadError">Gradients could not be loaded</h2><p data-gradient-copy="retryHint">Check your connection and try again.</p><button id="gradient-retry" type="button" data-gradient-copy="retry">Try again</button></div>
+<noscript><p class="gradient-empty">Enable JavaScript to preview gradients and copy their colours.</p></noscript>
+</section>
+<footer class="gradient-footer"><p><span data-gradient-copy="inspiration">Layout inspired by</span> <a href="https://webgradients.com/" target="_blank" rel="noopener">WebGradients</a><span data-gradient-copy="curated">. Palettes curated for Colour Atlas.</span><br><span data-gradient-copy="tip">Select a colour to copy its HEX. Positions show where each colour sits in the gradient.</span></p><a class="back-to-papers" href="./#collection" data-gradient-copy="back">Browse paper palettes</a></footer>
+</main>
+<dialog id="gradient-detail" class="gradient-modal" aria-labelledby="gradient-detail-title"><div class="modal-top"><span data-gradient-copy="previewLabel">Gradient preview</span><button id="close-gradient" type="button" aria-label="Close preview" data-gradient-aria="closePreview">×</button></div><div id="gradient-detail-body"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="i18n.js?v=20261124-gradients-1" defer></script><script src="gradients.js?v=1" defer></script>
+</body>
+</html>
+

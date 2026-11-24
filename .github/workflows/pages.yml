@@ -37,9 +37,11 @@ jobs:
         run: |
           node --check dist/app.js
           node --check dist/i18n.js
+          node --check dist/gradients.js
           python -m pip install Pillow
           python pipeline/validate_release.py
           node tests/frontend-scale.cjs --require-release
+          node tests/gradients.cjs
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload website

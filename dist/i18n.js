@@ -1,7 +1,7 @@
 /* Interface copy. Research text is translated once in content-en.json, never at runtime. */
 const ATLAS_I18N={
  en:{
-  title:'Colour Atlas',home:'Colour Atlas home',navigation:'Main navigation',edition:'Research colour archive',explore:'Explore palettes',about:'About the colours',language:'Language',
+  title:'Colour Atlas',home:'Colour Atlas home',navigation:'Main navigation',edition:'Research colour archive',explore:'Explore palettes',gradients:'Gradients',about:'About the colours',language:'Language',
   hero:'Great colours from papers.<br>For your <span class="accent">next figure.</span>',intro:'Find colour inspiration in network architectures.<br class="desktop"> Original figures, considered palettes, clearer research.',papers:'papers collected',domains:'research areas',colours:'representative colours',collection:'Find your next palette',sort:'Sorted by likes',
   search:'Search papers or tags',placeholder:'Search papers, fields or models, e.g. segmentation / MoE',liked:'My likes',filters:'Filter by research area',all:'All',reset:'Clear filters',preview:'Preview · likes saved in this browser',loading:'Loading research palettes…',
   more:'Load more palettes',loadError:'Palettes could not be loaded',retryHint:'Check your connection or try again later.',retry:'Try again',noScript:'Enable JavaScript to browse palettes, search research areas and copy colours.',empty:'No matching palettes',emptyHint:'Try another keyword or clear your filters.',viewAll:'View all palettes',
@@ -17,7 +17,7 @@ const ATLAS_I18N={
   fullSize:'Open full-size image',fullAlt:'{name} full architecture diagram',colourCount:'{count} colours',notes:'Colour notes',usage:'Where this palette works',source:'Figure source: ',caption:'Swatches have equal widths, not proportional areas. Select a swatch to copy its HEX.',paper:'Read the paper',paperNotes:'Paper Notes',copyAll:'Copy all HEX values',exported:'Exported {count} palettes and paper sources'
  },
  'zh-CN':{
-  title:'Colour Atlas',home:'Colour Atlas 首页',navigation:'主导航',edition:'研究配色档案',explore:'探索色卡',about:'关于采色',language:'语言',
+  title:'Colour Atlas',home:'Colour Atlas 首页',navigation:'主导航',edition:'研究配色档案',explore:'探索色卡',gradients:'渐变色卡',about:'关于采色',language:'语言',
   hero:'论文里的好配色，<br>成为你的<span class="accent">下一张图。</span>',intro:'从网络架构图里发现色彩灵感。保留原图、提取主色，<br class="desktop">让科研绘图少一点试错，多一点好看。',papers:'篇收录论文',domains:'个研究方向',colours:'个代表色',collection:'发现一组好配色',sort:'按点赞数排序',
   search:'搜索论文或标签',placeholder:'搜索论文、领域或模型，例如：分割 / MoE',liked:'我赞过的',filters:'按研究领域筛选',all:'全部',reset:'清除筛选',preview:'预览版 · 点赞保存在当前浏览器',loading:'正在加载论文色卡…',
   more:'查看更多色卡',loadError:'暂时无法加载色卡',retryHint:'请检查网络连接，或稍后重试。',retry:'重新加载',noScript:'请启用 JavaScript，以加载色卡、搜索领域和复制配色。',empty:'还没有找到这组配色',emptyHint:'换一个关键词，或清除筛选试试。',viewAll:'查看全部色卡',
