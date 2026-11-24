@@ -31,3 +31,6 @@ html[lang=en] .hero-meta{gap:17px}html[lang=en] .batch{padding-left:17px}
 @media(max-width:1050px){.header nav{gap:4px}}
 @media(max-width:760px){.header{padding-left:6%;padding-right:6%;gap:14px}.header nav{gap:3px}.header nav>a,.header nav>button{min-height:36px;padding:8px 10px}.header .language-control{margin-left:0}}
 @media(max-width:380px){.header nav>a,.header nav>button{font-size:11px;padding-left:5px;padding-right:5px}}
+
+/* Personal bookmarks use a saved state, without a public count. */
+#liked-filter>svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.5;flex-shrink:0}#liked-filter[aria-pressed=true]>svg{fill:#d6749430}.like{min-height:32px;padding:6px 3px;white-space:nowrap}.like[aria-pressed=true] svg{fill:#d6749430}

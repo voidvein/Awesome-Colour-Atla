@@ -2,6 +2,7 @@ const PAGE_SIZE=24;
 const LANGUAGE_KEY='colour-atlas-language-v1';
 let language='en',englishText={},chineseText={},papers=[],selected='全部',onlyLiked=false,query='',visibleLimit=PAGE_SIZE,loading=false,loadState='initial',currentDetail=null;
 try{const saved=localStorage.getItem(LANGUAGE_KEY);if(saved==='en'||saved==='zh-CN')language=saved}catch{}
+// Keep the existing storage key so previously saved cards remain available.
 let likes={};
 try{likes=JSON.parse(localStorage.getItem('colour-atlas-likes-v1')||'{}');if(!likes||typeof likes!=='object'||Array.isArray(likes))likes={}}catch{}
 const $=s=>document.querySelector(s);
@@ -9,7 +10,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const t=(key,values={})=>ATLAS_I18N[language][key].replace(/\{(\w+)\}/g,(_,name)=>String(values[name]??''));
 const text=value=>language==='en'?(englishText[value]||value):(chineseText[value]||value);
 const number=value=>value.toLocaleString(language==='en'?'en-US':'zh-CN');
-const heart='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg>';
+const bookmark='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5h12v17l-6-4-6 4Z"/></svg>';
 const external='<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3H3v10h10v-3M9 2h5v5M14 2 7 9"/></svg>';
 const swatches=p=>'<div class="swatches">'+p.colors.map(c=>'<button class="swatch" style="background:'+c+'" data-color="'+c+'" title="'+esc(t('copy',{value:c}))+'" aria-label="'+esc(t('copyColour',{value:c}))+'"><span class="hex">'+c+'</span></button>').join('')+'</div>';
 function notify(value){$('#toast').textContent=value;$('#toast').classList.add('show');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),2000)}
@@ -56,7 +57,7 @@ function matchingPapers(){
 }
 function card(p){
  const name=esc(p.name);
- return '<article class="card"><button class="image-button" data-detail="'+esc(p.id)+'" aria-label="'+esc(t('viewDetail',{name:p.name}))+'"><img src="'+esc(p.thumbnail||p.image)+'" alt="'+esc(t('imageAlt',{name:p.name,figure:p.figure}))+'" loading="lazy" decoding="async"><span class="image-label">'+esc(p.figure)+' · '+t('originalFigure')+'</span><span class="zoom-hint"><span>'+t('zoom')+'</span></span></button><div class="card-content"><div class="card-meta"><span class="venue">'+esc(p.venue)+'</span><span class="palette-name">'+esc(text(p.mood))+'</span></div><h3>'+name+'</h3>'+swatches(p)+'<p class="paper-title" title="'+esc(text(p.title))+'">'+esc(text(p.title))+'</p><div class="tags">'+p.tags.slice(0,3).map(tag=>'<button class="tag" data-tag="'+esc(tag)+'">'+esc(text(tag))+'</button>').join('')+'</div><div class="card-footer"><a class="source-link" href="'+esc(p.paper)+'" target="_blank" rel="noopener">'+esc(text(p.sourceLabel))+' '+external+'</a><button class="like" data-like="'+esc(p.id)+'" aria-label="'+esc(t(likes[p.id]===true?'unlike':'like',{name:p.name}))+'" aria-pressed="'+(likes[p.id]===true)+'">'+heart+'<span>'+(likes[p.id]===true?1:0)+'</span></button></div></div></article>';
+ return '<article class="card"><button class="image-button" data-detail="'+esc(p.id)+'" aria-label="'+esc(t('viewDetail',{name:p.name}))+'"><img src="'+esc(p.thumbnail||p.image)+'" alt="'+esc(t('imageAlt',{name:p.name,figure:p.figure}))+'" loading="lazy" decoding="async"><span class="image-label">'+esc(p.figure)+' · '+t('originalFigure')+'</span><span class="zoom-hint"><span>'+t('zoom')+'</span></span></button><div class="card-content"><div class="card-meta"><span class="venue">'+esc(p.venue)+'</span><span class="palette-name">'+esc(text(p.mood))+'</span></div><h3>'+name+'</h3>'+swatches(p)+'<p class="paper-title" title="'+esc(text(p.title))+'">'+esc(text(p.title))+'</p><div class="tags">'+p.tags.slice(0,3).map(tag=>'<button class="tag" data-tag="'+esc(tag)+'">'+esc(text(tag))+'</button>').join('')+'</div><div class="card-footer"><a class="source-link" href="'+esc(p.paper)+'" target="_blank" rel="noopener">'+esc(text(p.sourceLabel))+' '+external+'</a><button class="like" data-like="'+esc(p.id)+'" aria-label="'+esc(t(likes[p.id]===true?'unlike':'like',{name:p.name}))+'" aria-pressed="'+(likes[p.id]===true)+'">'+bookmark+'<span>'+t(likes[p.id]===true?'saved':'save')+'</span></button></div></div></article>';
 }
 function render(){
  const shown=matchingPapers(),visible=shown.slice(0,visibleLimit);

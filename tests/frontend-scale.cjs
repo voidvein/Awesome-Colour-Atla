@@ -53,13 +53,14 @@ const visibleCopy=markup=>markup.replace(/<[^>]*>/g,' ')+[...markup.matchAll(/(?
  assert.equal(e['#paper-count'].textContent,'500');assert.equal(e['#domain-count'].textContent,'2');
  assert.equal(e['#colour-count'].textContent,(500*seed.colors.length).toLocaleString());
  assert.equal(cardCount(ui),24);assert(!e['#pagination'].hidden);
+ assert(e['#cards'].innerHTML.includes('Save Model 0'));assert(e['#cards'].innerHTML.includes('<span>Save</span>'));assert(!e['#cards'].innerHTML.includes('<span>0</span>'));
  assert(e['#cards'].innerHTML.includes('assets/thumb-0.webp'));assert(!e['#cards'].innerHTML.includes('assets/original-0.png'));
  e['#load-more'].onclick();assert.equal(cardCount(ui),48);
  ui.language('zh-CN');assert.equal(cardCount(ui),48,'Language changes preserve the loaded page size');ui.language('en');
  ui.click({filter:'领域甲'});assert.equal(cardCount(ui),24);assert(e['#results'].textContent.includes('250'));
  ui.search('Paper 499');assert.equal(cardCount(ui),1);assert(e['#cards'].innerHTML.includes('Model 499'));
  ui.click({detail:'p499'});assert(e['#detail'].open);assert(e['#detail-body'].innerHTML.includes('assets/original-499.png'));assert(!e['#detail-body'].innerHTML.includes('assets/thumb-499.webp'));
- ui.click({like:'p499'});assert.equal(JSON.parse(ui.storage['colour-atlas-likes-v1']).p499,true);
+ ui.click({like:'p499'});assert.equal(JSON.parse(ui.storage['colour-atlas-likes-v1']).p499,true);assert(e['#cards'].innerHTML.includes('Remove Model 499 from saved palettes'));assert(e['#cards'].innerHTML.includes('<span>Saved</span>'));
  e['#reset'].onclick();assert.equal(cardCount(ui),24);assert(e['#cards'].innerHTML.indexOf('data-detail="p499"')<e['#cards'].innerHTML.indexOf('data-detail="p0"'));
  e['#liked-filter'].onclick();assert.equal(cardCount(ui),1);
  ui.click({like:'p499'});assert.equal(cardCount(ui),0);assert(!e['#empty'].hidden);assert.equal(JSON.parse(ui.storage['colour-atlas-likes-v1']).p499,false);
@@ -67,7 +68,7 @@ const visibleCopy=markup=>markup.replace(/<[^>]*>/g,' ')+[...markup.matchAll(/(?
  ui.search('rare-tag');assert.equal(cardCount(ui),1);
  e['#download-all'].onclick();const exported=JSON.parse(await ui.exports[0].text());assert.equal(exported.length,500);assert(!('searchText' in exported[0]));assert(!('sourceOrder' in exported[0]));
  ui.search('no-such-paper');assert.equal(cardCount(ui),0);assert(!e['#empty'].hidden);assert(e['#pagination'].hidden);
- const restored=await boot([data],{'colour-atlas-likes-v1':JSON.stringify({p499:true})});assert(restored.elements['#cards'].innerHTML.indexOf('data-detail="p499"')<restored.elements['#cards'].innerHTML.indexOf('data-detail="p0"'));
+ const restored=await boot([data],{'colour-atlas-likes-v1':JSON.stringify({p499:true})});assert(restored.elements['#cards'].innerHTML.includes('Remove Model 499 from saved palettes'));assert(restored.elements['#cards'].innerHTML.indexOf('data-detail="p499"')<restored.elements['#cards'].innerHTML.indexOf('data-detail="p0"'));
  const retry=await boot([Error('offline'),data]);assert(!retry.elements['#load-error'].hidden);assert.equal(retry.elements['#cards'].attrs['aria-busy'],'false');retry.language('zh-CN');assert.equal(retry.elements['#results'].textContent,'暂时无法加载色卡');await retry.elements['#retry-load'].onclick();assert(retry.elements['#load-error'].hidden);assert.equal(cardCount(retry),24);
  const empty=await boot([[]]);assert.equal(empty.elements['#paper-count'].textContent,'0');assert(empty.elements['#download-all'].disabled);assert(!empty.elements['#empty'].hidden);
  const twoColours=await boot([[{...seed,id:'two-colour-model',colors:['#97CBD9','#EF8E77']}]]);assert.equal(cardCount(twoColours),1);assert(twoColours.elements['#load-error'].hidden);assert.equal(twoColours.elements['#colour-count'].textContent,'2');
