@@ -11,7 +11,7 @@ def verify(base=BASE, expected=None):
  release=json.loads((ROOT/'dist/collection.json').read_text(encoding='utf8'))
  assert rows and release['reviewed'] is True and len(rows)==release['target']==release['published'],'Local release is incomplete'
  if expected is not None: assert len(rows)==expected, f'Expected {expected}, found {len(rows)} papers'
- paths={'index.html','style.css','app.js','i18n.js','content-en.json','content-zh.json','palettes.json','collection.json','collection-audit.json'}
+ paths={'index.html','favicon.svg','favicon.ico','style.css','app.js','i18n.js','content-en.json','content-zh.json','palettes.json','collection.json','collection-audit.json'}
  paths.update(p[k] for p in rows for k in ('image','thumbnail') if p.get(k))
  version=hashlib.sha256(b''.join((ROOT/'dist'/name).read_bytes() for name in sorted(paths & {'index.html','style.css','app.js','i18n.js','content-en.json','content-zh.json','palettes.json','collection.json','collection-audit.json'}))).hexdigest()[:16]
  def check(rel):
