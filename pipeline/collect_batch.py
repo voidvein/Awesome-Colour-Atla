@@ -6,7 +6,7 @@ from urllib.parse import urljoin,urlparse
 import requests
 from bs4 import BeautifulSoup
 
-ROOT=Path(__file__).resolve().parents[1]
+from release_common import ROOT,atomic_json
 BASE='https://papernotes.org/CVPR2026/'
 WORK=ROOT/'research/batch500'
 CACHE=WORK/'cache'
@@ -18,8 +18,6 @@ def session():
  if not hasattr(_local,'s'):
   _local.s=requests.Session();_local.s.headers['User-Agent']='ColourAtlasResearch/0.2 (bounded figure indexing)'
  return _local.s
-def atomic_json(path,data):
- tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf8');tmp.replace(path)
 def fetch(url,path,maxbytes=40_000_000):
  if path.exists() and path.stat().st_size>100:return path
  t=time.monotonic();part=path.with_suffix(path.suffix+'.part')

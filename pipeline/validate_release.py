@@ -55,9 +55,13 @@ def validate(expected=None):
    for c in e['colorEvidence']:assert len(c['sampleXY'])==2 and c['exactSamples']>0
    for path_key,hash_key in [('image','publishedImageSHA256'),('thumbnail','publishedThumbnailSHA256')]:
     assert hashlib.sha256((R/'dist'/p[path_key]).read_bytes()).hexdigest()==a[hash_key]
-  manifest=json.loads((R/'dist/collection.json').read_text(encoding='utf8'))
-  assert manifest['published']==len(data) and manifest['reviewed'] is True
-  assert manifest['colours']==sum(len(p['colors']) for p in data)
+ manifest=json.loads((R/'dist/collection.json').read_text(encoding='utf8'))
+ assert manifest['target']==manifest['published']==len(data) and manifest['reviewed'] is True
+ assert manifest['domains']==len({p['domain'] for p in data})
+ if 'previousPublished' in manifest:
+  assert manifest['added']==7 and manifest['previousPublished']==len(data)-7
+  assert manifest['newIds']==[p['id'] for p in data[-7:]]
+ assert manifest['colours']==sum(len(p['colors']) for p in data)
  print(f'PASS: {len(data)} unique papers, {len({p["domain"] for p in data})} domains, {sum(len(p["colors"]) for p in data)} colours; all assets and {len(new)} new visual approvals verified.')
  return data
 if __name__=='__main__':

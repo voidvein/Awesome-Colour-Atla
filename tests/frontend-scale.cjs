@@ -10,6 +10,7 @@ const i18nScript=fs.readFileSync(path.join(root,'dist/i18n.js'),'utf8');
 const english=JSON.parse(fs.readFileSync(path.join(root,'dist/content-en.json'),'utf8'));
 const chineseContent=JSON.parse(fs.readFileSync(path.join(root,'dist/content-zh.json'),'utf8'));
 const release=JSON.parse(fs.readFileSync(path.join(root,'dist/palettes.json'),'utf8'));
+const manifest=JSON.parse(fs.readFileSync(path.join(root,'dist/collection.json'),'utf8'));
 const seed=release[0];
 const data=Array.from({length:500},(_,i)=>({...seed,id:`p${i}`,order:i,name:`Model ${i}`,title:`Paper ${i}`,domain:i%2?'领域甲':'领域乙',tags:[i%2?'领域甲':'领域乙',i===499?'rare-tag':'common-tag'],image:`assets/original-${i}.png`,thumbnail:`assets/thumb-${i}.webp`}));
 const flush=()=>new Promise(resolve=>setImmediate(resolve));
@@ -75,18 +76,34 @@ const visibleCopy=markup=>markup.replace(/<[^>]*>/g,' ')+[...markup.matchAll(/(?
  const badLanguage=await boot([data],{'colour-atlas-language-v1':'fr'});assert.equal(badLanguage.context.document.documentElement.lang,'en');
  const chinese=await boot([data],{'colour-atlas-language-v1':'zh-CN'});assert.equal(chinese.elements['#language-select'].value,'zh-CN');assert(chinese.elements['#results'].textContent.includes('共'));
  console.log('PASS: actual app.js with 500 records; dynamic counters, 24-card batches, full-data search/tags, local vote persistence/order, original-image details, complete export, empty/error/retry states.');
- if(process.argv.includes('--require-release'))assert.equal(release.length,500,'The real released collection must contain 500 papers');
- if(release.length===500){
-  const real=await boot([release]);assert.equal(cardCount(real),24);assert.equal(real.elements['#paper-count'].textContent,'500');
+ if(process.argv.includes('--require-release')){
+  assert(Number.isSafeInteger(manifest.target)&&manifest.target>0&&manifest.reviewed===true);
+  assert.equal(manifest.published,manifest.target);
+  assert.equal(release.length,manifest.target,'The real released collection must match the manifest target');
+ }
+ if(release.length){
+  const real=await boot([release]);assert.equal(cardCount(real),Math.min(24,release.length));assert.equal(real.elements['#paper-count'].textContent,release.length.toLocaleString());
+  if(manifest.newIds?.length){
+   assert.equal(manifest.newIds.length,7);
+   assert(real.elements['#conference-batch'].textContent.includes('NeurIPS 2026'));
+   assert(real.elements['#footer-count'].textContent.includes('NeurIPS 2026'));
+  }
   const han=/[\u4e00-\u9fff]/;assert(!han.test(visibleCopy(real.elements['#cards'].innerHTML)),'English cards must not contain untranslated Chinese');
   assert.equal(real.elements['#domain-count'].textContent,new Set(release.map(p=>p.domain)).size.toLocaleString());
   for(const p of release){
    real.search(p.title);assert(real.elements['#cards'].innerHTML.includes(`data-detail="${p.id}"`),`Real article missing from search: ${p.id}`);
    real.click({detail:p.id});assert(real.elements['#detail-body'].innerHTML.includes(p.image),`Real article detail missing: ${p.id}`);
    assert(!han.test(visibleCopy(real.elements['#detail-body'].innerHTML)),`Untranslated English detail: ${p.id}`);
+   if((manifest.newIds??[]).includes(p.id)){
+    assert(real.elements['#cards'].innerHTML.includes(p.thumbnail),`New article thumbnail missing: ${p.id}`);
+    assert(real.elements['#detail-body'].innerHTML.includes(p.imageSource),`New article original image source missing: ${p.id}`);
+    assert(real.elements['#detail-body'].innerHTML.includes('CC BY 4.0'),`New article image license missing: ${p.id}`);
+    real.language('zh-CN');assert(real.elements['#detail-body'].innerHTML.includes('原图文件'));
+    assert(real.elements['#detail-body'].innerHTML.includes(p.analysis));real.language('en');
+   }
    real.elements['#close-detail'].onclick();
   }
-  const last=release[499];real.click({like:last.id});real.elements['#reset'].onclick();
+  const last=release.at(-1);real.click({like:last.id});real.elements['#reset'].onclick();
   assert(real.elements['#cards'].innerHTML.indexOf(`data-detail="${last.id}"`)<real.elements['#cards'].innerHTML.indexOf(`data-detail="${release[0].id}"`));
   real.elements['#download-all'].onclick();const out=JSON.parse(await real.exports[0].text());
   assert.deepEqual(out.map(p=>p.id),release.map(p=>p.id));assert.deepEqual(out.map(p=>p.colors),release.map(p=>p.colors));
@@ -108,7 +125,7 @@ const visibleCopy=markup=>markup.replace(/<[^>]*>/g,' ')+[...markup.matchAll(/(?
    if(!han.test(p.analysis))assert(chineseContent.strings[p.analysis]&&han.test(chineseContent.strings[p.analysis]),'Missing Chinese colour notes: '+p.id);
   }
   const persisted=await boot([release],real.storage);assert.equal(persisted.context.document.documentElement.lang,'en');
-  console.log('PASS: English default, saved language, complete 500-card English content, Chinese round-trip, open-dialog updates, bilingual search, preserved filters/likes and unchanged exports.');
-  console.log('PASS: all 500 real released articles searchable, original details open, real-ID vote order works, and full colour export matches.');
+  console.log(`PASS: English default, saved language, complete ${release.length}-card English content, Chinese round-trip, open-dialog updates, bilingual search, preserved filters/likes and unchanged exports.`);
+  console.log(`PASS: all ${release.length} real released articles searchable, original details open, real-ID vote order works, and full colour export matches.`);
  }
 })().catch(error=>{console.error(error);process.exitCode=1});

@@ -39,7 +39,9 @@ function setLanguage(value){
 function updateCounts(){
  const domains=new Set(papers.map(p=>p.domain)).size,colours=papers.reduce((n,p)=>n+p.colors.length,0);
  $('#paper-count').textContent=number(papers.length);$('#domain-count').textContent=number(domains);$('#colour-count').textContent=number(colours);$('#total').textContent=number(papers.length);
- $('#footer-count').textContent='CVPR 2026 · '+number(papers.length)+(language==='en'?' PALETTES':' 张色卡');
+ const venues=[...new Set(papers.map(p=>p.venue?.replace(/ Findings$/,'')).filter(Boolean))].join(' / ');
+ if(venues)$('#conference-batch').textContent=venues;
+ $('#footer-count').textContent=(venues?venues+' · ':'')+number(papers.length)+(language==='en'?' PALETTES':' 张色卡');
  $('#about-count').textContent=t('aboutCount',{papers:number(papers.length),domains:number(domains)});
  document.querySelector('meta[name="description"]').setAttribute('content',t('description',{papers:number(papers.length),domains:number(domains)}));
 }
@@ -66,7 +68,8 @@ function render(){
 }
 function detail(id){
  const p=papers.find(x=>x.id===id);if(!p)return;currentDetail=id;
- $('#detail-body').innerHTML='<div class="detail-image"><a href="'+esc(p.image)+'" target="_blank" rel="noopener" title="'+t('fullSize')+'"><img src="'+esc(p.image)+'" alt="'+esc(t('fullAlt',{name:p.name}))+'"></a></div><div class="detail-copy"><p class="venue">'+esc(p.venue)+' · '+esc(p.figure)+'</p><h2>'+esc(p.name)+'<span>'+t('colourCount',{count:p.colors.length})+'</span></h2><p class="full-title">'+esc(text(p.title))+'</p>'+swatches(p)+'<div class="hex-list">'+p.colors.map(c=>'<span>'+c+'</span>').join(' · ')+'</div><h4>'+t('notes')+'</h4><p class="analysis">'+esc(text(p.analysis))+'</p><h4>'+t('usage')+'</h4><p class="analysis">'+esc(text(p.usage))+'</p><div class="tags">'+p.tags.map(tag=>'<span class="tag">'+esc(text(tag))+'</span>').join('')+'</div><p class="detail-caption">'+t('source')+esc(text(p.provenance))+'. '+esc(text(p.note))+' '+t('caption')+'</p><div class="detail-links"><a href="'+esc(p.paper)+'" target="_blank" rel="noopener">'+t('paper')+'</a><a href="'+esc(p.noteUrl)+'" target="_blank" rel="noopener">'+t('paperNotes')+'</a><button class="tag" data-copy-all="'+esc(p.id)+'">'+t('copyAll')+'</button></div></div>';
+ const licensedFigure=p.license==='https://creativecommons.org/licenses/by/4.0/'&&/^https:\/\//.test(p.imageSource)?'<a href="'+esc(p.imageSource)+'" target="_blank" rel="noopener">'+t('imageSource')+'</a><a href="'+esc(p.license)+'" target="_blank" rel="noopener">CC BY 4.0</a>':'';
+ $('#detail-body').innerHTML='<div class="detail-image"><a href="'+esc(p.image)+'" target="_blank" rel="noopener" title="'+t('fullSize')+'"><img src="'+esc(p.image)+'" alt="'+esc(t('fullAlt',{name:p.name}))+'"></a></div><div class="detail-copy"><p class="venue">'+esc(p.venue)+' · '+esc(p.figure)+'</p><h2>'+esc(p.name)+'<span>'+t('colourCount',{count:p.colors.length})+'</span></h2><p class="full-title">'+esc(text(p.title))+'</p>'+swatches(p)+'<div class="hex-list">'+p.colors.map(c=>'<span>'+c+'</span>').join(' · ')+'</div><h4>'+t('notes')+'</h4><p class="analysis">'+esc(text(p.analysis))+'</p><h4>'+t('usage')+'</h4><p class="analysis">'+esc(text(p.usage))+'</p><div class="tags">'+p.tags.map(tag=>'<span class="tag">'+esc(text(tag))+'</span>').join('')+'</div><p class="detail-caption">'+t('source')+esc(text(p.provenance))+'. '+esc(text(p.note))+' '+t('caption')+'</p><div class="detail-links"><a href="'+esc(p.paper)+'" target="_blank" rel="noopener">'+t('paper')+'</a><a href="'+esc(p.noteUrl)+'" target="_blank" rel="noopener">'+t('paperNotes')+'</a>'+licensedFigure+'<button class="tag" data-copy-all="'+esc(p.id)+'">'+t('copyAll')+'</button></div></div>';
  if(!$('#detail').open)$('#detail').showModal();
 }
 function reset(){selected='全部';query='';onlyLiked=false;visibleLimit=PAGE_SIZE;$('#search').value='';render()}
@@ -89,12 +92,12 @@ document.querySelectorAll('dialog').forEach(d=>d.addEventListener('click',e=>{if
 document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!document.querySelector('dialog[open]')){e.preventDefault();$('#search').focus()}});
 $('#download-all').onclick=()=>{
  if(!papers.length)return;const data=papers.map(({sourceOrder,searchText,...p})=>p),a=document.createElement('a');
- a.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));a.download='colour-atlas-cvpr2026.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);notify(t('exported',{count:number(papers.length)}));
+ a.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));a.download='colour-atlas.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);notify(t('exported',{count:number(papers.length)}));
 };
 async function loadPapers(){
  if(loading)return;loading=true;loadState='loading';$('#cards').setAttribute('aria-busy','true');$('#load-error').hidden=true;$('#results').textContent=t('loading');$('#download-all').disabled=true;
  try{
-  const responses=await Promise.all([fetch('palettes.json'),fetch('content-en.json?v=20261124-languages'),fetch('content-zh.json?v=20261124-languages')]);if(responses.some(r=>!r.ok))throw Error('Data could not be loaded');
+  const responses=await Promise.all([fetch('palettes.json?v=20261124-neurips-01'),fetch('content-en.json?v=20261124-neurips-01'),fetch('content-zh.json?v=20261124-neurips-01')]);if(responses.some(r=>!r.ok))throw Error('Data could not be loaded');
   const [data,english,chinese]=await Promise.all(responses.map(r=>r.json()));
   if(!english||english.version!==1||!english.strings||typeof english.strings!=='object')throw Error('Invalid English dictionary');
   if(!chinese||chinese.version!==1||!chinese.strings||typeof chinese.strings!=='object')throw Error('Invalid Chinese dictionary');

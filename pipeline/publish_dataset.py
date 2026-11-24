@@ -1,8 +1,9 @@
 """Build a public dataset from source- and image-hash-bound visual approvals."""
-import argparse,colorsys,concurrent.futures,hashlib,json,re,time
+import argparse,concurrent.futures,hashlib,json,re,time
 from pathlib import Path
 from PIL import Image,ImageOps
-from collect_batch import ROOT,WORK,RECORDS,atomic_json
+from collect_batch import ROOT,WORK,RECORDS
+from release_common import atomic_json, colour_name, paper_key
 
 def title_key(t):return re.sub('[^a-z0-9\u4e00-\u9fff]','',t.lower())
 
@@ -12,14 +13,6 @@ def public_paths(value):
  if isinstance(value,str) and re.match(r'^[A-Za-z]:[\\/]',value):
   return Path(value).relative_to(ROOT).as_posix()
  return value
-def paper_key(url):
- m=re.search(r'arxiv.org/(?:abs|html|pdf)/(\d+\.\d+)',url)
- return 'arxiv:'+m[1] if m else url.split('?')[0].replace('/html/','/papers/').replace('_paper.html','_paper.pdf')
-def colour_name(hx):
- rgb=tuple(int(hx[i:i+2],16)/255 for i in [1,3,5]);h,l,s=colorsys.rgb_to_hls(*rgb)
- if s<.12:return '黑色' if l<.15 else '浅灰色' if l>.85 else '灰色'
- d=h*360;name='红色' if d<15 or d>=345 else '橙色' if d<45 else '黄色' if d<70 else '绿色' if d<155 else '青色' if d<195 else '蓝色' if d<255 else '紫色' if d<290 else '粉色'
- return ('浅' if l>.76 else '深' if l<.36 else '')+name
 def export(target=500,output=None):
  seed=json.loads((ROOT/'research/seed-palettes.json').read_text(encoding='utf8'))
  rows=list(seed);audits=[];seen_titles={title_key(r['title']) for r in rows};seen_papers={paper_key(r['paper']) for r in rows};seen_notes={r['noteUrl'] for r in rows}

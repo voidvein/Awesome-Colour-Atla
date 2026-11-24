@@ -1,28 +1,29 @@
 """Verify the deployed release byte-for-byte, including every full figure and thumbnail."""
-import argparse,concurrent.futures,hashlib,json,threading,time
+import argparse,concurrent.futures,hashlib,json,time
 from pathlib import Path
-import requests
+from urllib.request import Request,urlopen
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://voidvein.github.io/Awesome-Colour-Atla/'
-LOCAL=threading.local()
 
-def verify(base=BASE):
+def verify(base=BASE, expected=None):
  rows=json.loads((ROOT/'dist/palettes.json').read_text(encoding='utf8'))
- assert len(rows)==500,'Only a complete 500-card release can pass the deployment check'
+ release=json.loads((ROOT/'dist/collection.json').read_text(encoding='utf8'))
+ assert rows and release['reviewed'] is True and len(rows)==release['target']==release['published'],'Local release is incomplete'
+ if expected is not None: assert len(rows)==expected, f'Expected {expected}, found {len(rows)} papers'
  paths={'index.html','style.css','app.js','i18n.js','content-en.json','content-zh.json','palettes.json','collection.json','collection-audit.json'}
  paths.update(p[k] for p in rows for k in ('image','thumbnail') if p.get(k))
- version=hashlib.sha256(b''.join((ROOT/'dist'/name).read_bytes() for name in ['index.html','app.js','i18n.js','content-en.json','content-zh.json'])).hexdigest()[:16]
+ version=hashlib.sha256(b''.join((ROOT/'dist'/name).read_bytes() for name in sorted(paths & {'index.html','style.css','app.js','i18n.js','content-en.json','content-zh.json','palettes.json','collection.json','collection-audit.json'}))).hexdigest()[:16]
  def check(rel):
   expected=hashlib.sha256((ROOT/'dist'/rel).read_bytes()).hexdigest()
-  if not hasattr(LOCAL,'session'):LOCAL.session=requests.Session()
   last=''
   for attempt in range(4):
    try:
-    response=LOCAL.session.get(base+rel+'?release='+version,timeout=(15,60),headers={'Cache-Control':'no-cache'})
-    response.raise_for_status()
-    assert hashlib.sha256(response.content).hexdigest()==expected,'deployed bytes differ from reviewed release'
-    return {'path':rel,'status':response.status_code,'bytes':len(response.content),'sha256':expected}
+    request=Request(base+rel+'?release='+version,headers={'Cache-Control':'no-cache'})
+    with urlopen(request,timeout=60) as response:
+     payload=response.read();status=response.status
+    assert hashlib.sha256(payload).hexdigest()==expected,'deployed bytes differ from reviewed release'
+    return {'path':rel,'status':status,'bytes':len(payload),'sha256':expected}
    except Exception as error:
     last=str(error)
     if attempt<3:time.sleep(2*(attempt+1))
@@ -36,4 +37,4 @@ def verify(base=BASE):
  if errors:raise SystemExit(1)
 
 if __name__=='__main__':
- parser=argparse.ArgumentParser();parser.add_argument('--base',default=BASE);args=parser.parse_args();verify(args.base)
+ parser=argparse.ArgumentParser();parser.add_argument('--base',default=BASE);parser.add_argument('--expected-count',type=int);args=parser.parse_args();verify(args.base,args.expected_count)

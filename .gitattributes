@@ -1,0 +1,8 @@
+data/figure-assets/*.bin binary
+# Preserve inherited CRLF on the bilingual frontend and verifier sources.
+dist/app.js whitespace=cr-at-eol
+dist/i18n.js whitespace=cr-at-eol
+dist/index.html whitespace=cr-at-eol
+dist/content-*.json whitespace=cr-at-eol
+pipeline/verify_pages.py whitespace=cr-at-eol
+tests/frontend-scale.cjs whitespace=cr-at-eol
