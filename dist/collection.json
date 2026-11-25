@@ -1,19 +1,19 @@
 {
-  "target": 507,
-  "published": 507,
-  "domains": 52,
-  "colours": 2703,
-  "updatedAt": "2026-11-23T18:42:06Z",
+  "target": 514,
+  "published": 514,
+  "domains": 53,
+  "colours": 2738,
+  "updatedAt": "2026-11-24T13:07:16Z",
   "reviewed": true,
-  "previousPublished": 500,
+  "previousPublished": 507,
   "added": 7,
   "newIds": [
-    "neurips2026-stablehand",
-    "neurips2026-anymo",
-    "neurips2026-bimogen",
-    "neurips2026-everanimate",
-    "neurips2026-deja-view",
-    "neurips2026-worldtrace",
-    "neurips2026-aeon"
+    "neurips2026-semantic-motion-anchors",
+    "neurips2026-one-shot",
+    "neurips2026-dynatokens",
+    "neurips2026-fast-wam",
+    "neurips2026-action-images",
+    "neurips2026-longscape",
+    "neurips2026-anchorworld"
   ]
 }
