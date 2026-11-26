@@ -1,19 +1,19 @@
 {
-  "target": 514,
-  "published": 514,
-  "domains": 53,
-  "colours": 2738,
-  "updatedAt": "2026-11-24T13:07:16Z",
+  "target": 521,
+  "published": 521,
+  "domains": 54,
+  "colours": 2771,
+  "updatedAt": "2026-11-25T22:05:04Z",
   "reviewed": true,
-  "previousPublished": 507,
+  "previousPublished": 514,
   "added": 7,
   "newIds": [
-    "neurips2026-semantic-motion-anchors",
-    "neurips2026-one-shot",
-    "neurips2026-dynatokens",
-    "neurips2026-fast-wam",
-    "neurips2026-action-images",
-    "neurips2026-longscape",
-    "neurips2026-anchorworld"
+    "neurips2026-proprio",
+    "neurips2026-no-pose",
+    "neurips2026-phymo",
+    "neurips2026-t2mo",
+    "neurips2026-stable-worldmodel",
+    "neurips2026-webspline",
+    "neurips2026-gensfm"
   ]
 }
