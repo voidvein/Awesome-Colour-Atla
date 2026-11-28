@@ -1,19 +1,19 @@
 {
-  "target": 528,
-  "published": 528,
+  "target": 535,
+  "published": 535,
   "domains": 54,
-  "colours": 2803,
-  "updatedAt": "2026-11-26T22:00:43Z",
+  "colours": 2831,
+  "updatedAt": "2026-11-27T22:07:02Z",
   "reviewed": true,
-  "previousPublished": 521,
+  "previousPublished": 528,
   "added": 7,
   "newIds": [
-    "neurips2026-moca",
-    "neurips2026-rigel3d",
-    "neurips2026-deformmaster",
-    "neurips2026-imagine3d-llm",
-    "neurips2026-meshfim",
-    "neurips2026-structparts",
-    "neurips2026-hilbertgen"
+    "neurips2026-auteur",
+    "neurips2026-faithfulfaces",
+    "neurips2026-lamo",
+    "neurips2026-phyprobe",
+    "neurips2026-pila",
+    "neurips2026-socialdirector",
+    "neurips2026-diffusion-drf"
   ]
 }
